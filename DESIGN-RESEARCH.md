@@ -73,7 +73,7 @@ The new direction is an **account portfolio desk**:
 
 - Deep ink and warm paper palette with coral actions and cool mint status accents.
 - Editorial serif display type paired with a direct sans serif body face.
-- A real account-team image framed beside an original CRM portfolio board.
+- A local collaboration image framed beside an original CRM portfolio board. The photo shows coworkers at a shared desk; the nearby copy and original board supply the account-management context without claiming the subjects' roles or location.
 - Account-status modules for renewals, replies, handoffs, and weekly review.
 - Services shown as parts of the client-book workflow rather than generic outsourcing cards.
 - One primary action throughout: `Request an account plan`.
@@ -82,3 +82,5 @@ The new direction is an **account portfolio desk**:
 ## Originality notes
 
 The implementation uses no competitor copy, logos, illustrations, screenshots, branded UI, or proprietary assets. HelpSquad contributes only broad design logic: an editorial hierarchy, a visible human operator, compact risk reducers, and a clear service sequence. The portfolio board, copy, logo, component geometry, color system, and page composition are original to Outsourced Account Management.
+
+The local hero image is stored at `public/account-team.jpg` and is used as a general collaboration scene. No claim is made about the subjects' nationality, employer, or profession. Staffing copy beside the image states that requests are limited to Filipino talent based in the Philippines.

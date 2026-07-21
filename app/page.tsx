@@ -33,13 +33,14 @@ export default function Home() {
       <section className="desk-hero">
         <div className="container desk-hero-grid">
           <div className="hero-copy">
-            <p className="eyebrow">Outsourced account desk</p>
+            <p className="eyebrow">Filipino account support</p>
             <h1>Keep every client account moving.</h1>
-            <p className="hero-lead">Bring in practical support for follow-ups, CRM notes, renewal prep, and weekly reporting. Your team keeps the relationships and the commercial calls.</p>
+            <p className="hero-lead">Work with Filipino talent in the Philippines on follow-ups, CRM notes, renewal prep, and weekly reporting. Your team keeps the relationships and the commercial calls.</p>
             <div className="hero-actions">
               <a className="btn primary" href="/contact">Request an account plan</a>
               <a className="text-link" href="#account-work">See the work we cover <span aria-hidden="true">↓</span></a>
             </div>
+            <p className="routing-note">This independent site may route your request to a staffing partner. Every staffing request is limited to talent based in the Philippines.</p>
             <div className="hero-guardrails" aria-label="Account support guardrails">
               <span>CRM kept current</span>
               <span>Every follow-up has an owner</span>
@@ -49,7 +50,7 @@ export default function Home() {
 
           <div className="portfolio-visual" aria-label="Sample account portfolio view">
             <div className="photo-frame">
-              <img src="/account-team.jpg" alt="Account team reviewing client work together" />
+              <img src="/account-team.jpg" alt="Coworkers discussing work around a shared office desk" />
               <span className="photo-caption">A steady desk behind the client book</span>
             </div>
             <div className="portfolio-board">
@@ -118,7 +119,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container section handoff-section">
+      <section className="container section handoff-section" id="handoff-boundaries">
         <div className="handoff-copy">
           <p className="eyebrow">A controlled handoff</p>
           <h2>The outside desk handles the routine. Your account owner keeps the judgment.</h2>
@@ -180,7 +181,7 @@ export default function Home() {
         <div>
           <p className="eyebrow">Start with the actual work</p>
           <h2>Bring us the account list that keeps slipping.</h2>
-          <p>We will help you shape a clear scope, sensible limits, and a first weekly review.</p>
+          <p>Your request can be matched with a Philippines-based staffing partner who understands the scope, limits, and first weekly review.</p>
         </div>
         <a className="btn primary" href="/contact">Request an account plan</a>
       </section>

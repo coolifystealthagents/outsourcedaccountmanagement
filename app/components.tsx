@@ -27,11 +27,11 @@ export function Header() {
       <a className="logo" href="/" aria-label={`${site.brand || domain} home`}><LogoMark /></a>
       <nav className="links" aria-label="Main navigation">
         <a href="/#account-work">Services</a>
-        <a href="/#account-work">Account work</a>
+        <a href="/#handoff-boundaries">Boundaries</a>
         <a href="/blog">Guides</a>
         <a href="/contact">Contact</a>
       </nav>
-      <a className="btn nav-cta" href="/contact">Request account plan</a>
+      <a className="btn nav-cta" href="/contact">Request an account plan</a>
     </div>
   </header>;
 }
@@ -42,7 +42,7 @@ export function Footer() {
       <div className="footer-brand">
         <a className="footer-logo" href="/" aria-label={`${site.brand || domain} home`}><LogoMark /></a>
         <p>Practical help for teams that need client follow-ups, CRM upkeep, renewal prep, and account reporting handled with clear limits.</p>
-        <p className="footer-note">We recruit and hire talent only in the Philippines. This is an independent informational website. If you submit a request, we may route it to a suitable staffing team or service partner.</p>
+        <p className="footer-note">Staffing requests through this site are limited to Filipino talent based in the Philippines. This is an independent informational website, and your request may be routed to a suitable staffing partner.</p>
       </div>
       <div>
         <h3>Account services</h3>
@@ -72,7 +72,7 @@ export function CTA() {
   return <section className="final-cta">
     <p className="eyebrow">Plan the first handoff</p>
     <h2>Start with the account work that keeps slipping.</h2>
-    <p>Share the client tasks, systems, schedule, and approval limits. We will help you shape a workable scope.</p>
+    <p>Share the client tasks, systems, schedule, and approval limits. Your request may be routed to a partner that staffs Filipino talent in the Philippines.</p>
     <a className="btn primary" href="/contact">Request an account plan</a>
   </section>;
 }

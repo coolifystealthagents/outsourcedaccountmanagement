@@ -9,9 +9,9 @@ export const site = {
   dark: '#102033',
   color: '#0f766e',
   accent: '#6366f1',
-  heroImage: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=80',
-  serviceImage: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=80',
-  alt: 'account manager reviewing client dashboard',
+  heroImage: '/account-team.jpg',
+  serviceImage: '/account-team.jpg',
+  alt: 'Coworkers discussing work around a shared office desk',
   badge: 'Client desk',
 } as const;
 
@@ -19,7 +19,7 @@ export const services = [
   {
     slug: 'operations-support',
     title: 'Account operations support',
-    desc: 'Keep account records, renewal dates, open requests, and owner handoffs in order without giving outside staff control of prices or contract terms.',
+    desc: 'Keep account records, renewal dates, open requests, and owner handoffs in order with Filipino support talent based in the Philippines. Prices and contract terms stay with your internal owner.',
     bestTasks: [
       'Update CRM notes, next steps, renewal dates, and account owners',
       'Prepare weekly account lists for renewals, open requests, and missed follow-ups',
@@ -36,7 +36,7 @@ export const services = [
       'Run daily record checks before moving to a weekly review.',
     ],
     faqs: [
-      { q: 'Can outside staff change renewal terms?', a: 'No. They can prepare the account record and renewal notes, but your internal owner should approve prices, credits, and contract changes.' },
+      { q: 'Can Filipino support staff change renewal terms?', a: 'No. They can prepare the account record and renewal notes, but your internal owner should approve prices, credits, and contract changes.' },
       { q: 'What is a safe first task?', a: 'Start with CRM cleanup and a list of accounts that need a reply, review, or owner decision.' },
     ],
   },
@@ -60,7 +60,7 @@ export const services = [
       'Allow approved follow-ups, then review open requests each day.',
     ],
     faqs: [
-      { q: 'Can outsourced support handle unhappy clients?', a: 'They can collect the facts and alert the account owner. Resolution terms, refunds, and sensitive promises should stay with your team.' },
+      { q: 'Can Filipino account support handle unhappy clients?', a: 'They can collect the facts and alert the account owner. Resolution terms, refunds, and sensitive promises should stay with your team.' },
       { q: 'What should we provide before launch?', a: 'Share approved replies, account owner names, response targets, and a short list of issues that always need escalation.' },
     ],
   },
@@ -117,8 +117,8 @@ export const services = [
 export const blogPosts = [
   {
     slug: 'outsourced-account-management-planning',
-    title: 'Outsourced Account Management: What does it plan?',
-    excerpt: 'A plain-English guide to staffing details, scope, and hidden planning.',
+    title: 'Outsourced Account Management: What should account support cover?',
+    excerpt: 'A plain guide to role scope, staffing details, and the decisions that stay in house.',
     minutes: 6,
   },
   {
@@ -191,7 +191,7 @@ export const blogDetails = {
       {
         name: 'NIST SP 800-53 Rev. 5 security and privacy controls',
         url: 'https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final',
-        note: 'Useful when setting CRM and client-data permission rules for outside staff.',
+        note: 'Useful when setting CRM and client-data permission rules for Filipino support staff.',
       },
       {
         name: 'IBM guide to data quality',
@@ -216,25 +216,19 @@ export const blogDetails = {
   },
 } as const;
 
-export const stats = [
-  { label: 'Typical savings target', value: '30-60%', note: 'depends on role, management, and local hiring plan' },
-  { label: 'Best pilot length', value: '14 days', note: 'enough time to test quality before scaling' },
-  { label: 'Start with', value: '5-10 tasks', note: 'clear recurring tasks beat vague job descriptions' },
-] as const;
-
 export const staffingOffer = {
-  partner: 'our staffing team',
-  promise: 'Get a managed offshore staffing plan built around the work you need removed from your plate.',
+  partner: 'a Philippines-based staffing partner',
+  promise: 'Get an account support plan built around Filipino talent based in the Philippines.',
   fit: [
-    'business owners who need reliable remote staff but do not want to screen alone',
-    'teams that want trained support, backup coverage, and a clear manager path',
+    'business owners who need Filipino talent but do not want to screen alone',
+    'teams that want Philippines-based support, backup coverage, and a clear manager path',
     'companies that need help with admin, operations, customer support, calls, bookkeeping, development, or marketing work',
   ],
   included: [
-    'role planning call to turn your task list into a clear staffing scope',
-    'candidate matching based on skills, schedule, tools, and communication needs',
+    'a role planning call that turns your task list into a clear staffing scope',
+    'matching with Filipino candidates based on skills, schedule, tools, and communication needs',
     'onboarding guidance for SOPs, scorecards, reporting, and safe tool access',
-    'managed support so quality, attendance, and replacement questions do not sit only on the owner',
+    'a clear contact for quality, attendance, and replacement questions',
   ],
   proof: [
     'clear task scope before hiring',
@@ -253,10 +247,10 @@ export const leadQuestions = [
 ] as const;
 
 export const staffingProcess = [
-  { step: '1', title: 'Map the role', body: 'We turn messy tasks into one clear role with outcomes, tools, limits, and a first-week checklist.' },
-  { step: '2', title: 'Match the staff', body: 'our staffing team can help match remote staff to the work, schedule, communication style, and skill level you need.' },
+  { step: '1', title: 'Map the role', body: 'Turn the task list into one clear role with outcomes, tools, limits, and a first-week checklist.' },
+  { step: '2', title: 'Match the person', body: 'A Philippines-based staffing partner can match Filipino talent to the work, schedule, communication style, and skill level you need.' },
   { step: '3', title: 'Launch with control', body: 'Start with SOPs, sample work, limited access, daily review, and a simple scorecard so quality is easy to see.' },
   { step: '4', title: 'Scale what works', body: 'Once the first tasks are stable, add more work, better reporting, and stronger delegation without guessing.' },
 ] as const;
 
-export const staffingFitNote = 'Every staffing plan depends on role scope, schedule, skills, tools, and management needs. Send the role details and our staffing team can guide the best fit.';
+export const staffingFitNote = 'Every plan depends on the role scope, schedule, skills, tools, and management needs. Requests are limited to Filipino talent based in the Philippines and may be routed to a suitable staffing partner.';

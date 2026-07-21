@@ -53,6 +53,7 @@ h1, h2, h3, p { margin-top: 0; }
 .hero-actions { display: flex; align-items: center; gap: 25px; flex-wrap: wrap; }
 .text-link { display: inline-flex; align-items: center; gap: 9px; padding: 8px 0; border-bottom: 1px solid currentColor; color: var(--ink); font-size: 14px; font-weight: 700; }
 .text-link span { font-size: 17px; }
+.routing-note { max-width: 610px; margin: 18px 0 0; color: #586a6c; font-size: 12px; line-height: 1.55; }
 .hero-guardrails { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 32px; }
 .hero-guardrails span { padding: 8px 11px; border: 1px solid #cec2b1; border-radius: 999px; background: rgba(255, 253, 248, .56); color: #516264; font-size: 12px; font-weight: 600; }
 
