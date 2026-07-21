@@ -1,30 +1,190 @@
 import * as data from './data';
 import { Header, Footer, JsonLd } from './components';
-const d=data as any;
-const site=d.site||{};
-const services=(d.services||d.roles||d.industries||[]).slice(0,4);
-const posts=(d.blogPosts||[]).slice(0,3);
-const stats=(d.stats||[]).slice(0,3);
-const offer=d.staffingOffer||{};
-const pretty=(v:any)=>String(v||'virtual assistant support').replace(/\b\w/g,(m)=>m.toUpperCase());
-const title=(x:any)=>typeof x==='string'?x:(x.title||x.name||x.label||x.question||'Assistant role');
-const text=(x:any)=>typeof x==='string'?x:(x.desc||x.excerpt||x.note||x.body||(x.bestFor?`Best for ${x.bestFor.join(', ')}`:'Clear tasks, safe access, and review rules.'));
-const slug=(x:any)=>(x.slug||title(x).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''));
-const primary=site.primary||site.brand||'virtual assistant support';
-const rolePhrase=String(primary).toLowerCase()
-  .replace(/^best\s+/,'')
-  .replace(/(company|companies|services|service|provider|providers)/g,'')
-  .replace(/(outsource|outsourced|outsourcing|offshore|overseas)/g,'')
-  .replace(/\s+/g,' ')
-  .trim() || 'business support';
-const roleLabel=pretty(rolePhrase.includes('assistant')?rolePhrase:`${rolePhrase} support`).replace(/\bVa\b/g,'VA');
-const domain=site.domain||site.brand||'Staffing Guide';
-const heroImage=site.heroImage||site.serviceImage||'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80';
-const tagline=site.angle||site.audience||'managed hiring support with clear scope, safe access, onboarding, and quality checks';
-export default function Home(){const schema={'@context':'https://schema.org','@type':'WebSite',name:site.brand,url:`https://${domain}`};return <><Header/><main className="belay"><JsonLd data={schema}/>
-<section className="hero"><div className="container hero-grid"><div className="copy"><p className="eyebrow">Premium staffing match</p><h1>Hire managed {roleLabel} without screening alone.</h1><p className="lead">Get clear communicators, business-hour coverage, and a managed launch plan for {tagline}.</p><div className="actions"><a className="btn primary" href="/contact">Request staffing plan</a><a className="btn secondary" href="#tasks">Get task ideas</a></div><p className="risk">No public rate card. Share the role first, then get a practical scope.</p></div><div className="match-card"><div className="portrait-wrap"><img src={heroImage} alt={site.alt||`${site.brand||roleLabel} managed staffing visual`}/><span className="badge">Top-fit match</span></div><div className="task-note note-a"><b>Daily handoff</b><span>clear owner brief</span></div><div className="task-note note-b"><b>Quality checks</b><span>work reviewed weekly</span></div><div className="task-note note-c"><b>21-day launch</b><span>scope → shadow → live QA</span></div></div></div><div className="container proof-bar"><span>Right role before right hire</span>{stats.length?stats.map((s:any,i:number)=><b key={i}>{s.value||s.label}</b>):['Scope first','7-21 days','5-10 tasks'].map((x,i)=><b key={i}>{x}</b>)}</div></section>
-<section className="container section" id="tasks"><div className="split-head"><div><p className="eyebrow">Task ideas</p><h2>Start with work that repeats every week.</h2></div><p>Inspired by premium VA and outsourcing competitors: make the hire feel human, specific, and low risk before the contact form.</p></div><div className="task-grid">{services.map((s:any,i:number)=><a key={i} href={`/services/${slug(s)}`}><span>{String(i+1).padStart(2,'0')}</span><h3>{title(s)}</h3><p>{text(s)}</p><b>See handoff →</b></a>)}</div></section>
-<section className="relationship"><div className="container rel-grid"><div><p className="eyebrow">Managed, not marketplace</p><h2>Your staffing plan should come with backup, onboarding, and quality checks.</h2></div><div className="rel-list">{(offer.included||['role planning call','candidate matching','onboarding guidance','managed support']).slice(0,4).map((x:string,i:number)=><article key={i}><span>✓</span><p>{x}</p></article>)}</div></div></section>
-<section className="container section guide-row"><div><p className="eyebrow">Before you hire</p><h2>Short guides for safer staffing decisions.</h2></div>{posts.map((p:any,i:number)=><a href={`/blog/${p.slug}`} key={i}><span>{p.minutes||7} min</span><strong>{title(p)}</strong><p>{text(p)}</p></a>)}</section>
-<section className="container final"><h2>Request the staffing plan before you interview.</h2><a className="btn primary" href="/contact">Request staffing plan</a></section>
-</main><Footer/></>}
+
+const d = data as any;
+const site = d.site || {};
+const services = (d.services || []).slice(0, 4);
+const posts = (d.blogPosts || []).slice(0, 3);
+
+const title = (item: any) => item.title || item.name || 'Account support';
+const text = (item: any) => item.desc || item.excerpt || '';
+const slug = (item: any) => item.slug || title(item).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+
+const workflow = [
+  { label: 'Client follow-up', copy: 'Approved updates go out on time, and unanswered messages return to a named owner.' },
+  { label: 'CRM upkeep', copy: 'Notes, dates, open requests, and next steps stay current enough to guide the week.' },
+  { label: 'Renewal prep', copy: 'Your team gets a clean brief before the conversation, without handing over terms or pricing.' },
+  { label: 'Weekly review', copy: 'A short account list shows what moved, what stalled, and where an owner needs to decide.' },
+];
+
+export default function Home() {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: site.brand,
+    url: `https://${site.domain}`,
+  };
+
+  return <>
+    <Header />
+    <main className="account-desk" data-design="account-desk-2026">
+      <JsonLd data={schema} />
+
+      <section className="desk-hero">
+        <div className="container desk-hero-grid">
+          <div className="hero-copy">
+            <p className="eyebrow">Outsourced account desk</p>
+            <h1>Keep every client account moving.</h1>
+            <p className="hero-lead">Bring in practical support for follow-ups, CRM notes, renewal prep, and weekly reporting. Your team keeps the relationships and the commercial calls.</p>
+            <div className="hero-actions">
+              <a className="btn primary" href="/contact">Request an account plan</a>
+              <a className="text-link" href="#account-work">See the work we cover <span aria-hidden="true">↓</span></a>
+            </div>
+            <div className="hero-guardrails" aria-label="Account support guardrails">
+              <span>CRM kept current</span>
+              <span>Every follow-up has an owner</span>
+              <span>Commercial decisions stay in-house</span>
+            </div>
+          </div>
+
+          <div className="portfolio-visual" aria-label="Sample account portfolio view">
+            <div className="photo-frame">
+              <img src="/account-team.jpg" alt="Account team reviewing client work together" />
+              <span className="photo-caption">A steady desk behind the client book</span>
+            </div>
+            <div className="portfolio-board">
+              <div className="board-top">
+                <div><span className="board-kicker">Sample weekly view</span><strong>Account portfolio</strong></div>
+                <span className="live-dot">Review ready</span>
+              </div>
+              <div className="account-row">
+                <span className="account-icon coral">RF</span>
+                <div><strong>Reply follow-up</strong><small>Owner note is ready</small></div>
+                <span className="status">Today</span>
+              </div>
+              <div className="account-row">
+                <span className="account-icon mint">RB</span>
+                <div><strong>Renewal brief</strong><small>Open items collected</small></div>
+                <span className="status">Review</span>
+              </div>
+              <div className="account-row">
+                <span className="account-icon sand">OD</span>
+                <div><strong>Owner decision</strong><small>Escalation is documented</small></div>
+                <span className="status">Handoff</span>
+              </div>
+              <div className="board-foot"><span>Next account review</span><strong>Agenda prepared</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="desk-strip">
+        <div className="container strip-inner">
+          <p>Built for agencies and B2B teams with a client book that has outgrown sticky notes and good intentions.</p>
+          <a href="/contact">Map the account desk <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section className="container section work-section" id="account-work">
+        <div className="section-intro">
+          <p className="eyebrow">The weekly workload</p>
+          <h2>Give repeat account work a proper home.</h2>
+          <p>Client relationships rarely break because of one dramatic mistake. More often, small follow-ups slip, CRM notes age, and nobody can see the next step. The account desk keeps that routine visible.</p>
+        </div>
+        <div className="workflow-grid">
+          {workflow.map((item, index) => <article className="workflow-card" key={item.label}>
+            <span className="card-number">0{index + 1}</span>
+            <h3>{item.label}</h3>
+            <p>{item.copy}</p>
+          </article>)}
+        </div>
+      </section>
+
+      <section className="service-field">
+        <div className="container service-grid">
+          <div className="service-heading">
+            <p className="eyebrow">Choose the starting lane</p>
+            <h2>Start where the client book feels messy.</h2>
+            <p>You do not need to hand over every account. Pick a small group, define the limits, and see whether the weekly review gets easier.</p>
+            <a className="text-link light" href="/contact">Talk through the first scope <span aria-hidden="true">↗</span></a>
+          </div>
+          <div className="service-list">
+            {services.map((service: any, index: number) => <a href={`/services/${slug(service)}`} key={slug(service)}>
+              <span className="service-index">0{index + 1}</span>
+              <div><h3>{title(service)}</h3><p>{text(service)}</p></div>
+              <span className="service-arrow" aria-hidden="true">↗</span>
+            </a>)}
+          </div>
+        </div>
+      </section>
+
+      <section className="container section handoff-section">
+        <div className="handoff-copy">
+          <p className="eyebrow">A controlled handoff</p>
+          <h2>The outside desk handles the routine. Your account owner keeps the judgment.</h2>
+          <p>Set the account list, message examples, access level, and escalation rules before work begins. If a client asks for a refund, new terms, or a promise the team has not approved, it comes back to you.</p>
+        </div>
+        <div className="boundary-board">
+          <div className="boundary-column can-own">
+            <span className="boundary-label">The desk can own</span>
+            <ul>
+              <li>CRM notes and next steps</li>
+              <li>Approved client follow-ups</li>
+              <li>Meeting prep and action lists</li>
+              <li>Weekly account reports</li>
+            </ul>
+          </div>
+          <div className="boundary-column stays-in">
+            <span className="boundary-label">Keep with your team</span>
+            <ul>
+              <li>Pricing and contract changes</li>
+              <li>Credits and refunds</li>
+              <li>Unapproved service promises</li>
+              <li>Sensitive client resolutions</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="launch-section">
+        <div className="container">
+          <div className="section-intro launch-intro">
+            <p className="eyebrow">A small, sensible start</p>
+            <h2>Test the desk on a short account list.</h2>
+          </div>
+          <div className="launch-steps">
+            <article><span>1</span><h3>Map the book</h3><p>Choose the accounts, recurring tasks, systems, and decisions that still need an internal owner.</p></article>
+            <article><span>2</span><h3>Show good work</h3><p>Share a finished account note, a useful follow-up, and the weekly view your team already trusts.</p></article>
+            <article><span>3</span><h3>Review before expanding</h3><p>Check the first work closely. Add more accounts only when the handoffs feel boring and dependable.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section className="container section guide-section">
+        <div className="guide-heading">
+          <p className="eyebrow">Field notes</p>
+          <h2>Read before you hand over the client book.</h2>
+          <a href="/blog">View all guides <span aria-hidden="true">↗</span></a>
+        </div>
+        <div className="guide-grid">
+          {posts.map((post: any, index: number) => <a href={`/blog/${post.slug}`} key={post.slug}>
+            <span className="guide-meta">Guide 0{index + 1} · {post.minutes || 7} min</span>
+            <h3>{title(post)}</h3>
+            <p>{text(post)}</p>
+            <strong>Read the guide <span aria-hidden="true">→</span></strong>
+          </a>)}
+        </div>
+      </section>
+
+      <section className="container closing-card">
+        <div>
+          <p className="eyebrow">Start with the actual work</p>
+          <h2>Bring us the account list that keeps slipping.</h2>
+          <p>We will help you shape a clear scope, sensible limits, and a first weekly review.</p>
+        </div>
+        <a className="btn primary" href="/contact">Request an account plan</a>
+      </section>
+    </main>
+    <Footer />
+  </>;
+}
