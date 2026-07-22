@@ -16,102 +16,18 @@ export const site = {
 } as const;
 
 export const services = [
-  {
-    slug: 'operations-support',
-    title: 'Account operations support',
-    desc: 'Keep account records, renewal dates, open requests, and owner handoffs in order with Filipino support talent based in the Philippines. Prices and contract terms stay with your internal owner.',
-    bestTasks: [
-      'Update CRM notes, next steps, renewal dates, and account owners',
-      'Prepare weekly account lists for renewals, open requests, and missed follow-ups',
-      'Route blocked work and client risks to the right internal owner',
-    ],
-    controls: [
-      'Use required CRM fields and a daily missing-data check',
-      'Keep price, contract, credit, and refund decisions with the internal owner',
-      'Review overdue follow-ups and blocked accounts once a week',
-    ],
-    firstWeek: [
-      'Choose 5 to 10 accounts and define the required CRM fields.',
-      'Show one complete account record and one approved handoff example.',
-      'Run daily record checks before moving to a weekly review.',
-    ],
-    faqs: [
-      { q: 'Can Filipino support staff change renewal terms?', a: 'No. They can prepare the account record and renewal notes, but your internal owner should approve prices, credits, and contract changes.' },
-      { q: 'What is a safe first task?', a: 'Start with CRM cleanup and a list of accounts that need a reply, review, or owner decision.' },
-    ],
-  },
-  {
-    slug: 'customer-support',
-    title: 'Client follow-up support',
-    desc: 'Give clients timely updates, book review calls, and track open requests while complaints, refunds, and sensitive promises stay with your team.',
-    bestTasks: [
-      'Send approved follow-up messages after meetings and service updates',
-      'Book account reviews and collect agenda items before each call',
-      'Track open client requests and remind the internal owner when a reply is late',
-    ],
-    controls: [
-      'Use approved message examples for common follow-ups',
-      'Escalate complaints, refund requests, and service promises before replying',
-      'Check the open-request list at the start and end of each shift',
-    ],
-    firstWeek: [
-      'Sort recent client messages into reply, owner decision, and closed groups.',
-      'Draft replies for review before sending any client message.',
-      'Allow approved follow-ups, then review open requests each day.',
-    ],
-    faqs: [
-      { q: 'Can Filipino account support handle unhappy clients?', a: 'They can collect the facts and alert the account owner. Resolution terms, refunds, and sensitive promises should stay with your team.' },
-      { q: 'What should we provide before launch?', a: 'Share approved replies, account owner names, response targets, and a short list of issues that always need escalation.' },
-    ],
-  },
-  {
-    slug: 'admin-support',
-    title: 'Account admin support',
-    desc: 'Remove the repeat admin around client meetings, files, notes, and task reminders while access and final approvals remain limited.',
-    bestTasks: [
-      'Prepare meeting agendas from open tasks and recent account notes',
-      'File approved documents and keep client folders named the same way',
-      'Record meeting actions, due dates, and owners in the team task system',
-    ],
-    controls: [
-      'Grant access only to the accounts and folders needed for the role',
-      'Require an internal owner for every client-facing due date',
-      'Check meeting notes against the recording or owner recap before filing',
-    ],
-    firstWeek: [
-      'Pick one meeting type and share a finished agenda and notes example.',
-      'Limit access to a small account group and test the filing rules.',
-      'Review the first five agendas and action lists before widening the scope.',
-    ],
-    faqs: [
-      { q: 'Which admin work should stay internal?', a: 'Keep contract edits, billing approvals, access grants, and final client commitments with an internal owner.' },
-      { q: 'How do we test accuracy?', a: 'Compare the first five agendas, notes, and task updates with your approved examples before adding more accounts.' },
-    ],
-  },
-  {
-    slug: 'reporting-and-qa',
-    title: 'Account reporting and quality checks',
-    desc: 'Turn CRM activity and open client work into a short weekly report that shows missed follow-ups, account risks, and decisions your owners need to make.',
-    bestTasks: [
-      'Prepare a weekly account report from agreed CRM fields',
-      'Flag missing notes, overdue follow-ups, and accounts without a next step',
-      'Sample client updates against approved message and handoff rules',
-    ],
-    controls: [
-      'Use one written definition for every report field',
-      'Link each flagged issue to its CRM record instead of copying private data',
-      'Have the account owner close or accept each reported risk',
-    ],
-    firstWeek: [
-      'Agree on five to seven report fields and define how each one is counted.',
-      'Build a sample report from a small set of closed and open accounts.',
-      'Compare the report with the CRM, fix gaps, and set a weekly review time.',
-    ],
-    faqs: [
-      { q: 'What should a weekly account report include?', a: 'Include accounts touched, overdue follow-ups, open requests, renewal risks, blocked work, and owner decisions needed.' },
-      { q: 'Can a report replace an account review?', a: 'No. The report should make the review shorter and clearer, but an internal owner still needs to decide what happens next.' },
-    ],
-  },
+  { slug: "client-onboarding-coordination", title: "Client Onboarding Coordination", desc: "Filipino account management specialists can handle client onboarding coordination with documented workflows, approval limits, and owner review." },
+  { slug: "account-health-monitoring", title: "Account Health Monitoring", desc: "Filipino account management specialists can handle account health monitoring with documented workflows, approval limits, and owner review." },
+  { slug: "renewal-administration", title: "Renewal Administration", desc: "Filipino account management specialists can handle renewal administration with documented workflows, approval limits, and owner review." },
+  { slug: "customer-qbr-preparation", title: "Customer QBR Preparation", desc: "Filipino account management specialists can handle customer qbr preparation with documented workflows, approval limits, and owner review." },
+  { slug: "crm-account-maintenance", title: "CRM Account Maintenance", desc: "Filipino account management specialists can handle crm account maintenance with documented workflows, approval limits, and owner review." },
+  { slug: "client-request-routing", title: "Client Request Routing", desc: "Filipino account management specialists can handle client request routing with documented workflows, approval limits, and owner review." },
+  { slug: "upsell-opportunity-tracking", title: "Upsell Opportunity Tracking", desc: "Filipino account management specialists can handle upsell opportunity tracking with documented workflows, approval limits, and owner review." },
+  { slug: "account-reporting", title: "Account Reporting", desc: "Filipino account management specialists can handle account reporting with documented workflows, approval limits, and owner review." },
+  { slug: "contract-milestone-tracking", title: "Contract Milestone Tracking", desc: "Filipino account management specialists can handle contract milestone tracking with documented workflows, approval limits, and owner review." },
+  { slug: "customer-feedback-administration", title: "Customer Feedback Administration", desc: "Filipino account management specialists can handle customer feedback administration with documented workflows, approval limits, and owner review." },
+  { slug: "implementation-handoff-support", title: "Implementation Handoff Support", desc: "Filipino account management specialists can handle implementation handoff support with documented workflows, approval limits, and owner review." },
+  { slug: "escalation-coordination", title: "Escalation Coordination", desc: "Filipino account management specialists can handle escalation coordination with documented workflows, approval limits, and owner review." },
 ] as const;
 
 export const blogPosts = [
@@ -254,3 +170,6 @@ export const staffingProcess = [
 ] as const;
 
 export const staffingFitNote = 'Every plan depends on the role scope, schedule, skills, tools, and management needs. Requests are limited to Filipino talent based in the Philippines and may be routed to a suitable staffing partner.';
+
+
+export const researchPosts: Array<{ slug: string; title: string; excerpt: string; body: string[] }> = [];
