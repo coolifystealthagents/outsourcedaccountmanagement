@@ -32,6 +32,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-account-management-renewal-readiness-checklist',
+    title: 'Philippines account management renewal readiness checklist',
+    excerpt: 'Prepare a clean renewal record with verified facts, open commitments, owner decisions, and a clear client follow-up plan.',
+    minutes: 12,
+  },
+  {
     slug: 'philippines-account-management-escalation-matrix',
     title: 'Philippines account management escalation matrix',
     excerpt: 'Give a Philippines-based account manager clear alert levels, owner limits, response steps, and closure checks for difficult client issues.',

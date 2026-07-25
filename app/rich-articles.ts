@@ -29,6 +29,137 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  'philippines-account-management-renewal-readiness-checklist': {
+    title: 'Philippines account management renewal readiness checklist',
+    description: 'A practical checklist for US teams that use a Philippines-based account manager to prepare renewal records, owner decisions, and client follow-up.',
+    published: '2026-07-25',
+    updated: '2026-07-25',
+    readMinutes: 12,
+    intro: [
+      'A renewal can drift when the account manager has to rebuild the client story from old email, CRM notes, and meeting files. A Philippines-based account manager can prepare the record and chase missing facts, but the business owner should make contract, legal, money, and unusual client decisions.',
+      'This checklist keeps the work simple. It covers the source record, open promises, client signals, access limits, owner review, the client note, and the final account update.',
+    ],
+    takeawaysTitle: 'The short version',
+    takeaways: [
+      'Start with the signed record, current scope, and exact renewal date.',
+      'List every open promise with its source, owner, due date, and client effect.',
+      'Keep contract changes and unusual commitments with the named business owner.',
+      'Save the approved outcome and next action in the account record after the client reply.',
+    ],
+    sections: [
+      {
+        heading: 'Open one renewal record before chasing updates',
+        paragraphs: [
+          'The Philippine IT-BPM industry closed 2024 with 1.82 million jobs and USD 38 billion in revenue, according to an IBPAP release dated January 16, 2025. Those figures show the size of the local business-services workforce, but each client renewal still depends on a small set of records that one person can check.',
+          'Create one renewal record for the account. Add the client name, internal owner, signed document, current work, renewal date, notice rule, open commitments, recent client feedback, service issues, next meeting, and every decision that still needs approval.',
+          'Link to the source instead of copying half the story into a new file. If the signed record and the CRM disagree, flag the difference for the owner rather than choosing the version that looks newer.',
+        ],
+      },
+      {
+        heading: 'Check facts, promises, and dates one by one',
+        paragraphs: [
+          'Read the signed record, approved change notes, client meeting recaps, support history, delivery board, and CRM timeline. For every promise, write what was promised, who approved it, when it is due, whether it is done, and where the proof lives.',
+          'Separate a confirmed fact from a team guess. The note "client asked for a revised handoff on July 18" can be checked, while "client may leave" needs a source or should sit in a clearly marked owner-assessment field.',
+          'Do not hide an open problem inside a long summary. Put missed work, unclear scope, unresolved complaints, and owner-only choices in a short exception list so the account owner can see what must be settled before the client conversation.',
+        ],
+      },
+      {
+        heading: 'Build the review around choices the owner must make',
+        paragraphs: [
+          'Microsoft reported on May 9, 2023 that commercial Microsoft 365 users in its activity analysis spent 57% of their intentional app time communicating and 43% creating files. The analysis used a rolling 28-day period ending in March 2023, excluded weekends and education users, and measured activity in named Microsoft 365 apps rather than client renewals.',
+          'Use that finding as a reason to make the owner review shorter, not as a claim about renewal results. Put the open choice, supporting fact, client effect, recommended next step, and decision date on one line, then link to the full record.',
+          'The Philippines-based account manager can prepare options and note what each option changes in the work plan. Contract wording, money movement, credits, legal statements, unusual commitments, and any change outside the approved scope should stay with the named owner.',
+        ],
+      },
+      {
+        heading: 'Protect client records while the account is under review',
+        paragraphs: [
+          'Republic Act No. 10173, the Philippine Data Privacy Act of 2012, covers personal information systems in government and the private sector. Keep client contacts, private notes, signed files, and review drafts in the business systems approved for that account.',
+          'A person preparing the renewal record may need to read assigned CRM notes, approved reports, support history, and meeting files. They usually do not need bulk export, deletion, user administration, or access to every client in the company.',
+          'Use named logins and match access to assigned tasks. If the client work changes after the owner decision, ask the system owner to review access instead of assuming the old permission still fits.',
+        ],
+      },
+      {
+        heading: 'Prepare the client note from approved facts',
+        paragraphs: [
+          'The client note should state the reason for the meeting, the period being reviewed, completed work, open items, confirmed next actions, and any question the client needs to answer. Keep internal guesses, private team comments, and unapproved promises out of the client version.',
+          'Some surveyed IT-BPM firms reported using agentic AI. In a February 3, 2025 release, IBPAP said 11% had fully put it into use and 56% were actively adding it to operations, but the release did not state a sample size.',
+          'An approved tool can help prepare a draft only when its data use fits the account rules and a person checks every claim against the source. Keep the original client wording when it affects a promise, complaint, or decision, because a smooth summary can quietly change what was said.',
+        ],
+      },
+      {
+        heading: 'Record the outcome and the next account action',
+        paragraphs: [
+          'After the client conversation, save the approved outcome beside the source record. Note what stays the same, what changes, what still waits for an answer, the owner of each follow-up, the due date, and the next client update.',
+          'If the relationship continues, update the account plan, access list, reporting fields, open commitments, and meeting schedule. If the work ends or moves to another team, use a controlled handoff so client files, open tasks, and owner decisions do not disappear with the old assignment.',
+          'Review the checklist after the account closes its renewal cycle. Fix the missing field, vague owner limit, late source check, or weak client note in the template itself so the next account does not depend on somebody remembering the lesson.',
+        ],
+      },
+    ],
+    banners: [
+      { label: 'Renewal check 1 of 3', title: 'Keep milestones in one record', body: 'Track client promises, source proof, owners, and due dates before the review starts.', href: '/services/contract-milestone-tracking', link: 'See milestone tracking support' },
+      { label: 'Renewal check 2 of 3', title: 'Prepare a decision-ready review', body: 'Give the owner verified facts, open exceptions, and the client questions that still need answers.', href: '/services/customer-qbr-preparation', link: 'See QBR preparation support' },
+      { label: 'Renewal check 3 of 3', title: 'Watch the account after the decision', body: 'Record the client reply, changed work, open follow-up, and the next health check.', href: '/services/account-health-monitoring', link: 'See account health support' },
+    ],
+    table: {
+      caption: 'Renewal readiness record for a Philippines-based account manager',
+      headers: ['Record', 'Account manager check', 'Source proof', 'Owner decision'],
+      rows: [
+        ['Current agreement', 'Confirm dates, scope, and notice rule', 'Signed record and approved changes', 'Choose any contract action'],
+        ['Open commitments', 'List promise, state, due date, and client effect', 'Approved recap or task record', 'Settle exceptions and ownership'],
+        ['Client signals', 'Record exact feedback and recent contact', 'Meeting note, message, or survey record', 'Choose the client response'],
+        ['Service issues', 'Show open issue, effect, and current action', 'Support or delivery record', 'Approve recovery steps'],
+        ['Next period', 'Draft work plan, owners, and check dates', 'Approved account plan', 'Confirm what the team may do'],
+      ],
+    },
+    chart: [
+      { label: 'Communicating', value: 57, color: '#0f766e' },
+      { label: 'Creating files', value: 43, color: '#6366f1' },
+    ],
+    chartMeta: {
+      title: 'Communication and creation share in Microsoft 365 work activity',
+      desc: 'Two horizontal bars show 57 percent of work time spent communicating and 43 percent spent creating files.',
+      heading: 'Make the owner review easy to scan',
+      method: 'Microsoft published these figures on May 9, 2023. They came from intentional activity by commercial Microsoft 365 users in Outlook, Teams, Word, PowerPoint, Excel, and OneNote during a rolling 28-day period ending in March 2023; weekends and education users were excluded. The figures do not measure renewal work or results.',
+    },
+    graphic: {
+      title: 'Three-step renewal readiness path',
+      desc: 'A process graphic moves from source records to an owner decision and then to an approved client update with account follow-up.',
+      heading: 'Check, decide, record',
+      steps: [
+        { title: '1  Check', line1: 'Terms, promises,', line2: 'issues, client facts', color: '#e8c98e' },
+        { title: '2  Decide', line1: 'Owner choices,', line2: 'limits, next action', color: '#b9dfce' },
+        { title: '3  Record', line1: 'Client outcome,', line2: 'owners, due dates', color: '#ffd9ce' },
+      ],
+      caption: 'The account manager checks the source record and marks exceptions. The owner makes the business decisions, and the approved outcome returns to the client record with a named next action.',
+    },
+    quote: {
+      text: 'A security principle that a system should restrict the access privileges of users (or processes acting on behalf of users) to the minimum necessary to accomplish assigned tasks.',
+      source: 'NIST Computer Security Resource Center, citing CNSSI 4009-2015 and NIST SP 800-12 Rev. 1',
+      url: 'https://csrc.nist.gov/glossary/term/least_privilege',
+    },
+    scriptTitle: 'A copy-ready owner review note',
+    scriptIntro: 'Send this with the renewal record before the client meeting. Replace every bracketed item, link each exception to its source, and leave no owner field blank.',
+    script: [
+      'This review covers [client] and the period ending [date]. I checked the signed record, approved changes, open commitments, client feedback, service issues, and current account plan on [date and time].',
+      'Please decide these items by [date]: [owner choices]. The supporting records are [links], and the confirmed client effect is [effect].',
+      'After your review, I will prepare the client note, record the approved outcome in [system], and assign each follow-up to [owner] with a due date.',
+    ],
+    faqTitle: 'Questions about renewal readiness',
+    faqs: [
+      { q: 'What should a Philippines-based account manager prepare for a renewal?', a: 'Prepare the signed record, approved changes, open commitments, client feedback, service issues, source links, owner decisions, next actions, and due dates.' },
+      { q: 'Which decisions should stay with the business owner?', a: 'Keep contract language, money movement, credits, legal statements, unusual commitments, and work outside the approved scope with the named owner.' },
+      { q: 'Can the account manager send the client review note?', a: 'Yes, when the note uses approved facts and follows the written message rules. An owner should first check exceptions and any statement that changes a promise or business decision.' },
+      { q: 'What happens after the client responds?', a: 'Save the outcome, changed work, open questions, owners, due dates, and next update in the account record. Review access and the handoff plan if the assignment changes.' },
+    ],
+    sources: [
+      { name: 'IT and Business Process Association of the Philippines, 2024 milestones', date: 'January 16, 2025', url: 'https://admin.ibpap.org/api/v1/articles/21', note: 'Reports 1.82 million Philippine IT-BPM jobs and USD 38 billion in 2024 revenue.' },
+      { name: 'Microsoft Work Trend Index Annual Report', date: 'May 9, 2023', url: 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work', note: 'Reports the 57% communication and 43% creation split for intentional activity by commercial Microsoft 365 users and gives the rolling 28-day window.' },
+      { name: 'National Privacy Commission, Data Privacy Act of 2012', date: 'August 15, 2012', url: 'https://privacy.gov.ph/data-privacy-act/', note: 'Publishes Republic Act No. 10173 and its rules for personal information systems.' },
+      { name: 'NIST Computer Security Resource Center, least privilege glossary', date: 'accessed July 25, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Provides the exact least-privilege definition quoted in this checklist.' },
+      { name: 'IT and Business Process Association of the Philippines, agentic AI survey', date: 'February 3, 2025', url: 'https://admin.ibpap.org/api/v1/articles/23', note: 'Reports 11% full use and 56% active integration among surveyed IT-BPM firms; the release does not state a sample size.' },
+    ],
+  },
   'philippines-account-management-escalation-matrix': {
     title: 'Philippines account management escalation matrix',
     description: 'A practical escalation matrix for US teams that use a Philippines-based account manager to sort client issues, reach the right owner, and close the record.',
