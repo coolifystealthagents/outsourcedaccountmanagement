@@ -29,6 +29,139 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  'philippines-account-management-escalation-matrix': {
+    title: 'Philippines account management escalation matrix',
+    description: 'A practical escalation matrix for US teams that use a Philippines-based account manager to sort client issues, reach the right owner, and close the record.',
+    published: '2026-07-25',
+    updated: '2026-07-25',
+    readMinutes: 12,
+    intro: [
+      'A client escalation gets harder when the account manager has to guess what counts as urgent or who can make the call. A Philippines-based account manager needs a short matrix that separates routine follow-up from an issue that needs a US owner now.',
+      'This guide gives the team four alert levels, a fact record, owner limits, a client holding note, and a closure check. The account manager can gather facts and keep the client informed, while contract changes, unusual promises, money movement, legal statements, and security decisions stay with the approved owner.',
+    ],
+    takeawaysTitle: 'The short version',
+    takeaways: [
+      'Set alert levels before a difficult client message arrives.',
+      'Route facts, client effect, owner, and next update time in one record.',
+      'Keep contract, legal, security, and unusual promise decisions with the named owner.',
+      'Close the escalation only after the client record and follow-up task show the same owner and next action.',
+    ],
+    sections: [
+      {
+        heading: 'Write the matrix before the account goes live',
+        paragraphs: [
+          'The Philippine IT-BPM industry closed 2024 with 1.82 million jobs and USD 38 billion in revenue, according to an IBPAP release dated January 16, 2025. Those figures show the size of the industry, but they do not tell one account manager when to contact an owner or what to say to a waiting client.',
+          'Start with four alert levels that fit the business: routine, watch, urgent, and critical. Give each level a plain trigger, a first action, a named owner, a backup, and the time for the next client update.',
+          'Test the words against real examples from the last few months. A late internal task may be routine, while exposed client data, a broken live service, or a missed hard commitment may need an urgent or critical route.',
+        ],
+      },
+      {
+        heading: 'Put the facts in one escalation record',
+        paragraphs: [
+          'The first record should answer six questions: what happened, which client is affected, when it started, what is blocked, what proof exists, and what decision is needed. Add the source message, ticket, CRM record, or system notice so the owner can check the facts without asking the account manager to retell the story.',
+          'Microsoft reported on May 9, 2023 that 62% of survey respondents struggled with too much time spent searching for information during the workday. The same report said 68% lacked enough uninterrupted focus time, so a useful escalation record should reduce search and review time instead of creating a new meeting with no clear choice.',
+          'Write observed facts apart from guesses. The note "client portal returned an error for three named users at 10:20 a.m." gives an owner something to check, while "the client may leave" belongs in a separate risk field unless the client actually said it.',
+        ],
+      },
+      {
+        heading: 'Match each alert level to a clear owner limit',
+        paragraphs: [
+          'Routine work can stay with the Philippines-based account manager when it follows an approved step, such as finding a missing file, confirming a meeting, or checking an open task. A watch item may need an owner to review the next message, but it does not need the same channel as a live service failure.',
+          'Urgent and critical items need a named business owner who can make the decision. Keep contract changes, credits, refunds, legal claims, public comments, security notices, broad access changes, and promises outside the agreed work with that owner.',
+          'Give the account manager a backup route when the first owner does not answer. The backup should know whether to decide, find another approver, or send an approved holding note, rather than quietly inheriting authority the business never gave them.',
+        ],
+      },
+      {
+        heading: 'Use a separate route for personal data and security events',
+        paragraphs: [
+          'Republic Act No. 10173, the Philippine Data Privacy Act of 2012, protects personal information in government and private-sector information systems. A client escalation matrix should therefore point a suspected data mistake to the business security or privacy owner instead of asking the account manager to decide whether a legal notice is required.',
+          'NIST published SP 800-61 Revision 3 in April 2025 to help organizations place incident response inside broader cyber risk management. Use the security plan for technical review, containment, legal checks, and outside notice decisions; use the account record only for approved client facts, contacts, and update times.',
+          'Do not ask the account manager to investigate through a personal device, copy private records into chat, or promise that an event is harmless. They can preserve the source message, stop the routine task if told to do so, reach the named owner, and send only wording that the owner has approved.',
+        ],
+      },
+      {
+        heading: 'Send a holding note without making a new promise',
+        paragraphs: [
+          'A client often needs to know that the issue has an owner before the business knows the final answer. Give the account manager an approved note that confirms receipt, names the next update time, and avoids guessing about cause, blame, recovery, or a contract result.',
+          'The Microsoft report also found that 64% of people struggled with the time and energy needed to do their job, while 60% of leaders were concerned about a lack of new ideas on their teams. Those figures came from a 31,000-person survey across 31 countries, and they support a simple rule: make the route easy enough to use during a busy day.',
+          'Keep the note short and put the full facts in the internal record. If the next update will be late, send a new time before the old one passes and state what the owner is still checking without filling the gap with an unapproved answer.',
+        ],
+      },
+      {
+        heading: 'Close the record and fix the weak step',
+        paragraphs: [
+          'Close an escalation after the owner has made the decision, the approved client message has gone out, and the account record shows the next action. Record the cause that was confirmed, the action taken, the client reply, any open follow-up, and the person who will check it.',
+          'Some IT-BPM firms are adding more AI tools. In a February 3, 2025 release, IBPAP said 11% of surveyed firms had fully put agentic AI into use and 56% were actively adding it to operations, but the release did not state a sample size. An automatic summary can help prepare a draft only when the tool is approved and a person checks every fact against the original record.',
+          'Review the matrix after the first few live cases. Fix a vague trigger, missing backup, slow owner response, broad access rule, or weak client note in the matrix itself so the next account manager does not face the same guess.',
+        ],
+      },
+    ],
+    banners: [
+      { label: 'Escalation check 1 of 3', title: 'Set the owner route now', body: 'Give every alert level a named owner, backup, and next update time before client work starts.', href: '/services/escalation-coordination', link: 'See escalation support' },
+      { label: 'Escalation check 2 of 3', title: 'Keep requests moving', body: 'Sort routine follow-up, owner decisions, and blocked work without losing the source record.', href: '/services/client-request-routing', link: 'See request routing support' },
+      { label: 'Escalation check 3 of 3', title: 'Watch the account after closure', body: 'Check the client reply, open follow-up, and any new risk after the first issue is closed.', href: '/services/account-health-monitoring', link: 'See account health support' },
+    ],
+    table: {
+      caption: 'Four-level escalation matrix for a Philippines-based account manager',
+      headers: ['Alert level', 'Example trigger', 'Account manager action', 'Owner action'],
+      rows: [
+        ['Routine', 'Approved follow-up or missing record with no client block', 'Complete the normal step and update the CRM', 'Review in the normal account check'],
+        ['Watch', 'Repeated delay, unclear promise, or early client concern', 'Gather facts and prepare the next message', 'Check the message and choose the next action'],
+        ['Urgent', 'Hard deadline at risk, active client block, or serious complaint', 'Open the urgent route and send the approved holding note', 'Decide the response and next update time'],
+        ['Critical', 'Suspected data event, live service failure, or legal threat', 'Preserve the source, stop assigned work if directed, and alert the account and security owners', 'Lead security, legal, service, and client decisions'],
+      ],
+    },
+    chart: [
+      { label: 'Time and energy', value: 64, color: '#0f766e' },
+      { label: 'Leader concern', value: 60, color: '#6366f1' },
+      { label: 'Focus time short', value: 68, color: '#f26b4e' },
+      { label: 'Time spent searching', value: 62, color: '#d6b36a' },
+    ],
+    chartMeta: {
+      title: 'Workday pressure reported in the 2023 Microsoft Work Trend Index',
+      desc: 'Horizontal bars show 64 percent reporting time and energy strain, 60 percent of leaders concerned about a lack of innovation, 68 percent reporting too little uninterrupted focus time, and 62 percent reporting too much time spent searching for information.',
+      heading: 'Busy teams need a short escalation route',
+      method: 'Microsoft published these figures on May 9, 2023 from a survey of 31,000 people in 31 countries. The 60% figure describes leaders; the other three describe people or survey respondents. These are workday findings and do not measure account escalations.',
+    },
+    graphic: {
+      title: 'Three-step client escalation path',
+      desc: 'A process graphic moves from a fact record to an owner decision and then to an approved client update with a closure check.',
+      heading: 'Record, route, close',
+      steps: [
+        { title: '1  Record', line1: 'Event, client effect,', line2: 'proof, update time', color: '#e8c98e' },
+        { title: '2  Route', line1: 'Alert level, owner,', line2: 'backup, decision', color: '#b9dfce' },
+        { title: '3  Close', line1: 'Approved reply,', line2: 'follow-up, record', color: '#ffd9ce' },
+      ],
+      caption: 'The account manager records what happened and routes the needed choice. The owner approves the response, and the account manager closes the client record only after the next action has a person and date.',
+    },
+    quote: {
+      text: 'The mitigation of violations of security policies and recommended practices.',
+      source: 'NIST Computer Security Resource Center, incident response glossary, citing CNSSI 4009-2015',
+      url: 'https://csrc.nist.gov/glossary/term/incident_response',
+    },
+    scriptTitle: 'A copy-ready client holding note',
+    scriptIntro: 'Use this only after the alert level and owner are set. Replace each bracketed item, keep the internal evidence out of the client note, and send no claim the owner has not approved.',
+    script: [
+      'We received your message about [issue] at [time and time zone]. [Owner name or team] is checking the facts now, and your next update will arrive by [time].',
+      'The work affected right now is [confirmed client effect]. We will keep the account record open and share the next approved action in that update.',
+      'If you need to add a fact before then, please reply in [approved channel] and include [record or account reference].',
+    ],
+    faqTitle: 'Questions about the escalation matrix',
+    faqs: [
+      { q: 'What should a Philippines-based account manager escalate?', a: 'Escalate any event that matches the written alert levels, falls outside approved work, blocks a client, or needs a contract, legal, security, access, or unusual business decision.' },
+      { q: 'Can the account manager promise a fix time?', a: 'Only when an approved owner has confirmed that time. The manager can promise the next update time when the matrix allows it, which keeps the client informed without inventing a result.' },
+      { q: 'What belongs in the internal record?', a: 'Record what happened, the affected client, start time, confirmed effect, source proof, alert level, owner, backup, decision needed, next update time, and closure follow-up.' },
+      { q: 'When should the team change the matrix?', a: 'Review it after live escalations, owner changes, new systems, new client promises, and security-plan updates. Change the weak rule or missing route instead of relying on people to remember an exception.' },
+    ],
+    sources: [
+      { name: 'IT and Business Process Association of the Philippines, 2024 milestones', date: 'January 16, 2025', url: 'https://admin.ibpap.org/api/v1/articles/21', note: 'Reports 1.82 million Philippine IT-BPM jobs and USD 38 billion in 2024 revenue.' },
+      { name: 'Microsoft Work Trend Index Annual Report', date: 'May 9, 2023', url: 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work', note: 'Reports the four workday survey figures in the chart and describes the 31,000-person, 31-country survey.' },
+      { name: 'Lawphil, Republic Act No. 10173', date: 'August 15, 2012', url: 'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html', note: 'Publishes the Philippine Data Privacy Act of 2012 and its coverage of personal information systems.' },
+      { name: 'NIST SP 800-61 Revision 3', date: 'April 2025', url: 'https://csrc.nist.gov/pubs/sp/800/61/r3/final', note: 'Gives current NIST incident response recommendations within Cybersecurity Framework 2.0 risk management.' },
+      { name: 'NIST Computer Security Resource Center, incident response glossary', date: 'accessed July 25, 2026', url: 'https://csrc.nist.gov/glossary/term/incident_response', note: 'Provides the exact incident response definition quoted in this guide.' },
+      { name: 'IT and Business Process Association of the Philippines, agentic AI survey', date: 'February 3, 2025', url: 'https://admin.ibpap.org/api/v1/articles/23', note: 'Reports 11% full use and 56% active integration among surveyed IT-BPM firms; the release does not state a sample size.' },
+    ],
+  },
   'philippines-account-management-client-reporting-checklist': {
     title: 'Philippines account management client reporting checklist',
     description: 'A practical checklist for US teams that use a Philippines-based account manager to prepare client reports, QBR notes, and owner decision lists.',

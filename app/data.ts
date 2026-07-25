@@ -32,6 +32,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-account-management-escalation-matrix',
+    title: 'Philippines account management escalation matrix',
+    excerpt: 'Give a Philippines-based account manager clear alert levels, owner limits, response steps, and closure checks for difficult client issues.',
+    minutes: 12,
+  },
+  {
     slug: 'philippines-account-management-client-reporting-checklist',
     title: 'Philippines account management client reporting checklist',
     excerpt: 'Build a clear client report with verified facts, named owners, open decisions, and a short review path.',
