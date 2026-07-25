@@ -32,6 +32,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-account-management-data-access-checklist',
+    title: 'Philippines account management data access checklist',
+    excerpt: 'Give a Philippines-based account manager safe, task-matched access to client records, inboxes, files, and reporting tools.',
+    minutes: 12,
+  },
+  {
     slug: 'philippines-account-management-communication-plan',
     title: 'Philippines account management communication plan',
     excerpt: 'Set clear updates, handoffs, access rules, and owner decisions for a Philippines-based account support team.',

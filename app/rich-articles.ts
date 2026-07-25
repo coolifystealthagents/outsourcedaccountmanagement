@@ -6,17 +6,152 @@ export type RichArticle = {
   readMinutes: number;
   intro: string[];
   takeaways: string[];
+  takeawaysTitle?: string;
   sections: Array<{ heading: string; paragraphs: string[] }>;
   banners: Array<{ label: string; title: string; body: string; href: string; link: string }>;
   table: { caption: string; headers: string[]; rows: string[][] };
   chart: Array<{ label: string; value: number; color: string }>;
+  chartMeta?: { title: string; desc: string; heading: string; method: string };
+  graphic?: {
+    title: string;
+    desc: string;
+    heading: string;
+    steps: Array<{ title: string; line1: string; line2: string; color: string }>;
+    caption: string;
+  };
   quote: { text: string; source: string; url: string };
   script: string[];
+  scriptTitle?: string;
+  scriptIntro?: string;
   faqs: Array<{ q: string; a: string }>;
+  faqTitle?: string;
   sources: Array<{ name: string; date: string; url: string; note: string }>;
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  'philippines-account-management-data-access-checklist': {
+    title: 'Philippines account management data access checklist',
+    description: 'A practical access checklist for US teams giving a Philippines-based account manager safe access to client records, inboxes, files, and reporting tools.',
+    published: '2026-07-25',
+    updated: '2026-07-25',
+    readMinutes: 12,
+    intro: [
+      'A Philippines-based account manager may need the CRM, a shared inbox, meeting notes, client files, and a reporting tool before the first account update is due. Giving access to everything is quick, but it leaves the business with a bigger mess if a login is shared, a role changes, or a client asks who can see its records.',
+      'This checklist gives the account manager enough access to do assigned work without handing over every setting and export. The US business owner still controls contracts, unusual client promises, system administration, money movement, and any decision that changes what the client bought.',
+    ],
+    takeawaysTitle: 'The short version',
+    takeaways: [
+      'List the exact client task before choosing a system permission.',
+      'Give each Filipino team member a named login instead of a shared password.',
+      'Test one real task with sample or limited client data before opening the full account book.',
+      'Review access on a fixed date and remove it as soon as the work changes.',
+    ],
+    sections: [
+      {
+        heading: 'Start with the work, not the software role',
+        paragraphs: [
+          'The Philippine IT-BPM sector ended 2024 with 1.82 million jobs and USD 38 billion in revenue, according to an IBPAP release dated January 16, 2025. That scale shows how much business work already runs through teams in the Philippines, but a large talent pool does not tell one account manager what they may open, change, download, or send.',
+          'Write the assigned account tasks first. A person who updates contact fields needs a different set of permissions from a person who prepares a client report, sorts a shared inbox, or books a review call. Put each task beside the client records it uses and the action the person must take.',
+          'Then mark the decisions that stay with an owner. Contract edits, unusual commitments, account closure, data exports, new user creation, and changes to security settings should have a named approver. The Filipino account manager can collect the facts and prepare the request without owning the final decision.',
+        ],
+      },
+      {
+        heading: 'Build a system-by-system access list',
+        paragraphs: [
+          'Make one access row for the CRM, inbox, file store, help desk, meeting tool, reporting dashboard, and client portal. Record the login owner, approved task, client group, allowed actions, approver, start date, and review date. If a cell is blank, stop and answer it before the account opens.',
+          'Use a named login for each person. Shared passwords hide who changed a field or downloaded a file, and they are hard to remove when one person leaves. A named account also lets the system keep a useful history for the owner who checks the first work.',
+          'The table below is a starting point, not a universal permission map. Software labels differ, so test what each role can really do rather than trusting a name such as editor or member. Open one sample account, complete the assigned task, and confirm that blocked actions stay blocked.',
+        ],
+      },
+      {
+        heading: 'Keep client data inside approved places',
+        paragraphs: [
+          'The Philippine Data Privacy Act of 2012 covers personal information systems in government and the private sector. A US business using a Philippines-based account team should still write its own clear rules for where client names, email addresses, meeting notes, support history, and private files may be stored. The rule should name the approved system and the person to contact when data lands in the wrong place.',
+          'Do not copy client lists into a personal spreadsheet just because it feels easier to sort. Do not paste a private client thread into an unapproved tool to get a summary. Keep the source record in the business system, and link to it from the task note when another person needs context.',
+          'Account teams are already testing more AI tools. In a February 3, 2025 release, IBPAP said 11% of surveyed IT-BPM firms had fully put agentic AI into use and 56% were actively adding it to operations. IBPAP did not publish the sample size in that release, so the numbers describe the firms surveyed and should not be treated as a count of every Philippine provider.',
+        ],
+      },
+      {
+        heading: 'Use least privilege and check the first live work',
+        paragraphs: [
+          'NIST gives a plain test for every permission: the person should receive only the access needed for assigned tasks. That means a manager preparing weekly notes may need to read account history and add an update, but may not need bulk export, user administration, deletion, or access to every client. Start narrow and add one permission only when a real task proves it is needed.',
+          'The first check should use a small set of accounts. Ask the manager to update a field, find a client note, prepare a report, save it in the right place, and route an owner-only request. Watch for copied data, broad search results, hidden export buttons, or a task that forces the person to borrow somebody else’s login.',
+          'Keep a short record of the test. Note the task, account used, expected result, actual result, reviewer, and any permission changed afterward. This makes the next access review faster because the owner can see why each permission exists instead of starting from memory.',
+        ],
+      },
+      {
+        heading: 'Review access without adding another long meeting',
+        paragraphs: [
+          'Microsoft reported on May 9, 2023 that the average Microsoft 365 employee spent 57% of work time communicating and 43% creating files. Its study combined a survey of 31,000 people in 31 countries with Microsoft 365 activity. An access check should reduce that load, not create another weekly call with no decisions.',
+          'Set a review date when access is approved. At the review, compare the task list with system logs, open accounts, exports, current client assignments, and the permissions the person still holds. Remove old access during the review, then record who made the change and when it took effect.',
+          'Run another review when the person changes roles, moves to a different client group, goes on extended leave, or stops working on the account. Do not wait for the next calendar date when the work has already changed. The three-step path below keeps the process simple: request access for a task, test the task, and review the access against live work.',
+        ],
+      },
+    ],
+    banners: [
+      { label: 'Access check 1 of 3', title: 'Start with clean CRM ownership', body: 'Match every permission to a named person, an assigned client group, and a dated review.', href: '/services/crm-account-maintenance', link: 'See CRM account support' },
+      { label: 'Access check 2 of 3', title: 'Route exceptions to an owner', body: 'Give the account manager a clear path for blocked work and owner-only decisions.', href: '/services/client-request-routing', link: 'See request routing support' },
+      { label: 'Access check 3 of 3', title: 'Check account risk after launch', body: 'Review missing records, unusual activity, and open owner decisions while the account list is still small.', href: '/services/account-health-monitoring', link: 'See account health support' },
+    ],
+    table: {
+      caption: 'Access record for a Philippines-based account manager',
+      headers: ['System', 'Allowed work', 'Keep with owner', 'Review proof'],
+      rows: [
+        ['CRM', 'Read assigned accounts and update approved fields', 'Bulk export, deletion, user settings', 'Change history and sample record'],
+        ['Shared inbox', 'Read assigned threads and send approved replies', 'Mailbox rules and account recovery', 'Sent message and access log'],
+        ['File store', 'Open and edit assigned client folders', 'Public sharing and broad folder access', 'Folder membership and link settings'],
+        ['Reporting tool', 'Build approved account views', 'New data connections and user control', 'Saved view and source list'],
+        ['Client portal', 'Post approved files and status notes', 'New users and account settings', 'Portal history and owner check'],
+      ],
+    },
+    chart: [
+      { label: 'Fully in use', value: 11, color: '#0f766e' },
+      { label: 'Being added', value: 56, color: '#6366f1' },
+    ],
+    chartMeta: {
+      title: 'Agentic AI use among IT-BPM firms surveyed by IBPAP',
+      desc: 'Horizontal bars show 11 percent of surveyed firms with agentic AI fully in use and 56 percent actively adding it to operations.',
+      heading: 'Agentic AI in surveyed firms',
+      method: 'The chart plots the two shares stated by IBPAP in its February 3, 2025 release: 11% fully in use and 56% actively being added. The release did not give a sample size, and the two bars should not be read as a full market census.',
+    },
+    graphic: {
+      title: 'Three-step client data access path',
+      desc: 'A process graphic moves from a written task request to a limited access test and then to a dated owner review.',
+      heading: 'Request, test, review',
+      steps: [
+        { title: '1  Request', line1: 'Task, client group,', line2: 'owner, end date', color: '#e8c98e' },
+        { title: '2  Test', line1: 'One real task,', line2: 'limited records', color: '#b9dfce' },
+        { title: '3  Review', line1: 'Logs, current work,', line2: 'remove old access', color: '#ffd9ce' },
+      ],
+      caption: 'The owner approves a task, the account manager proves the task works with limited access, and both sides review the permission against current client work. A role change starts the path again.',
+    },
+    quote: {
+      text: 'A security principle that a system should restrict the access privileges of users (or processes acting on behalf of users) to the minimum necessary to accomplish assigned tasks.',
+      source: 'NIST Computer Security Resource Center, citing CNSSI 4009-2015 and NIST SP 800-12 Rev. 1',
+      url: 'https://csrc.nist.gov/glossary/term/least_privilege',
+    },
+    scriptTitle: 'A copy-ready access request',
+    scriptIntro: 'Use this note for one system and one group of client accounts. Replace every bracketed item, then have the system owner approve the request before access opens.',
+    script: [
+      'Please give [person] a named login to [system] for this task: [exact task]. The account group is [clients or folder], and the internal owner is [name].',
+      'Allow these actions: [read, add, edit, send]. Keep these actions with the owner: [export, delete, user changes, settings, or other blocked action].',
+      'Test the access on [sample account] by [date]. Review it again on [date], or sooner if the role or client assignment changes.',
+    ],
+    faqTitle: 'Questions about client data access',
+    faqs: [
+      { q: 'Should a Philippines-based account manager get full CRM access?', a: 'Usually not at the start. Give access to the assigned client group and actions, then add a permission only when a real task needs it.' },
+      { q: 'Can the team use one shared login?', a: 'Use named logins whenever the system allows it. Named accounts make review and removal clearer because the owner can see who took an action.' },
+      { q: 'How often should access be reviewed?', a: 'Set a date when access opens, and review sooner when the role, client group, or employment status changes. Remove permissions that no longer match current work.' },
+      { q: 'Can an account manager use AI to summarize client notes?', a: 'Only when the business has approved the tool and the client data allowed in it. Keep the source note, check the output, and do not let a summary replace exact client wording when the wording matters.' },
+    ],
+    sources: [
+      { name: 'IT and Business Process Association of the Philippines, 2024 milestones', date: 'January 16, 2025', url: 'https://admin.ibpap.org/api/v1/articles/21', note: 'Reports 1.82 million Philippine IT-BPM jobs and USD 38 billion in 2024 revenue.' },
+      { name: 'IT and Business Process Association of the Philippines, agentic AI survey', date: 'February 3, 2025', url: 'https://admin.ibpap.org/api/v1/articles/23', note: 'Reports 11% full use and 56% active integration among surveyed IT-BPM firms; the release does not state a sample size.' },
+      { name: 'Microsoft Work Trend Index Annual Report', date: 'May 9, 2023', url: 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work', note: 'Reports the 57% communication and 43% creation split, based on a 31,000-person survey and Microsoft 365 activity.' },
+      { name: 'National Privacy Commission, Data Privacy Act of 2012', date: 'August 15, 2012', url: 'https://privacy.gov.ph/data-privacy-act/', note: 'Publishes Republic Act No. 10173 and its rules for personal information systems.' },
+      { name: 'NIST Computer Security Resource Center, least privilege glossary', date: 'accessed July 25, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Provides the exact least-privilege definition quoted in this checklist.' },
+    ],
+  },
   'philippines-account-management-communication-plan': {
     title: 'Philippines account management communication plan',
     description: 'A clear plan for updates, handoffs, access, and owner decisions when a Philippines-based account support team works with a US business.',
