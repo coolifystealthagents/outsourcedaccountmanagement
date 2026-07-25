@@ -29,6 +29,139 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  'philippines-account-management-client-reporting-checklist': {
+    title: 'Philippines account management client reporting checklist',
+    description: 'A practical checklist for US teams that use a Philippines-based account manager to prepare client reports, QBR notes, and owner decision lists.',
+    published: '2026-07-25',
+    updated: '2026-07-25',
+    readMinutes: 12,
+    intro: [
+      'A client report should help an owner make a choice, not make them search through five tools for the story. A Philippines-based account manager can gather the facts and prepare a clean draft while the US team keeps control of contract changes, unusual promises, money movement, and legal statements.',
+      'This checklist covers the source record, report fields, review steps, client-safe wording, access limits, and follow-up after the report goes out. It works for a weekly account note, a monthly review, or a customer QBR pack.',
+    ],
+    takeawaysTitle: 'The short version',
+    takeaways: [
+      'Build every claim from a linked source record and a clear time window.',
+      'Show the next action, owner, due date, and decision needed for every open item.',
+      'Keep client facts apart from internal notes and unapproved guesses.',
+      'Have the account owner check exceptions before the report reaches the client.',
+    ],
+    sections: [
+      {
+        heading: 'Start with the decision the report must support',
+        paragraphs: [
+          'The Philippine IT-BPM industry ended 2024 with 1.82 million jobs and USD 38 billion in revenue, according to an IBPAP release dated January 16, 2025. That is a large business-services workforce, but a client report still needs a narrow purpose that one account manager can explain in a sentence.',
+          'Write the reader and the decision at the top of the report brief. A weekly owner note may need to show blocked work and client risk, while a QBR draft may need to show results, open commitments, and the choices planned for the next period.',
+          'Do not fill a report with every field the CRM can export. Choose the facts that answer the stated question, then link each fact to its source so the owner can check it without starting a second search.',
+        ],
+      },
+      {
+        heading: 'Use one report record for facts and follow-up',
+        paragraphs: [
+          'Create one row for each item the client or owner may ask about. Record the measure, time window, source link, last checked time, account manager, next action, owner, due date, and any decision that still waits for approval.',
+          'Write a short note when a number has a limit. If a support count covers only one inbox, say so beside the count instead of leaving the reader to assume it covers every channel.',
+          'The table below gives a basic report shape. Keep the source and review columns even when the report looks simple, because those two fields make later corrections much easier.',
+        ],
+      },
+      {
+        heading: 'Check the source before writing the story',
+        paragraphs: [
+          'Open the CRM view, task list, support record, meeting note, and approved client file used in the report. Check that the date window matches, duplicate records are removed, and the account name is the same across the sources.',
+          'The Philippine Data Privacy Act of 2012 covers personal information systems in government and the private sector. Keep client contacts, private notes, and report files inside the business systems approved for the account, and do not move a client list to a personal file just because it is easier to sort.',
+          'Account teams are also testing more AI tools. In a February 3, 2025 release, IBPAP said 11% of surveyed IT-BPM firms had fully put agentic AI into use and 56% were actively adding it to operations, but the release did not state a sample size. If a tool drafts a summary, the account manager should compare every claim with the source and keep the approved final note in the client record.',
+        ],
+      },
+      {
+        heading: 'Give the account manager enough access, not every control',
+        paragraphs: [
+          'A report preparer may need to read assigned CRM records, open approved dashboards, view support history, and edit a working draft. That does not mean the person needs bulk export, user control, deletion, contract editing, or access to every client in the business.',
+          'Use a named login and match each permission to a report task. Test the access on one small account group, note any blocked step, and ask the system owner to add only the permission needed for that step.',
+          'The NIST definition of least privilege gives the owner a plain test for this setup. The exact definition below keeps the access check tied to assigned work rather than job title or convenience.',
+        ],
+      },
+      {
+        heading: 'Run a short owner review before client delivery',
+        paragraphs: [
+          'Microsoft reported on May 9, 2023 that the average Microsoft 365 employee spent 57% of work time communicating and 43% creating files. The study combined a survey of 31,000 people in 31 countries with Microsoft 365 activity, so a report review should cut search time instead of adding another long meeting.',
+          'Ask the account manager to mark changed facts, client concerns, overdue commitments, and owner decisions in the draft. The owner can then check those marked items, confirm the next action, and approve the client-safe version without rereading every old message.',
+          'Use the three-step path in the graphic below. Gather linked facts, check exceptions with the owner, and send the approved report with a dated follow-up action.',
+        ],
+      },
+      {
+        heading: 'Close the loop after the report is sent',
+        paragraphs: [
+          'Save the final report beside the source record and note when it was sent. Add client corrections, questions, and new commitments to the account record instead of leaving them only in email or chat.',
+          'At the next review, compare the last report with what actually happened. Fix a missing source, unclear owner, weak date window, or late decision in the report template so the same problem does not return next month.',
+          'Keep the report useful enough that another person can take over the account for a day. They should be able to see the current result, open promise, next action, owner, and supporting record without asking the report writer to explain the whole history.',
+        ],
+      },
+    ],
+    banners: [
+      { label: 'Report check 1 of 3', title: 'Build the source record first', body: 'Tie each client result, open item, and next action to a record the owner can open.', href: '/services/account-reporting', link: 'See account reporting support' },
+      { label: 'Report check 2 of 3', title: 'Prepare the review around decisions', body: 'Put changed facts, client concerns, and owner choices where the reviewer can find them fast.', href: '/services/customer-qbr-preparation', link: 'See QBR preparation support' },
+      { label: 'Report check 3 of 3', title: 'Watch what happens next', body: 'Compare the report with later client replies, completed work, and new account risk.', href: '/services/account-health-monitoring', link: 'See account health support' },
+    ],
+    table: {
+      caption: 'Client report record for a Philippines-based account manager',
+      headers: ['Report field', 'What to record', 'Source proof', 'Owner check'],
+      rows: [
+        ['Result', 'Measure, time window, and short context', 'CRM view or approved dashboard', 'Confirm scope and date window'],
+        ['Open item', 'Client request, current state, and next action', 'Task or source message', 'Choose owner and due date'],
+        ['Commitment', 'Exact promise, person, and date', 'Approved recap or contract record', 'Check any exception'],
+        ['Account risk', 'Observed fact and likely effect', 'Linked note, ticket, or event', 'Choose client response'],
+        ['Follow-up', 'Action after delivery and check date', 'Final report and account record', 'Confirm closure'],
+      ],
+    },
+    chart: [
+      { label: 'Teams meetings', value: 23, color: '#0f766e' },
+      { label: 'Teams chat', value: 19, color: '#6366f1' },
+      { label: 'Email', value: 15, color: '#f26b4e' },
+      { label: 'Creating files', value: 43, color: '#d6b36a' },
+    ],
+    chartMeta: {
+      title: 'Where Microsoft 365 work time went',
+      desc: 'Horizontal bars show 23 percent in Teams meetings, 19 percent in Teams chat, 15 percent in email, and 43 percent creating files.',
+      heading: 'Communication took 57% of work time',
+      method: 'Microsoft reported this split from Microsoft 365 activity in a rolling 28-day period ending in March 2023, with weekends excluded. Meetings, chat, and email add to 57% communication time; file creation makes up 43%.',
+    },
+    graphic: {
+      title: 'Three-step client report review path',
+      desc: 'A process graphic moves from linked client facts to an owner exception check and then to an approved report with a dated follow-up.',
+      heading: 'Gather, check, send',
+      steps: [
+        { title: '1  Gather', line1: 'Facts, window,', line2: 'source, owner', color: '#e8c98e' },
+        { title: '2  Check', line1: 'Changes, risk,', line2: 'open decisions', color: '#b9dfce' },
+        { title: '3  Send', line1: 'Approved report,', line2: 'next check date', color: '#ffd9ce' },
+      ],
+      caption: 'The account manager gathers linked facts and marks exceptions. The owner checks those items before the approved report goes to the client, then the account record holds the next action.',
+    },
+    quote: {
+      text: 'A security principle that a system should restrict the access privileges of users (or processes acting on behalf of users) to the minimum necessary to accomplish assigned tasks.',
+      source: 'NIST Computer Security Resource Center, citing CNSSI 4009-2015 and NIST SP 800-12 Rev. 1',
+      url: 'https://csrc.nist.gov/glossary/term/least_privilege',
+    },
+    scriptTitle: 'A copy-ready report review note',
+    scriptIntro: 'Send this note with the draft to the account owner. Replace every bracketed item and keep the source links inside the report record.',
+    script: [
+      'This report covers [client or account group] from [start date] through [end date]. The source records were last checked on [date and time].',
+      'Please review these changed facts or exceptions: [items]. The decisions needed are [choices], owned by [name], by [date].',
+      'After approval, I will send the report through [approved channel] and record client questions, corrections, and the next action in [account record].',
+    ],
+    faqTitle: 'Questions about client reporting',
+    faqs: [
+      { q: 'What should a Philippines-based account manager put in a client report?', a: 'Include the result, time window, source, open items, commitments, account risk, next actions, owners, and due dates that fit the report purpose.' },
+      { q: 'Who should approve the report?', a: 'The named account owner should check exceptions, contract-related wording, unusual promises, private information, and any decision outside the account manager’s assigned work.' },
+      { q: 'Can AI write the client summary?', a: 'It may draft a summary only in an approved tool with allowed data. A person should compare each claim with the source and approve the final client wording.' },
+      { q: 'How can the team make report review faster?', a: 'Mark only changed facts, open risk, and needed decisions in the draft. Keep source links beside each item so the owner can check the evidence without searching.' },
+    ],
+    sources: [
+      { name: 'IT and Business Process Association of the Philippines, 2024 milestones', date: 'January 16, 2025', url: 'https://admin.ibpap.org/api/v1/articles/21', note: 'Reports 1.82 million Philippine IT-BPM jobs and USD 38 billion in 2024 revenue.' },
+      { name: 'IT and Business Process Association of the Philippines, agentic AI survey', date: 'February 3, 2025', url: 'https://admin.ibpap.org/api/v1/articles/23', note: 'Reports 11% full use and 56% active integration among surveyed IT-BPM firms; the release does not state a sample size.' },
+      { name: 'Microsoft Work Trend Index Annual Report', date: 'May 9, 2023', url: 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work', note: 'Reports the 57% communication and 43% creation split, based on a 31,000-person survey and Microsoft 365 activity.' },
+      { name: 'National Privacy Commission, Data Privacy Act of 2012', date: 'August 15, 2012', url: 'https://privacy.gov.ph/data-privacy-act/', note: 'Publishes Republic Act No. 10173 and its rules for personal information systems.' },
+      { name: 'NIST Computer Security Resource Center, least privilege glossary', date: 'accessed July 25, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Provides the exact least-privilege definition quoted in this checklist.' },
+    ],
+  },
   'philippines-account-management-data-access-checklist': {
     title: 'Philippines account management data access checklist',
     description: 'A practical access checklist for US teams giving a Philippines-based account manager safe access to client records, inboxes, files, and reporting tools.',
