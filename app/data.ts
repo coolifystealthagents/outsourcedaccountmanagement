@@ -32,6 +32,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-account-management-handoff-checklist',
+    title: 'Philippines account management handoff checklist',
+    excerpt: 'Move a client account without losing decisions, access rules, risks, or next steps.',
+    minutes: 12,
+  },
+  {
     slug: 'outsourced-account-management-planning',
     title: 'Outsourced Account Management: What should account support cover?',
     excerpt: 'A plain guide to role scope, staffing details, and the decisions that stay in house.',
