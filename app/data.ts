@@ -32,6 +32,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-account-management-action-item-tracker',
+    title: 'Philippines account management action item tracker',
+    excerpt: 'Capture each client request with its source, work owner, decision owner, due date, next update, and proof of closure.',
+    minutes: 12,
+  },
+  {
     slug: 'philippines-account-management-renewal-readiness-checklist',
     title: 'Philippines account management renewal readiness checklist',
     excerpt: 'Prepare a clean renewal record with verified facts, open commitments, owner decisions, and a clear client follow-up plan.',

@@ -29,6 +29,139 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  'philippines-account-management-action-item-tracker': {
+    title: 'Philippines account management action item tracker',
+    description: 'A practical action item tracker for US teams that use a Philippines-based account manager to capture requests, set owners, and close client follow-up.',
+    published: '2026-07-25',
+    updated: '2026-07-25',
+    readMinutes: 12,
+    intro: [
+      'Client action items get lost when they sit in meeting notes, inboxes, chat threads, and memory at the same time. A Philippines-based account manager can keep one clear tracker, but each item still needs a source, an owner, a due date, and a plain rule for closure.',
+      'This guide shows how to capture the request, check the words against the source, route the decision, follow up, and close the record. It also keeps contracts, money, legal statements, security calls, and unusual client promises with the approved business owner.',
+    ],
+    takeawaysTitle: 'The short version',
+    takeaways: [
+      'Create one action row while the client request is still fresh.',
+      'Copy the source wording when a promise, deadline, or complaint matters.',
+      'Name one doer and one decision owner instead of assigning a group.',
+      'Close the row only when the proof and client record show the same result.',
+    ],
+    sections: [
+      {
+        heading: 'Give every client action one home',
+        paragraphs: [
+          'The Philippine IT-BPM industry ended 2024 with 1.82 million jobs and USD 38 billion in revenue, according to an IBPAP release dated January 16, 2025. A workforce that large can support many kinds of account work, but a single client request still needs one place where the team can see what happens next.',
+          'Use one tracker for the account instead of keeping separate lists in email, chat, and meeting files. Each row should show the client, request, source link, date received, person doing the work, decision owner, due date, current state, next update, and closure proof.',
+          'Keep the tracker close to the system where the team already works. If a field needs a long explanation, link to the source record and leave a short fact in the row so the list stays easy to scan.',
+        ],
+      },
+      {
+        heading: 'Capture the request before writing the task',
+        paragraphs: [
+          'Read the client message or meeting note before turning it into an action. Record the exact ask, the client reason, any stated deadline, the affected work, and the words that sound like a promise or complaint.',
+          'Microsoft reported on May 9, 2023 that 62% of survey respondents struggled with too much time spent searching for information during the workday. The report also said 68% lacked enough uninterrupted focus time, which is a good reason to put the source beside the task rather than make the next person hunt for it.',
+          'Do not smooth out a hard client sentence until it means something softer. If the client wrote that a file must arrive before a board meeting, keep that fact and its date in the row, then let the owner decide what the business can promise.',
+        ],
+      },
+      {
+        heading: 'Separate the doer from the decision owner',
+        paragraphs: [
+          'A task may have one person who prepares the work and another who has authority to approve it. Name both people when the item touches contract terms, credits, money movement, legal wording, security, access, or work outside the agreed scope.',
+          'The account manager can collect facts, prepare a draft, remind the doer, and tell the client when the next approved update will arrive. The business owner should make the unusual choice and approve wording that changes a commitment.',
+          'Avoid owners such as sales, support, or leadership because a group name does not tell anyone who must answer. Put one person in the decision field and add a backup route for urgent work when that person is away.',
+        ],
+      },
+      {
+        heading: 'Use small states that tell the truth',
+        paragraphs: [
+          'A short state list works better than a collection of labels that nobody defines. Use captured, checking, waiting for owner, doing, waiting for client, and closed, then write what must be true before an item can move to the next state.',
+          'Microsoft found that commercial Microsoft 365 users in its activity analysis spent 57% of their intentional app time communicating and 43% creating files. The analysis covered a rolling 28-day period ending in March 2023, so the figures do not measure account work, but they do show why status messages and document work should point to the same record.',
+          'Add the next check time beside every item that is waiting. A row without a next check can look calm while the client waits, so make the next action and the next update time visible even when the final answer is not ready.',
+        ],
+      },
+      {
+        heading: 'Protect client data inside the tracker',
+        paragraphs: [
+          'Republic Act No. 10173, the Philippine Data Privacy Act of 2012, covers personal information systems in government and the private sector. Keep client contacts, private comments, account files, and action history in systems approved for that work.',
+          'The tracker should contain enough detail to route the task without becoming a second copy of every private file. Link to the controlled source, use named accounts, and limit access to people who need the record for their assigned work.',
+          'A Philippines-based account manager may need to add rows, update facts, and prepare follow-up. Bulk export, deletion, user administration, broad account access, and a legal or security judgment should stay with the people who hold those duties.',
+        ],
+      },
+      {
+        heading: 'Close the item with proof, not a green label',
+        paragraphs: [
+          'An item is not closed because someone changed its color. Close it when the approved work is complete, the evidence is linked, the client has received the needed update, and any new follow-up has its own owner and date.',
+          'Read the source and the final result side by side before closing a promise or complaint. If the work solved only part of the request, record what remains and keep the row open instead of using a cheerful note to hide the gap.',
+          'Review closed items during the normal account check and look for the same miss showing up again. A weak source field, vague owner rule, late reminder, broad access setting, or missing client update should lead to a small change in the tracker template.',
+        ],
+      },
+    ],
+    banners: [
+      { label: 'Action check 1 of 3', title: 'Route each client request', body: 'Capture the source, owner, due date, and next update before the request leaves the inbox.', href: '/services/client-request-routing', link: 'See client request routing support' },
+      { label: 'Action check 2 of 3', title: 'Keep the account record current', body: 'Turn open actions, client replies, and closure proof into a clean account report.', href: '/services/account-reporting', link: 'See account reporting support' },
+      { label: 'Action check 3 of 3', title: 'Prepare the next client review', body: 'Bring open promises, owner choices, and completed work into one review record.', href: '/services/customer-qbr-preparation', link: 'See QBR preparation support' },
+    ],
+    table: {
+      caption: 'Action item tracker for a Philippines-based account manager',
+      headers: ['Tracker field', 'What to record', 'Source proof', 'Close rule'],
+      rows: [
+        ['Client request', 'Exact ask, reason, affected work, and date received', 'Message, meeting note, or ticket', 'Request is matched to the approved result'],
+        ['Work owner', 'One person doing the next step', 'Assigned task record', 'Work is complete and evidence is linked'],
+        ['Decision owner', 'One person who can approve an exception or promise', 'Approval in the approved system', 'Decision and limits are recorded'],
+        ['Next update', 'Time, channel, and person sending it', 'Approved client note', 'Client received the update'],
+        ['Closure proof', 'Final result and any new follow-up', 'Completed file, system record, or client reply', 'Nothing remains hidden in the old row'],
+      ],
+    },
+    chart: [
+      { label: 'Too much search time', value: 62, color: '#0f766e' },
+      { label: 'Short on focus time', value: 68, color: '#6366f1' },
+      { label: 'Communicating', value: 57, color: '#f26b4e' },
+      { label: 'Creating files', value: 43, color: '#d6b36a' },
+    ],
+    chartMeta: {
+      title: 'Selected workday findings from the 2023 Microsoft Work Trend Index',
+      desc: 'Four horizontal bars show 62 percent struggling with search time, 68 percent lacking focus time, and an activity split of 57 percent communicating and 43 percent creating files.',
+      heading: 'Make the tracker faster than the hunt',
+      method: 'Microsoft published these figures on May 9, 2023. The 62% and 68% figures came from a survey of 31,000 people across 31 countries. The 57% and 43% figures came from intentional activity by commercial Microsoft 365 users in named apps during a rolling 28-day period ending in March 2023; weekends and education users were excluded. None of the figures measure account management results.',
+    },
+    graphic: {
+      title: 'Three-step action item path',
+      desc: 'A process graphic moves from a source-backed request to a named owner and then to proof of closure with the client record updated.',
+      heading: 'Capture, assign, close',
+      steps: [
+        { title: '1  Capture', line1: 'Client words, source,', line2: 'effect, due date', color: '#e8c98e' },
+        { title: '2  Assign', line1: 'Work owner, decision', line2: 'owner, next update', color: '#b9dfce' },
+        { title: '3  Close', line1: 'Approved result,', line2: 'proof, client record', color: '#ffd9ce' },
+      ],
+      caption: 'The account manager captures the client request and source. A named person does the work, the right owner approves exceptions, and the row closes only after proof and the client update match.',
+    },
+    quote: {
+      text: 'The security goal that generates the requirement for actions of an entity to be traced uniquely to that entity.',
+      source: 'NIST Computer Security Resource Center, accountability glossary, citing NIST SP 800-33',
+      url: 'https://csrc.nist.gov/glossary/term/accountability',
+    },
+    scriptTitle: 'A copy-ready action item note',
+    scriptIntro: 'Use this after checking the original client request. Replace every bracketed item, keep the source link in the internal record, and ask the decision owner to approve any unusual promise before it reaches the client.',
+    script: [
+      'Client request: [exact ask] received through [channel] on [date and time]. The affected work is [work], the source is [link], and the client needs the next update by [date and time].',
+      'Work owner: [name]. Decision owner: [name]. The choice that still needs approval is [choice], and the current limit is [approved boundary].',
+      'Next step: [action] by [date and time]. I will send the approved client update through [channel] and close this row only after [proof] is linked in [system].',
+    ],
+    faqTitle: 'Questions about the action item tracker',
+    faqs: [
+      { q: 'What belongs in a client action item tracker?', a: 'Record the exact request, source, client effect, work owner, decision owner, due date, current state, next update, and closure proof.' },
+      { q: 'Who should own the task?', a: 'Name one person to do the work. Add a separate decision owner when the item touches contracts, money, legal wording, security, access, or an unusual client promise.' },
+      { q: 'When should an action item be closed?', a: 'Close it after the approved work is complete, proof is linked, the client has the needed update, and any remaining work has a new owner and date.' },
+      { q: 'Can a Philippines-based account manager run the tracker?', a: 'Yes. The account manager can capture, check, assign, remind, prepare updates, and record closure within written limits, while owner-only choices stay with the approved business owner.' },
+    ],
+    sources: [
+      { name: 'IT and Business Process Association of the Philippines, 2024 milestones', date: 'January 16, 2025', url: 'https://admin.ibpap.org/api/v1/articles/21', note: 'Reports 1.82 million Philippine IT-BPM jobs and USD 38 billion in 2024 revenue.' },
+      { name: 'Microsoft Work Trend Index Annual Report', date: 'May 9, 2023', url: 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work', note: 'Reports the 62% search-time and 68% focus-time findings from 31,000 survey respondents, plus the 57% communication and 43% file-creation activity split.' },
+      { name: 'National Privacy Commission, Data Privacy Act of 2012', date: 'August 15, 2012', url: 'https://privacy.gov.ph/data-privacy-act/', note: 'Publishes Republic Act No. 10173 and the law covering personal information systems.' },
+      { name: 'NIST Computer Security Resource Center, accountability glossary', date: 'accessed July 25, 2026', url: 'https://csrc.nist.gov/glossary/term/accountability', note: 'Provides the exact accountability definition quoted in this guide.' },
+      { name: 'NIST Computer Security Resource Center, least privilege glossary', date: 'accessed July 25, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Defines limiting access privileges to the minimum needed for assigned tasks.' },
+    ],
+  },
   'philippines-account-management-renewal-readiness-checklist': {
     title: 'Philippines account management renewal readiness checklist',
     description: 'A practical checklist for US teams that use a Philippines-based account manager to prepare renewal records, owner decisions, and client follow-up.',
