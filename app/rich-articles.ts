@@ -17,6 +17,118 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  'philippines-account-management-communication-plan': {
+    title: 'Philippines account management communication plan',
+    description: 'A clear plan for updates, handoffs, access, and owner decisions when a Philippines-based account support team works with a US business.',
+    published: '2026-07-25',
+    updated: '2026-07-25',
+    readMinutes: 12,
+    intro: [
+      'A Philippines-based account manager can keep client work moving while a US team sleeps. That time difference helps only when both sides know what to write down, what can wait, and which decisions need an owner right away.',
+      'This plan covers daily notes, client messages, handoffs, account access, and review. The Filipino account manager can prepare updates, follow approved steps, and flag risk, while the business owner keeps control of contract changes, exceptions, money movement, and legal promises.',
+    ],
+    takeaways: [
+      'Use one account record instead of asking people to search old chat and email.',
+      'Set a short daily update and a fuller weekly review for every active account.',
+      'Name the owner and backup for requests the account manager cannot approve.',
+      'Give each person their own login and only the access needed for assigned work.',
+    ],
+    sections: [
+      {
+        heading: 'Start with one written account record',
+        paragraphs: [
+          'The Philippines has a deep business services workforce. In a release dated January 16, 2025, the IT and Business Process Association of the Philippines said the local IT-BPM industry closed 2024 with 1.82 million jobs and USD 38 billion in revenue. A large talent pool gives employers more people to consider, but each new account manager still needs a clean record of the client relationship.',
+          'Build one row or page for every client. Include the internal owner, client contacts, agreed work, open requests, last promise, current risk, next action, and due date. Add links to the CRM record and the files that support the next action so the manager does not have to hunt through old folders.',
+          'Keep the record factual and easy to scan. Write “client asked for a revised launch date on July 23” instead of “client is unhappy.” The first note tells the next person what happened and when, while the second leaves them guessing.',
+        ],
+      },
+      {
+        heading: 'Set the daily and weekly update rhythm',
+        paragraphs: [
+          'A daily update should be short enough to read in a few minutes. List work finished, replies received, tasks waiting on someone else, account risks, and decisions needed from the owner. Put the needed decision first when a client is blocked, then link to the account record for detail.',
+          'Use the weekly review for the bigger picture. Look at accounts with no recent contact, overdue promises, missing records, changes in client mood, and work due in the next two weeks. The internal owner should confirm which risks need a client call and which routine items the Filipino account manager can close.',
+          'Do not turn every update into another meeting. Microsoft reported on May 9, 2023 that the average Microsoft 365 employee spent 57% of work time communicating and 43% creating files. Its study combined a survey of 31,000 people in 31 countries with Microsoft 365 activity, which is a good reason to keep account notes useful and meetings selective.',
+        ],
+      },
+      {
+        heading: 'Write rules for client messages',
+        paragraphs: [
+          'Give the account manager examples of messages they may send without a fresh review. These may include a meeting confirmation, an approved recap, a request for a missing file, or a reminder about an agreed next step. Each example should show the right tone, the needed facts, and where the final message gets recorded.',
+          'Create a second list for messages that need owner approval. Put scope changes, contract language, credits, refunds, legal statements, public comments, and unusual commitments on that list. The account manager can gather facts and draft a reply, but the named owner makes the decision.',
+          'Use a simple holding note when the owner needs time. The manager can say that the request is with the account owner and give the next update time without promising an answer. This is more honest than sending a quick answer that the business later has to undo.',
+        ],
+      },
+      {
+        heading: 'Protect client data and account access',
+        paragraphs: [
+          'List every system used for client work, including the CRM, shared inbox, file storage, help desk, meeting tool, and client portal. Give each Philippines-based team member an individual account, record who approved it, and state what the person can view, change, export, or share. Remove access when the role changes instead of letting old permissions sit unnoticed.',
+          'The Philippine Data Privacy Act of 2012 applies to personal information systems in government and the private sector. A communication plan should say where client contact details, meeting notes, and private files may be stored. It should also name the person to contact if information is sent to the wrong place or appears in an unapproved tool.',
+          'NIST defines least privilege as giving users the minimum access needed for assigned tasks. Apply that test to every client system instead of copying another employee’s permissions. A manager who updates notes and prepares reports usually does not need broad administrator rights.',
+        ],
+      },
+      {
+        heading: 'Make handoffs work across the time difference',
+        paragraphs: [
+          'End each shift with a written handoff for work that cannot wait. State what happened, what the client expects, the next action, the owner, the deadline, and the link to the source record. If there is no action before the next Philippines shift, leave the item in the normal account record instead of making the handoff list noisy.',
+          'Agree on a small urgent channel and define what belongs there. A client system outage, a private-data mistake, a missed hard deadline, or a request that blocks active work may need an urgent alert. A routine status question can stay in the account record for the next planned review.',
+          'The outgoing person should not hand over a mystery. They should name the exact choice needed from the incoming owner and say what happens if nobody acts by the deadline. The incoming person then confirms the item in writing, which gives both sides a clear start point.',
+        ],
+      },
+      {
+        heading: 'Review automation and AI before it touches a client',
+        paragraphs: [
+          'Account teams may use automatic summaries, reminders, and AI drafts. In a release published in February 2025, IBPAP said 11% of surveyed IT-BPM firms had fully put agentic AI into use and 56% were actively adding it to operations. The release did not state the survey sample size, so those figures describe the surveyed firms rather than every IT-BPM company in the Philippines.',
+          'Write down which tools are allowed and which client data may enter them. Name the person who checks an AI draft before it reaches a client, and keep a copy of the approved message in the account record. Do not let an automatic summary quietly replace the original client note when exact wording matters.',
+          'Review the communication plan after the first week and again after the first month. Check for missed promises, duplicate messages, late owner decisions, access that was too broad, and notes that another person could not follow. Fix the record or rule that caused the miss instead of asking the team to “communicate better.”',
+        ],
+      },
+    ],
+    banners: [
+      { label: 'Communication check 1 of 3', title: 'Make account health easy to see', body: 'Use clear status notes, dated next actions, and named owners for every active account.', href: '/services/account-health-monitoring', link: 'See account health support' },
+      { label: 'Communication check 2 of 3', title: 'Keep the CRM record useful', body: 'Clean fields and linked source notes give the next person a reliable place to start.', href: '/services/crm-account-maintenance', link: 'See CRM account support' },
+      { label: 'Communication check 3 of 3', title: 'Set the escalation path early', body: 'Name the owner, backup, and response time before a difficult request arrives.', href: '/services/escalation-coordination', link: 'See escalation support' },
+    ],
+    table: {
+      caption: 'A simple communication plan for active client accounts',
+      headers: ['Update', 'What it should contain', 'Owner action'],
+      rows: [
+        ['Daily note', 'Finished work, replies, blocks, risks, and needed decisions', 'Answer items that block the client'],
+        ['Shift handoff', 'Event, client expectation, next action, owner, and deadline', 'Confirm urgent items in writing'],
+        ['Weekly review', 'Silent accounts, overdue promises, risks, and upcoming work', 'Choose calls, approvals, and follow-up'],
+        ['Access review', 'Systems, permissions, approver, and removal date', 'Remove access that the role does not need'],
+        ['Tool review', 'Allowed tools, allowed data, checker, and source record', 'Approve changes before client use'],
+      ],
+    },
+    chart: [
+      { label: 'Teams meetings', value: 23, color: '#0f766e' },
+      { label: 'Teams chat', value: 19, color: '#6366f1' },
+      { label: 'Email', value: 15, color: '#f26b4e' },
+      { label: 'Creation time', value: 43, color: '#d6b36a' },
+    ],
+    quote: {
+      text: 'This year’s milestones underscore the incredible dedication and innovation within our industry. These achievements are a testament to our collective efforts. As we step into 2025, we are poised to seize new opportunities and drive the Philippines’ position as a global IT-BPM leader,',
+      source: 'Jack Madrid, President and CEO of IBPAP, January 16, 2025',
+      url: 'https://admin.ibpap.org/api/v1/articles/21',
+    },
+    script: [
+      'The account record is current through [date and time]. The client’s next expected result is [result] by [date].',
+      'The open item is [item], and [owner] needs to decide [decision] by [time]. The supporting message or file is linked in the account record.',
+      'If no decision arrives by that time, use this approved holding note: “I have shared this with the account owner and will update you by [time].”',
+    ],
+    faqs: [
+      { q: 'How often should a Philippines-based account manager send updates?', a: 'Use one short daily note for active work and one fuller weekly review for account health. Send an urgent alert only for the events listed in the plan.' },
+      { q: 'What decisions should stay with the US business owner?', a: 'Keep contract changes, refunds, credits, legal statements, unusual commitments, and other high-risk choices with an approved owner. The Filipino account manager can collect facts and prepare the reply.' },
+      { q: 'Should every client message get reviewed?', a: 'No, if the message matches an approved example and stays within the assigned work. Review new situations, sensitive data, and any message that changes what the business promised.' },
+      { q: 'What belongs in a shift handoff?', a: 'Include the event, client expectation, next action, owner, deadline, and link to the source record. Leave routine items in the normal account note so urgent work stays easy to spot.' },
+    ],
+    sources: [
+      { name: 'IT and Business Process Association of the Philippines, 2024 milestones', date: 'January 16, 2025', url: 'https://admin.ibpap.org/api/v1/articles/21', note: 'Reports 1.82 million Philippine IT-BPM jobs and USD 38 billion in 2024 revenue, and contains the exact Jack Madrid quote.' },
+      { name: 'Microsoft Work Trend Index Annual Report', date: 'May 9, 2023', url: 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work', note: 'Reports the 57% communication and 43% creation split, with a 31,000-person survey and Microsoft 365 activity.' },
+      { name: 'IT and Business Process Association of the Philippines, agentic AI survey', date: 'February 3, 2025', url: 'https://admin.ibpap.org/api/v1/articles/23', note: 'Reports 11% full use and 56% active integration among surveyed IT-BPM firms; no sample size is stated.' },
+      { name: 'National Privacy Commission, Data Privacy Act of 2012', date: 'August 15, 2012', url: 'https://privacy.gov.ph/data-privacy-act/', note: 'Publishes Republic Act No. 10173 and its rules for personal information systems.' },
+      { name: 'NIST Computer Security Resource Center, least privilege glossary', date: 'accessed July 25, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Defines least privilege and points to the supporting NIST and CNSSI publications.' },
+    ],
+  },
   'philippines-account-management-handoff-checklist': {
     title: 'Philippines account management handoff checklist',
     description: 'A practical checklist for moving a client account to a Philippines-based account manager without losing decisions, access rules, risks, or next steps.',

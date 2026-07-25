@@ -32,6 +32,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-account-management-communication-plan',
+    title: 'Philippines account management communication plan',
+    excerpt: 'Set clear updates, handoffs, access rules, and owner decisions for a Philippines-based account support team.',
+    minutes: 12,
+  },
+  {
     slug: 'philippines-account-management-handoff-checklist',
     title: 'Philippines account management handoff checklist',
     excerpt: 'Move a client account without losing decisions, access rules, risks, or next steps.',

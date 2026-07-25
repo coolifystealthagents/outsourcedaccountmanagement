@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 function CommunicationChart({ points }: { points: Array<{ label: string; value: number; color: string }> }) {
-  return <figure className="article-visual" data-visual="communication-chart">
+  return <figure className="article-visual" data-visual="communication-chart" role="region" aria-label="Scrollable communication chart" tabIndex={0}>
     <svg viewBox="0 0 760 330" role="img" aria-labelledby="communication-chart-title communication-chart-desc">
       <title id="communication-chart-title">Where Microsoft 365 work time went</title>
       <desc id="communication-chart-desc">Horizontal bars show 23 percent in Teams meetings, 19 percent in Teams chat, 15 percent in email, and 43 percent creating files.</desc>
@@ -51,7 +51,7 @@ function CommunicationChart({ points }: { points: Array<{ label: string; value: 
 }
 
 function HandoffGraphic() {
-  return <figure className="article-visual" data-visual="handoff-ownership-graphic">
+  return <figure className="article-visual" data-visual="handoff-ownership-graphic" role="region" aria-label="Scrollable handoff ownership graphic" tabIndex={0}>
     <svg viewBox="0 0 760 300" role="img" aria-labelledby="handoff-graphic-title handoff-graphic-desc">
       <title id="handoff-graphic-title">Three-part account handoff path</title>
       <desc id="handoff-graphic-desc">A process graphic moves an account from the outgoing manager to a written account record, then to the incoming Filipino account manager with owner review.</desc>
@@ -140,7 +140,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
 
           {index === 1 && <>
-            <div className="table-wrap"><table><caption>{rich.table.caption}</caption><thead><tr>{rich.table.headers.map((header) => <th key={header} scope="col">{header}</th>)}</tr></thead><tbody>{rich.table.rows.map((row) => <tr key={row[0]}>{row.map((cell, cellIndex) => cellIndex === 0 ? <th key={cell} scope="row">{cell}</th> : <td key={cell}>{cell}</td>)}</tr>)}</tbody></table></div>
+            <div className="table-wrap" role="region" aria-label="Scrollable account communication table" tabIndex={0}><table><caption>{rich.table.caption}</caption><thead><tr>{rich.table.headers.map((header) => <th key={header} scope="col">{header}</th>)}</tr></thead><tbody>{rich.table.rows.map((row) => <tr key={row[0]}>{row.map((cell, cellIndex) => cellIndex === 0 ? <th key={cell} scope="row">{cell}</th> : <td key={cell}>{cell}</td>)}</tr>)}</tbody></table></div>
             <CommunicationChart points={rich.chart} />
           </>}
           {index === 3 && <blockquote className="expert-quote"><p>“{rich.quote.text}”</p><cite><a href={rich.quote.url} rel="noreferrer">{rich.quote.source}</a></cite></blockquote>}
