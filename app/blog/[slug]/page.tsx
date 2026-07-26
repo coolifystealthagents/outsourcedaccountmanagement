@@ -133,7 +133,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         <p className="eyebrow">Philippines account support</p>
         <h1>{rich.title}</h1>
         <p className="article-deck">{rich.description}</p>
-        <p className="article-meta">Published July 25, 2026 · {rich.readMinutes} minute read</p>
+        <p className="article-meta">Published {new Date(`${rich.published}T00:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })} · {rich.readMinutes} minute read</p>
       </header>
 
       <div className="article-body">

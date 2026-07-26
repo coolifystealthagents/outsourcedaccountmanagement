@@ -32,6 +32,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-account-management-qbr-preparation-checklist',
+    title: 'Philippines account management QBR preparation checklist',
+    excerpt: 'Prepare a useful quarterly business review with checked facts, clear decisions, owner limits, and a client-ready follow-up plan.',
+    minutes: 12,
+  },
+  {
     slug: 'philippines-account-management-client-meeting-notes-checklist',
     title: 'Philippines account management client meeting notes checklist',
     excerpt: 'Turn each client meeting into a checked record with clear decisions, owners, dates, and approved follow-up.',

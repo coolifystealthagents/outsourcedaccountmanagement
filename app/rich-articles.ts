@@ -1046,4 +1046,136 @@ export const richArticles: Record<string, RichArticle> = {
       { name: 'NIST Computer Security Resource Center, least privilege glossary', date: 'accessed July 25, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Provides the exact least-privilege definition quoted in this guide.' },
     ],
   },
+  'philippines-account-management-qbr-preparation-checklist': {
+    title: 'Philippines account management QBR preparation checklist',
+    description: 'A practical QBR preparation checklist for US teams that use a Philippines-based account manager to check account facts, prepare the review, and route decisions.',
+    published: '2026-07-26',
+    updated: '2026-07-26',
+    readMinutes: 12,
+    intro: [
+      'A quarterly business review should help a client see what happened, what needs attention, and what comes next. It should not be a long slide deck filled with loose numbers and old activity.',
+      'A Philippines-based account manager can collect records, check dates, prepare the meeting file, and track follow-up. The internal account owner still approves business promises, contract changes, credits, security exceptions, and any answer that goes beyond the agreed work.',
+    ],
+    takeawaysTitle: 'The short version',
+    takeaways: [
+      'Start with the client goal and the last approved review, not a blank slide deck.',
+      'Trace every important number to a named system, date range, and person who checked it.',
+      'Separate completed work from results, open risks, and decisions that need an owner.',
+      'End with a short action list and save the approved recap in the account record.',
+    ],
+    sections: [
+      {
+        heading: 'Set the review question before collecting data',
+        paragraphs: [
+          'The Philippine IT-BPM industry closed 2024 with 1.82 million jobs and USD 38 billion in revenue, according to an IBPAP release dated January 16, 2025. That workforce includes people who can support account reporting, but a useful review still starts with one client and one clear question.',
+          'Write the reason for the QBR at the top of the working file. The client may need to review adoption, open support issues, delivery progress, upcoming work, or a risk that needs an owner decision. Keep that purpose visible while the team gathers records.',
+          'Open the last approved QBR, current account plan, contract scope, meeting notes, action tracker, and recent client messages. Mark which facts still apply and which ones need a fresh check. Do not copy an old slide just because it already looks finished.',
+        ],
+      },
+      {
+        heading: 'Build one checked account record',
+        paragraphs: [
+          'Microsoft reported on May 9, 2023 that 62% of the 31,000 people in its survey struggled with too much time spent searching for information during the workday. The same report said 68% lacked enough uninterrupted focus time, so the QBR file should point to source records instead of asking the reviewer to hunt through folders.',
+          'Create one source row for every fact that may appear in the review. Record the measure, date range, source system, saved report or view, person who checked it, check date, and any limit that changes how the client should read it.',
+          'Use the same client name and date range across the working file. If the CRM, help desk, and project tool count work in different ways, say so beside the number. A clean note about a limit is better than a smooth chart that joins things that do not match.',
+        ],
+      },
+      {
+        heading: 'Separate activity, result, risk, and decision',
+        paragraphs: [
+          'A list of calls, emails, files, and tickets shows that work happened, but it does not tell the client what changed. Put activity beside the result it supported, then name any gap. If the result cannot be confirmed, label it open rather than turning the activity into a success claim.',
+          'Microsoft also found that commercial Microsoft 365 users in its activity analysis spent 57% of their intentional app time communicating and 43% creating files. The analysis used a rolling 28-day period ending in March 2023 and did not measure account management results. That distinction matters when a team wants to use message or document volume as proof of client progress.',
+          'Give risks and decisions their own space. A risk states what may go wrong, the warning sign, the owner, and the next check date. A decision line states the choice, the person with authority, the facts needed, and when the client should receive the approved answer.',
+        ],
+      },
+      {
+        heading: 'Write the client story in plain words',
+        paragraphs: [
+          'Build the review in the order the client needs. Start with the goal and date range, show the checked facts, explain open work, surface risks, list decisions, and close with the next actions. Keep the details that support those points in an appendix or linked record.',
+          'Use short labels that say what changed. “Seven open items, two waiting on client files” is easier to act on than “workstream status.” Put the date beside each count and name the source in a note so the number can be checked during the meeting.',
+          'Do not hide a miss behind soft language. State the missed event, its effect, the action already taken, and the owner of the next check. The account owner should approve any client wording about fault, remedy, contract scope, or a promise that was not already agreed.',
+        ],
+      },
+      {
+        heading: 'Protect client records during preparation',
+        paragraphs: [
+          'Republic Act No. 10173, the Philippine Data Privacy Act of 2012, covers personal information systems in government and the private sector. A QBR may combine client contacts, usage records, support history, meeting notes, and internal comments, so the working file belongs in an approved system with named access.',
+          'Give the Philippines-based account manager only the records needed for assigned preparation work. Use an individual login, limit exports, and keep private internal notes out of the client copy. Link to controlled records instead of making new loose copies of private files.',
+          'NIST describes accountability as tracing actions to the entity that took them. Apply that idea to the QBR by recording who checked each important fact and who approved the client version. If a number changes after review, keep the correction, date, and source rather than replacing it without a record.',
+        ],
+      },
+      {
+        heading: 'Run a two-pass review and close the loop',
+        paragraphs: [
+          'The first pass checks facts. Compare every number, date, client name, open item, and status with its source. Ask a second person to check the claims that drive a decision or may cause a hard client question.',
+          'The second pass checks the meeting path. Make sure the client can see why each section matters, which items need discussion, and who owns the next step. Remove duplicate slides, internal guesses, and details that do not help the client make or understand a decision.',
+          'After the meeting, send the approved recap through the usual client channel. Save its link in the account record, update the action tracker, and set the next review date. If the client corrects a fact, record the correction and update the working source before anyone reuses the old number.',
+        ],
+      },
+    ],
+    banners: [
+      { label: 'QBR check 1 of 3', title: 'Start with a clean account view', body: 'Gather the current goal, source records, open work, risks, and decisions before building the review.', href: '/services/account-health-monitoring', link: 'See account health support' },
+      { label: 'QBR check 2 of 3', title: 'Prepare the report from checked facts', body: 'Tie every client-facing number to a date range, named source, and person who checked it.', href: '/services/account-reporting', link: 'See account reporting support' },
+      { label: 'QBR check 3 of 3', title: 'Keep the next action visible', body: 'Give each follow-up an owner, due date, source record, and clear rule for closure.', href: '/services/customer-qbr-preparation', link: 'See QBR preparation support' },
+    ],
+    table: {
+      caption: 'QBR preparation record for a Philippines-based account manager',
+      headers: ['Review item', 'What to check', 'Owner boundary', 'Ready when'],
+      rows: [
+        ['Client goal', 'Current goal, review period, and agreed scope', 'Account owner confirms the frame', 'The review question is written at the top'],
+        ['Account facts', 'Measure, date range, source, checker, and limits', 'Account manager prepares; source owner checks', 'Every important number traces to a record'],
+        ['Open work', 'Current state, next action, owner, and due date', 'Work owner confirms the next step', 'Old and duplicate items are removed'],
+        ['Risk and decision', 'Warning sign, choice needed, authority, and response date', 'Approved owner makes the decision', 'The client update path is clear'],
+        ['Meeting follow-up', 'Approved recap, actions, corrections, and next review', 'Account owner approves client wording', 'The final record and tracker agree'],
+      ],
+    },
+    chart: [
+      { label: 'Search time problem', value: 62, color: '#0f766e' },
+      { label: 'Not enough focus', value: 68, color: '#6366f1' },
+      { label: 'Communicating', value: 57, color: '#f26b4e' },
+      { label: 'Creating files', value: 43, color: '#d6b36a' },
+    ],
+    chartMeta: {
+      title: 'Selected workday findings from the 2023 Microsoft Work Trend Index',
+      desc: 'Four horizontal bars show 62 percent struggling with search time, 68 percent lacking focus time, and an activity split of 57 percent communicating and 43 percent creating files.',
+      heading: 'Make the QBR easier to check than the inbox',
+      method: 'Microsoft published these figures on May 9, 2023. The 62% and 68% figures came from a survey of 31,000 people across 31 countries. The 57% and 43% figures came from intentional activity by commercial Microsoft 365 users in named apps during a rolling 28-day period ending in March 2023; weekends and education users were excluded. These figures describe work patterns, not QBR quality or account results.',
+    },
+    graphic: {
+      title: 'Three-step QBR preparation path',
+      desc: 'A process graphic moves from checked source records to an owner-approved client review and then to owned follow-up in the account record.',
+      heading: 'Check, review, close',
+      steps: [
+        { title: '1  Check', line1: 'Goal, date range,', line2: 'sources, open work', color: '#e8c98e' },
+        { title: '2  Review', line1: 'Results, risks,', line2: 'decisions, wording', color: '#b9dfce' },
+        { title: '3  Close', line1: 'Recap, owners,', line2: 'dates, corrections', color: '#ffd9ce' },
+      ],
+      caption: 'The account manager prepares the record and traces the facts. The approved owner checks decisions and client wording, then the team saves the recap and updates each follow-up item.',
+    },
+    quote: {
+      text: 'The security goal that generates the requirement for actions of an entity to be traced uniquely to that entity.',
+      source: 'NIST Computer Security Resource Center, accountability glossary, citing NIST SP 800-12 Rev. 1',
+      url: 'https://csrc.nist.gov/glossary/term/accountability',
+    },
+    scriptTitle: 'A copy-ready QBR follow-up note',
+    scriptIntro: 'Use this after the account owner checks the meeting record. Replace every bracketed item, keep the wording plain, and do not add a promise that was not approved during or after the review.',
+    script: [
+      'Thank you for the review on [date]. We checked [goal and review period], confirmed [result or completed work], and recorded [open item or risk] from [source record].',
+      '[Name] owns [next action] by [date]. [Decision owner] will confirm [open decision] by [date and time], and the next client update will arrive through [channel].',
+      'The approved recap and supporting records are saved at [link]. Our next review is set for [date], and any correction to these notes should go to [named account owner].',
+    ],
+    faqTitle: 'Questions about QBR preparation',
+    faqs: [
+      { q: 'What should a QBR include?', a: 'Include the client goal, review period, checked results, open work, risks, decisions, next actions, owners, dates, and links to the source records.' },
+      { q: 'Can a Philippines-based account manager prepare the QBR?', a: 'Yes. The account manager can gather records, check facts, build the working file, and track follow-up within written limits. An approved owner should make business decisions and approve unusual client promises.' },
+      { q: 'How should the team check QBR numbers?', a: 'Record the date range, source system, saved report or view, checker, check date, and any limit beside each important number. Use a second check for claims that drive a decision.' },
+      { q: 'What happens after the QBR?', a: 'Send the approved recap, save it in the account record, update each action, record client corrections, and set the next review date.' },
+    ],
+    sources: [
+      { name: 'IT and Business Process Association of the Philippines, 2024 milestones', date: 'January 16, 2025', url: 'https://admin.ibpap.org/api/v1/articles/21', note: 'Reports 1.82 million Philippine IT-BPM jobs and USD 38 billion in 2024 revenue.' },
+      { name: 'Microsoft Work Trend Index Annual Report', date: 'May 9, 2023', url: 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work', note: 'Reports the 62% search-time and 68% focus-time findings from 31,000 survey respondents, plus the 57% communication and 43% file-creation activity split.' },
+      { name: 'National Privacy Commission, Data Privacy Act of 2012', date: 'August 15, 2012', url: 'https://privacy.gov.ph/data-privacy-act/', note: 'Publishes Republic Act No. 10173 and the law covering personal information systems.' },
+      { name: 'NIST Computer Security Resource Center, accountability glossary', date: 'accessed July 26, 2026', url: 'https://csrc.nist.gov/glossary/term/accountability', note: 'Provides the exact accountability definition quoted in this checklist.' },
+    ],
+  },
 };
