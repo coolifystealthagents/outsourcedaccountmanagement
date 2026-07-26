@@ -32,6 +32,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-account-management-client-meeting-notes-checklist',
+    title: 'Philippines account management client meeting notes checklist',
+    excerpt: 'Turn each client meeting into a checked record with clear decisions, owners, dates, and approved follow-up.',
+    minutes: 12,
+  },
+  {
     slug: 'philippines-account-management-action-item-tracker',
     title: 'Philippines account management action item tracker',
     excerpt: 'Capture each client request with its source, work owner, decision owner, due date, next update, and proof of closure.',

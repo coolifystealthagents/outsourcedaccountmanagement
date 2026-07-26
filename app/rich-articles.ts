@@ -29,6 +29,139 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  'philippines-account-management-client-meeting-notes-checklist': {
+    title: 'Philippines account management client meeting notes checklist',
+    description: 'A practical meeting notes checklist for US teams that use a Philippines-based account manager to record client facts, decisions, owners, and follow-up.',
+    published: '2026-07-25',
+    updated: '2026-07-25',
+    readMinutes: 12,
+    intro: [
+      'Client meeting notes often look complete until someone asks who agreed to what. A Philippines-based account manager can keep the record clear, but the notes still need source facts, named decisions, owners, dates, and an approved client follow-up.',
+      'This checklist starts before the call and ends after the client record is updated. It keeps contract changes, money decisions, legal statements, security choices, and unusual promises with the business owner who has authority to approve them.',
+    ],
+    takeawaysTitle: 'The short version',
+    takeaways: [
+      'Open the note with the meeting purpose, client list, source links, and decisions due.',
+      'Separate facts, client words, decisions, and open questions while the call is fresh.',
+      'Give every follow-up one work owner, one decision owner when needed, and one date.',
+      'Send only the checked client recap, then save its link in the account record.',
+    ],
+    sections: [
+      {
+        heading: 'Prepare the note before the client joins',
+        paragraphs: [
+          'The Philippine IT-BPM industry closed 2024 with 1.82 million jobs and USD 38 billion in revenue, according to an IBPAP release dated January 16, 2025. That large workforce can support account work, but a useful client note still begins with a small set of facts that one person can check.',
+          'Create the note from a fixed template before the meeting. Add the client name, date, purpose, attendees, account owner, current work, open promises, recent issues, source links, decisions due, and the person who will approve the final recap.',
+          'Read the last approved recap, account report, support record, and open action list. Bring forward only items that still matter, and mark old questions closed instead of making the client hear the same list again.',
+        ],
+      },
+      {
+        heading: 'Record facts and client words in separate lines',
+        paragraphs: [
+          'Write a confirmed fact as a fact and a client statement as a quote or labeled note. If the client says a handoff felt late, record those words and the affected work before the team decides why it happened.',
+          'Microsoft reported on May 9, 2023 that 62% of survey respondents struggled with too much time spent searching for information during the workday. The same report said 68% lacked enough uninterrupted focus time, so source links beside each important note can save the next person from another search.',
+          'Do not turn a tense sentence into a smooth but weaker summary. Keep the meaning, ask a short question when the point is unclear, and let the approved owner decide what the business can promise in response.',
+        ],
+      },
+      {
+        heading: 'Mark decisions while they are still fresh',
+        paragraphs: [
+          'Use a decision line for every choice made during the call. Record the choice, who made it, the source fact behind it, what changes, when it takes effect, and whether another approval is still needed.',
+          'A Philippines-based account manager can capture the choice, read it back, and prepare the related task. The named business owner should approve contract language, credits, money movement, legal wording, security exceptions, access changes, and work outside the agreed scope.',
+          'If nobody had authority to decide, label the item open instead of writing that the team agreed. Add the decision owner, the facts that person needs, and the time by which the client should receive the next approved update.',
+        ],
+      },
+      {
+        heading: 'Turn follow-up into owned work',
+        paragraphs: [
+          'Microsoft found that commercial Microsoft 365 users in its activity analysis spent 57% of their intentional app time communicating and 43% creating files. The analysis covered a rolling 28-day period ending in March 2023, excluded weekends and education users, and measured activity in named apps rather than account management results.',
+          'A meeting can create messages and files without creating progress. For each follow-up, write one work owner, one decision owner when needed, a due date, the next client update, the source link, and the proof required before the item can close.',
+          'Read the action list before the call ends when the meeting allows it. This gives the client and team a chance to correct a name, date, or expected result before the wrong task moves into another system.',
+        ],
+      },
+      {
+        heading: 'Protect the note and limit access',
+        paragraphs: [
+          'Republic Act No. 10173, the Philippine Data Privacy Act of 2012, covers personal information systems in government and the private sector. Keep client contacts, private comments, account files, and meeting records inside systems approved for that work.',
+          'The note should contain enough detail to explain the decision and next action without becoming a loose copy of every private file. Link to controlled records, use named accounts, and limit access to people assigned to the client or review task.',
+          'The account manager may need to create notes, update assigned records, and prepare a client recap. Bulk export, deletion, user administration, broad access, and final legal or security judgment should stay with the people who hold those duties.',
+        ],
+      },
+      {
+        heading: 'Check the recap before sending it',
+        paragraphs: [
+          'Compare the draft recap with the meeting note, action list, and source records. Check names, dates, decisions, client wording, open questions, owners, and the next update before the message leaves the business.',
+          'Remove internal guesses and private team comments from the client version. Keep an open issue visible when it matters, but say what is known, who is checking it, and when the client will hear back instead of writing a confident answer that has not been approved.',
+          'After the client receives the recap, save its link in the account record and update each action row. If the client corrects the note, keep the correction and the new date so the team can see which version now controls the work.',
+        ],
+      },
+    ],
+    banners: [
+      { label: 'Meeting check 1 of 3', title: 'Bring the account record into the call', body: 'Start with current facts, open client requests, and the decisions that still need an owner.', href: '/services/account-health-monitoring', link: 'See account health support' },
+      { label: 'Meeting check 2 of 3', title: 'Route every open request', body: 'Give each client ask a source, owner, due date, next update, and clear close rule.', href: '/services/client-request-routing', link: 'See client request routing support' },
+      { label: 'Meeting check 3 of 3', title: 'Prepare the client-safe recap', body: 'Check the facts, remove private notes, and send only the wording approved for the client.', href: '/services/customer-qbr-preparation', link: 'See QBR preparation support' },
+    ],
+    table: {
+      caption: 'Client meeting notes checklist for a Philippines-based account manager',
+      headers: ['Note field', 'What to record', 'Who checks it', 'Done when'],
+      rows: [
+        ['Meeting frame', 'Purpose, client, attendees, date, and source records', 'Account manager', 'The call starts from the current account record'],
+        ['Client words', 'Exact concern, request, or stated deadline', 'Account owner', 'Meaning is checked before it becomes a promise'],
+        ['Decision', 'Choice, decision maker, limit, and effective date', 'Approved decision owner', 'Authority and any remaining approval are clear'],
+        ['Follow-up', 'Work owner, due date, source, and next client update', 'Work owner', 'Task and expected proof are in the tracker'],
+        ['Client recap', 'Approved facts, decisions, open items, and next steps', 'Account owner', 'Sent recap is linked in the account record'],
+      ],
+    },
+    chart: [
+      { label: 'Too much search time', value: 62, color: '#0f766e' },
+      { label: 'Short on focus time', value: 68, color: '#6366f1' },
+      { label: 'Communicating', value: 57, color: '#f26b4e' },
+      { label: 'Creating files', value: 43, color: '#d6b36a' },
+    ],
+    chartMeta: {
+      title: 'Selected workday findings from the 2023 Microsoft Work Trend Index',
+      desc: 'Four horizontal bars show 62 percent struggling with search time, 68 percent lacking focus time, and an activity split of 57 percent communicating and 43 percent creating files.',
+      heading: 'Keep the note easier to use than the inbox',
+      method: 'Microsoft published these figures on May 9, 2023. The 62% and 68% figures came from a survey of 31,000 people across 31 countries. The 57% and 43% figures came from intentional activity by commercial Microsoft 365 users in named apps during a rolling 28-day period ending in March 2023; weekends and education users were excluded. None of the figures measure account management results.',
+    },
+    graphic: {
+      title: 'Three-step client meeting note path',
+      desc: 'A process graphic moves from source-backed notes to an approved decision record and then to a checked client recap with owned follow-up.',
+      heading: 'Capture, approve, follow through',
+      steps: [
+        { title: '1  Capture', line1: 'Facts, client words,', line2: 'questions, sources', color: '#e8c98e' },
+        { title: '2  Approve', line1: 'Decision, authority,', line2: 'limits, owners', color: '#b9dfce' },
+        { title: '3  Follow up', line1: 'Client recap, tasks,', line2: 'proof, next update', color: '#ffd9ce' },
+      ],
+      caption: 'The account manager captures the call against the source record. The right owner approves decisions and client wording, then each follow-up moves into the account tracker with a date and proof.',
+    },
+    quote: {
+      text: 'The security goal that generates the requirement for actions of an entity to be traced uniquely to that entity.',
+      source: 'NIST Computer Security Resource Center, accountability glossary, citing NIST SP 800-12 Rev. 1',
+      url: 'https://csrc.nist.gov/glossary/term/accountability',
+    },
+    scriptTitle: 'A copy-ready client meeting recap',
+    scriptIntro: 'Use this after checking the meeting note against the source records. Replace every bracketed item, remove private comments, and get owner approval for any unusual promise before sending it.',
+    script: [
+      'Thank you for meeting on [date]. We covered [purpose], confirmed [fact or completed work], and recorded your request about [client request] from [source or part of the call].',
+      'The approved decision is [decision], effective [date], within [limit]. [Name] owns the next work step, and [name] owns any remaining decision about [open choice].',
+      'Our next update will arrive through [channel] by [date and time]. The open items are [items], and we will confirm closure after [proof or client reply] is recorded.',
+    ],
+    faqTitle: 'Questions about client meeting notes',
+    faqs: [
+      { q: 'What belongs in a client meeting note?', a: 'Record the purpose, attendees, source facts, client words, decisions, open questions, owners, dates, next update, and link to the approved recap.' },
+      { q: 'Who should approve the client recap?', a: 'Use the named account owner or another person with authority over the decisions and promises written in the recap.' },
+      { q: 'Can a Philippines-based account manager prepare the note?', a: 'Yes. The account manager can prepare, check, route, and update the note within written limits while owner-only choices stay with the approved business owner.' },
+      { q: 'How soon should the team send the recap?', a: 'Send it after the important facts, decisions, names, and dates are checked, using the response time already agreed with the client.' },
+    ],
+    sources: [
+      { name: 'IT and Business Process Association of the Philippines, 2024 milestones', date: 'January 16, 2025', url: 'https://admin.ibpap.org/api/v1/articles/21', note: 'Reports 1.82 million Philippine IT-BPM jobs and USD 38 billion in 2024 revenue.' },
+      { name: 'Microsoft Work Trend Index Annual Report', date: 'May 9, 2023', url: 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work', note: 'Reports the 62% search-time and 68% focus-time findings from 31,000 survey respondents, plus the 57% communication and 43% file-creation activity split.' },
+      { name: 'National Privacy Commission, Data Privacy Act of 2012', date: 'August 15, 2012', url: 'https://privacy.gov.ph/data-privacy-act/', note: 'Publishes Republic Act No. 10173 and the law covering personal information systems.' },
+      { name: 'NIST Computer Security Resource Center, accountability glossary', date: 'accessed July 25, 2026', url: 'https://csrc.nist.gov/glossary/term/accountability', note: 'Provides the exact accountability definition quoted in this guide.' },
+      { name: 'NIST Computer Security Resource Center, least privilege glossary', date: 'accessed July 25, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Defines limiting access privileges to the minimum needed for assigned tasks.' },
+    ],
+  },
   'philippines-account-management-action-item-tracker': {
     title: 'Philippines account management action item tracker',
     description: 'A practical action item tracker for US teams that use a Philippines-based account manager to capture requests, set owners, and close client follow-up.',
