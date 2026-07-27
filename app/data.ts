@@ -84,32 +84,7 @@ export const blogPosts = [
     title: 'Philippines account management handoff checklist',
     excerpt: 'Move a client account without losing decisions, access rules, risks, or next steps.',
     minutes: 12,
-  },
-  {
-    slug: 'outsourced-account-management-planning',
-    title: 'Outsourced Account Management: What should account support cover?',
-    excerpt: 'A plain guide to role scope, staffing details, and the decisions that stay in house.',
-    minutes: 6,
-  },
-  {
-    slug: 'outsourced-account-management-tasks-to-outsource',
-    title: 'Outsourced Account Management: What tasks should you outsource first?',
-    excerpt: 'Start with recurring work that has examples and clear review rules.',
-    minutes: 7,
-  },
-  {
-    slug: 'outsourced-account-management-provider-questions',
-    title: 'Outsourced Account Management: Questions to ask before hiring',
-    excerpt: 'Use these questions before you sign with a provider or freelancer.',
-    minutes: 8,
-  },
-  {
-    slug: 'outsourced-account-management-onboarding-checklist',
-    title: 'Outsourced Account Management: First week onboarding checklist',
-    excerpt: 'A simple checklist for tools, SOPs, calls, QA, and reporting.',
-    minutes: 9,
-  },
-] as const;
+  },] as const;
 
 export const blogDetails = {
   'outsourced-account-management-provider-questions': {
