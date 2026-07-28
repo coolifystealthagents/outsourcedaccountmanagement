@@ -1178,4 +1178,137 @@ export const richArticles: Record<string, RichArticle> = {
       { name: 'NIST Computer Security Resource Center, accountability glossary', date: 'accessed July 26, 2026', url: 'https://csrc.nist.gov/glossary/term/accountability', note: 'Provides the exact accountability definition quoted in this checklist.' },
     ],
   },
+  'philippines-account-management-client-feedback-follow-up-log': {
+    title: 'Philippines account management client feedback follow-up log',
+    description: 'A practical follow-up log for US teams that use a Philippines-based account manager to record client feedback, route decisions, and prove that each reply was closed.',
+    published: '2026-07-28',
+    updated: '2026-07-28',
+    readMinutes: 12,
+    intro: [
+      'Client feedback is easy to collect and surprisingly easy to lose. A comment may land in a call, an inbox, a survey, or a support ticket, then disappear after someone sends a quick reply.',
+      'A Philippines-based account manager can keep one follow-up log and move each item toward a checked answer. The business owner still decides contract changes, credits, legal statements, security exceptions, and promises outside the agreed work.',
+    ],
+    takeawaysTitle: 'The short version',
+    takeaways: [
+      'Save the client’s words, source link, account name, and date before writing a summary.',
+      'Name the person doing the next step and the owner who can approve the answer.',
+      'Give the client a clear update time even when the final answer is still open.',
+      'Close feedback only after the reply, source record, and promised action agree.',
+    ],
+    sections: [
+      {
+        heading: 'Give every piece of feedback one home',
+        paragraphs: [
+          'The Philippine IT-BPM industry ended 2024 with 1.82 million jobs and USD 38 billion in revenue, according to an IBPAP release dated January 16, 2025. That scale shows the depth of the country’s business services workforce, but one client comment still needs one clear record and one responsible person.',
+          'Open a log row as soon as useful feedback arrives. Record the client, account, date, channel, exact words, source link, affected work, current owner, next update, and whether the item needs a business decision.',
+          'Keep praise in the log when it points to a repeatable practice. Keep complaints and unclear comments there too, but do not guess at the cause before someone checks the account record and asks the client a short question when needed.',
+        ],
+      },
+      {
+        heading: 'Keep the client’s words beside the summary',
+        paragraphs: [
+          'Microsoft reported on May 9, 2023 that 62% of 31,000 survey respondents struggled with too much time spent searching for information during the workday. The same report said 68% lacked enough uninterrupted focus time, so the feedback row should point straight to the message, call note, survey answer, or ticket that started it.',
+          'Write a short summary, then keep the source wording beside it. If a client says, “The Friday report came after our leadership meeting,” the row should not become “client wants faster reports” because that softer line drops the missed event and the reason it mattered.',
+          'Mark what is known, what is the client’s view, and what still needs checking. This small split helps a Philippines-based account manager prepare a useful reply without turning an early guess into the company’s official answer.',
+        ],
+      },
+      {
+        heading: 'Separate follow-up work from the owner’s decision',
+        paragraphs: [
+          'A feedback item often has two owners. One person checks records, prepares the next step, and follows up; another person may need to approve a remedy, contract answer, access change, or statement about fault.',
+          'The account manager can gather the source, compare dates, ask an approved question, update the log, and draft a reply. The named business owner should approve unusual promises and choices that change money, scope, legal wording, security, or the client’s agreement.',
+          'Put both names in the row and add a backup for urgent items. A department name such as “leadership” is not enough because the client still needs a real update time when the main owner is away.',
+        ],
+      },
+      {
+        heading: 'Set the next update before the final answer exists',
+        paragraphs: [
+          'Microsoft also found that commercial Microsoft 365 users in its activity analysis spent 57% of intentional app time communicating and 43% creating files. The analysis used a rolling 28-day period ending in March 2023 and did not measure account management results, but it does show how easily messages and documents can grow around one open issue.',
+          'Give each open item a next update date, channel, sender, and approved holding line. The update can say what the team checked, what remains open, who owns the decision, and when the client will hear back again without pretending the final answer is ready.',
+          'Use an alert time that matches the issue and the client agreement. The account owner should define the actual response rules because a routine suggestion, a missed deliverable, a privacy concern, and a contract dispute do not belong in one generic queue.',
+        ],
+      },
+      {
+        heading: 'Protect private details and keep a clear record',
+        paragraphs: [
+          'Republic Act No. 10173, the Philippine Data Privacy Act of 2012, covers personal information systems in government and the private sector. A feedback log may hold client contacts, staff names, support history, survey answers, and private comments, so it belongs in an approved system with access tied to assigned work.',
+          'Link to controlled records instead of copying whole inbox threads or private files into the log. Give the account manager an individual login, limit exports and deletion rights, and remove access when the role or account assignment changes.',
+          'Keep the person who changed the row visible. Corrections should show the new fact, source, date, and checker so a later reviewer can tell which version controls the reply.',
+        ],
+      },
+      {
+        heading: 'Close the loop with proof and a short review',
+        paragraphs: [
+          'Do not close feedback because a reply was sent or a status turned green. Close it after the approved reply reaches the client, the promised action is complete or clearly recorded as open, the source link works, and any new request has its own owner and date.',
+          'Ask whether the client needs to confirm the result. A corrected report may be easy to prove from the file, while a concern about communication may need a direct client reply or the next scheduled check-in before the team knows the change helped.',
+          'Review the log each week for repeated misses, slow owner decisions, unclear source notes, and items reopened by the client. Change the template or handoff rule that caused the pattern, then keep the old record so the next reviewer can see what changed.',
+        ],
+      },
+    ],
+    banners: [
+      { label: 'Feedback check 1 of 3', title: 'Route the client’s words into one record', body: 'Keep the source, owner, next update, and decision path together before the comment leaves the inbox.', href: '/services/client-request-routing', link: 'See client request routing support' },
+      { label: 'Feedback check 2 of 3', title: 'Escalate the choice, not the whole account', body: 'Send the right facts to the named owner and keep routine follow-up moving within written limits.', href: '/services/escalation-coordination', link: 'See escalation support' },
+      { label: 'Feedback check 3 of 3', title: 'Bring repeated issues into account health', body: 'Use the weekly review to spot reopened items, old promises, and feedback that points to a wider account risk.', href: '/services/account-health-monitoring', link: 'See account health support' },
+    ],
+    table: {
+      caption: 'Client feedback follow-up log for a Philippines-based account manager',
+      headers: ['Log field', 'What to record', 'Who checks it', 'Close rule'],
+      rows: [
+        ['Source', 'Client words, date, channel, account, and direct record link', 'Account manager', 'The original meaning can be checked'],
+        ['Issue', 'Affected work, known facts, open question, and client effect', 'Work owner', 'Facts and assumptions are separated'],
+        ['Decision', 'Choice needed, authority, limit, and answer date', 'Approved decision owner', 'The answer is recorded in the approved system'],
+        ['Next update', 'Sender, channel, date, and approved holding line', 'Account owner', 'The client received the promised update'],
+        ['Closure', 'Final reply, completed action, client confirmation if needed, and proof', 'Account manager and owner', 'The source record and final result agree'],
+      ],
+    },
+    chart: [
+      { label: 'Search time problem', value: 62, color: '#0f766e' },
+      { label: 'Not enough focus', value: 68, color: '#6366f1' },
+      { label: 'Communicating', value: 57, color: '#f26b4e' },
+      { label: 'Creating files', value: 43, color: '#d6b36a' },
+    ],
+    chartMeta: {
+      title: 'Selected workday findings from the 2023 Microsoft Work Trend Index',
+      desc: 'Four horizontal bars show 62 percent struggling with search time, 68 percent lacking focus time, and an activity split of 57 percent communicating and 43 percent creating files.',
+      heading: 'Keep feedback easier to find than the inbox',
+      method: 'Microsoft published these figures on May 9, 2023. The 62% and 68% findings came from a survey of 31,000 people across 31 countries. The 57% and 43% split came from intentional activity by commercial Microsoft 365 users in named apps during a rolling 28-day period ending in March 2023; weekends and education users were excluded. These figures describe work patterns, not client feedback results.',
+    },
+    graphic: {
+      title: 'Three-step client feedback follow-up path',
+      desc: 'A process graphic moves from the client’s source words to an owner-approved answer and then to a checked closure record.',
+      heading: 'Capture, decide, close',
+      steps: [
+        { title: '1  Capture', line1: 'Client words, source,', line2: 'effect, next update', color: '#e8c98e' },
+        { title: '2  Decide', line1: 'Facts, owner, limit,', line2: 'approved answer', color: '#b9dfce' },
+        { title: '3  Close', line1: 'Reply, action, proof,', line2: 'client check', color: '#ffd9ce' },
+      ],
+      caption: 'The account manager saves the source and prepares the follow-up. The approved owner makes any unusual business decision, then the account manager records the reply, action, and proof before closing the item.',
+    },
+    quote: {
+      text: 'The security goal that generates the requirement for actions of an entity to be traced uniquely to that entity.',
+      source: 'NIST Computer Security Resource Center, accountability glossary, citing NIST SP 800-12 Rev. 1',
+      url: 'https://csrc.nist.gov/glossary/term/accountability',
+    },
+    scriptTitle: 'A copy-ready feedback follow-up note',
+    scriptIntro: 'Use this after checking the client’s words and the account record. Replace every bracketed item, remove private notes, and get owner approval for any remedy or promise outside the normal work.',
+    script: [
+      'Thank you for the feedback you shared through [channel] on [date]. We recorded your point about [client words or issue] and checked it against [source record or completed work].',
+      'We have confirmed [known fact]. [Name] owns [next action], while [decision owner] is reviewing [open choice] within the approved business limits.',
+      'Your next update will arrive through [channel] by [date and time]. We will close this item after [reply, completed action, proof, or client confirmation] is recorded in the account log.',
+    ],
+    faqTitle: 'Questions about client feedback follow-up',
+    faqs: [
+      { q: 'What belongs in a client feedback log?', a: 'Keep the client’s words, source, account, date, affected work, known facts, open question, work owner, decision owner, next update, final reply, and closure proof.' },
+      { q: 'Can a Philippines-based account manager own the log?', a: 'Yes. The account manager can record, check, route, update, and close routine items within written limits while unusual business decisions stay with an approved owner.' },
+      { q: 'When should feedback be escalated?', a: 'Use the business rules for missed work, privacy or security concerns, contract questions, money decisions, legal statements, repeated complaints, and any promise outside the agreed scope.' },
+      { q: 'When is a feedback item closed?', a: 'Close it after the approved reply reaches the client, the action and proof are recorded, open work has a new owner and date, and client confirmation is saved when the result needs it.' },
+    ],
+    sources: [
+      { name: 'IT and Business Process Association of the Philippines, 2024 milestones', date: 'January 16, 2025', url: 'https://admin.ibpap.org/api/v1/articles/21', note: 'Reports 1.82 million Philippine IT-BPM jobs and USD 38 billion in 2024 revenue.' },
+      { name: 'Microsoft Work Trend Index Annual Report', date: 'May 9, 2023', url: 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work', note: 'Reports the 62% search-time and 68% focus-time findings from 31,000 survey respondents, plus the 57% communication and 43% file-creation activity split.' },
+      { name: 'National Privacy Commission, Data Privacy Act of 2012', date: 'August 15, 2012', url: 'https://privacy.gov.ph/data-privacy-act/', note: 'Publishes Republic Act No. 10173 and the law covering personal information systems.' },
+      { name: 'NIST Computer Security Resource Center, accountability glossary', date: 'accessed July 28, 2026', url: 'https://csrc.nist.gov/glossary/term/accountability', note: 'Provides the exact accountability definition quoted in this guide.' },
+      { name: 'NIST Computer Security Resource Center, least privilege glossary', date: 'accessed July 28, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Defines limiting access privileges to the minimum needed for assigned tasks.' },
+    ],
+  },
 };
