@@ -32,6 +32,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-account-management-client-approval-register',
+    title: 'Philippines account management client approval register',
+    excerpt: 'Keep client approvals tied to the exact request, source facts, named decision owner, approved wording, and proof of what happened next.',
+    minutes: 12,
+  },
+  {
     slug: 'philippines-account-management-client-feedback-follow-up-log',
     title: 'Philippines account management client feedback follow-up log',
     excerpt: 'Turn client feedback into a checked record with source words, a named owner, a dated reply, and proof that the loop closed.',

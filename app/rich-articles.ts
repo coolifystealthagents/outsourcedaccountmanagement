@@ -1311,4 +1311,137 @@ export const richArticles: Record<string, RichArticle> = {
       { name: 'NIST Computer Security Resource Center, least privilege glossary', date: 'accessed July 28, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Defines limiting access privileges to the minimum needed for assigned tasks.' },
     ],
   },
+  'philippines-account-management-client-approval-register': {
+    title: 'Philippines account management client approval register',
+    description: 'A practical approval register for US teams that use a Philippines-based account manager to prepare client requests, route decisions, and record the approved answer.',
+    published: '2026-07-28',
+    updated: '2026-07-28',
+    readMinutes: 12,
+    intro: [
+      'Client approvals often disappear inside a reply, chat thread, or meeting note. Weeks later, the team may remember the answer but not the exact request, the limit, the person who approved it, or the version the client received.',
+      'A Philippines-based account manager can keep a simple approval register and prepare each decision for the right owner. Contract changes, credits, legal statements, security exceptions, access changes, and promises outside normal work still belong to the person with written authority.',
+    ],
+    takeawaysTitle: 'The short version',
+    takeaways: [
+      'Open one approval row from the client source before anyone drafts an answer.',
+      'Write the exact choice, facts, limits, decision owner, and answer date in plain words.',
+      'Keep the approved wording and the sent client message beside the decision record.',
+      'Close the row only after the related work and account record match the approval.',
+    ],
+    sections: [
+      {
+        heading: 'Give each client choice one approval row',
+        paragraphs: [
+          'The Philippine IT-BPM industry reported 1.82 million jobs at the end of 2024 in an IBPAP release dated January 16, 2025. That figure shows the size of the country’s business services workforce, but it does not prove that any account team has a sound approval process.',
+          'Start the row from the client’s email, call note, ticket, or contract record. Add the account, request date, exact question, source link, affected work, current rule, facts to check, decision owner, answer date, approved words, sender, and proof of the next action.',
+          'Use a new row when the client asks a new question or changes the request. Do not keep editing one old decision until nobody can tell which answer controlled the work on a given date.',
+        ],
+      },
+      {
+        heading: 'Put the source beside the request',
+        paragraphs: [
+          'Microsoft reported on May 9, 2023 that 62% of 31,000 survey respondents struggled with too much time spent searching for information during the workday. The same survey found that 68% said they did not have enough uninterrupted focus time, so an approval row should point straight to the records the owner must check.',
+          'Copy the client’s question without sanding off the hard part. “Can you move the report to Monday?” is not the same request as “Can you move the report to Monday and use the new contact list?” because the second version may change access, review, and delivery work.',
+          'List each fact as confirmed, unconfirmed, or not applicable. A source link should open the actual record, not a broad folder that forces the decision owner to search through old files and guess which version matters.',
+        ],
+      },
+      {
+        heading: 'Separate preparation from the decision',
+        paragraphs: [
+          'The account manager can collect the request, find the source records, compare dates, note the current rule, ask an approved question, and draft choices for review. This work makes the decision easier to check without moving authority to the person who prepared the row.',
+          'Name one decision owner who can say yes, no, or not yet within a written limit. Route contract language, money choices, legal statements, privacy questions, access changes, security exceptions, and unusual promises to the person assigned to those decisions.',
+          'If the main owner is away, use the written backup path. A department name or group inbox may help with routing, but the approval record still needs the name or role of the person whose authority controlled the answer.',
+        ],
+      },
+      {
+        heading: 'Record the limit with the answer',
+        paragraphs: [
+          'An approval is incomplete when the row says only “approved.” Record what was approved, what was not approved, the account or work covered, the start date, the end or review point, any condition, the owner, and the exact client wording that may be sent.',
+          'Microsoft’s separate activity analysis found that commercial Microsoft 365 users spent 57% of intentional app time communicating and 43% creating files. The analysis used a rolling 28-day period ending in March 2023, excluded weekends and education users, and measured named app activity rather than approval quality.',
+          'Messages and files can multiply around one small choice. Keep one controlling row, link later discussion back to it, and open a replacement decision when the scope or facts change instead of letting a casual follow-up quietly stretch the old answer.',
+        ],
+      },
+      {
+        heading: 'Protect the register and show who changed it',
+        paragraphs: [
+          'Republic Act No. 10173, the Philippine Data Privacy Act of 2012, covers personal information systems in government and the private sector. An approval register may hold client contacts, private requests, account history, staff names, access details, and links to controlled records.',
+          'Keep the register in an approved system and give each person an individual login. Let a Philippines-based account manager edit assigned rows, but keep bulk export, deletion, user administration, and broad account access with the people who own those duties.',
+          'Show who created, changed, approved, sent, and closed the row, along with the date of each action. If someone corrects the answer, keep the old entry visible and link the replacement so a later reviewer can follow the decision without relying on memory.',
+        ],
+      },
+      {
+        heading: 'Close the approval after the work matches it',
+        paragraphs: [
+          'Do not close the row just because the owner clicked approve or the client reply was sent. Check that the sent wording matches the approved wording, the assigned work stayed inside the limit, the client record was updated, and any new task has an owner and date.',
+          'Some answers need another client check. If the client asked for a changed report, link the delivered file; if the request changed access or a standing rule, confirm that the approved system now shows the same limit and review date.',
+          'Review open and replaced approvals each week. Look for old answers still driving work, rows without source links, decisions made by the wrong owner, and repeat requests that point to a missing account rule, then fix the rule without erasing the record.',
+        ],
+      },
+    ],
+    banners: [
+      { label: 'Approval check 1 of 3', title: 'Route the exact client request', body: 'Keep the source, facts, owner, answer date, and decision limit together before the request leaves the inbox.', href: '/services/client-request-routing', link: 'See client request routing support' },
+      { label: 'Approval check 2 of 3', title: 'Send the choice to the right owner', body: 'Prepare a short decision packet and route only the question that needs authority.', href: '/services/escalation-coordination', link: 'See escalation support' },
+      { label: 'Approval check 3 of 3', title: 'Check the account after approval', body: 'Confirm that the sent answer, assigned work, and client record all follow the approved limit.', href: '/services/account-health-monitoring', link: 'See account health support' },
+    ],
+    table: {
+      caption: 'Client approval register for a Philippines-based account manager',
+      headers: ['Register field', 'What to record', 'Who checks it', 'Done when'],
+      rows: [
+        ['Request', 'Client words, account, date, channel, and direct source link', 'Account manager', 'The exact choice can be checked'],
+        ['Decision packet', 'Known facts, open facts, current rule, choices, and effect', 'Work or record owner', 'The owner has enough facts to decide'],
+        ['Approval', 'Answer, limit, conditions, decision owner, date, and approved words', 'Approved decision owner', 'Authority and scope are clear'],
+        ['Client reply', 'Sender, channel, sent wording, date, and message link', 'Account owner', 'The client received the approved answer'],
+        ['Closure', 'Related work, proof, account update, and replacement decision if any', 'Account manager and owner', 'The work and record match the approval'],
+      ],
+    },
+    chart: [
+      { label: 'Search time problem', value: 62, color: '#0f766e' },
+      { label: 'Not enough focus', value: 68, color: '#6366f1' },
+      { label: 'Communicating', value: 57, color: '#f26b4e' },
+      { label: 'Creating files', value: 43, color: '#d6b36a' },
+    ],
+    chartMeta: {
+      title: 'Selected workday findings from the 2023 Microsoft Work Trend Index',
+      desc: 'Four horizontal bars show 62 percent struggling with search time, 68 percent lacking focus time, and an activity split of 57 percent communicating and 43 percent creating files.',
+      heading: 'Make the approval easier to find than the thread',
+      method: 'Microsoft published these figures on May 9, 2023. The 62% and 68% findings came from a survey of 31,000 people across 31 countries. The 57% and 43% split came from intentional activity by commercial Microsoft 365 users in named apps during a rolling 28-day period ending in March 2023; weekends and education users were excluded. These figures describe work patterns, not approval quality or account results.',
+    },
+    graphic: {
+      title: 'Three-step client approval path',
+      desc: 'A process graphic moves from the client’s exact request to a named owner decision and then to a checked client reply and account record.',
+      heading: 'Prepare, approve, prove',
+      steps: [
+        { title: '1  Prepare', line1: 'Request, source, facts,', line2: 'choice, answer date', color: '#e8c98e' },
+        { title: '2  Approve', line1: 'Owner, answer, limit,', line2: 'conditions, wording', color: '#b9dfce' },
+        { title: '3  Prove', line1: 'Sent reply, work,', line2: 'record, next check', color: '#ffd9ce' },
+      ],
+      caption: 'The account manager prepares the source-backed row. The named owner makes the decision within written authority, then the account manager checks the sent reply and related account work before closing it.',
+    },
+    quote: {
+      text: 'The security goal that generates the requirement for actions of an entity to be traced uniquely to that entity.',
+      source: 'NIST Computer Security Resource Center, accountability glossary, citing NIST SP 800-12 Rev. 1',
+      url: 'https://csrc.nist.gov/glossary/term/accountability',
+    },
+    scriptTitle: 'A copy-ready client approval note',
+    scriptIntro: 'Use this after the named owner checks the source and decision limits. Replace every bracketed item, remove private notes, and send only the wording approved for the client.',
+    script: [
+      'We received your request about [exact request] through [channel] on [date]. We checked it against [source record], and the decision owner is [name or approved role].',
+      'The approved answer is [answer] for [account or work] within [limit and conditions]. This approval starts on [date] and will be checked again on [date or event].',
+      '[Name] will send or complete [next action] by [date and time]. The controlling approval and proof will be saved at [register link], and any changed request will receive a new decision row.',
+    ],
+    faqTitle: 'Questions about client approval registers',
+    faqs: [
+      { q: 'What belongs in a client approval register?', a: 'Keep the exact request, source, facts, current rule, decision owner, answer, limit, conditions, approved client wording, sent reply, related work, and closure proof.' },
+      { q: 'Can a Philippines-based account manager prepare approval rows?', a: 'Yes. The account manager can gather records, prepare choices, route the question, update the row, and check follow-up within written limits.' },
+      { q: 'Which decisions should stay with the business owner?', a: 'Keep contract changes, money choices, legal statements, privacy or security exceptions, access changes, and unusual client promises with the person assigned to those decisions.' },
+      { q: 'When should an approval row close?', a: 'Close it after the sent answer matches the approved words, the work follows the limit, the account record is current, and any changed request has a new owner and date.' },
+    ],
+    sources: [
+      { name: 'IT and Business Process Association of the Philippines, 2024 milestones', date: 'January 16, 2025', url: 'https://admin.ibpap.org/api/v1/articles/21', note: 'Reports 1.82 million Philippine IT-BPM jobs at the end of 2024. The figure gives workforce context and does not measure account approval quality.' },
+      { name: 'Microsoft Work Trend Index Annual Report', date: 'May 9, 2023', url: 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work', note: 'Reports the 62% search-time and 68% focus-time survey findings, plus the 57% communication and 43% file-creation activity split.' },
+      { name: 'National Privacy Commission, Data Privacy Act of 2012', date: 'August 15, 2012', url: 'https://privacy.gov.ph/data-privacy-act/', note: 'Publishes Republic Act No. 10173 and the law covering personal information systems.' },
+      { name: 'NIST Computer Security Resource Center, accountability glossary', date: 'accessed July 28, 2026', url: 'https://csrc.nist.gov/glossary/term/accountability', note: 'Provides the exact accountability definition quoted in this guide.' },
+      { name: 'NIST Computer Security Resource Center, least privilege glossary', date: 'accessed July 28, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Defines least privilege as limiting access to the minimum needed for assigned tasks.' },
+    ],
+  },
 };
