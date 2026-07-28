@@ -32,6 +32,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-account-management-client-onboarding-kickoff-brief',
+    title: 'Philippines account management client onboarding kickoff brief',
+    excerpt: 'Prepare a client kickoff with checked facts, named owners, access limits, first-week work, and one approved follow-up record.',
+    minutes: 12,
+  },
+  {
     slug: 'philippines-account-management-client-approval-register',
     title: 'Philippines account management client approval register',
     excerpt: 'Keep client approvals tied to the exact request, source facts, named decision owner, approved wording, and proof of what happened next.',

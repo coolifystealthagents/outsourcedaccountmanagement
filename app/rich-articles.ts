@@ -1444,4 +1444,137 @@ export const richArticles: Record<string, RichArticle> = {
       { name: 'NIST Computer Security Resource Center, least privilege glossary', date: 'accessed July 28, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Defines least privilege as limiting access to the minimum needed for assigned tasks.' },
     ],
   },
+  'philippines-account-management-client-onboarding-kickoff-brief': {
+    title: 'Philippines account management client onboarding kickoff brief',
+    description: 'A practical kickoff brief for US teams that use a Philippines-based account manager to prepare client onboarding, route decisions, and track the first week.',
+    published: '2026-07-28',
+    updated: '2026-07-28',
+    readMinutes: 12,
+    intro: [
+      'A client kickoff can feel busy while leaving basic questions unanswered. People join the call, files move around, and tasks begin, but nobody writes down which goal matters first or who can approve a change.',
+      'A Philippines-based account manager can prepare the kickoff brief, check the source records, and keep the first week organized. Contract terms, legal statements, privacy and security choices, access changes, credits, and unusual promises still belong to a named owner with written authority.',
+    ],
+    takeawaysTitle: 'The short version',
+    takeaways: [
+      'Open the brief from the signed scope and the client source record, not from memory.',
+      'Name the client goal, first useful result, work owner, and decision owner before kickoff.',
+      'Give each system access an owner, purpose, limit, and review date.',
+      'End the first week with checked work, open questions, client notes, and the next review date.',
+    ],
+    sections: [
+      {
+        heading: 'Start with the client record, not a blank template',
+        paragraphs: [
+          'The Philippine IT-BPM industry reported 1.82 million jobs and USD 38 billion in revenue for 2024 in an IBPAP release dated January 16, 2025. Those figures show the size of the country’s business services workforce, but they do not prove that a particular account manager is ready for a client or that an onboarding plan is sound.',
+          'Open the kickoff brief from the signed scope, approved client notes, current contacts, promised start date, and the systems that hold the work. Write the client name exactly as it appears in the account record, then add the business goal, first work due, account owner, service owner, and person who may approve changes.',
+          'Mark any fact that still needs checking. A missing contact, unclear date, or loose phrase such as “handle the account” belongs in an open-questions box, not in the task list as if the team already agreed on its meaning.',
+        ],
+      },
+      {
+        heading: 'Turn the kickoff into a small set of decisions',
+        paragraphs: [
+          'Microsoft reported on May 9, 2023 that 62% of 31,000 survey respondents struggled with too much time spent searching for information during the workday. The same survey found that 68% said they lacked enough uninterrupted focus time, so the kickoff brief should point to the exact records a new account manager must use.',
+          'Write each kickoff choice as a short question with a named decision owner. Useful questions cover the first client result, approved communication channel, contact list, source of account facts, normal response rule, first review date, and what should happen when work falls outside the written scope.',
+          'Keep preparation separate from approval. The account manager can gather facts, compare records, draft the question, and record the answer, while the person with authority decides contract meaning, client remedies, legal wording, security exceptions, and promises that change the business commitment.',
+        ],
+      },
+      {
+        heading: 'Map the first week before assigning the first task',
+        paragraphs: [
+          'Give the first week a clear finish line. It may be a checked account record, a prepared client update, a completed handoff, or a short report that an internal owner can review against the source.',
+          'Break that result into daily steps without filling every hour. The first day can cover records and access, the next work period can use a low-risk sample, and the remaining days can correct the sample, complete approved work, and prepare the first client-safe recap.',
+          'Put one person beside each step and write what proves it is done. “Learn the account” is hard to check, while “compare the client contact list with the signed handoff and record three open questions” gives the new manager and reviewer the same target.',
+        ],
+      },
+      {
+        heading: 'Limit access to the work in the brief',
+        paragraphs: [
+          'Republic Act No. 10173, the Philippine Data Privacy Act of 2012, covers personal information systems in government and the private sector. A client onboarding file may contain names, email addresses, account history, support records, private comments, and links to controlled systems.',
+          'List every requested system with its business purpose, access owner, allowed action, blocked action, start date, and review date. Use an individual account, require the approved sign-in controls, and give the Philippines-based account manager only the records needed for the assigned first-week work.',
+          'Microsoft’s separate activity analysis found that commercial Microsoft 365 users spent 57% of intentional app time communicating and 43% creating files. The analysis used a rolling 28-day period ending in March 2023 and measured named app activity, not onboarding results, but it shows why messages and files should point back to one controlled account record.',
+        ],
+      },
+      {
+        heading: 'Prepare the first client message for owner review',
+        paragraphs: [
+          'The kickoff brief should say who may contact the client, through which channel, and about which work. It should also say which questions must return to the internal owner before anyone answers the client.',
+          'Draft the first message from checked facts. Include the confirmed goal, immediate work, named contacts, next update date, and any open item that the client needs to answer. Remove internal guesses, private comments, and technical notes that do not help the client understand what happens next.',
+          'Have the account owner check names, dates, scope, and any sentence that could sound like a new promise. Save the approved wording beside the sent message so a later reviewer can tell what the client received without searching through several threads.',
+        ],
+      },
+      {
+        heading: 'Close the first week with proof and open questions',
+        paragraphs: [
+          'Do not call onboarding complete because the kickoff happened or the account manager logged in. Compare the first-week result with the source record, confirm that the client received the approved update, and record work that remains open with an owner and date.',
+          'Review access while the first tasks are still fresh. Remove anything that was granted by mistake, record missing access, and keep requests for broader permissions with the person who owns the system and the business reason for the change.',
+          'End the week with a short review between the account manager and internal owner. Check completed work, client replies, corrections, open decisions, access limits, and the next client update, then change the brief when the real work proves that an instruction was unclear.',
+        ],
+      },
+    ],
+    banners: [
+      { label: 'Kickoff check 1 of 3', title: 'Build the handoff from checked records', body: 'Keep the client goal, contacts, source files, open questions, and first useful result in one brief.', href: '/services/implementation-handoff-support', link: 'See handoff support' },
+      { label: 'Kickoff check 2 of 3', title: 'Keep the client request with its owner', body: 'Route each open question to the person who can answer it and record when the client will hear back.', href: '/services/client-request-routing', link: 'See client request routing support' },
+      { label: 'Kickoff check 3 of 3', title: 'Review the account after the first week', body: 'Check completed work, access, client notes, open decisions, and the next update against the account record.', href: '/services/account-health-monitoring', link: 'See account health support' },
+    ],
+    table: {
+      caption: 'Client onboarding kickoff brief for a Philippines-based account manager',
+      headers: ['Brief field', 'What to record', 'Owner boundary', 'Ready when'],
+      rows: [
+        ['Client frame', 'Goal, signed scope, contacts, start date, and first useful result', 'Account owner confirms the frame', 'The first week has one checked target'],
+        ['Source record', 'Current notes, files, systems, open questions, and record links', 'Record owners check their facts', 'The manager can find each controlling source'],
+        ['Work and decisions', 'Task owner, decision owner, due date, limit, and proof', 'Approved owner makes unusual choices', 'Routine work and owner decisions are separate'],
+        ['Access map', 'System, purpose, allowed action, blocked action, owner, and review date', 'System owner approves access', 'Permissions match the assigned work'],
+        ['Client follow-up', 'Approved message, sender, channel, date, open items, and next review', 'Account owner approves client promises', 'Sent words and account record agree'],
+      ],
+    },
+    chart: [
+      { label: 'Search time problem', value: 62, color: '#0f766e' },
+      { label: 'Not enough focus', value: 68, color: '#6366f1' },
+      { label: 'Communicating', value: 57, color: '#f26b4e' },
+      { label: 'Creating files', value: 43, color: '#d6b36a' },
+    ],
+    chartMeta: {
+      title: 'Selected workday findings from the 2023 Microsoft Work Trend Index',
+      desc: 'Four horizontal bars show 62 percent struggling with search time, 68 percent lacking focus time, and an activity split of 57 percent communicating and 43 percent creating files.',
+      heading: 'Make the kickoff brief easier to use than the inbox',
+      method: 'Microsoft published these figures on May 9, 2023. The 62% and 68% findings came from a survey of 31,000 people across 31 countries. The 57% and 43% split came from intentional activity by commercial Microsoft 365 users in named apps during a rolling 28-day period ending in March 2023; weekends and education users were excluded. These figures describe work patterns, not client onboarding quality or account results.',
+    },
+    graphic: {
+      title: 'Three-step client onboarding kickoff path',
+      desc: 'A process graphic moves from checked client records to owner-approved first-week work and then to a proved account review.',
+      heading: 'Frame, start, check',
+      steps: [
+        { title: '1  Frame', line1: 'Goal, scope, records,', line2: 'contacts, decisions', color: '#e8c98e' },
+        { title: '2  Start', line1: 'Access, sample, owner,', line2: 'client update', color: '#b9dfce' },
+        { title: '3  Check', line1: 'Work, proof, replies,', line2: 'open questions', color: '#ffd9ce' },
+      ],
+      caption: 'The account manager prepares the brief from checked records. The right owners approve access, unusual decisions, and client wording, then the team reviews the first week against the source record.',
+    },
+    quote: {
+      text: 'The security goal that generates the requirement for actions of an entity to be traced uniquely to that entity.',
+      source: 'NIST Computer Security Resource Center, accountability glossary, citing NIST SP 800-12 Rev. 1',
+      url: 'https://csrc.nist.gov/glossary/term/accountability',
+    },
+    scriptTitle: 'A copy-ready client kickoff note',
+    scriptIntro: 'Use this after the account owner checks the kickoff brief. Replace every bracketed item, remove private notes, and send only facts and commitments that the right owner approved.',
+    script: [
+      'Thank you for starting the onboarding work with us on [date]. We confirmed the first goal as [goal], and the first checked result will be [result] by [date].',
+      '[Account manager] will prepare and track [approved work] through [channel]. [Internal owner] will answer decisions about [listed boundary], and open questions are recorded at [brief link].',
+      'Your next update will arrive through [channel] by [date and time]. We will review the first week against [source record or agreed result] and record any correction before the next work period begins.',
+    ],
+    faqTitle: 'Questions about client onboarding kickoff briefs',
+    faqs: [
+      { q: 'What belongs in a client onboarding kickoff brief?', a: 'Record the client goal, signed scope, contacts, source systems, first-week result, work owners, decision owners, access limits, open questions, client update, and review date.' },
+      { q: 'Can a Philippines-based account manager prepare the kickoff?', a: 'Yes. The account manager can gather records, prepare the brief, organize routine first-week work, draft approved client notes, and track open items within written limits.' },
+      { q: 'Which onboarding choices need an internal owner?', a: 'Keep contract meaning, money choices, legal statements, privacy and security exceptions, access changes, remedies, and promises outside normal work with the person assigned to those decisions.' },
+      { q: 'When is the first onboarding week complete?', a: 'Close it after the checked result, client update, account record, access review, corrections, open decisions, and next review date are all recorded.' },
+    ],
+    sources: [
+      { name: 'IT and Business Process Association of the Philippines, 2024 milestones', date: 'January 16, 2025', url: 'https://admin.ibpap.org/api/v1/articles/21', note: 'Reports 1.82 million Philippine IT-BPM jobs and USD 38 billion in 2024 revenue. The figures give workforce context and do not measure onboarding quality.' },
+      { name: 'Microsoft Work Trend Index Annual Report', date: 'May 9, 2023', url: 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work', note: 'Reports the 62% search-time and 68% focus-time survey findings, plus the 57% communication and 43% file-creation activity split.' },
+      { name: 'National Privacy Commission, Data Privacy Act of 2012', date: 'August 15, 2012', url: 'https://privacy.gov.ph/data-privacy-act/', note: 'Publishes Republic Act No. 10173 and the law covering personal information systems.' },
+      { name: 'NIST Computer Security Resource Center, accountability glossary', date: 'accessed July 28, 2026', url: 'https://csrc.nist.gov/glossary/term/accountability', note: 'Provides the exact accountability definition quoted in this guide.' },
+      { name: 'NIST Computer Security Resource Center, least privilege glossary', date: 'accessed July 28, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Defines least privilege as limiting access to the minimum needed for assigned tasks.' },
+    ],
+  },
 };
