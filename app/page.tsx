@@ -27,7 +27,7 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className="account-desk" data-design="account-desk-2026">
+    <main className="account-desk" data-design="account-desk-2026" data-gi-rollout="two-illustration-packs-one-icon-pack">
       <JsonLd data={schema} />
 
       <section className="desk-hero">
@@ -50,7 +50,7 @@ export default function Home() {
 
           <div className="portfolio-visual" aria-label="Sample account portfolio view">
             <div className="photo-frame">
-              <img src="/account-team.jpg" alt="Coworkers discussing work around a shared office desk" />
+              <img src="/illustrations/getillustrations/communication-illustrations-pack-svg/client-account-support.webp" alt="Illustration of a client account specialist managing support conversations" />
               <span className="photo-caption">A steady desk behind the client book</span>
             </div>
             <div className="portfolio-board">
@@ -59,17 +59,17 @@ export default function Home() {
                 <span className="live-dot">Review ready</span>
               </div>
               <div className="account-row">
-                <span className="account-icon coral">RF</span>
+                <span className="account-icon coral"><img src="/icons/getillustrations/blueprint-communication-icons-svg/follow-up.svg" alt=""/></span>
                 <div><strong>Reply follow-up</strong><small>Owner note is ready</small></div>
                 <span className="status">Today</span>
               </div>
               <div className="account-row">
-                <span className="account-icon mint">RB</span>
+                <span className="account-icon mint"><img src="/icons/getillustrations/blueprint-communication-icons-svg/client-email.svg" alt=""/></span>
                 <div><strong>Renewal brief</strong><small>Open items collected</small></div>
                 <span className="status">Review</span>
               </div>
               <div className="account-row">
-                <span className="account-icon sand">OD</span>
+                <span className="account-icon sand"><img src="/icons/getillustrations/blueprint-communication-icons-svg/owner-call.svg" alt=""/></span>
                 <div><strong>Owner decision</strong><small>Escalation is documented</small></div>
                 <span className="status">Handoff</span>
               </div>
@@ -159,6 +159,11 @@ export default function Home() {
             <article><span>3</span><h3>Review before expanding</h3><p>Check the first work closely. Add more accounts only when the handoffs feel boring and dependable.</p></article>
           </div>
         </div>
+      </section>
+
+      <section className="container gi-proof" aria-label="Account communication controls">
+        <img className="gi-proof-art" src="/illustrations/getillustrations/grain-teamwork-illustrations-svg/account-review-meeting.svg" alt=""/>
+        <div><p className="eyebrow">Keep the relationship visible</p><h2>Follow up, document, and return decisions.</h2><div className="gi-icon-row"><span><img src="/icons/getillustrations/blueprint-communication-icons-svg/follow-up.svg" alt=""/>Follow-up</span><span><img src="/icons/getillustrations/blueprint-communication-icons-svg/client-email.svg" alt=""/>Client email</span><span><img src="/icons/getillustrations/blueprint-communication-icons-svg/owner-call.svg" alt=""/>Owner call</span></div></div>
       </section>
 
       <section className="container section guide-section">
