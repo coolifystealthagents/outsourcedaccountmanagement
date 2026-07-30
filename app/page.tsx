@@ -37,7 +37,7 @@ export default function Home() {
             <h1>Keep every client account moving.</h1>
             <p className="hero-lead">Work with Filipino talent in the Philippines on follow-ups, CRM notes, renewal prep, and weekly reporting. Your team keeps the relationships and the commercial calls.</p>
             <div className="hero-actions">
-              <a className="btn primary" href="/contact">Request an account plan</a>
+              <a className="btn primary" href="/contact-us">Request an account plan</a>
               <a className="text-link" href="#account-work">See the work we cover <span aria-hidden="true">↓</span></a>
             </div>
             <p className="routing-note">This independent site may route your request to a staffing partner. Every staffing request is limited to talent based in the Philippines.</p>
@@ -82,7 +82,7 @@ export default function Home() {
       <section className="desk-strip">
         <div className="container strip-inner">
           <p>Built for agencies and B2B teams with a client book that has outgrown sticky notes and good intentions.</p>
-          <a href="/contact">Map the account desk <span aria-hidden="true">↗</span></a>
+          <a href="/contact-us">Map the account desk <span aria-hidden="true">↗</span></a>
         </div>
       </section>
 
@@ -107,7 +107,7 @@ export default function Home() {
             <p className="eyebrow">Choose the starting lane</p>
             <h2>Start where the client book feels messy.</h2>
             <p>You do not need to hand over every account. Pick a small group, define the limits, and see whether the weekly review gets easier.</p>
-            <a className="text-link light" href="/contact">Talk through the first scope <span aria-hidden="true">↗</span></a>
+            <a className="text-link light" href="/contact-us">Talk through the first scope <span aria-hidden="true">↗</span></a>
           </div>
           <div className="service-list">
             {services.map((service: any, index: number) => <a href={`/services/${slug(service)}`} key={slug(service)}>
@@ -188,7 +188,7 @@ export default function Home() {
           <h2>Bring us the account list that keeps slipping.</h2>
           <p>Your request can be matched with a Philippines-based staffing partner who understands the scope, limits, and first weekly review.</p>
         </div>
-        <a className="btn primary" href="/contact">Request an account plan</a>
+        <a className="btn primary" href="/contact-us">Request an account plan</a>
       </section>
     </main>
     <Footer />
