@@ -13,7 +13,7 @@ const slug = (item: any) => item.slug || title(item).toLowerCase().replace(/[^a-
 const workflow = [
   { label: 'Client follow-up', copy: 'Approved updates go out on time, and unanswered messages return to a named owner.' },
   { label: 'CRM upkeep', copy: 'Notes, dates, open requests, and next steps stay current enough to guide the week.' },
-  { label: 'Renewal prep', copy: 'Your team gets a clean brief before the conversation, without handing over terms or pricing.' },
+  { label: 'Renewal prep', copy: 'Your team gets a clean brief before the conversation, without handing over terms or scope.' },
   { label: 'Weekly review', copy: 'A short account list shows what moved, what stalled, and where an owner needs to decide.' },
 ];
 
@@ -138,7 +138,7 @@ export default function Home() {
           <div className="boundary-column stays-in">
             <span className="boundary-label">Keep with your team</span>
             <ul>
-              <li>Pricing and contract changes</li>
+              <li>Commercial and contract changes</li>
               <li>Credits and refunds</li>
               <li>Unapproved service promises</li>
               <li>Sensitive client resolutions</li>

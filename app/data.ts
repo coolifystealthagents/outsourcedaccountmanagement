@@ -119,7 +119,7 @@ export const blogDetails = {
       },
       {
         heading: 'Check the handoff rules',
-        body: 'Outsourced account support can update CRM notes, chase missing replies, book review calls, prepare renewal packets, and send approved follow-up. It should not change prices, promise credits, approve refunds, or rewrite contract terms unless an owner signs off.',
+        body: 'Outsourced account support can update CRM notes, chase missing replies, book review calls, prepare renewal packets, and send approved follow-up. It should not change terms, promise credits, approve refunds, or rewrite contract terms unless an owner signs off.',
       },
       {
         heading: 'Ask how quality gets reviewed',
@@ -141,7 +141,7 @@ export const blogDetails = {
       },
     ],
     script: [
-      'We have a client book with follow-ups, renewals, and reporting tasks. Before we talk pricing, I want to see how you would run the first two weeks.',
+      'We have a client book with follow-ups, renewals, and reporting tasks. Before we talk terms, I want to see how you would run the first two weeks.',
       'Please show the account list view you would use, the weekly report you would send, and the escalation rules for price, contract, refund, and unhappy-client issues.',
       'If the pilot works, we can add more accounts after the first scorecard review.',
     ],
@@ -173,7 +173,7 @@ export const blogDetails = {
       },
       {
         q: 'What should stay off limits?',
-        a: 'Pricing changes, contract edits, refund approval, legal promises, and angry-client resolution should stay with your team unless you create written approval rules.',
+        a: 'Commercial changes, contract edits, refund approval, legal promises, and angry-client resolution should stay with your team unless you create written approval rules.',
       },
     ],
   },
