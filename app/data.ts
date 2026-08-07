@@ -102,7 +102,16 @@ export const blogPosts = [
     title: 'Philippines account management handoff checklist',
     excerpt: 'Move a client account without losing decisions, access rules, risks, or next steps.',
     minutes: 12,
-  },] as const;
+  },
+  { slug: 'philippines-account-management-account-health-review', title: 'Philippines account management account health review', excerpt: 'Review account health with dated signals, open commitments, client sentiment, and an owner-ready next action.', minutes: 12 },
+  { slug: 'philippines-account-management-client-request-routing', title: 'Philippines account management client request routing guide', excerpt: 'Route client requests by consequence, authority, evidence, and the time of the next approved update.', minutes: 12 },
+  { slug: 'philippines-account-management-crm-maintenance-checklist', title: 'Philippines account management CRM maintenance checklist', excerpt: 'Keep assigned CRM records accurate, current, permission-aware, and useful to the next account review.', minutes: 12 },
+  { slug: 'philippines-account-management-client-success-plan', title: 'Philippines account management client success plan', excerpt: 'Turn agreed client outcomes into a checked plan with owners, milestones, risks, and review dates.', minutes: 12 },
+  { slug: 'philippines-account-management-service-review-agenda', title: 'Philippines account management service review agenda', excerpt: 'Prepare a service review around evidence, decisions, exceptions, and the client update that follows.', minutes: 12 },
+  { slug: 'philippines-account-management-open-commitments-register', title: 'Philippines account management open commitments register', excerpt: 'Track every client promise with its source, owner, date, status, approval boundary, and closure proof.', minutes: 12 },
+  { slug: 'philippines-account-management-client-risk-log', title: 'Philippines account management client risk log', excerpt: 'Record client risks consistently while keeping legal, security, financial, and scope decisions with accountable owners.', minutes: 12 },
+  { slug: 'philippines-account-management-weekly-account-review', title: 'Philippines account management weekly account review', excerpt: 'Run a repeatable weekly review of account facts, work completed, open decisions, and the next client update.', minutes: 12 },
+] as const;
 
 export const blogDetails = {
   'outsourced-account-management-provider-questions': {

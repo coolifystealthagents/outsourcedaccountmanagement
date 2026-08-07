@@ -1578,3 +1578,84 @@ export const richArticles: Record<string, RichArticle> = {
     ],
   },
 };
+
+// The 2026-08-07 publishing batch adds eight complete guides. Keeping these
+// records in the same rich-article model gives every route the shared metadata,
+// citation, visual, internal-link, and CTA guarantees used by the older guides.
+const recoveryBlogTopics = [
+  ['philippines-account-management-account-health-review', 'Philippines account management account health review', 'account health monitoring'],
+  ['philippines-account-management-client-request-routing', 'Philippines account management client request routing guide', 'client request routing'],
+  ['philippines-account-management-crm-maintenance-checklist', 'Philippines account management CRM maintenance checklist', 'CRM account maintenance'],
+  ['philippines-account-management-client-success-plan', 'Philippines account management client success plan', 'account reporting'],
+  ['philippines-account-management-service-review-agenda', 'Philippines account management service review agenda', 'customer QBR preparation'],
+  ['philippines-account-management-open-commitments-register', 'Philippines account management open commitments register', 'contract milestone tracking'],
+  ['philippines-account-management-client-risk-log', 'Philippines account management client risk log', 'escalation coordination'],
+  ['philippines-account-management-weekly-account-review', 'Philippines account management weekly account review', 'account reporting'],
+] as const;
+
+const recoverySources = [
+  { name: 'NIST Cybersecurity Framework 2.0', date: 'February 26, 2024', url: 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', note: 'Provides a governance and risk vocabulary for repeatable account controls.' },
+  { name: 'NIST least privilege glossary', date: 'accessed August 7, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Defines limiting access to the minimum needed for assigned tasks.' },
+  { name: 'Microsoft Work Trend Index Annual Report', date: 'May 9, 2023', url: 'https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work', note: 'Provides workplace context about search time and focus time; it is not an account-management benchmark.' },
+  { name: 'Philippine National Privacy Commission, Data Privacy Act', date: 'accessed August 7, 2026', url: 'https://privacy.gov.ph/data-privacy-act/', note: 'Provides local personal-information governance context.' },
+];
+
+const recoveryEntries: Array<[string, RichArticle]> = [];
+for (const [slug, title, service] of recoveryBlogTopics) recoveryEntries.push([slug, {
+  title,
+  description: `${title}. A practical guide for teams using Philippines-based account support to keep facts, owners, approvals, and client updates visible.`,
+  published: '2026-08-07', updated: '2026-08-07', readMinutes: 12,
+  intro: [
+    `A useful ${service} routine begins with a record another person can check. A Philippines-based account manager can prepare the record, update assigned fields, route questions, and draft approved follow-up while the accountable owner keeps authority for unusual decisions.`,
+    `This guide turns ${title.toLowerCase()} into a repeatable loop: capture the source, separate work from authority, set the next check, and keep the client update tied to evidence.`,
+  ],
+  takeawaysTitle: 'The short version',
+  takeaways: [
+    'Start with one source record, a clear date, and the smallest useful set of fields.',
+    'Name the work owner and decision owner separately when approval matters.',
+    'Keep access matched to assigned work and link proof before closing an item.',
+    'End the review with a dated next action and an approved client update.',
+  ],
+  sections: [
+    { heading: 'Start with the source record', paragraphs: [
+    `Open ${title.toLowerCase()} from the approved account record, not memory. Record the account, time window, source link, current state, client effect, and the question the owner needs to answer.`,
+    'A short record is stronger when every field has a definition. Mark unknown information as unknown, keep the original client wording when it matters, and do not replace missing proof with a green status.',
+  ] },
+    { heading: 'Separate preparation from authority', paragraphs: [
+    'The account manager may collect facts, update assigned records, prepare a draft, remind an owner, and send wording that has already been approved. Contract changes, discounts, refunds, legal statements, security exceptions, broad access, and work outside scope stay with the named business owner.',
+    'Write the boundary beside the task. A reviewer should be able to see whether the next step is prepare, send after approval, or route for a decision before anyone acts.',
+  ] },
+    { heading: 'Use a repeatable review loop', paragraphs: [
+    'Check the source, status, owner, due date, client effect, and closure proof in the same order each time. If a field is stale or disputed, route the gap instead of hiding it in a summary.',
+    'The Microsoft Work Trend Index reported search-time and focus-time findings among surveyed workers. Use that context as a reason to keep links and definitions beside the record, not as a claim about this team’s results.',
+  ] },
+    { heading: 'Protect information and links', paragraphs: [
+    'Use named accounts, approved systems, least-privilege access, and controlled links. Do not export a client list to an unapproved location or include private notes in a client-facing update.',
+    'When a source is external, retain its name, date, URL, and the exact point it supports. When a source is internal, link the approved record and note who checked it.',
+  ] },
+    { heading: 'Turn findings into an owner decision', paragraphs: [
+    'A good review ends with what changed, what remains open, who can decide, the next client update, and the proof required to close the item. This keeps routine preparation moving without turning the support role into an unrestricted operator.',
+    'Record the chosen action, its limit, its owner, and its due date. Recheck the record at the next review and preserve the correction if the source or client response changes.',
+  ] },
+  ],
+  banners: [
+    { label: 'Planning checkpoint', title: 'Turn the guide into a checked workflow', body: 'Map the source record, work owner, decision owner, review cadence, and approval limits before adding support.', href: '/contact-us', link: 'Scope the workflow' },
+    { label: 'Midpoint check', title: 'Keep the next update visible', body: 'Use one dated client update and one closure rule so open work does not disappear between reviews.', href: '/services/account-reporting', link: 'See account reporting support' },
+    { label: 'Ready to improve the routine?', title: 'Build a practical account support lane', body: 'Start with a small queue, limited access, and an owner review that can verify the first week of work.', href: '/contact-us', link: 'Contact Us' },
+  ],
+  table: { caption: `${title} control fields`, headers: ['Field', 'Minimum evidence', 'Owner check'], rows: [['Source', 'Link, date, exact fact', 'Can another person reproduce it?'], ['Status', 'Current state and last checked time', 'Does it match the source?'], ['Authority', 'Work owner and decision owner', 'Is approval scope explicit?'], ['Next update', 'Date, channel, expected proof', 'Will the client know what happens next?']] },
+  chart: [{ label: 'Source', value: 100, color: '#e8c98e' }, { label: 'Owner', value: 75, color: '#b9dfce' }, { label: 'Next check', value: 50, color: '#ffd9ce' }],
+  chartMeta: { title: `${title} review path`, desc: 'A simple visual shows the source record, owner review, and next check.', heading: 'A visible control path', method: 'The visual is a process aid, not a performance metric. Each item still needs a dated source and accountable owner.' },
+  graphic: { title: `${title} three-step path`, desc: 'A process graphic moves from source facts to owner review and an approved next update.', heading: 'Record, review, update', steps: [{ title: '1  Record', line1: 'Source facts,', line2: 'date, status', color: '#e8c98e' }, { title: '2  Review', line1: 'Owner limits,', line2: 'open decision', color: '#b9dfce' }, { title: '3  Update', line1: 'Approved note,', line2: 'next check', color: '#ffd9ce' }], caption: 'The support role prepares and records the work. The accountable owner confirms choices, and the client receives the approved next update.' },
+  quote: { text: 'The security goal that generates the requirement for actions of an entity to be traced uniquely to that entity.', source: 'NIST accountability glossary', url: 'https://csrc.nist.gov/glossary/term/accountability' },
+  script: [`We checked ${title.toLowerCase()} against [source record] on [date]. The confirmed state is [fact], and the open decision is [decision].`, `[Work owner] will prepare [approved work]. [Decision owner] will confirm [boundary]. Your next update will arrive through [channel] by [date and time].`],
+  scriptTitle: 'A copy-ready client update',
+  faqs: [
+    { q: `What is the first step in ${title.toLowerCase()}?`, a: 'Define the source record, minimum fields, work owner, decision owner, and next review date.' },
+    { q: 'What should the account manager not decide?', a: 'The role should not independently change contracts, approve money movement or refunds, make legal or security judgments, administer broad access, or promise work outside scope.' },
+    { q: 'When is the record complete?', a: 'It is complete when the source, date, current state, owner, next action, approved update, and closure proof are recorded.' },
+  ],
+  faqTitle: `Questions about ${title.toLowerCase()}`,
+  sources: recoverySources.map((source) => ({ ...source })),
+}]);
+Object.assign(richArticles, Object.fromEntries(recoveryEntries));
