@@ -219,4 +219,4 @@ export const staffingProcess = [
 export const staffingFitNote = 'Every plan depends on the role scope, schedule, skills, tools, and management needs. Requests are limited to Filipino talent based in the Philippines and may be routed to a suitable staffing partner.';
 
 
-export const researchPosts: Array<{ slug: string; title: string; excerpt: string; body: string[] }> = [];
+export { researchPosts } from './research-data';
