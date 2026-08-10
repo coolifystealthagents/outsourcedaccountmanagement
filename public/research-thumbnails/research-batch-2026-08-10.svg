@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Research operations controls</title>
+  <desc id="desc">A dark blue research report thumbnail showing a connected review path.</desc>
+  <rect width="1200" height="630" fill="#102033"/>
+  <circle cx="1035" cy="120" r="230" fill="#0f766e" opacity=".22"/>
+  <rect x="84" y="92" width="1032" height="446" rx="24" fill="#17314a" stroke="#4fd1c5" stroke-opacity=".35"/>
+  <text x="132" y="190" fill="#8be6dc" font-family="Arial, sans-serif" font-size="24" letter-spacing="4">OUTSOURCED ACCOUNT MANAGEMENT</text>
+  <text x="132" y="280" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">Research operations</text>
+  <text x="132" y="342" fill="#d7e4ef" font-family="Arial, sans-serif" font-size="30">Clear owners. Traceable decisions. Safer handoffs.</text>
+  <g fill="none" stroke="#4fd1c5" stroke-width="8" stroke-linecap="round"><path d="M138 432h178"/><path d="M356 432h178"/><path d="M574 432h178"/><path d="M792 432h178"/></g>
+  <g fill="#f7c873"><circle cx="138" cy="432" r="12"/><circle cx="356" cy="432" r="12"/><circle cx="574" cy="432" r="12"/><circle cx="792" cy="432" r="12"/></g>
+  <text x="132" y="492" fill="#9fb6c9" font-family="Arial, sans-serif" font-size="22">SOURCE</text><text x="350" y="492" fill="#9fb6c9" font-family="Arial, sans-serif" font-size="22">OWNER</text><text x="568" y="492" fill="#9fb6c9" font-family="Arial, sans-serif" font-size="22">DECISION</text><text x="786" y="492" fill="#9fb6c9" font-family="Arial, sans-serif" font-size="22">NEXT CHECK</text>
+</svg>
