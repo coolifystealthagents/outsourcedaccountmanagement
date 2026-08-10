@@ -1,3 +1,5 @@
+import { dailyBlogPosts } from './daily-blog-batch';
+
 export const site = {
   domain: 'OutsourcedAccountManagement.com',
   slug: 'outsourcedaccountmanagement',
@@ -30,7 +32,7 @@ export const services = [
   { slug: "escalation-coordination", title: "Escalation Coordination", desc: "Filipino account management specialists can handle escalation coordination with documented workflows, approval limits, and owner review." },
 ] as const;
 
-export const blogPosts = [
+const baseBlogPosts = [
   {
     slug: 'philippines-account-management-client-onboarding-kickoff-brief',
     title: 'Philippines account management client onboarding kickoff brief',
@@ -135,6 +137,9 @@ export const blogPosts = [
   { slug: 'philippines-account-management-account-data-cleanup', title: 'Philippines account management account data cleanup', excerpt: 'Clean assigned account data with field definitions, source checks, permissions, and owner review.', minutes: 12 },
   { slug: 'philippines-account-management-client-journey-map', title: 'Philippines account management client journey map', excerpt: 'Map client touchpoints, handoffs, risks, owners, and next updates into one usable record.', minutes: 12 },
 ] as const;
+
+export const blogPosts = [...baseBlogPosts, ...dailyBlogPosts] as const;
+export const allDailyBlogPosts = blogPosts;
 
 export const blogDetails = {
   'outsourced-account-management-provider-questions': {

@@ -1,3 +1,5 @@
+import { dailyRichArticles } from './daily-blog-batch';
+
 export type RichArticle = {
   title: string;
   description: string;
@@ -1722,3 +1724,4 @@ const augustEntries: Array<[string, RichArticle]> = augustBlogTopics.map(([slug,
   faqTitle: `Questions about ${title.toLowerCase()}`, sources: augustSources.map((source) => ({ ...source })),
 }]);
 Object.assign(richArticles, Object.fromEntries(augustEntries));
+Object.assign(richArticles, Object.fromEntries(dailyRichArticles));

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
-import { blogPosts, site } from '../../data';
+import { allDailyBlogPosts as blogPosts, site } from '../../data';
 import { richArticles } from '../../rich-articles';
 
 const base = `https://${String(site.domain).toLowerCase()}`;
