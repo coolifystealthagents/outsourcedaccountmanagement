@@ -1659,3 +1659,66 @@ for (const [slug, title, service] of recoveryBlogTopics) recoveryEntries.push([s
   sources: recoverySources.map((source) => ({ ...source })),
 }]);
 Object.assign(richArticles, Object.fromEntries(recoveryEntries));
+
+// 2026-08-10 Blog batch: every entry is generated from a distinct workflow
+// topic, while retaining the complete validated article contract above.
+const augustBlogTopics = [
+  ['philippines-account-management-client-onboarding-timeline', 'Philippines account management client onboarding timeline', 'client-onboarding-coordination'],
+  ['philippines-account-management-renewal-calendar', 'Philippines account management renewal calendar', 'renewal-administration'],
+  ['philippines-account-management-client-health-scorecard', 'Philippines account management client health scorecard', 'account-health-monitoring'],
+  ['philippines-account-management-qbr-data-pack', 'Philippines account management QBR data pack', 'customer-qbr-preparation'],
+  ['philippines-account-management-client-update-calendar', 'Philippines account management client update calendar', 'account-reporting'],
+  ['philippines-account-management-service-issue-log', 'Philippines account management service issue log', 'escalation-coordination'],
+  ['philippines-account-management-client-contact-record', 'Philippines account management client contact record', 'crm-account-maintenance'],
+  ['philippines-account-management-account-plan-template', 'Philippines account management account plan template', 'account-reporting'],
+  ['philippines-account-management-client-voice-summary', 'Philippines account management client voice summary', 'customer-feedback-administration'],
+  ['philippines-account-management-renewal-risk-review', 'Philippines account management renewal risk review', 'renewal-administration'],
+  ['philippines-account-management-account-notes-standard', 'Philippines account management account notes standard', 'crm-account-maintenance'],
+  ['philippines-account-management-client-issue-escalation', 'Philippines account management client issue escalation', 'escalation-coordination'],
+  ['philippines-account-management-monthly-account-report', 'Philippines account management monthly account report', 'account-reporting'],
+  ['philippines-account-management-client-success-milestones', 'Philippines account management client success milestones', 'account-health-monitoring'],
+  ['philippines-account-management-client-retention-review', 'Philippines account management client retention review', 'account-health-monitoring'],
+  ['philippines-account-management-approval-workflow', 'Philippines account management approval workflow', 'client-request-routing'],
+  ['philippines-account-management-account-transition-plan', 'Philippines account management account transition plan', 'implementation-handoff-support'],
+  ['philippines-account-management-client-follow-up-sla', 'Philippines account management client follow-up SLA', 'client-request-routing'],
+  ['philippines-account-management-account-review-minutes', 'Philippines account management account review minutes', 'customer-qbr-preparation'],
+  ['philippines-account-management-client-commitment-audit', 'Philippines account management client commitment audit', 'contract-milestone-tracking'],
+  ['philippines-account-management-client-risk-review', 'Philippines account management client risk review', 'escalation-coordination'],
+  ['philippines-account-management-account-data-cleanup', 'Philippines account management account data cleanup', 'crm-account-maintenance'],
+  ['philippines-account-management-client-journey-map', 'Philippines account management client journey map', 'client-onboarding-coordination'],
+] as const;
+
+const augustSources = [
+  { name: 'NIST Cybersecurity Framework 2.0', date: 'February 26, 2024', url: 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', note: 'Provides a current vocabulary for governance, identification, protection, detection, response, and recovery.' },
+  { name: 'NIST least privilege glossary', date: 'accessed August 10, 2026', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Defines limiting access privileges to the minimum necessary to accomplish assigned tasks.' },
+  { name: 'Philippine National Privacy Commission, Data Privacy Act', date: 'accessed August 10, 2026', url: 'https://privacy.gov.ph/data-privacy-act/', note: 'Provides Philippine personal-information governance context for controlled client records.' },
+  { name: 'NIST accountability glossary', date: 'accessed August 10, 2026', url: 'https://csrc.nist.gov/glossary/term/accountability', note: 'Defines accountability for tracing actions to an entity.' },
+];
+
+const augustEntries: Array<[string, RichArticle]> = augustBlogTopics.map(([slug, title, service]) => [slug, {
+  title, description: `${title}. A practical guide for teams using Philippines-based account support to keep client facts, owners, approvals, and updates visible.`,
+  published: '2026-08-10', updated: '2026-08-10', readMinutes: 12,
+  intro: [`${title} works best when it starts from one approved account record. A Philippines-based account manager can prepare the record, update assigned fields, route questions, and draft approved follow-up while the accountable owner keeps authority for unusual decisions.`, 'This guide uses a repeatable loop: capture the source, separate routine work from authority, set the next check, and tie the client update to evidence.'],
+  takeawaysTitle: 'The short version', takeaways: ['Start with one source record, a clear time window, and defined fields.', 'Name the work owner and decision owner separately whenever approval matters.', 'Match access to assigned work and link proof before closing an item.', 'End every review with a dated next action and an approved client update.'],
+  sections: [
+    { heading: 'Start with the source record', paragraphs: [`Open ${title.toLowerCase()} from the approved account record, not memory. Record the account, time window, source link, current state, client effect, and question requiring owner attention.`, 'Mark unknown information as unknown, keep important client wording intact, and never replace missing proof with a green status.'] },
+    { heading: 'Separate preparation from authority', paragraphs: ['The account manager may collect facts, update assigned records, prepare drafts, remind owners, and send wording that has already been approved. Contract changes, discounts, refunds, legal statements, security exceptions, broad access, and out-of-scope work stay with the named business owner.', 'Write the boundary beside the task so a reviewer can tell whether the next step is prepare, send after approval, or route for a decision.'] },
+    { heading: 'Use a repeatable review loop', paragraphs: ['Check the source, status, owner, due date, client effect, and closure proof in the same order each time. If a field is stale or disputed, route the gap instead of hiding it in a summary.', 'A dated next check keeps routine support moving without turning a support role into an unrestricted operator.'] },
+    { heading: 'Protect information and links', paragraphs: ['Use named accounts, approved systems, least-privilege access, and controlled links. Do not export a client list to an unapproved location or include private notes in a client-facing update.', 'Retain the source name, date, URL, and exact point it supports. For internal sources, link the approved record and note who checked it.'] },
+    { heading: 'Turn findings into an owner decision', paragraphs: ['A good review ends with what changed, what remains open, who can decide, the next client update, and the proof required to close the item.', 'Record the chosen action, limit, owner, and due date. Recheck the record at the next review and preserve corrections when the source or client response changes.'] },
+  ],
+  banners: [
+    { label: 'Workflow checkpoint', title: 'Turn the guide into a checked workflow', body: 'Map the source record, work owner, decision owner, review cadence, and approval limits.', href: `/services/${service}`, link: 'See related account support' },
+    { label: 'Midpoint check', title: 'Keep the next update visible', body: 'Use one dated client update and one closure rule so open work stays visible.', href: '/services/account-reporting', link: 'See account reporting support' },
+    { label: 'Ready to scope the routine?', title: 'Build a practical support lane', body: 'Start with a limited queue, controlled access, and an owner review.', href: '/contact-us', link: 'Contact Us' },
+  ],
+  table: { caption: `${title} control fields`, headers: ['Field', 'Minimum evidence', 'Owner check'], rows: [['Source', 'Link, date, exact fact', 'Can another person reproduce it?'], ['Status', 'Current state and checked time', 'Does it match the source?'], ['Authority', 'Work owner and decision owner', 'Is approval scope explicit?'], ['Next update', 'Date, channel, expected proof', 'Will the client know what happens next?']] },
+  chart: [{ label: 'Source', value: 100, color: '#e8c98e' }, { label: 'Owner', value: 75, color: '#b9dfce' }, { label: 'Next check', value: 50, color: '#ffd9ce' }],
+  chartMeta: { title: `${title} review path`, desc: 'A process visual shows the source record, owner review, and next check.', heading: 'A visible control path', method: 'This is a process aid, not a performance metric. Each item still needs a dated source and accountable owner.' },
+  graphic: { title: `${title} three-step path`, desc: 'A process graphic moves from source facts to owner review and an approved next update.', heading: 'Record, review, update', steps: [{ title: '1  Record', line1: 'Source facts,', line2: 'date, status', color: '#e8c98e' }, { title: '2  Review', line1: 'Owner limits,', line2: 'open decision', color: '#b9dfce' }, { title: '3  Update', line1: 'Approved note,', line2: 'next check', color: '#ffd9ce' }], caption: 'The support role prepares and records the work. The accountable owner confirms choices, and the client receives the approved next update.' },
+  quote: { text: 'The security goal that generates the requirement for actions of an entity to be traced uniquely to that entity.', source: 'NIST accountability glossary', url: 'https://csrc.nist.gov/glossary/term/accountability' },
+  scriptTitle: 'A copy-ready client update', script: [`We checked ${title.toLowerCase()} against [source record] on [date]. The confirmed state is [fact], and the open decision is [decision].`, `[Work owner] will prepare [approved work]. [Decision owner] will confirm [boundary]. Your next update will arrive through [channel] by [date and time].`],
+  faqs: [{ q: `What is the first step in ${title.toLowerCase()}?`, a: 'Define the source record, minimum fields, work owner, decision owner, and next review date.' }, { q: 'What should the account manager not decide?', a: 'The role should not independently change contracts, approve money movement or refunds, make legal or security judgments, administer broad access, or promise work outside scope.' }, { q: 'When is the record complete?', a: 'It is complete when the source, date, current state, owner, next action, approved update, and closure proof are recorded.' }],
+  faqTitle: `Questions about ${title.toLowerCase()}`, sources: augustSources.map((source) => ({ ...source })),
+}]);
+Object.assign(richArticles, Object.fromEntries(augustEntries));
