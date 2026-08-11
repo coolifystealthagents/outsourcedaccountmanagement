@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "contract": "sites3-aug10-public-date-v6",
+  "targetDate": "2026-08-10",
+  "family": "research",
+  "domain": "outsourcedaccountmanagement.com",
+  "repository": "coolifystealthagents/outsourcedaccountmanagement",
+  "branch": "main",
+  "minimum": 10,
+  "priorRunId": "4720bab0-f237-4bdf-84f0-6b0e37929dae",
+  "priorIssueId": "e987c20a-709a-4b4e-8c12-5394dceeda11",
+  "validationCommands": ["git fetch origin main", "npm ci", "npm run build", "node .paperclip/aug10-2026/validate-research.mjs"],
+  "cleanBuildPassed": true,
+  "existingCompliancePassed": true,
+  "indexNewestFirstPassed": true,
+  "entries": [
+    {"slug":"client-briefing-source-register","route":"/research/client-briefing-source-register","sourcePath":"app/research-data.ts","provenance":"original-aug10-batch","introducedByCommit":"10180c5c49927fc1c878a349ff736793c9ea3b56","sourceDateField":"articleDate","sourceDate":"2026-08-10","renderedDateFields":["datePublished","article:published_time","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"account-task-ownership-matrix","route":"/research/account-task-ownership-matrix","sourcePath":"app/research-data.ts","provenance":"original-aug10-batch","introducedByCommit":"10180c5c49927fc1c878a349ff736793c9ea3b56","sourceDateField":"articleDate","sourceDate":"2026-08-10","renderedDateFields":["datePublished","article:published_time","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"client-update-freshness-control","route":"/research/client-update-freshness-control","sourcePath":"app/research-data.ts","provenance":"original-aug10-batch","introducedByCommit":"10180c5c49927fc1c878a349ff736793c9ea3b56","sourceDateField":"articleDate","sourceDate":"2026-08-10","renderedDateFields":["datePublished","article:published_time","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"account-open-loop-register","route":"/research/account-open-loop-register","sourcePath":"app/research-data.ts","provenance":"original-aug10-batch","introducedByCommit":"10180c5c49927fc1c878a349ff736793c9ea3b56","sourceDateField":"articleDate","sourceDate":"2026-08-10","renderedDateFields":["datePublished","article:published_time","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"client-record-change-audit","route":"/research/client-record-change-audit","sourcePath":"app/research-data.ts","provenance":"original-aug10-batch","introducedByCommit":"10180c5c49927fc1c878a349ff736793c9ea3b56","sourceDateField":"articleDate","sourceDate":"2026-08-10","renderedDateFields":["datePublished","article:published_time","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"account-approval-escalation-ladder","route":"/research/account-approval-escalation-ladder","sourcePath":"app/research-data.ts","provenance":"original-aug10-batch","introducedByCommit":"10180c5c49927fc1c878a349ff736793c9ea3b56","sourceDateField":"articleDate","sourceDate":"2026-08-10","renderedDateFields":["datePublished","article:published_time","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"client-report-reconciliation-routine","route":"/research/client-report-reconciliation-routine","sourcePath":"app/research-data.ts","provenance":"original-aug10-batch","introducedByCommit":"10180c5c49927fc1c878a349ff736793c9ea3b56","sourceDateField":"articleDate","sourceDate":"2026-08-10","renderedDate":"2026-08-10","renderedDateFields":["datePublished","article:published_time","time[datetime]"]},
+    {"slug":"account-handoff-acceptance-check","route":"/research/account-handoff-acceptance-check","sourcePath":"app/research-data.ts","provenance":"original-aug10-batch","introducedByCommit":"10180c5c49927fc1c878a349ff736793c9ea3b56","sourceDateField":"articleDate","sourceDate":"2026-08-10","renderedDateFields":["datePublished","article:published_time","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"client-request-evidence-pack","route":"/research/client-request-evidence-pack","sourcePath":"app/research-data.ts","provenance":"original-aug10-batch","introducedByCommit":"10180c5c49927fc1c878a349ff736793c9ea3b56","sourceDateField":"articleDate","sourceDate":"2026-08-10","renderedDateFields":["datePublished","article:published_time","time[datetime]"],"renderedDate":"2026-08-10"},
+    {"slug":"account-review-calendar-governance","route":"/research/account-review-calendar-governance","sourcePath":"app/research-data.ts","provenance":"original-aug10-batch","introducedByCommit":"10180c5c49927fc1c878a349ff736793c9ea3b56","sourceDateField":"articleDate","sourceDate":"2026-08-10","renderedDateFields":["datePublished","article:published_time","time[datetime]"],"renderedDate":"2026-08-10"}
+  ]
+}

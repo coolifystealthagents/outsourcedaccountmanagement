@@ -96,4 +96,4 @@ export const researchPosts: ResearchPost[] = topics.map(([slug, title, cluster, 
     related,
     internalLinks: [{label: `See ${service} support`, href: `/services/${service}`}, {label: 'Read account reporting support', href: '/services/account-reporting'}],
   };
-});
+}).sort((a, b) => b.published.localeCompare(a.published));
