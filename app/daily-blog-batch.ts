@@ -26,19 +26,48 @@ const topics = [
   ['philippines-account-management-expansion-readiness-check', 'Philippines account management expansion readiness check', 'upsell-opportunity-tracking'],
 ] as const;
 
+// The August 11 campaign is a distinct batch. Keep the publication date on
+// every source record rather than deriving it from a shared campaign value.
+const august11Topics = [
+  ['philippines-account-management-client-onboarding-discovery-agenda', 'Philippines account management client onboarding discovery agenda', 'client-onboarding-coordination', '2026-08-11'],
+  ['philippines-account-management-client-stakeholder-map', 'Philippines account management client stakeholder map', 'client-onboarding-coordination', '2026-08-11'],
+  ['philippines-account-management-client-outcome-baseline', 'Philippines account management client outcome baseline', 'account-health-monitoring', '2026-08-11'],
+  ['philippines-account-management-client-meeting-recap', 'Philippines account management client meeting recap', 'customer-qbr-preparation', '2026-08-11'],
+  ['philippines-account-management-client-action-register', 'Philippines account management client action register', 'client-request-routing', '2026-08-11'],
+  ['philippines-account-management-renewal-evidence-checklist', 'Philippines account management renewal evidence checklist', 'renewal-administration', '2026-08-11'],
+  ['philippines-account-management-escalation-decision-tree', 'Philippines account management escalation decision tree', 'escalation-coordination', '2026-08-11'],
+  ['philippines-account-management-client-reporting-narrative', 'Philippines account management client reporting narrative', 'account-reporting', '2026-08-11'],
+  ['philippines-account-management-crm-access-review', 'Philippines account management CRM access review', 'crm-account-maintenance', '2026-08-11'],
+  ['philippines-account-management-account-communication-cadence', 'Philippines account management account communication cadence', 'account-reporting', '2026-08-11'],
+  ['philippines-account-management-account-handoff-record', 'Philippines account management account handoff record', 'implementation-handoff-support', '2026-08-11'],
+  ['philippines-account-management-health-signal-review', 'Philippines account management health signal review', 'account-health-monitoring', '2026-08-11'],
+  ['philippines-account-management-request-intake-standard', 'Philippines account management request intake standard', 'client-request-routing', '2026-08-11'],
+  ['philippines-account-management-crm-duplicate-review', 'Philippines account management CRM duplicate review', 'crm-account-maintenance', '2026-08-11'],
+  ['philippines-account-management-success-plan-review', 'Philippines account management success plan review', 'account-reporting', '2026-08-11'],
+  ['philippines-account-management-service-review-decision-record', 'Philippines account management service review decision record', 'customer-qbr-preparation', '2026-08-11'],
+  ['philippines-account-management-commitment-aging-review', 'Philippines account management commitment aging review', 'contract-milestone-tracking', '2026-08-11'],
+  ['philippines-account-management-client-risk-ownership-map', 'Philippines account management client risk ownership map', 'account-health-monitoring', '2026-08-11'],
+  ['philippines-account-management-weekly-account-pulse', 'Philippines account management weekly account pulse', 'account-reporting', '2026-08-11'],
+  ['philippines-account-management-client-update-approval-check', 'Philippines account management client update approval check', 'customer-feedback-administration', '2026-08-11'],
+  ['philippines-account-management-account-contact-preference-record', 'Philippines account management account contact preference record', 'client-onboarding-coordination', '2026-08-11'],
+  ['philippines-account-management-account-priority-segmentation', 'Philippines account management account priority segmentation', 'account-health-monitoring', '2026-08-11'],
+] as const;
+
 // Explicit source-date binding for the one frozen article whose source record
 // did not previously carry its own date field.
 export const dailyBlogSourceDates: Record<string, string> = {
   'philippines-account-management-client-onboarding-roles': '2026-08-10',
 };
 
-export const dailyBlogPosts = topics.map(([slug, title]) => ({ slug, title, excerpt: `${title}. A practical source-backed workflow for clear owners, safe access, approved client updates, and closure proof.`, minutes: 10, ...(dailyBlogSourceDates[slug] ? { published: dailyBlogSourceDates[slug] } : {}) }));
+const august10BlogPosts = topics.map(([slug, title]) => ({ slug, title, excerpt: `${title}. A practical source-backed workflow for clear owners, safe access, approved client updates, and closure proof.`, minutes: 10, ...(dailyBlogSourceDates[slug] ? { published: dailyBlogSourceDates[slug] } : {}) }));
+const august11BlogPosts = august11Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for clear account ownership, checked client records, safe access, and approved follow-through.`, minutes: 10 }));
+export const dailyBlogPosts = [...august11BlogPosts, ...august10BlogPosts];
 const source = { name: 'NIST Cybersecurity Framework 2.0', date: 'February 26, 2024', url: 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', note: 'Provides a current governance vocabulary for identifying, protecting, detecting, responding, and recovering.' };
 
-function article(slug: string, title: string, service: string): RichArticle {
+function article(slug: string, title: string, service: string, published = dailyBlogPosts.find((post) => post.slug === slug)?.published || '2026-08-10'): RichArticle {
   const lower = title.toLowerCase();
   return {
-    title, description: `A practical guide to ${lower} for teams using Philippines-based account support, with evidence, approval boundaries, and a dated client update.`, published: dailyBlogSourceDates[slug] || '2026-08-10', updated: '2026-08-10', readMinutes: 10,
+    title, description: `A practical guide to ${lower} for teams using Philippines-based account support, with evidence, approval boundaries, and a dated client update.`, published, updated: published, readMinutes: 10,
     intro: [`${title} should begin with one approved account record, not memory. A Philippines-based account manager can gather facts, update assigned fields, prepare drafts, and route decisions while the accountable owner retains authority for unusual or commercial choices.`, 'Use the same control loop for each account: capture the source, separate routine work from authority, check the record, and leave a clear next update.'],
     takeawaysTitle: 'The short version', takeaways: ['Start with a named source, time window, and minimum fields.', 'Separate the work owner from the decision owner.', 'Use task-matched access and preserve closure proof.', 'End with an approved, dated client update.'],
     sections: [
@@ -63,4 +92,7 @@ function article(slug: string, title: string, service: string): RichArticle {
   };
 }
 
-export const dailyRichArticles: Array<[string, RichArticle]> = topics.map(([slug, title, service]) => [slug, article(slug, title, service)]);
+export const dailyRichArticles: Array<[string, RichArticle]> = [
+  ...august11Topics.map(([slug, title, service, published]) => [slug, article(slug, title, service, published)] as [string, RichArticle]),
+  ...topics.map(([slug, title, service]) => [slug, article(slug, title, service)] as [string, RichArticle]),
+];
