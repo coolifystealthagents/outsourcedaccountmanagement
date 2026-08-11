@@ -9,7 +9,7 @@
   "minimum": 10,
   "priorRunId": "4720bab0-f237-4bdf-84f0-6b0e37929dae",
   "priorIssueId": "e987c20a-709a-4b4e-8c12-5394dceeda11",
-  "validationCommands": ["git fetch origin main", "npm ci", "npm run build", "node .paperclip/aug10-2026/validate-research.mjs"],
+  "validationCommands": ["git fetch origin main", "npm run build", "node .paperclip/aug10-2026/validate-research.mjs", "git diff --check", "git ls-remote origin refs/heads/main"],
   "cleanBuildPassed": true,
   "existingCompliancePassed": true,
   "indexNewestFirstPassed": true,
