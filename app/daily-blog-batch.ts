@@ -26,13 +26,19 @@ const topics = [
   ['philippines-account-management-expansion-readiness-check', 'Philippines account management expansion readiness check', 'upsell-opportunity-tracking'],
 ] as const;
 
-export const dailyBlogPosts = topics.map(([slug, title]) => ({ slug, title, excerpt: `${title}. A practical source-backed workflow for clear owners, safe access, approved client updates, and closure proof.`, minutes: 10 }));
+// Explicit source-date binding for the one frozen article whose source record
+// did not previously carry its own date field.
+export const dailyBlogSourceDates: Record<string, string> = {
+  'philippines-account-management-client-onboarding-roles': '2026-08-10',
+};
+
+export const dailyBlogPosts = topics.map(([slug, title]) => ({ slug, title, excerpt: `${title}. A practical source-backed workflow for clear owners, safe access, approved client updates, and closure proof.`, minutes: 10, ...(dailyBlogSourceDates[slug] ? { published: dailyBlogSourceDates[slug] } : {}) }));
 const source = { name: 'NIST Cybersecurity Framework 2.0', date: 'February 26, 2024', url: 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', note: 'Provides a current governance vocabulary for identifying, protecting, detecting, responding, and recovering.' };
 
-function article(title: string, service: string): RichArticle {
+function article(slug: string, title: string, service: string): RichArticle {
   const lower = title.toLowerCase();
   return {
-    title, description: `A practical guide to ${lower} for teams using Philippines-based account support, with evidence, approval boundaries, and a dated client update.`, published: '2026-08-10', updated: '2026-08-10', readMinutes: 10,
+    title, description: `A practical guide to ${lower} for teams using Philippines-based account support, with evidence, approval boundaries, and a dated client update.`, published: dailyBlogSourceDates[slug] || '2026-08-10', updated: '2026-08-10', readMinutes: 10,
     intro: [`${title} should begin with one approved account record, not memory. A Philippines-based account manager can gather facts, update assigned fields, prepare drafts, and route decisions while the accountable owner retains authority for unusual or commercial choices.`, 'Use the same control loop for each account: capture the source, separate routine work from authority, check the record, and leave a clear next update.'],
     takeawaysTitle: 'The short version', takeaways: ['Start with a named source, time window, and minimum fields.', 'Separate the work owner from the decision owner.', 'Use task-matched access and preserve closure proof.', 'End with an approved, dated client update.'],
     sections: [
@@ -57,4 +63,4 @@ function article(title: string, service: string): RichArticle {
   };
 }
 
-export const dailyRichArticles: Array<[string, RichArticle]> = topics.map(([slug, title, service]) => [slug, article(title, service)]);
+export const dailyRichArticles: Array<[string, RichArticle]> = topics.map(([slug, title, service]) => [slug, article(slug, title, service)]);
