@@ -138,7 +138,8 @@ const baseBlogPosts = [
   { slug: 'philippines-account-management-client-journey-map', title: 'Philippines account management client journey map', excerpt: 'Map client touchpoints, handoffs, risks, owners, and next updates into one usable record.', minutes: 12 },
 ] as const;
 
-export const blogPosts = [...baseBlogPosts, ...dailyBlogPosts] as const;
+// Newest publication batches lead the family index; older evergreen posts remain routed.
+export const blogPosts = [...dailyBlogPosts, ...baseBlogPosts] as const;
 export const allDailyBlogPosts = blogPosts;
 
 export const blogDetails = {
