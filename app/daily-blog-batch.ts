@@ -120,8 +120,50 @@ function article(slug: string, title: string, service: string, published = daily
   };
 }
 
+const august13Angles: Record<string, string> = {
+  'philippines-account-management-client-goal-mapping': 'translate broad client ambitions into three observable outcomes and an owner for each',
+  'philippines-account-management-account-plan-review': 'test whether an account plan still matches the client\'s current priorities, stakeholders, and evidence',
+  'philippines-account-management-renewal-risk-register': 'connect renewal concerns to evidence, impact, mitigation, and the person who can decide',
+  'philippines-account-management-qbr-question-bank': 'use purposeful questions to turn a quarterly review into a conversation about outcomes',
+  'philippines-account-management-crm-activity-standard': 'make account activity useful by recording the context, client effect, next action, and source',
+  'philippines-account-management-client-request-priority-matrix': 'rank client requests by urgency, consequence, dependency, and promised response',
+  'philippines-account-management-growth-conversation-notes': 'capture expansion signals without turning a client comment into an unapproved sales promise',
+  'philippines-account-management-account-summary-page': 'build a one-page account view that a new reviewer can understand without opening every record',
+  'philippines-account-management-service-commitment-register': 'track service commitments from the original wording through proof of completion',
+  'philippines-account-management-client-feedback-interview-guide': 'ask neutral questions that distinguish a single incident from a repeatable client theme',
+  'philippines-account-management-launch-to-support-checklist': 'carry ownership, access, open risks, and client expectations across the launch handoff',
+  'philippines-account-management-urgent-request-brief': 'give a decision maker the facts, consequence, requested action, and response deadline in one page',
+  'philippines-account-management-outcome-review-scorecard': 'compare agreed outcomes with evidence while keeping activity counts separate from client value',
+  'philippines-account-management-renewal-timeline-map': 'place evidence, stakeholder moments, approvals, and client updates on one renewal calendar',
+  'philippines-account-management-risk-evidence-log': 'keep risk statements tied to dated observations rather than impressions or inherited labels',
+  'philippines-account-management-client-success-plan-agenda': 'make a success-plan meeting practical by reviewing outcomes, blockers, owners, and decisions',
+  'philippines-account-management-qbr-action-summary': 'turn a QBR discussion into a short action summary with owners, dates, and approval boundaries',
+  'philippines-account-management-crm-record-completeness-check': 'find missing account facts by checking the fields another teammate needs to act safely',
+  'philippines-account-management-cross-team-escalation-note': 'help another team act quickly by separating the client impact from internal speculation',
+  'philippines-account-management-client-portfolio-review': 'review several accounts consistently without losing the different context behind each one',
+  'philippines-account-management-feedback-follow-through-log': 'show what changed after feedback and what remains open for the client',
+  'philippines-account-management-delivery-dependency-review': 'surface dependencies before they become missed commitments by naming the prerequisite and owner',
+};
+
+function august13Article(slug: string, title: string, service: string, published: string): RichArticle {
+  const base = article(slug, title, service, published);
+  const angle = august13Angles[slug];
+  return {
+    ...base,
+    description: `${title}: ${angle}, with practical controls for Philippines-based account support.`,
+    intro: [`${title} works best when teams ${angle}. This guide is written for US teams working with Philippines-based account support and keeps the accountable owner close to every consequential choice.`, 'Use the examples as a working record: name the client fact, show the source, identify the work owner, and state the next client-safe update.'],
+    sections: [
+      { heading: 'Define the account question', paragraphs: [`Start by stating how to ${angle}. Write the client, time period, decision or outcome under review, and the source records that can confirm it.`, 'A short account brief prevents a familiar label from becoming a conclusion. Keep the client\'s wording beside the team\'s interpretation when the difference matters.'] },
+      { heading: 'Separate evidence from interpretation', paragraphs: [`For this topic, collect evidence that shows whether the intended result is present: dated client messages, approved records, completed work, or a named dependency. Do not substitute activity for proof simply because activity is easier to count.`, 'If the evidence is incomplete, mark the gap and route it to the person who can resolve it. A Philippines-based account manager can assemble the record and prepare the next step without claiming authority to change a commitment.'] },
+      { heading: 'Assign work and authority', paragraphs: [`Give each follow-up one work owner and, when needed, a separate decision owner. The work owner may organize records, prepare a draft, and coordinate an update; the decision owner handles contracts, credits, refunds, legal wording, security exceptions, broad access, and out-of-scope promises.`, 'Write the boundary directly in the record so urgency does not silently turn preparation into approval.'] },
+      { heading: 'Make the client update useful', paragraphs: [`A client update should say what was checked, what is confirmed, what remains open, and when the next answer will arrive. For a record about how to ${angle}, include the evidence or link that lets the recipient understand the conclusion.`, 'Remove internal guesses and private commentary from the client version. Preserve them only in the controlled internal record when they are necessary for the decision owner.'] },
+      { heading: 'Close with proof', paragraphs: [`Close the item only when the stated result, source record, owner action, and client-facing update agree. If the result is partial, leave the remaining work visible and give it a new owner and date.`, 'Review the finished record at the next account check. Repeated gaps usually point to a missing field, unclear handoff, or approval boundary that should be made explicit.'] },
+    ],
+  };
+}
+
 export const dailyRichArticles: Array<[string, RichArticle]> = [
-  ...august13Topics.map(([slug, title, service, published]) => [slug, article(slug, title, service, published)] as [string, RichArticle]),
+  ...august13Topics.map(([slug, title, service, published]) => [slug, august13Article(slug, title, service, published)] as [string, RichArticle]),
   ...august11Topics.map(([slug, title, service, published]) => [slug, article(slug, title, service, published)] as [string, RichArticle]),
   ...topics.map(([slug, title, service]) => [slug, article(slug, title, service)] as [string, RichArticle]),
 ];
