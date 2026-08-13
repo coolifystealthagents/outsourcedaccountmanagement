@@ -53,6 +53,33 @@ const august11Topics = [
   ['philippines-account-management-account-priority-segmentation', 'Philippines account management account priority segmentation', 'account-health-monitoring', '2026-08-12'],
 ] as const;
 
+// August 13 is a new, family-scoped batch. Keep the date on every record so
+// the loader and route metadata do not infer publication from a shared value.
+const august13Topics = [
+  ['philippines-account-management-client-goal-mapping', 'Philippines account management client goal mapping', 'client-onboarding-coordination', '2026-08-13'],
+  ['philippines-account-management-account-plan-review', 'Philippines account management account plan review', 'account-health-monitoring', '2026-08-13'],
+  ['philippines-account-management-renewal-risk-register', 'Philippines account management renewal risk register', 'renewal-administration', '2026-08-13'],
+  ['philippines-account-management-qbr-question-bank', 'Philippines account management QBR question bank', 'customer-qbr-preparation', '2026-08-13'],
+  ['philippines-account-management-crm-activity-standard', 'Philippines account management CRM activity standard', 'crm-account-maintenance', '2026-08-13'],
+  ['philippines-account-management-client-request-priority-matrix', 'Philippines account management client request priority matrix', 'client-request-routing', '2026-08-13'],
+  ['philippines-account-management-growth-conversation-notes', 'Philippines account management growth conversation notes', 'upsell-opportunity-tracking', '2026-08-13'],
+  ['philippines-account-management-account-summary-page', 'Philippines account management account summary page', 'account-reporting', '2026-08-13'],
+  ['philippines-account-management-service-commitment-register', 'Philippines account management service commitment register', 'contract-milestone-tracking', '2026-08-13'],
+  ['philippines-account-management-client-feedback-interview-guide', 'Philippines account management client feedback interview guide', 'customer-feedback-administration', '2026-08-13'],
+  ['philippines-account-management-launch-to-support-checklist', 'Philippines account management launch to support checklist', 'implementation-handoff-support', '2026-08-13'],
+  ['philippines-account-management-urgent-request-brief', 'Philippines account management urgent request brief', 'escalation-coordination', '2026-08-13'],
+  ['philippines-account-management-outcome-review-scorecard', 'Philippines account management outcome review scorecard', 'account-reporting', '2026-08-13'],
+  ['philippines-account-management-renewal-timeline-map', 'Philippines account management renewal timeline map', 'renewal-administration', '2026-08-13'],
+  ['philippines-account-management-risk-evidence-log', 'Philippines account management risk evidence log', 'account-health-monitoring', '2026-08-13'],
+  ['philippines-account-management-client-success-plan-agenda', 'Philippines account management client success plan agenda', 'client-onboarding-coordination', '2026-08-13'],
+  ['philippines-account-management-qbr-action-summary', 'Philippines account management QBR action summary', 'customer-qbr-preparation', '2026-08-13'],
+  ['philippines-account-management-crm-record-completeness-check', 'Philippines account management CRM record completeness check', 'crm-account-maintenance', '2026-08-13'],
+  ['philippines-account-management-cross-team-escalation-note', 'Philippines account management cross-team escalation note', 'escalation-coordination', '2026-08-13'],
+  ['philippines-account-management-client-portfolio-review', 'Philippines account management client portfolio review', 'account-reporting', '2026-08-13'],
+  ['philippines-account-management-feedback-follow-through-log', 'Philippines account management feedback follow-through log', 'customer-feedback-administration', '2026-08-13'],
+  ['philippines-account-management-delivery-dependency-review', 'Philippines account management delivery dependency review', 'contract-milestone-tracking', '2026-08-13'],
+] as const;
+
 // Explicit source-date binding for the one frozen article whose source record
 // did not previously carry its own date field.
 export const dailyBlogSourceDates: Record<string, string> = {
@@ -61,7 +88,8 @@ export const dailyBlogSourceDates: Record<string, string> = {
 
 const august10BlogPosts = topics.map(([slug, title]) => ({ slug, title, excerpt: `${title}. A practical source-backed workflow for clear owners, safe access, approved client updates, and closure proof.`, minutes: 10, ...(dailyBlogSourceDates[slug] ? { published: dailyBlogSourceDates[slug] } : {}) }));
 const august11BlogPosts = august11Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for clear account ownership, checked client records, safe access, and approved follow-through.`, minutes: 10 }));
-export const dailyBlogPosts = [...august11BlogPosts, ...august10BlogPosts];
+const august13BlogPosts = august13Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 10 }));
+export const dailyBlogPosts = [...august13BlogPosts, ...august11BlogPosts, ...august10BlogPosts];
 const source = { name: 'NIST Cybersecurity Framework 2.0', date: 'February 26, 2024', url: 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', note: 'Provides a current governance vocabulary for identifying, protecting, detecting, responding, and recovering.' };
 
 function article(slug: string, title: string, service: string, published = dailyBlogPosts.find((post) => post.slug === slug)?.published || '2026-08-10'): RichArticle {
@@ -93,6 +121,7 @@ function article(slug: string, title: string, service: string, published = daily
 }
 
 export const dailyRichArticles: Array<[string, RichArticle]> = [
+  ...august13Topics.map(([slug, title, service, published]) => [slug, article(slug, title, service, published)] as [string, RichArticle]),
   ...august11Topics.map(([slug, title, service, published]) => [slug, article(slug, title, service, published)] as [string, RichArticle]),
   ...topics.map(([slug, title, service]) => [slug, article(slug, title, service)] as [string, RichArticle]),
 ];

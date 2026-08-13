@@ -1,0 +1,270 @@
+{
+  "campaignDate": "2026-08-13",
+  "family": "blog",
+  "entries": [
+    {
+      "slug": "philippines-account-management-client-goal-mapping",
+      "route": "/blog/philippines-account-management-client-goal-mapping",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-account-plan-review",
+      "route": "/blog/philippines-account-management-account-plan-review",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-renewal-risk-register",
+      "route": "/blog/philippines-account-management-renewal-risk-register",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-qbr-question-bank",
+      "route": "/blog/philippines-account-management-qbr-question-bank",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-crm-activity-standard",
+      "route": "/blog/philippines-account-management-crm-activity-standard",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-client-request-priority-matrix",
+      "route": "/blog/philippines-account-management-client-request-priority-matrix",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-growth-conversation-notes",
+      "route": "/blog/philippines-account-management-growth-conversation-notes",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-account-summary-page",
+      "route": "/blog/philippines-account-management-account-summary-page",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-service-commitment-register",
+      "route": "/blog/philippines-account-management-service-commitment-register",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-client-feedback-interview-guide",
+      "route": "/blog/philippines-account-management-client-feedback-interview-guide",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-launch-to-support-checklist",
+      "route": "/blog/philippines-account-management-launch-to-support-checklist",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-urgent-request-brief",
+      "route": "/blog/philippines-account-management-urgent-request-brief",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-outcome-review-scorecard",
+      "route": "/blog/philippines-account-management-outcome-review-scorecard",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-renewal-timeline-map",
+      "route": "/blog/philippines-account-management-renewal-timeline-map",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-risk-evidence-log",
+      "route": "/blog/philippines-account-management-risk-evidence-log",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-client-success-plan-agenda",
+      "route": "/blog/philippines-account-management-client-success-plan-agenda",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-qbr-action-summary",
+      "route": "/blog/philippines-account-management-qbr-action-summary",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-crm-record-completeness-check",
+      "route": "/blog/philippines-account-management-crm-record-completeness-check",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-cross-team-escalation-note",
+      "route": "/blog/philippines-account-management-cross-team-escalation-note",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-client-portfolio-review",
+      "route": "/blog/philippines-account-management-client-portfolio-review",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-feedback-follow-through-log",
+      "route": "/blog/philippines-account-management-feedback-follow-through-log",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    },
+    {
+      "slug": "philippines-account-management-delivery-dependency-review",
+      "route": "/blog/philippines-account-management-delivery-dependency-review",
+      "sourcePath": "app/daily-blog-batch.ts",
+      "sourceDate": "2026-08-13",
+      "sourceDateField": "published",
+      "renderedDate": "2026-08-13",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ]
+    }
+  ]
+}
