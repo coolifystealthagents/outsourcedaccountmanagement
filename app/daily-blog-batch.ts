@@ -56,28 +56,28 @@ const august11Topics = [
 // August 13 is a new, family-scoped batch. Keep the date on every record so
 // the loader and route metadata do not infer publication from a shared value.
 const august13Topics = [
-  ['philippines-account-management-stakeholder-priority-brief', 'Philippines account management stakeholder priority brief', 'client-onboarding-coordination', '2026-08-13'],
-  ['philippines-account-management-account-context-sheet', 'Philippines account management account context sheet', 'account-health-monitoring', '2026-08-13'],
-  ['philippines-account-management-renewal-objection-log', 'Philippines account management renewal objection log', 'renewal-administration', '2026-08-13'],
-  ['philippines-account-management-qbr-outcome-ladder', 'Philippines account management QBR outcome ladder', 'customer-qbr-preparation', '2026-08-13'],
-  ['philippines-account-management-crm-note-taxonomy', 'Philippines account management CRM note taxonomy', 'crm-account-maintenance', '2026-08-13'],
-  ['philippines-account-management-request-impact-brief', 'Philippines account management request impact brief', 'client-request-routing', '2026-08-13'],
-  ['philippines-account-management-expansion-readiness-conversation', 'Philippines account management expansion readiness conversation', 'upsell-opportunity-tracking', '2026-08-13'],
-  ['philippines-account-management-account-evidence-narrative', 'Philippines account management account evidence narrative', 'account-reporting', '2026-08-13'],
-  ['philippines-account-management-commitment-proof-index', 'Philippines account management commitment proof index', 'contract-milestone-tracking', '2026-08-13'],
-  ['philippines-account-management-feedback-interaction-record', 'Philippines account management feedback interaction record', 'customer-feedback-administration', '2026-08-13'],
-  ['philippines-account-management-post-launch-stabilization-plan', 'Philippines account management post-launch stabilization plan', 'implementation-handoff-support', '2026-08-13'],
-  ['philippines-account-management-escalation-fact-pattern', 'Philippines account management escalation fact pattern', 'escalation-coordination', '2026-08-13'],
-  ['philippines-account-management-value-evidence-review', 'Philippines account management value evidence review', 'account-reporting', '2026-08-13'],
-  ['philippines-account-management-renewal-decision-calendar', 'Philippines account management renewal decision calendar', 'renewal-administration', '2026-08-13'],
-  ['philippines-account-management-risk-threshold-guide', 'Philippines account management risk threshold guide', 'account-health-monitoring', '2026-08-13'],
-  ['philippines-account-management-success-outcome-charter', 'Philippines account management success outcome charter', 'client-onboarding-coordination', '2026-08-13'],
-  ['philippines-account-management-qbr-decision-brief', 'Philippines account management QBR decision brief', 'customer-qbr-preparation', '2026-08-13'],
-  ['philippines-account-management-crm-history-reconstruction', 'Philippines account management CRM history reconstruction', 'crm-account-maintenance', '2026-08-13'],
-  ['philippines-account-management-escalation-handoff-record', 'Philippines account management escalation handoff record', 'escalation-coordination', '2026-08-13'],
-  ['philippines-account-management-portfolio-priority-review', 'Philippines account management portfolio priority review', 'account-reporting', '2026-08-13'],
-  ['philippines-account-management-feedback-resolution-story', 'Philippines account management feedback resolution story', 'customer-feedback-administration', '2026-08-13'],
-  ['philippines-account-management-commitment-sequence-map', 'Philippines account management commitment sequence map', 'contract-milestone-tracking', '2026-08-13'],
+  ['philippines-account-management-client-value-review', 'Philippines account management client value review', 'account-reporting', '2026-08-13'],
+  ['philippines-account-management-service-boundary-compass', 'Philippines account management service boundary compass', 'client-onboarding-coordination', '2026-08-13'],
+  ['philippines-account-management-renewal-question-register', 'Philippines account management renewal question register', 'renewal-administration', '2026-08-13'],
+  ['philippines-account-management-qbr-evidence-board', 'Philippines account management QBR evidence board', 'customer-qbr-preparation', '2026-08-13'],
+  ['philippines-account-management-crm-note-quality-check', 'Philippines account management CRM note quality check', 'crm-account-maintenance', '2026-08-13'],
+  ['philippines-account-management-request-urgency-matrix', 'Philippines account management request urgency matrix', 'client-request-routing', '2026-08-13'],
+  ['philippines-account-management-growth-signal-review', 'Philippines account management growth signal review', 'upsell-opportunity-tracking', '2026-08-13'],
+  ['philippines-account-management-account-storyline-audit', 'Philippines account management account storyline audit', 'account-reporting', '2026-08-13'],
+  ['philippines-account-management-delivery-proof-register', 'Philippines account management delivery proof register', 'contract-milestone-tracking', '2026-08-13'],
+  ['philippines-account-management-client-voice-coding', 'Philippines account management client voice coding', 'customer-feedback-administration', '2026-08-13'],
+  ['philippines-account-management-launch-to-retention-bridge', 'Philippines account management launch to retention bridge', 'implementation-handoff-support', '2026-08-13'],
+  ['philippines-account-management-escalation-impact-summary', 'Philippines account management escalation impact summary', 'escalation-coordination', '2026-08-13'],
+  ['philippines-account-management-outcome-definition-guide', 'Philippines account management outcome definition guide', 'account-reporting', '2026-08-13'],
+  ['philippines-account-management-renewal-preparation-grid', 'Philippines account management renewal preparation grid', 'renewal-administration', '2026-08-13'],
+  ['philippines-account-management-health-signal-thresholds', 'Philippines account management health signal thresholds', 'account-health-monitoring', '2026-08-13'],
+  ['philippines-account-management-success-measurement-plan', 'Philippines account management success measurement plan', 'client-onboarding-coordination', '2026-08-13'],
+  ['philippines-account-management-qbr-action-summary', 'Philippines account management QBR action summary', 'customer-qbr-preparation', '2026-08-13'],
+  ['philippines-account-management-crm-timeline-audit', 'Philippines account management CRM timeline audit', 'crm-account-maintenance', '2026-08-13'],
+  ['philippines-account-management-escalation-receipt-brief', 'Philippines account management escalation receipt brief', 'escalation-coordination', '2026-08-13'],
+  ['philippines-account-management-portfolio-attention-model', 'Philippines account management portfolio attention model', 'account-reporting', '2026-08-13'],
+  ['philippines-account-management-feedback-change-ledger', 'Philippines account management feedback change ledger', 'customer-feedback-administration', '2026-08-13'],
+  ['philippines-account-management-commitment-dependency-chain', 'Philippines account management commitment dependency chain', 'contract-milestone-tracking', '2026-08-13'],
 ] as const;
 
 // Explicit source-date binding for the one frozen article whose source record
@@ -146,6 +146,57 @@ const august13Angles: Record<string, string> = {
 };
 
 const august13DistinctiveNotes: Record<string, string> = {
+  'philippines-account-management-client-value-review': 'Define value in the client\'s agreed terms, then connect each conclusion to a source and review date.',
+  'philippines-account-management-service-boundary-compass': 'Show which requests fit the written service boundary and which require an accountable owner\'s decision.',
+  'philippines-account-management-renewal-question-register': 'Keep unanswered renewal questions visible with their source, consequence, owner, and next check.',
+  'philippines-account-management-qbr-evidence-board': 'Put each quarterly discussion point beside the evidence and decision the meeting needs.',
+  'philippines-account-management-crm-note-quality-check': 'Check whether a note preserves context, source, client effect, and a usable follow-up.',
+  'philippines-account-management-request-urgency-matrix': 'Rank requests by client consequence and dependency rather than by who asks most loudly.',
+  'philippines-account-management-growth-signal-review': 'Treat interest as a signal to investigate, not as approval for a commercial promise.',
+  'philippines-account-management-account-storyline-audit': 'Separate dated observations from interpretations so a polished narrative stays defensible.',
+  'philippines-account-management-delivery-proof-register': 'Record the acceptance test, evidence, client response, and remaining exception for each delivery.',
+  'philippines-account-management-client-voice-coding': 'Preserve the setting and exact meaning of feedback before grouping it into a theme.',
+  'philippines-account-management-launch-to-retention-bridge': 'Make the handoff explicit where launch ownership becomes recurring account ownership.',
+  'philippines-account-management-escalation-impact-summary': 'Lead with the client consequence, then give the decision owner the facts and deadline.',
+  'philippines-account-management-outcome-definition-guide': 'State what success means before selecting activity or reporting measures.',
+  'philippines-account-management-renewal-preparation-grid': 'Give every renewal moment a purpose, owner, evidence need, and follow-up date.',
+  'philippines-account-management-health-signal-thresholds': 'Set thresholds that match observable evidence and define what changes the risk label.',
+  'philippines-account-management-success-measurement-plan': 'Turn an agreed outcome into proof, ownership, review timing, and a client-safe update.',
+  'philippines-account-management-qbr-action-summary': 'Write the recap so an absent stakeholder can distinguish decisions, actions, and open questions.',
+  'philippines-account-management-crm-timeline-audit': 'Reconstruct a timeline from dated records while marking gaps instead of filling them with guesses.',
+  'philippines-account-management-escalation-receipt-brief': 'Give the receiving owner a complete fact pattern and the authority boundary for the next reply.',
+  'philippines-account-management-portfolio-attention-model': 'Use common comparison fields while retaining the account-specific reason behind attention.',
+  'philippines-account-management-feedback-change-ledger': 'Trace feedback from the original comment to verified change and any remaining client concern.',
+  'philippines-account-management-commitment-dependency-chain': 'Name each prerequisite, blocker, owner, and check date behind a client commitment.',
+};
+
+const august13ReplacementAngles: Record<string, string> = {
+  'philippines-account-management-client-value-review': 'review client value by connecting agreed outcomes to dated evidence and the next owner decision',
+  'philippines-account-management-service-boundary-compass': 'test requests against the written account boundary before work is accepted or promised',
+  'philippines-account-management-renewal-question-register': 'turn unresolved renewal questions into owned, dated follow-up rather than optimistic status',
+  'philippines-account-management-qbr-evidence-board': 'prepare a quarterly business review around evidence, decisions, and consequences',
+  'philippines-account-management-crm-note-quality-check': 'inspect whether CRM notes give the next reviewer enough context to act safely',
+  'philippines-account-management-request-urgency-matrix': 'classify account requests by client impact, dependency, authority, and response need',
+  'philippines-account-management-growth-signal-review': 'evaluate a possible expansion signal without turning interest into an unsupported commitment',
+  'philippines-account-management-account-storyline-audit': 'audit an account narrative so each conclusion can be traced to current evidence',
+  'philippines-account-management-delivery-proof-register': 'link delivered work to its acceptance evidence, owner, exception, and client communication',
+  'philippines-account-management-client-voice-coding': 'organize client feedback without stripping away the context that determines its meaning',
+  'philippines-account-management-launch-to-retention-bridge': 'carry open implementation responsibilities into ongoing account support with a clear handoff',
+  'philippines-account-management-escalation-impact-summary': 'summarize an escalation around client effect, verified facts, decision needed, and timing',
+  'philippines-account-management-outcome-definition-guide': 'define account outcomes clearly enough that both sides can recognize credible proof',
+  'philippines-account-management-renewal-preparation-grid': 'coordinate renewal preparation through stakeholder moments, evidence checks, and approvals',
+  'philippines-account-management-health-signal-thresholds': 'set account-health thresholds that make evidence, ownership, and escalation proportional',
+  'philippines-account-management-success-measurement-plan': 'build a success measurement plan that joins client outcomes to proof and review dates',
+  'philippines-account-management-qbr-action-summary': 'turn quarterly review discussion into a precise record of decisions, owners, and next checks',
+  'philippines-account-management-crm-timeline-audit': 'rebuild account history from scattered CRM records while keeping uncertainty visible',
+  'philippines-account-management-escalation-receipt-brief': 'help an escalation recipient understand the issue, authority limit, client effect, and first reply',
+  'philippines-account-management-portfolio-attention-model': 'compare portfolio attention needs consistently without erasing account-specific context',
+  'philippines-account-management-feedback-change-ledger': 'show the path from client feedback to verified change and an honest remaining-gap record',
+  'philippines-account-management-commitment-dependency-chain': 'map how a commitment moves through prerequisites, approval, delivery, and confirmation',
+};
+
+/* Legacy August 13 identities are intentionally absent from this successor. */
+/*
   'philippines-account-management-stakeholder-intent-brief': 'Separate a stakeholder request, a confirmed requirement, and an assumption that still needs checking.',
   'philippines-account-management-account-scope-check': 'Compare the current queue with the written scope before accepting work that changes the account owner\'s obligations.',
   'philippines-account-management-renewal-commitment-audit': 'Read the original promise beside the latest delivery evidence so a hopeful status does not become a renewal fact.',
@@ -194,6 +245,7 @@ const august13ReplacementAngles: Record<string, string> = {
   'philippines-account-management-feedback-resolution-story': 'show the path from client feedback to verified change, remaining gap, and next communication',
   'philippines-account-management-commitment-sequence-map': 'show how a commitment moves from request through dependency, approval, delivery, and confirmation',
 };
+*/
 
 function august13Article(slug: string, title: string, service: string, published: string): RichArticle {
   const base = article(slug, title, service, published);
