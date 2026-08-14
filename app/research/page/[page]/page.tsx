@@ -1,0 +1,7 @@
+import {notFound,redirect} from 'next/navigation';
+import {Header,Footer} from '../../../components';
+import {researchPosts,site} from '../../../data';
+
+const pageSize=20;
+export function generateStaticParams(){const total=Math.max(1,Math.ceil(researchPosts.length/pageSize));return Array.from({length:total-1},(_,i)=>({page:String(i+2)}));}
+export default async function ResearchPage({params}:{params:Promise<{page:string}>}){const {page}=await params;const n=Number(page);const total=Math.max(1,Math.ceil(researchPosts.length/pageSize));if(!Number.isInteger(n)||n<2||n>total)notFound();const posts=researchPosts.slice((n-1)*pageSize,n*pageSize);return <><Header/><main className="section"><div className="container"><p className="eyebrow">Research Library</p><h1>Research page {n}</h1><div className="research-card-grid">{posts.map(p=><a className="research-library-card" href={`/research/${p.slug}`} key={p.slug}><span className="research-card-badge">{p.cluster}</span><h2>{p.title}</h2><p className="research-card-excerpt">{p.excerpt}</p><div className="research-card-meta"><span>{site.brand} Research</span><span>{p.sources.length} sources</span></div></a>)}</div><nav className="pagination" aria-label="Research pages">{Array.from({length:total},(_,i)=><a aria-current={i+1===n?'page':undefined} href={i===0?'/research':`/research/page/${i+2}`} key={i}>{i+1}</a>)}</nav></div></main><Footer/></>}
