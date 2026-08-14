@@ -79,6 +79,33 @@ const august13Topics = [
   ['philippines-account-management-feedback-resolution-proof', 'Philippines account management feedback resolution proof', 'customer-feedback-administration', '2026-08-13'],
   ['philippines-account-management-commitment-prerequisite-record', 'Philippines account management commitment prerequisite record', 'contract-milestone-tracking', '2026-08-13'],
 ] as const;
+
+// August 14 is a distinct batch. Each record carries its own literal
+// publication date so the route and structured metadata cannot infer it.
+const august14Topics = [
+  ['philippines-account-management-client-priority-memo', 'Philippines account management client priority memo', 'client-onboarding-coordination', '2026-08-14'],
+  ['philippines-account-management-account-context-brief', 'Philippines account management account context brief', 'account-health-monitoring', '2026-08-14'],
+  ['philippines-account-management-renewal-objection-register', 'Philippines account management renewal objection register', 'renewal-administration', '2026-08-14'],
+  ['philippines-account-management-qbr-outcome-sequence', 'Philippines account management QBR outcome sequence', 'customer-qbr-preparation', '2026-08-14'],
+  ['philippines-account-management-crm-note-structure', 'Philippines account management CRM note structure', 'crm-account-maintenance', '2026-08-14'],
+  ['philippines-account-management-request-impact-review', 'Philippines account management request impact review', 'client-request-routing', '2026-08-14'],
+  ['philippines-account-management-expansion-signal-brief', 'Philippines account management expansion signal brief', 'upsell-opportunity-tracking', '2026-08-14'],
+  ['philippines-account-management-account-evidence-narrative', 'Philippines account management account evidence narrative', 'account-reporting', '2026-08-14'],
+  ['philippines-account-management-commitment-proof-index', 'Philippines account management commitment proof index', 'contract-milestone-tracking', '2026-08-14'],
+  ['philippines-account-management-feedback-interaction-record', 'Philippines account management feedback interaction record', 'customer-feedback-administration', '2026-08-14'],
+  ['philippines-account-management-post-launch-stabilization-plan', 'Philippines account management post-launch stabilization plan', 'implementation-handoff-support', '2026-08-14'],
+  ['philippines-account-management-escalation-fact-pattern', 'Philippines account management escalation fact pattern', 'escalation-coordination', '2026-08-14'],
+  ['philippines-account-management-value-evidence-review', 'Philippines account management value evidence review', 'account-reporting', '2026-08-14'],
+  ['philippines-account-management-renewal-decision-calendar', 'Philippines account management renewal decision calendar', 'renewal-administration', '2026-08-14'],
+  ['philippines-account-management-risk-threshold-guide', 'Philippines account management risk threshold guide', 'account-health-monitoring', '2026-08-14'],
+  ['philippines-account-management-success-outcome-charter', 'Philippines account management success outcome charter', 'client-onboarding-coordination', '2026-08-14'],
+  ['philippines-account-management-qbr-decision-brief', 'Philippines account management QBR decision brief', 'customer-qbr-preparation', '2026-08-14'],
+  ['philippines-account-management-crm-history-reconstruction', 'Philippines account management CRM history reconstruction', 'crm-account-maintenance', '2026-08-14'],
+  ['philippines-account-management-escalation-handoff-record', 'Philippines account management escalation handoff record', 'escalation-coordination', '2026-08-14'],
+  ['philippines-account-management-portfolio-priority-review', 'Philippines account management portfolio priority review', 'account-reporting', '2026-08-14'],
+  ['philippines-account-management-feedback-resolution-story', 'Philippines account management feedback resolution story', 'customer-feedback-administration', '2026-08-14'],
+  ['philippines-account-management-commitment-sequence-map', 'Philippines account management commitment sequence map', 'contract-milestone-tracking', '2026-08-14'],
+] as const;
 /*
   ['philippines-account-management-client-value-review', 'Philippines account management client value review', 'account-reporting', '2026-08-13'],
   ['philippines-account-management-service-boundary-compass', 'Philippines account management service boundary compass', 'client-onboarding-coordination', '2026-08-13'],
@@ -114,7 +141,8 @@ export const dailyBlogSourceDates: Record<string, string> = {
 const august10BlogPosts = topics.map(([slug, title]) => ({ slug, title, excerpt: `${title}. A practical source-backed workflow for clear owners, safe access, approved client updates, and closure proof.`, minutes: 10, ...(dailyBlogSourceDates[slug] ? { published: dailyBlogSourceDates[slug] } : {}) }));
 const august11BlogPosts = august11Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for clear account ownership, checked client records, safe access, and approved follow-through.`, minutes: 10 }));
 const august13BlogPosts = august13Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 10 }));
-export const dailyBlogPosts = [...august13BlogPosts, ...august11BlogPosts, ...august10BlogPosts];
+const august14BlogPosts = august14Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 10 }));
+export const dailyBlogPosts = [...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...august10BlogPosts];
 const source = { name: 'NIST Cybersecurity Framework 2.0', date: 'February 26, 2024', url: 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', note: 'Provides a current governance vocabulary for identifying, protecting, detecting, responding, and recovering.' };
 
 function article(slug: string, title: string, service: string, published = dailyBlogPosts.find((post) => post.slug === slug)?.published || '2026-08-10'): RichArticle {
@@ -340,7 +368,29 @@ function august13Article(slug: string, title: string, service: string, published
   };
 }
 
+function august14Article(slug: string, title: string, service: string, published: string): RichArticle {
+  const base = article(slug, title, service, published);
+  const subject = title.toLowerCase();
+  return {
+    ...base,
+    description: `${title}: a practical guide to ${subject} with source discipline, clear ownership, and a client-safe next step.`,
+    intro: [
+      `${title} gives account teams a way to make ${subject} useful without relying on memory or optimistic status. A Philippines-based account manager can assemble the record, identify missing evidence, and prepare follow-up while the accountable owner retains authority for consequential decisions.`,
+      'The useful unit is a checked account fact: what happened, where it came from, who owns the next action, and when the client should receive an approved update.',
+    ],
+    takeaways: ['Name the account question before collecting activity.', 'Link conclusions to dated, reviewable evidence.', 'Keep work ownership separate from decision authority.', 'Close with an approved update and visible remaining work.'],
+    sections: [
+      { heading: 'Frame the account question', paragraphs: [`Start ${subject} with the account, time window, intended outcome, and decision still open. A narrow question lets a reviewer distinguish a current fact from a familiar label.`, 'Keep client wording, internal interpretation, and unresolved assumption in separate fields so a later update does not accidentally promote an assumption to fact.'] },
+      { heading: 'Build an evidence trail', paragraphs: [`Collect the source records that answer the question behind ${subject}: dated messages, approved notes, delivery evidence, meeting decisions, or a named dependency. Record the source, checked date, and exact point it supports.`, 'If the trail is incomplete, mark the gap plainly. A support specialist may reconcile records and prepare a draft, but should not invent a result or silently change a commitment.'] },
+      { heading: 'Assign the right authority', paragraphs: ['Give routine preparation a work owner and consequential choices a decision owner. Contracts, credits, refunds, legal wording, security exceptions, broad access, and out-of-scope promises stay with the authorized owner.', 'Write the boundary beside the next action. This prevents urgency, client pressure, or a polished summary from becoming accidental approval.'] },
+      { heading: 'Prepare the client-safe next step', paragraphs: ['The next update should state what was checked, what is confirmed, what remains open, and when the next answer is expected. Include only approved client-facing wording and a source or reference that supports the conclusion.', 'Route disputed or sensitive details to the accountable owner before sending. Keep private commentary and unresolved hypotheses out of the client version.'] },
+      { heading: 'Close honestly', paragraphs: [`Close ${subject} only when the account record, owner action, and client update agree. If the result is partial, keep the remaining item open with a named owner and date.`, 'At the next account review, check whether the evidence is still current. Repeated gaps usually indicate a missing field, unclear handoff, or authority boundary that needs clarification.'] },
+    ],
+  };
+}
+
 export const dailyRichArticles: Array<[string, RichArticle]> = [
+  ...august14Topics.map(([slug, title, service, published]) => [slug, august14Article(slug, title, service, published)] as [string, RichArticle]),
   ...august13Topics.map(([slug, title, service, published]) => [slug, august13Article(slug, title, service, published)] as [string, RichArticle]),
   ...august11Topics.map(([slug, title, service, published]) => [slug, article(slug, title, service, published)] as [string, RichArticle]),
   ...topics.map(([slug, title, service]) => [slug, article(slug, title, service)] as [string, RichArticle]),
