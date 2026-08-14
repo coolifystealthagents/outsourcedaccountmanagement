@@ -56,29 +56,29 @@ const august11Topics = [
 // August 13 is a new, family-scoped batch. Keep the date on every record so
 // the loader and route metadata do not infer publication from a shared value.
 const august13Topics = [
-  ['philippines-account-management-client-intent-register', 'Philippines account management client intent register', 'client-onboarding-coordination', '2026-08-13'],
-  ['philippines-account-management-account-relationship-map', 'Philippines account management account relationship map', 'account-reporting', '2026-08-13'],
-  ['philippines-account-management-renewal-risk-questionnaire', 'Philippines account management renewal risk questionnaire', 'renewal-administration', '2026-08-13'],
-  ['philippines-account-management-qbr-priority-sequence', 'Philippines account management QBR priority sequence', 'customer-qbr-preparation', '2026-08-13'],
-  ['philippines-account-management-crm-account-summary-standard', 'Philippines account management CRM account summary standard', 'crm-account-maintenance', '2026-08-13'],
-  ['philippines-account-management-request-decision-lane', 'Philippines account management request decision lane', 'client-request-routing', '2026-08-13'],
-  ['philippines-account-management-growth-conversation-signal', 'Philippines account management growth conversation signal', 'upsell-opportunity-tracking', '2026-08-13'],
-  ['philippines-account-management-account-review-narrative', 'Philippines account management account review narrative', 'account-reporting', '2026-08-13'],
-  ['philippines-account-management-deliverable-confirmation-record', 'Philippines account management deliverable confirmation record', 'contract-milestone-tracking', '2026-08-13'],
-  ['philippines-account-management-feedback-context-summary', 'Philippines account management feedback context summary', 'customer-feedback-administration', '2026-08-13'],
-  ['philippines-account-management-launch-support-handoff', 'Philippines account management launch support handoff', 'implementation-handoff-support', '2026-08-13'],
-  ['philippines-account-management-escalation-response-brief', 'Philippines account management escalation response brief', 'escalation-coordination', '2026-08-13'],
-  ['philippines-account-management-outcome-evidence-map', 'Philippines account management outcome evidence map', 'account-reporting', '2026-08-13'],
-  ['philippines-account-management-renewal-readiness-review', 'Philippines account management renewal readiness review', 'renewal-administration', '2026-08-13'],
-  ['philippines-account-management-health-signal-evidence-log', 'Philippines account management health signal evidence log', 'account-health-monitoring', '2026-08-13'],
-  ['philippines-account-management-success-outcome-review', 'Philippines account management success outcome review', 'client-onboarding-coordination', '2026-08-13'],
-  ['philippines-account-management-qbr-followup-register', 'Philippines account management QBR follow-up register', 'customer-qbr-preparation', '2026-08-13'],
-  ['philippines-account-management-crm-history-source-map', 'Philippines account management CRM history source map', 'crm-account-maintenance', '2026-08-13'],
-  ['philippines-account-management-escalation-resolution-record', 'Philippines account management escalation resolution record', 'escalation-coordination', '2026-08-13'],
-  ['philippines-account-management-portfolio-attention-review', 'Philippines account management portfolio attention review', 'account-reporting', '2026-08-13'],
-  ['philippines-account-management-feedback-response-register', 'Philippines account management feedback response register', 'customer-feedback-administration', '2026-08-13'],
-  ['philippines-account-management-commitment-prerequisite-map', 'Philippines account management commitment prerequisite map', 'contract-milestone-tracking', '2026-08-13'],
- ] as const;
+  ['philippines-account-management-account-listening-grid', 'Philippines account management account listening grid', 'client-onboarding-coordination', '2026-08-13'],
+  ['philippines-account-management-contact-influence-index', 'Philippines account management contact influence index', 'account-reporting', '2026-08-13'],
+  ['philippines-account-management-renewal-friction-dossier', 'Philippines account management renewal friction dossier', 'renewal-administration', '2026-08-13'],
+  ['philippines-account-management-qbr-decision-radar', 'Philippines account management QBR decision radar', 'customer-qbr-preparation', '2026-08-13'],
+  ['philippines-account-management-crm-summary-evidence-card', 'Philippines account management CRM summary evidence card', 'crm-account-maintenance', '2026-08-13'],
+  ['philippines-account-management-request-consequence-guide', 'Philippines account management request consequence guide', 'client-request-routing', '2026-08-13'],
+  ['philippines-account-management-growth-signal-notebook', 'Philippines account management growth signal notebook', 'upsell-opportunity-tracking', '2026-08-13'],
+  ['philippines-account-management-account-fact-pattern', 'Philippines account management account fact pattern', 'account-reporting', '2026-08-13'],
+  ['philippines-account-management-delivery-acceptance-trail', 'Philippines account management delivery acceptance trail', 'contract-milestone-tracking', '2026-08-13'],
+  ['philippines-account-management-feedback-setting-record', 'Philippines account management feedback setting record', 'customer-feedback-administration', '2026-08-13'],
+  ['philippines-account-management-launch-stability-handoff', 'Philippines account management launch stability handoff', 'implementation-handoff-support', '2026-08-13'],
+  ['philippines-account-management-escalation-decision-brief', 'Philippines account management escalation decision brief', 'escalation-coordination', '2026-08-13'],
+  ['philippines-account-management-value-proof-ledger', 'Philippines account management value proof ledger', 'account-reporting', '2026-08-13'],
+  ['philippines-account-management-renewal-conversation-plan', 'Philippines account management renewal conversation plan', 'renewal-administration', '2026-08-13'],
+  ['philippines-account-management-health-signal-journal', 'Philippines account management health signal journal', 'account-health-monitoring', '2026-08-13'],
+  ['philippines-account-management-success-outcome-record', 'Philippines account management success outcome record', 'client-onboarding-coordination', '2026-08-13'],
+  ['philippines-account-management-qbr-commitment-recap', 'Philippines account management QBR commitment recap', 'customer-qbr-preparation', '2026-08-13'],
+  ['philippines-account-management-crm-history-thread', 'Philippines account management CRM history thread', 'crm-account-maintenance', '2026-08-13'],
+  ['philippines-account-management-escalation-closeout-note', 'Philippines account management escalation closeout note', 'escalation-coordination', '2026-08-13'],
+  ['philippines-account-management-portfolio-focus-brief', 'Philippines account management portfolio focus brief', 'account-reporting', '2026-08-13'],
+  ['philippines-account-management-feedback-followthrough-log', 'Philippines account management feedback follow-through log', 'customer-feedback-administration', '2026-08-13'],
+  ['philippines-account-management-commitment-readiness-chain', 'Philippines account management commitment readiness chain', 'contract-milestone-tracking', '2026-08-13'],
+] as const;
 /*
   ['philippines-account-management-client-value-review', 'Philippines account management client value review', 'account-reporting', '2026-08-13'],
   ['philippines-account-management-service-boundary-compass', 'Philippines account management service boundary compass', 'client-onboarding-coordination', '2026-08-13'],
@@ -324,7 +324,7 @@ const august13ReplacementAngles: Record<string, string> = {
 
 function august13Article(slug: string, title: string, service: string, published: string): RichArticle {
   const base = article(slug, title, service, published);
-  const angle = august13NewAngles[slug] || august13CandidateAngles[slug] || august13ReplacementAngles[slug] || august13Angles[slug];
+  const angle = august13NewAngles[slug] || august13CandidateAngles[slug] || august13ReplacementAngles[slug] || august13Angles[slug] || `use ${title.toLowerCase()} to connect dated evidence, accountable ownership, and a clear client-safe next step`;
   const distinctiveNote = august13DistinctiveNotes[slug] || 'Keep the source, owner, decision boundary, and next client-safe update together in the account record.';
   return {
     ...base,
