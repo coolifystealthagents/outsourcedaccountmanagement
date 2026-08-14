@@ -3,8 +3,8 @@
   "family": "blog",
   "entries": [
     {
-      "slug": "philippines-account-management-client-value-review",
-      "route": "/blog/philippines-account-management-client-value-review",
+      "slug": "philippines-account-management-service-recovery-brief",
+      "route": "/blog/philippines-account-management-service-recovery-brief",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -15,8 +15,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-service-boundary-compass",
-      "route": "/blog/philippines-account-management-service-boundary-compass",
+      "slug": "philippines-account-management-client-communication-risk-review",
+      "route": "/blog/philippines-account-management-client-communication-risk-review",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -27,8 +27,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-renewal-question-register",
-      "route": "/blog/philippines-account-management-renewal-question-register",
+      "slug": "philippines-account-management-account-plan-assumption-check",
+      "route": "/blog/philippines-account-management-account-plan-assumption-check",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -39,8 +39,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-qbr-evidence-board",
-      "route": "/blog/philippines-account-management-qbr-evidence-board",
+      "slug": "philippines-account-management-renewal-objection-record",
+      "route": "/blog/philippines-account-management-renewal-objection-record",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -51,8 +51,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-crm-note-quality-check",
-      "route": "/blog/philippines-account-management-crm-note-quality-check",
+      "slug": "philippines-account-management-qbr-evidence-gap-review",
+      "route": "/blog/philippines-account-management-qbr-evidence-gap-review",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -63,8 +63,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-request-urgency-matrix",
-      "route": "/blog/philippines-account-management-request-urgency-matrix",
+      "slug": "philippines-account-management-crm-contact-role-audit",
+      "route": "/blog/philippines-account-management-crm-contact-role-audit",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -75,8 +75,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-growth-signal-review",
-      "route": "/blog/philippines-account-management-growth-signal-review",
+      "slug": "philippines-account-management-request-impact-summary",
+      "route": "/blog/philippines-account-management-request-impact-summary",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -87,8 +87,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-account-storyline-audit",
-      "route": "/blog/philippines-account-management-account-storyline-audit",
+      "slug": "philippines-account-management-growth-conversation-readiness",
+      "route": "/blog/philippines-account-management-growth-conversation-readiness",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -99,8 +99,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-delivery-proof-register",
-      "route": "/blog/philippines-account-management-delivery-proof-register",
+      "slug": "philippines-account-management-account-outcome-baseline",
+      "route": "/blog/philippines-account-management-account-outcome-baseline",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -111,8 +111,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-client-voice-coding",
-      "route": "/blog/philippines-account-management-client-voice-coding",
+      "slug": "philippines-account-management-delivery-expectation-check",
+      "route": "/blog/philippines-account-management-delivery-expectation-check",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -123,8 +123,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-launch-to-retention-bridge",
-      "route": "/blog/philippines-account-management-launch-to-retention-bridge",
+      "slug": "philippines-account-management-feedback-response-record",
+      "route": "/blog/philippines-account-management-feedback-response-record",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -135,8 +135,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-escalation-impact-summary",
-      "route": "/blog/philippines-account-management-escalation-impact-summary",
+      "slug": "philippines-account-management-implementation-risk-bridge",
+      "route": "/blog/philippines-account-management-implementation-risk-bridge",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -147,8 +147,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-outcome-definition-guide",
-      "route": "/blog/philippines-account-management-outcome-definition-guide",
+      "slug": "philippines-account-management-escalation-decision-record",
+      "route": "/blog/philippines-account-management-escalation-decision-record",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -159,8 +159,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-renewal-preparation-grid",
-      "route": "/blog/philippines-account-management-renewal-preparation-grid",
+      "slug": "philippines-account-management-portfolio-priority-review",
+      "route": "/blog/philippines-account-management-portfolio-priority-review",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -171,8 +171,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-health-signal-thresholds",
-      "route": "/blog/philippines-account-management-health-signal-thresholds",
+      "slug": "philippines-account-management-client-advocacy-signal-review",
+      "route": "/blog/philippines-account-management-client-advocacy-signal-review",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -183,8 +183,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-success-measurement-plan",
-      "route": "/blog/philippines-account-management-success-measurement-plan",
+      "slug": "philippines-account-management-account-governance-check",
+      "route": "/blog/philippines-account-management-account-governance-check",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -195,8 +195,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-qbr-action-summary",
-      "route": "/blog/philippines-account-management-qbr-action-summary",
+      "slug": "philippines-account-management-renewal-calendar-readiness",
+      "route": "/blog/philippines-account-management-renewal-calendar-readiness",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -207,8 +207,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-crm-timeline-audit",
-      "route": "/blog/philippines-account-management-crm-timeline-audit",
+      "slug": "philippines-account-management-success-criteria-alignment",
+      "route": "/blog/philippines-account-management-success-criteria-alignment",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -219,8 +219,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-escalation-receipt-brief",
-      "route": "/blog/philippines-account-management-escalation-receipt-brief",
+      "slug": "philippines-account-management-account-change-log-guide",
+      "route": "/blog/philippines-account-management-account-change-log-guide",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -231,8 +231,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-portfolio-attention-model",
-      "route": "/blog/philippines-account-management-portfolio-attention-model",
+      "slug": "philippines-account-management-client-meeting-question-brief",
+      "route": "/blog/philippines-account-management-client-meeting-question-brief",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -243,8 +243,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-feedback-change-ledger",
-      "route": "/blog/philippines-account-management-feedback-change-ledger",
+      "slug": "philippines-account-management-commitment-status-narrative",
+      "route": "/blog/philippines-account-management-commitment-status-narrative",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
@@ -255,8 +255,8 @@
       ]
     },
     {
-      "slug": "philippines-account-management-commitment-dependency-chain",
-      "route": "/blog/philippines-account-management-commitment-dependency-chain",
+      "slug": "philippines-account-management-service-boundary-escalation",
+      "route": "/blog/philippines-account-management-service-boundary-escalation",
       "sourcePath": "app/daily-blog-batch.ts",
       "sourceDate": "2026-08-13",
       "sourceDateField": "published",
