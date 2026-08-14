@@ -59,17 +59,17 @@ export default function Home() {
                 <span className="live-dot">Review ready</span>
               </div>
               <div className="account-row">
-                <span className="account-icon coral"><img src="/icons/getillustrations/blueprint-communication-icons-svg/follow-up.svg" alt=""/></span>
+                <span className="account-icon coral"><img src="/icons/getillustrations/blueprint-communication-icons-svg/follow-up.svg" alt="Client follow-up task"/></span>
                 <div><strong>Reply follow-up</strong><small>Owner note is ready</small></div>
                 <span className="status">Today</span>
               </div>
               <div className="account-row">
-                <span className="account-icon mint"><img src="/icons/getillustrations/blueprint-communication-icons-svg/client-email.svg" alt=""/></span>
+                <span className="account-icon mint"><img src="/icons/getillustrations/blueprint-communication-icons-svg/client-email.svg" alt="Client renewal email"/></span>
                 <div><strong>Renewal brief</strong><small>Open items collected</small></div>
                 <span className="status">Review</span>
               </div>
               <div className="account-row">
-                <span className="account-icon sand"><img src="/icons/getillustrations/blueprint-communication-icons-svg/owner-call.svg" alt=""/></span>
+                <span className="account-icon sand"><img src="/icons/getillustrations/blueprint-communication-icons-svg/owner-call.svg" alt="Account owner decision"/></span>
                 <div><strong>Owner decision</strong><small>Escalation is documented</small></div>
                 <span className="status">Handoff</span>
               </div>
@@ -162,8 +162,8 @@ export default function Home() {
       </section>
 
       <section className="container gi-proof" aria-label="Account communication controls">
-        <img className="gi-proof-art" src="/illustrations/getillustrations/grain-teamwork-illustrations-svg/account-review-meeting.svg" alt=""/>
-        <div><p className="eyebrow">Keep the relationship visible</p><h2>Follow up, document, and return decisions.</h2><div className="gi-icon-row"><span><img src="/icons/getillustrations/blueprint-communication-icons-svg/follow-up.svg" alt=""/>Follow-up</span><span><img src="/icons/getillustrations/blueprint-communication-icons-svg/client-email.svg" alt=""/>Client email</span><span><img src="/icons/getillustrations/blueprint-communication-icons-svg/owner-call.svg" alt=""/>Owner call</span></div></div>
+        <img className="gi-proof-art" src="/illustrations/getillustrations/grain-teamwork-illustrations-svg/account-review-meeting.svg" alt="Account team reviewing client follow-ups"/>
+        <div><p className="eyebrow">Keep the relationship visible</p><h2>Follow up, document, and return decisions.</h2><div className="gi-icon-row"><span><img src="/icons/getillustrations/blueprint-communication-icons-svg/follow-up.svg" alt="Account follow-up"/>Follow-up</span><span><img src="/icons/getillustrations/blueprint-communication-icons-svg/client-email.svg" alt="Client email"/>Client email</span><span><img src="/icons/getillustrations/blueprint-communication-icons-svg/owner-call.svg" alt="Account owner call"/>Owner call</span></div></div>
       </section>
 
       <section className="container section guide-section">
