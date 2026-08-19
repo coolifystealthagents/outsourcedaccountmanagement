@@ -1,0 +1,28 @@
+{
+  "campaignDate": "2026-08-18",
+  "family": "blog",
+  "entries": [
+    { "route": "/blog/philippines-account-management-client-intake-constraint-log", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-account-touch-priority-rule", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-renewal-evidence-ownership-grid", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-qbr-question-to-proof-map", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-crm-stale-record-quarantine", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-client-request-dependency-note", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-expansion-signal-interview-guide", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-portfolio-review-exception-threshold", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-milestone-proof-collection-plan", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-feedback-context-to-action-map", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-implementation-acceptance-handoff", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-escalation-impact-intake", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-client-outcome-baseline-review", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-renewal-decision-evidence-chain", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-health-signal-source-ranking", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-qbr-narrative-integrity-check", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-crm-owner-change-record", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-escalation-transfer-brief", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-portfolio-review-sequencing-plan", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-feedback-closure-evidence", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-commitment-change-control", "sourcePaths": ["app/daily-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-client-support-workload-boundary", "sourcePaths": ["app/daily-blog-batch.ts"] }
+  ]
+}

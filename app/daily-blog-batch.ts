@@ -132,6 +132,33 @@ const august17Topics = [
   ['philippines-account-management-feedback-recurrence-tracker', 'Philippines account management feedback recurrence tracker', 'customer-feedback-administration', '2026-08-17'],
   ['philippines-account-management-commitment-exception-register', 'Philippines account management commitment exception register', 'contract-milestone-tracking', '2026-08-17'],
 ] as const;
+
+// August 18 is a separate, additive Blog batch. Every tuple carries its own
+// literal date so publication metadata is bound at the record source.
+const august18Topics = [
+  ['philippines-account-management-client-intake-constraint-log', 'Philippines account management client intake constraint log', 'client-onboarding-coordination', '2026-08-18'],
+  ['philippines-account-management-account-touch-priority-rule', 'Philippines account management account touch priority rule', 'account-health-monitoring', '2026-08-18'],
+  ['philippines-account-management-renewal-evidence-ownership-grid', 'Philippines account management renewal evidence ownership grid', 'renewal-administration', '2026-08-18'],
+  ['philippines-account-management-qbr-question-to-proof-map', 'Philippines account management QBR question to proof map', 'customer-qbr-preparation', '2026-08-18'],
+  ['philippines-account-management-crm-stale-record-quarantine', 'Philippines account management CRM stale record quarantine', 'crm-account-maintenance', '2026-08-18'],
+  ['philippines-account-management-client-request-dependency-note', 'Philippines account management client request dependency note', 'client-request-routing', '2026-08-18'],
+  ['philippines-account-management-expansion-signal-interview-guide', 'Philippines account management expansion signal interview guide', 'upsell-opportunity-tracking', '2026-08-18'],
+  ['philippines-account-management-portfolio-review-exception-threshold', 'Philippines account management portfolio review exception threshold', 'account-reporting', '2026-08-18'],
+  ['philippines-account-management-milestone-proof-collection-plan', 'Philippines account management milestone proof collection plan', 'contract-milestone-tracking', '2026-08-18'],
+  ['philippines-account-management-feedback-context-to-action-map', 'Philippines account management feedback context to action map', 'customer-feedback-administration', '2026-08-18'],
+  ['philippines-account-management-implementation-acceptance-handoff', 'Philippines account management implementation acceptance handoff', 'implementation-handoff-support', '2026-08-18'],
+  ['philippines-account-management-escalation-impact-intake', 'Philippines account management escalation impact intake', 'escalation-coordination', '2026-08-18'],
+  ['philippines-account-management-client-outcome-baseline-review', 'Philippines account management client outcome baseline review', 'account-reporting', '2026-08-18'],
+  ['philippines-account-management-renewal-decision-evidence-chain', 'Philippines account management renewal decision evidence chain', 'renewal-administration', '2026-08-18'],
+  ['philippines-account-management-health-signal-source-ranking', 'Philippines account management health signal source ranking', 'account-health-monitoring', '2026-08-18'],
+  ['philippines-account-management-qbr-narrative-integrity-check', 'Philippines account management QBR narrative integrity check', 'customer-qbr-preparation', '2026-08-18'],
+  ['philippines-account-management-crm-owner-change-record', 'Philippines account management CRM owner change record', 'crm-account-maintenance', '2026-08-18'],
+  ['philippines-account-management-escalation-transfer-brief', 'Philippines account management escalation transfer brief', 'escalation-coordination', '2026-08-18'],
+  ['philippines-account-management-portfolio-review-sequencing-plan', 'Philippines account management portfolio review sequencing plan', 'account-reporting', '2026-08-18'],
+  ['philippines-account-management-feedback-closure-evidence', 'Philippines account management feedback closure evidence', 'customer-feedback-administration', '2026-08-18'],
+  ['philippines-account-management-commitment-change-control', 'Philippines account management commitment change control', 'contract-milestone-tracking', '2026-08-18'],
+  ['philippines-account-management-client-support-workload-boundary', 'Philippines account management client support workload boundary', 'client-request-routing', '2026-08-18'],
+] as const;
 /*
   ['philippines-account-management-client-value-review', 'Philippines account management client value review', 'account-reporting', '2026-08-13'],
   ['philippines-account-management-service-boundary-compass', 'Philippines account management service boundary compass', 'client-onboarding-coordination', '2026-08-13'],
@@ -169,7 +196,8 @@ const august11BlogPosts = august11Topics.map(([slug, title, _service, published]
 const august13BlogPosts = august13Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 10 }));
 const august14BlogPosts = august14Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 10 }));
 const august17BlogPosts = august17Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 10 }));
-export const dailyBlogPosts = [...august17BlogPosts, ...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...august10BlogPosts];
+const august18BlogPosts = august18Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 11 }));
+export const dailyBlogPosts = [...august18BlogPosts, ...august17BlogPosts, ...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...august10BlogPosts];
 const source = { name: 'NIST Cybersecurity Framework 2.0', date: 'February 26, 2024', url: 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', note: 'Provides a current governance vocabulary for identifying, protecting, detecting, responding, and recovering.' };
 
 function article(slug: string, title: string, service: string, published = dailyBlogPosts.find((post) => post.slug === slug)?.published || '2026-08-10'): RichArticle {
@@ -464,7 +492,84 @@ function august17Article(slug: string, title: string, service: string, published
   };
 }
 
+const august18Angles: Record<string, string> = {
+  'philippines-account-management-client-intake-constraint-log': 'make hidden onboarding constraints visible before they become missed client promises',
+  'philippines-account-management-account-touch-priority-rule': 'choose the next account touch from consequence and evidence instead of a flat recurring list',
+  'philippines-account-management-renewal-evidence-ownership-grid': 'show who can supply, check, and approve each piece of renewal evidence',
+  'philippines-account-management-qbr-question-to-proof-map': 'connect every quarterly review question to proof, limitation, and a decision owner',
+  'philippines-account-management-crm-stale-record-quarantine': 'quarantine stale CRM facts so they cannot quietly drive a client update',
+  'philippines-account-management-client-request-dependency-note': 'explain why a client request is waiting and what dependency must move next',
+  'philippines-account-management-expansion-signal-interview-guide': 'test a possible growth need through careful questions before commercial follow-up',
+  'philippines-account-management-portfolio-review-exception-threshold': 'set a defensible threshold for bringing an unusual account into owner review',
+  'philippines-account-management-milestone-proof-collection-plan': 'collect milestone proof in the order needed for acceptance and accurate reporting',
+  'philippines-account-management-feedback-context-to-action-map': 'preserve feedback context while routing it toward a specific accountable action',
+  'philippines-account-management-implementation-acceptance-handoff': 'move accepted implementation work into account support without losing exceptions',
+  'philippines-account-management-escalation-impact-intake': 'capture client impact at escalation intake before choosing a response path',
+  'philippines-account-management-client-outcome-baseline-review': 'establish a reviewable outcome baseline before describing account progress',
+  'philippines-account-management-renewal-decision-evidence-chain': 'trace a renewal recommendation from client evidence to authorized decision',
+  'philippines-account-management-health-signal-source-ranking': 'rank health signals by freshness, proximity to the client, and corroboration',
+  'philippines-account-management-qbr-narrative-integrity-check': 'check that a QBR story says no more than its evidence can support',
+  'philippines-account-management-crm-owner-change-record': 'record an account-owner change so responsibility and access do not drift',
+  'philippines-account-management-escalation-transfer-brief': 'transfer an escalation with enough context for the next owner to act safely',
+  'philippines-account-management-portfolio-review-sequencing-plan': 'sequence portfolio reviews so urgent evidence gaps are handled before routine reporting',
+  'philippines-account-management-feedback-closure-evidence': 'prove that feedback was acknowledged, acted on, and closed with the right owner',
+  'philippines-account-management-commitment-change-control': 'control changes to client commitments without hiding the original agreement',
+  'philippines-account-management-client-support-workload-boundary': 'set a clear workload boundary before support queues create unsafe follow-up promises',
+};
+
+function august18Article(slug: string, title: string, service: string, published: string): RichArticle {
+  const base = article(slug, title, service, published);
+  const angle = august18Angles[slug];
+  const subject = title.toLowerCase();
+  return {
+    ...base,
+    description: `${title}: a practical guide to ${angle}, with evidence, approval boundaries, and a truthful client update.`,
+    intro: [
+      `${title} helps an account team ${angle}. That matters in Philippines-based account support because the specialist may be responsible for preparation and follow-through while an internal owner remains accountable for commitments, commercial terms, sensitive decisions, and exceptions.`,
+      `Begin with one account question, a defined time window, and the records that can answer it. The point of ${subject} is not to create a polished status label; it is to make the next responsible action visible and reviewable.`,
+      'Use the guide as a working routine: capture the source, test its freshness, separate work from authority, prepare the client-safe wording, and leave an honest next check.',
+    ],
+    takeaways: [
+      `Use ${subject} to ${angle}.`,
+      'Keep client wording, internal interpretation, and unresolved assumptions separate.',
+      'Give preparation and consequential decisions different owners.',
+      'Do not close the record until the evidence and next update agree.',
+    ],
+    sections: [
+      { heading: 'Frame the account question', paragraphs: [
+        `Write the question that ${subject} must answer before gathering activity. Name the account, period, client effect, decision or action at stake, and the person who needs the answer. A narrow question prevents the support record from becoming a scrapbook of unrelated messages.`,
+        `For this workflow, distinguish a client statement from the team's interpretation. If a client says a milestone is late, record those words and the date first; only then add the internal explanation and the evidence still needed. This makes corrections possible without rewriting history.`,
+        `A Philippines-based account manager can prepare the question, collect the relevant records, and flag contradictions. The role should not fill an evidence gap with a likely explanation or turn a request for review into approval.`,
+      ] },
+      { heading: 'Build an evidence trail', paragraphs: [
+        `The working record should ${angle}. Capture the source name, exact link or record identifier, checked date, supported fact, limitation, and next check. When two sources disagree, retain both and route the conflict rather than choosing the one that makes the account look healthier.`,
+        `Use the smallest useful set of evidence. A meeting note, approved account field, client message, delivery record, or decision log may answer the question; copying every attachment makes review slower and increases the chance that private material appears in a client draft.`,
+        `Add a confidence note when the evidence is indirect, old, or dependent on another team. Confidence describes the record, not the account's value. The owner can then decide whether to request more proof, make a bounded decision, or carry the item as open.`,
+      ] },
+      { heading: 'Separate work from authority', paragraphs: [
+        'Name a work owner for gathering, reconciling, updating, and drafting. Name a decision owner for contract changes, credits, refunds, commercial terms, legal or security wording, broad access, and work outside the agreed scope. These roles may be held by different people even when the queue is small.',
+        `For ${subject}, write the authority boundary beside each next action. Use labels such as prepare, send after approval, request evidence, or escalate. A visible label keeps client pressure from turning routine support into an unapproved promise.`,
+        'Give the decision owner the context needed to decide: source, impact, options, deadline, and consequence of waiting. Do not ask the owner to reconstruct the account from a vague red flag, and do not represent silence as approval.',
+      ] },
+      { heading: 'Prepare the client-safe update', paragraphs: [
+        `A useful update states what was checked, what is confirmed, what remains open, who is reviewing it, and when the next answer is due. It should reflect the evidence behind ${subject}, not the confidence of the person writing it.`,
+        'Remove private commentary, internal disagreement, and unsupported forecasts from the client version. If the answer is not ready, say what is being checked and provide a dated next communication rather than inventing certainty.',
+        'After approval, link the sent update back to the account record and note any correction the client makes. That reply becomes part of the evidence trail and may change the next owner, due date, or escalation path.',
+      ] },
+      { heading: 'Close, transfer, or carry the exception', paragraphs: [
+        `Close ${subject} only when the source, owner action, client communication, and stated result agree. If the work is partial, waiting, transferred, or disputed, keep that state explicit and attach a new owner and review date.`,
+        'A transfer is not a close. Record why responsibility moved, which facts were checked, which permissions are needed, what the client has been told, and what the receiving owner must decide. This is especially important when a Philippines-based specialist changes queue, shift, or account coverage.',
+        'At the next account review, look for repeated gaps. Recurrence usually points to a missing field, stale source, unclear handoff, or authority rule that should be written into the routine. Improving the record is safer than asking a person to remember more.',
+      ] },
+    ],
+    table: { caption: `${title} control record`, headers: ['Control', 'Minimum entry', 'Reviewer question'], rows: [['Question', 'Account, period, client effect, decision', 'Is the purpose narrow and clear?'], ['Evidence', 'Source, checked date, supported fact, limitation', 'Can the fact be reproduced?'], ['Authority', 'Work owner, decision owner, boundary', 'Is approval separate from preparation?'], ['Update', 'Confirmed state, open item, next date', 'Does the wording match the record?']] },
+    script: [`We checked ${subject} against [source record] on [date]. The confirmed point is [fact], and [owner] is reviewing [open item].`, `We will send the next approved update through [channel] by [date]. The current limitation or dependency is [plain description].`],
+    faqs: [{ q: `What is the first step in ${subject}?`, a: 'Define the account question, time window, source records, work owner, decision owner, and next check.' }, { q: 'What should the support role avoid?', a: 'It should avoid inventing facts, changing commitments, approving commercial or sensitive decisions, granting broad access, or promising work outside scope.' }, { q: 'When is the record complete?', a: 'When evidence, ownership, approved wording, client response where required, and closure or carry-forward instructions are all recorded.' }],
+  };
+}
+
 export const dailyRichArticles: Array<[string, RichArticle]> = [
+  ...august18Topics.map(([slug, title, service, published]) => [slug, august18Article(slug, title, service, published)] as [string, RichArticle]),
   ...august17Topics.map(([slug, title, service, published]) => [slug, august17Article(slug, title, service, published)] as [string, RichArticle]),
   ...august14Topics.map(([slug, title, service, published]) => [slug, august14Article(slug, title, service, published)] as [string, RichArticle]),
   ...august13Topics.map(([slug, title, service, published]) => [slug, august13Article(slug, title, service, published)] as [string, RichArticle]),
