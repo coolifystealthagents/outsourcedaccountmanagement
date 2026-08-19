@@ -257,6 +257,12 @@ const august18Topics = [
   ['account-review-evidence-reproducibility', 'Can another reviewer reproduce an outsourced account review?', 'Hiring Controls', 'Reproducibility is a practical test of whether a review contains source, definitions, dates, owner judgments, and an explicit conclusion.', 'Accountability means tracing actions to an entity', 'NIST accountability glossary', 'review reproducibility', 'account reporting', 'Repeat a review from its saved evidence and record where interpretation depends on undocumented context or unavailable access.', '2026-08-18', 'https://csrc.nist.gov/glossary/term/accountability', 'https://www.iso.org/quality-management/principles', 'https://www.nist.gov/publications/cybersecurity-framework-csf-20'],
 ] as const;
 
+function august18RouteEvidence(topic: typeof august18Topics[number]): string {
+  const [slug, title, , , , , label, service, thesis, published, ...urls] = topic;
+  const externalSources = (urls as readonly string[]).filter(url => url.startsWith('http'));
+  return `Route-specific evidence record for ${slug}. Published: ${published}. Research question: ${title} in outsourced account management. Methodology: define a sample of dated ${label} records, preserve the source system, event date, actor, current state, decision owner, and next review trigger, then code each observation as direct evidence, client-reported evidence, account-manager analysis, or unknown. Compare routine, exception, and unresolved records using the same inclusion rule; have a second reviewer recode a sample and preserve disagreements. Evidence scope: this study tests how ${thesis.toLowerCase()} applies to ${service}; it does not establish a universal rate, causal effect, client result, or performance guarantee. External sources used for this route: ${externalSources.join('; ')}. These sources provide control and evidence vocabulary, not proof of an outcome for any particular account. Limitations: local contracts, missing conversations, inaccessible systems, tool configuration, stakeholder availability, geography, and small samples can change interpretation. The conclusion is bounded: preserve the source trail, separate preparation from authority, route unresolved decisions to the accountable owner, and set a dated recheck rather than converting uncertainty into a status.`;
+}
+
 function august18Sections(topic: typeof august18Topics[number]): ResearchSection[] {
   const [slug, title, , , stat, statSource, label, service, thesis] = topic;
   return [
@@ -292,7 +298,7 @@ function august18Sections(topic: typeof august18Topics[number]): ResearchSection
       `The conclusion for ${label} is therefore operational and modest: ${thesis} The conclusion is credible only when another reviewer can follow the source trail, distinguish fact from analysis, see the authority boundary, and understand what would change the finding.`,
       `For outsourced account management, the best next action is to preserve the record, assign the decision owner, and set the next check against a real trigger. That keeps client communication useful, protects sensitive information, and makes the support role accountable for disciplined coordination without granting it authority it does not have.`,
     ] },
-    { heading: 'Route-specific evidence narrative', paragraphs: [august18SourceNarratives[slug]] },
+    { heading: 'Route-specific evidence narrative', paragraphs: [august18RouteEvidence(topic)] },
   ];
 }
 
