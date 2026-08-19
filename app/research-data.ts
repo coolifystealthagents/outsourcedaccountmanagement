@@ -4,6 +4,7 @@ export type ResearchPost = {
   headlineStat: string; statSource: string; takeaways: string[]; sections: ResearchSection[];
   table: { headers: string[]; rows: string[][] }; sources: { name: string; date: string; url: string; note: string }[];
   faqs: { q: string; a: string }[]; related: string[]; internalLinks: { label: string; href: string }[];
+  serviceHandoff?: { before: string; label: string; href: string; after: string };
 };
 
 const sources = [
@@ -327,7 +328,7 @@ const august18Posts: ResearchPost[] = august18Topics.map((topic, index) => {
   return { slug, title, cluster, excerpt, headlineStat, statSource, published: routeBinding.published, datePublished: routeRecord.datePublished, updated: routeBinding.published, takeaways: [thesis!, `Separate ${label} facts from interpretation, authority, and closure evidence.`, 'State limitations beside the finding and route unresolved decisions to the named owner.'], sections: august18Sections(topic), table: { headers: ['Evidence layer', 'Record', 'Boundary'], rows: [['Observation', 'Source, date, actor, and exact fact', 'Not a cause'], ['Interpretation', 'Coding rule and uncertainty', 'Not approval'], ['Decision', 'Owner, action, and trigger', 'Not a promise'], ['Closure', 'Proof against the stated rule', 'Not a sent message']] }, sources: routeBinding.sources, faqs: [{q: `What should a reviewer test first in ${label}?`, a: 'Test the source, time window, current owner, and definition before interpreting a status.'}, {q: 'What remains outside the support role?', a: 'Contract, financial, legal, security, access-administration, and unapproved scope decisions remain with the accountable owner.'}], related: august18Topics.filter((_, i) => i !== index).slice(0, 2).map(x => x[0]), internalLinks: [{label: `See ${service} support`, href: `/services/${service}`}, {label: 'Read account reporting support', href: '/services/account-reporting'}] };
 });
 
-export const researchPosts: ResearchPost[] = [...august18Posts, ...august17Posts, ...august14Posts, ...august13Posts, ...topics.map(([slug, title, cluster, excerpt, headlineStat, statSource, label, service, thesis, articleDate], i) => {
+const researchPostList: ResearchPost[] = [...august18Posts, ...august17Posts, ...august14Posts, ...august13Posts, ...topics.map(([slug, title, cluster, excerpt, headlineStat, statSource, label, service, thesis, articleDate], i) => {
   const related = topics.filter(t => t[0] !== slug).slice(i % 7, i % 7 + 3).map(t => t[0]);
   return {
     slug, title, cluster, excerpt, headlineStat, statSource, published: articleDate || '2026-08-07', updated: articleDate || '2026-08-07',
@@ -350,3 +351,16 @@ export const researchPosts: ResearchPost[] = [...august18Posts, ...august17Posts
     internalLinks: [{label: `See ${service} support`, href: `/services/${service}`}, {label: 'Read account reporting support', href: '/services/account-reporting'}],
   };
 }).sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug))];
+
+export const researchPosts: ResearchPost[] = researchPostList.map((post) => post.slug === 'onboarding-handoff-latency-study'
+  ? {
+      ...post,
+      updated: '2026-08-19',
+      serviceHandoff: {
+        before: 'When a handoff is held up by missing access, unclear ownership, or an unapproved first update, the next question is whether the role has a safe written handoff. ',
+        label: 'Review client onboarding coordination support',
+        href: '/services/client-onboarding-coordination',
+        after: ' to see which preparation work a Philippines-based account specialist can handle and which choices should stay with your team.',
+      },
+    }
+  : post);
