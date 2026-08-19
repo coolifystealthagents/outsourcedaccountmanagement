@@ -1,0 +1,12 @@
+[
+  {"route":"/research/account-manager-context-switching-cost","sourcePaths":["app/research-data.ts"]},
+  {"route":"/research/client-commitment-language-risk","sourcePaths":["app/research-data.ts"]},
+  {"route":"/research/account-record-source-reconciliation","sourcePaths":["app/research-data.ts"]},
+  {"route":"/research/client-approval-latency-interpretation","sourcePaths":["app/research-data.ts"]},
+  {"route":"/research/account-handoff-knowledge-decay","sourcePaths":["app/research-data.ts"]},
+  {"route":"/research/renewal-risk-signal-disagreement","sourcePaths":["app/research-data.ts"]},
+  {"route":"/research/client-escalation-reopen-criteria","sourcePaths":["app/research-data.ts"]},
+  {"route":"/research/account-scope-drift-detection","sourcePaths":["app/research-data.ts"]},
+  {"route":"/research/client-feedback-channel-bias","sourcePaths":["app/research-data.ts"]},
+  {"route":"/research/account-review-evidence-reproducibility","sourcePaths":["app/research-data.ts"]}
+]
