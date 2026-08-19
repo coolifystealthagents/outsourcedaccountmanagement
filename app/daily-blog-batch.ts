@@ -517,14 +517,45 @@ const august18Angles: Record<string, string> = {
   'philippines-account-management-client-support-workload-boundary': 'set a clear workload boundary before support queues create unsafe follow-up promises',
 };
 
+// Keep an explicit route-level binding for the immutable August 18 repair.
+// These records are intentionally separate from the topic tuple so validators
+// can resolve each accepted route without inferring its date from a shared
+// builder or from a neighboring record.
+const august18RouteBindings: Record<string, { published: '2026-08-18'; sourceNote: string }> = {
+  'philippines-account-management-client-intake-constraint-log': { published: '2026-08-18', sourceNote: 'intake constraints, client effect, owner, and next check' },
+  'philippines-account-management-account-touch-priority-rule': { published: '2026-08-18', sourceNote: 'touch consequence, evidence freshness, owner, and next check' },
+  'philippines-account-management-renewal-evidence-ownership-grid': { published: '2026-08-18', sourceNote: 'renewal evidence source, checker, approver, and open gap' },
+  'philippines-account-management-qbr-question-to-proof-map': { published: '2026-08-18', sourceNote: 'QBR question, proof source, limitation, and decision owner' },
+  'philippines-account-management-crm-stale-record-quarantine': { published: '2026-08-18', sourceNote: 'stale CRM fact, quarantine reason, correction owner, and review date' },
+  'philippines-account-management-client-request-dependency-note': { published: '2026-08-18', sourceNote: 'client request, dependency, impact, owner, and next update' },
+  'philippines-account-management-expansion-signal-interview-guide': { published: '2026-08-18', sourceNote: 'observed growth signal, careful question, evidence, and commercial owner' },
+  'philippines-account-management-portfolio-review-exception-threshold': { published: '2026-08-18', sourceNote: 'portfolio baseline, exception threshold, consequence, and reviewer' },
+  'philippines-account-management-milestone-proof-collection-plan': { published: '2026-08-18', sourceNote: 'milestone output, acceptance proof, exception, and approval owner' },
+  'philippines-account-management-feedback-context-to-action-map': { published: '2026-08-18', sourceNote: 'feedback wording, context, accountable action, and closure evidence' },
+  'philippines-account-management-implementation-acceptance-handoff': { published: '2026-08-18', sourceNote: 'accepted implementation work, exceptions, receiving owner, and review date' },
+  'philippines-account-management-escalation-impact-intake': { published: '2026-08-18', sourceNote: 'escalation impact, verified facts, response boundary, and next owner' },
+  'philippines-account-management-client-outcome-baseline-review': { published: '2026-08-18', sourceNote: 'agreed outcome, baseline source, limitation, and review decision' },
+  'philippines-account-management-renewal-decision-evidence-chain': { published: '2026-08-18', sourceNote: 'renewal recommendation, evidence chain, authority, and unresolved question' },
+  'philippines-account-management-health-signal-source-ranking': { published: '2026-08-18', sourceNote: 'health signal source, freshness, proximity, corroboration, and confidence' },
+  'philippines-account-management-qbr-narrative-integrity-check': { published: '2026-08-18', sourceNote: 'QBR claim, supporting proof, limitation, and accountable reviewer' },
+  'philippines-account-management-crm-owner-change-record': { published: '2026-08-18', sourceNote: 'owner change, effective time, access boundary, source, and successor' },
+  'philippines-account-management-escalation-transfer-brief': { published: '2026-08-18', sourceNote: 'escalation impact, checked context, receiving owner, and decision needed' },
+  'philippines-account-management-portfolio-review-sequencing-plan': { published: '2026-08-18', sourceNote: 'review sequence, urgency, evidence gap, owner, and next check' },
+  'philippines-account-management-feedback-closure-evidence': { published: '2026-08-18', sourceNote: 'feedback acknowledgement, action proof, client response, and closure owner' },
+  'philippines-account-management-commitment-change-control': { published: '2026-08-18', sourceNote: 'original commitment, requested change, authority, client effect, and update' },
+  'philippines-account-management-client-support-workload-boundary': { published: '2026-08-18', sourceNote: 'support workload, required follow-up, safe boundary, owner, and escalation' },
+};
+
 function august18Article(slug: string, title: string, service: string, published: string): RichArticle {
-  const base = article(slug, title, service, published);
+  const binding = august18RouteBindings[slug];
+  const base = article(slug, title, service, binding?.published || published);
   const angle = august18Angles[slug];
   const subject = title.toLowerCase();
   return {
     ...base,
     description: `${title}: a practical guide to ${angle}, with evidence, approval boundaries, and a truthful client update.`,
     intro: [
+      `Publication date: ${binding?.published || published}. Source control note: ${binding?.sourceNote || 'account evidence and owner follow-through'}.`,
       `${title} helps an account team ${angle}. That matters in Philippines-based account support because the specialist may be responsible for preparation and follow-through while an internal owner remains accountable for commitments, commercial terms, sensitive decisions, and exceptions.`,
       `Begin with one account question, a defined time window, and the records that can answer it. The point of ${subject} is not to create a polished status label; it is to make the next responsible action visible and reviewable.`,
       'Use the guide as a working routine: capture the source, test its freshness, separate work from authority, prepare the client-safe wording, and leave an honest next check.',
