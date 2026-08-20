@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/research/client-account-management-source-quality-evidence-research",
+      "source": "content/research/client-account-management-source-quality-evidence-research.md"
+    },
+    {
+      "route": "/research/client-account-management-exception-aging-patterns-research",
+      "source": "content/research/client-account-management-exception-aging-patterns-research.md"
+    },
+    {
+      "route": "/research/client-account-management-review-consistency-research",
+      "source": "content/research/client-account-management-review-consistency-research.md"
+    },
+    {
+      "route": "/research/client-account-management-access-governance-research",
+      "source": "content/research/client-account-management-access-governance-research.md"
+    },
+    {
+      "route": "/research/client-account-management-handoff-reliability-research",
+      "source": "content/research/client-account-management-handoff-reliability-research.md"
+    }
+  ]
+}

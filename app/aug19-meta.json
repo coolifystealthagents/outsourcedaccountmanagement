@@ -1,0 +1,104 @@
+{
+  "client-account-management-intake-source-register": {
+    "family": "blog",
+    "title": "Client Account Management: Intake Source Register",
+    "description": "Client Account Management: Intake Source Register: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-intake-source-register.webp"
+  },
+  "client-account-management-approval-evidence-matrix": {
+    "family": "blog",
+    "title": "Client Account Management: Approval Evidence Matrix",
+    "description": "Client Account Management: Approval Evidence Matrix: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-approval-evidence-matrix.webp"
+  },
+  "client-account-management-exception-queue-triage": {
+    "family": "blog",
+    "title": "Client Account Management: Exception Queue Triage",
+    "description": "Client Account Management: Exception Queue Triage: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-exception-queue-triage.webp"
+  },
+  "client-account-management-quality-review-cadence": {
+    "family": "blog",
+    "title": "Client Account Management: Quality Review Cadence",
+    "description": "Client Account Management: Quality Review Cadence: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-quality-review-cadence.webp"
+  },
+  "client-account-management-handoff-acceptance-log": {
+    "family": "blog",
+    "title": "Client Account Management: Handoff Acceptance Log",
+    "description": "Client Account Management: Handoff Acceptance Log: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-handoff-acceptance-log.webp"
+  },
+  "client-account-management-access-recertification-review": {
+    "family": "blog",
+    "title": "Client Account Management: Access Recertification Review",
+    "description": "Client Account Management: Access Recertification Review: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-access-recertification-review.webp"
+  },
+  "client-account-management-weekly-decision-brief": {
+    "family": "blog",
+    "title": "Client Account Management: Weekly Decision Brief",
+    "description": "Client Account Management: Weekly Decision Brief: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-weekly-decision-brief.webp"
+  },
+  "client-account-management-source-of-truth-map": {
+    "family": "blog",
+    "title": "Client Account Management: Source of Truth Map",
+    "description": "Client Account Management: Source of Truth Map: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-source-of-truth-map.webp"
+  },
+  "client-account-management-change-control-record": {
+    "family": "blog",
+    "title": "Client Account Management: Change Control Record",
+    "description": "Client Account Management: Change Control Record: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-change-control-record.webp"
+  },
+  "client-account-management-work-queue-ownership": {
+    "family": "blog",
+    "title": "Client Account Management: Work Queue Ownership",
+    "description": "Client Account Management: Work Queue Ownership: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-work-queue-ownership.webp"
+  },
+  "client-account-management-escalation-path-design": {
+    "family": "blog",
+    "title": "Client Account Management: Escalation Path Design",
+    "description": "Client Account Management: Escalation Path Design: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-escalation-path-design.webp"
+  },
+  "client-account-management-launch-readiness-review": {
+    "family": "blog",
+    "title": "Client Account Management: Launch Readiness Review",
+    "description": "Client Account Management: Launch Readiness Review: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-launch-readiness-review.webp"
+  },
+  "client-account-management-source-quality-evidence-research": {
+    "family": "research",
+    "title": "Research Brief: Client Account Management Source Quality Evidence",
+    "description": "Research Brief: Client Account Management Source Quality Evidence: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-source-quality-evidence-research.webp"
+  },
+  "client-account-management-exception-aging-patterns-research": {
+    "family": "research",
+    "title": "Research Brief: Client Account Management Exception Aging Patterns",
+    "description": "Research Brief: Client Account Management Exception Aging Patterns: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-exception-aging-patterns-research.webp"
+  },
+  "client-account-management-review-consistency-research": {
+    "family": "research",
+    "title": "Research Brief: Client Account Management Review Consistency",
+    "description": "Research Brief: Client Account Management Review Consistency: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-review-consistency-research.webp"
+  },
+  "client-account-management-access-governance-research": {
+    "family": "research",
+    "title": "Research Brief: Client Account Management Access Governance",
+    "description": "Research Brief: Client Account Management Access Governance: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-access-governance-research.webp"
+  },
+  "client-account-management-handoff-reliability-research": {
+    "family": "research",
+    "title": "Research Brief: Client Account Management Handoff Reliability",
+    "description": "Research Brief: Client Account Management Handoff Reliability: evidence-led guidance for Outsourced Account Management.",
+    "hero": "/aug19-heroes/client-account-management-handoff-reliability-research.webp"
+  }
+}

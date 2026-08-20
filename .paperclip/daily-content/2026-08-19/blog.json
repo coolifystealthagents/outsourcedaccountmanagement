@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/blog/client-account-management-intake-source-register",
+      "source": "content/blog/client-account-management-intake-source-register.md"
+    },
+    {
+      "route": "/blog/client-account-management-approval-evidence-matrix",
+      "source": "content/blog/client-account-management-approval-evidence-matrix.md"
+    },
+    {
+      "route": "/blog/client-account-management-exception-queue-triage",
+      "source": "content/blog/client-account-management-exception-queue-triage.md"
+    },
+    {
+      "route": "/blog/client-account-management-quality-review-cadence",
+      "source": "content/blog/client-account-management-quality-review-cadence.md"
+    },
+    {
+      "route": "/blog/client-account-management-handoff-acceptance-log",
+      "source": "content/blog/client-account-management-handoff-acceptance-log.md"
+    },
+    {
+      "route": "/blog/client-account-management-access-recertification-review",
+      "source": "content/blog/client-account-management-access-recertification-review.md"
+    },
+    {
+      "route": "/blog/client-account-management-weekly-decision-brief",
+      "source": "content/blog/client-account-management-weekly-decision-brief.md"
+    },
+    {
+      "route": "/blog/client-account-management-source-of-truth-map",
+      "source": "content/blog/client-account-management-source-of-truth-map.md"
+    },
+    {
+      "route": "/blog/client-account-management-change-control-record",
+      "source": "content/blog/client-account-management-change-control-record.md"
+    },
+    {
+      "route": "/blog/client-account-management-work-queue-ownership",
+      "source": "content/blog/client-account-management-work-queue-ownership.md"
+    },
+    {
+      "route": "/blog/client-account-management-escalation-path-design",
+      "source": "content/blog/client-account-management-escalation-path-design.md"
+    },
+    {
+      "route": "/blog/client-account-management-launch-readiness-review",
+      "source": "content/blog/client-account-management-launch-readiness-review.md"
+    }
+  ]
+}
