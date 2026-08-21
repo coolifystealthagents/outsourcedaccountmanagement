@@ -1,0 +1,19 @@
+{
+  "campaignDate":"2026-08-21",
+  "family":"blog",
+  "generator":"built-in image generation",
+  "receipts": [
+    {"route":"/blog/philippines-account-management-account-coverage-window-board","prompt":"Distinct wide editorial illustration for an account-management portfolio coverage window board; no text, logos, watermark, stock-photo look, or recognizable people."},
+    {"route":"/blog/philippines-account-management-renewal-question-ladder","prompt":"Distinct wide editorial illustration for a renewal question ladder with branching conversation cards and evidence folder; no text, logos, watermark."},
+    {"route":"/blog/philippines-account-management-qbr-claim-boundary-map","prompt":"Distinct wide editorial illustration for a QBR claim boundary map with evidence cards and owner review; no text, logos, watermark."},
+    {"route":"/blog/philippines-account-management-crm-field-stewardship-plan","prompt":"Distinct wide editorial illustration for a CRM field stewardship plan with record cards, source ledger, and review calendar; no text, logos, watermark."},
+    {"route":"/blog/philippines-account-management-client-request-consequence-grid","prompt":"Distinct wide editorial illustration for a client request consequence grid sorted by impact, authority, and next action; no text, logos, watermark."},
+    {"route":"/blog/philippines-account-management-expansion-conversation-prep","prompt":"Distinct wide editorial illustration for expansion conversation preparation with question cards and approved path; no text, logos, watermark."},
+    {"route":"/blog/philippines-account-management-portfolio-attention-budget","prompt":"Distinct wide editorial illustration for a portfolio attention budget with account cards and priority markers; no text, logos, watermark."},
+    {"route":"/blog/philippines-account-management-milestone-evidence-chain","prompt":"Distinct wide editorial illustration for a milestone evidence chain with proof cards and acceptance marker; no text, logos, watermark."},
+    {"route":"/blog/philippines-account-management-feedback-context-interview","prompt":"Distinct wide editorial illustration for a feedback context interview with notebook and response map; no text, logos, watermark."},
+    {"route":"/blog/philippines-account-management-post-launch-account-bridge","prompt":"Distinct wide editorial illustration for a post-launch account bridge connecting launch and recurring support records; no text, logos, watermark."},
+    {"route":"/blog/philippines-account-management-escalation-authority-card","prompt":"Distinct wide editorial illustration for an escalation authority card showing impact, authority, next check, and path; no text, logos, watermark."},
+    {"route":"/blog/philippines-account-management-client-update-proof-note","prompt":"Distinct wide editorial illustration for a client update proof note with checked sources, approved wording, and closure mark; no text, logos, watermark."}
+  ]
+}

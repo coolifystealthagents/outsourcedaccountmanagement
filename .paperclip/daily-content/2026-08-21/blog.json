@@ -1,0 +1,18 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "blog",
+  "entries": [
+    {"route":"/blog/philippines-account-management-account-coverage-window-board","sourcePaths":["app/daily-blog-batch.ts"],"imagePath":"public/blog-heroes/2026-08-21-account-coverage-window-board.png"},
+    {"route":"/blog/philippines-account-management-renewal-question-ladder","sourcePaths":["app/daily-blog-batch.ts"],"imagePath":"public/blog-heroes/2026-08-21-renewal-question-ladder.png"},
+    {"route":"/blog/philippines-account-management-qbr-claim-boundary-map","sourcePaths":["app/daily-blog-batch.ts"],"imagePath":"public/blog-heroes/2026-08-21-qbr-claim-boundary-map.png"},
+    {"route":"/blog/philippines-account-management-crm-field-stewardship-plan","sourcePaths":["app/daily-blog-batch.ts"],"imagePath":"public/blog-heroes/2026-08-21-crm-field-stewardship-plan.png"},
+    {"route":"/blog/philippines-account-management-client-request-consequence-grid","sourcePaths":["app/daily-blog-batch.ts"],"imagePath":"public/blog-heroes/2026-08-21-client-request-consequence-grid.png"},
+    {"route":"/blog/philippines-account-management-expansion-conversation-prep","sourcePaths":["app/daily-blog-batch.ts"],"imagePath":"public/blog-heroes/2026-08-21-expansion-conversation-prep.png"},
+    {"route":"/blog/philippines-account-management-portfolio-attention-budget","sourcePaths":["app/daily-blog-batch.ts"],"imagePath":"public/blog-heroes/2026-08-21-portfolio-attention-budget.png"},
+    {"route":"/blog/philippines-account-management-milestone-evidence-chain","sourcePaths":["app/daily-blog-batch.ts"],"imagePath":"public/blog-heroes/2026-08-21-milestone-evidence-chain.png"},
+    {"route":"/blog/philippines-account-management-feedback-context-interview","sourcePaths":["app/daily-blog-batch.ts"],"imagePath":"public/blog-heroes/2026-08-21-feedback-context-interview.png"},
+    {"route":"/blog/philippines-account-management-post-launch-account-bridge","sourcePaths":["app/daily-blog-batch.ts"],"imagePath":"public/blog-heroes/2026-08-21-post-launch-account-bridge.png"},
+    {"route":"/blog/philippines-account-management-escalation-authority-card","sourcePaths":["app/daily-blog-batch.ts"],"imagePath":"public/blog-heroes/2026-08-21-escalation-authority-card.png"},
+    {"route":"/blog/philippines-account-management-client-update-proof-note","sourcePaths":["app/daily-blog-batch.ts"],"imagePath":"public/blog-heroes/2026-08-21-client-update-proof-note.png"}
+  ]
+}
