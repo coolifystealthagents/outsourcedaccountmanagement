@@ -2,17 +2,17 @@
   "campaignDate": "2026-08-20",
   "family": "blog",
   "entries": [
-    {"route":"/blog/philippines-account-management-client-priority-queue","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-renewal-readiness-interview","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-qbr-claim-map","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-crm-record-reconciliation","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-client-request-scope-note","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-expansion-discovery-boundary","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-service-recovery-brief","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-account-review-decision-narrative","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-delivery-proof-index","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-feedback-context-review","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-launch-to-support-acceptance","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-access-request-control","sourcePaths":["app/august20-blog.ts"]}
+    {"route":"/blog/philippines-account-management-client-priority-queue-field-guide","sourcePaths":["app/august20-blog.ts"]},
+    {"route":"/blog/philippines-account-management-renewal-readiness-interview-field-guide","sourcePaths":["app/august20-blog.ts"]},
+    {"route":"/blog/philippines-account-management-qbr-claim-map-field-guide","sourcePaths":["app/august20-blog.ts"]},
+    {"route":"/blog/philippines-account-management-crm-record-reconciliation-field-guide","sourcePaths":["app/august20-blog.ts"]},
+    {"route":"/blog/philippines-account-management-client-request-scope-note-field-guide","sourcePaths":["app/august20-blog.ts"]},
+    {"route":"/blog/philippines-account-management-expansion-discovery-boundary-field-guide","sourcePaths":["app/august20-blog.ts"]},
+    {"route":"/blog/philippines-account-management-service-recovery-brief-field-guide","sourcePaths":["app/august20-blog.ts"]},
+    {"route":"/blog/philippines-account-management-account-review-decision-narrative-field-guide","sourcePaths":["app/august20-blog.ts"]},
+    {"route":"/blog/philippines-account-management-delivery-proof-index-field-guide","sourcePaths":["app/august20-blog.ts"]},
+    {"route":"/blog/philippines-account-management-feedback-context-review-field-guide","sourcePaths":["app/august20-blog.ts"]},
+    {"route":"/blog/philippines-account-management-launch-to-support-acceptance-field-guide","sourcePaths":["app/august20-blog.ts"]},
+    {"route":"/blog/philippines-account-management-access-request-control-field-guide","sourcePaths":["app/august20-blog.ts"]}
   ]
 }
