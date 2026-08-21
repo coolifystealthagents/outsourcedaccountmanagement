@@ -1,11 +1,13 @@
 export type ResearchSection = { heading: string; paragraphs: string[] };
 export type ResearchPost = {
-  slug: string; title: string; excerpt: string; cluster: string; published: string; datePublished?: string; updated: string;
+  slug: string; title: string; excerpt: string; cluster: string; published: string; datePublished?: string; updated: string; hero?: string;
   headlineStat: string; statSource: string; takeaways: string[]; sections: ResearchSection[];
   table: { headers: string[]; rows: string[][] }; sources: { name: string; date: string; url: string; note: string }[];
   faqs: { q: string; a: string }[]; related: string[]; internalLinks: { label: string; href: string }[];
   serviceHandoff?: { before: string; label: string; href: string; after: string };
 };
+
+import { research20260820 } from './research-2026-08-20';
 
 const sources = [
   { name: 'NIST Cybersecurity Framework 2.0', date: 'February 26, 2024', url: 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', note: 'Governance, identification, protection, detection, response, and recovery framework.' },
@@ -328,7 +330,7 @@ const august18Posts: ResearchPost[] = august18Topics.map((topic, index) => {
   return { slug, title, cluster, excerpt, headlineStat, statSource, published: routeBinding.published, datePublished: routeRecord.datePublished, updated: routeBinding.published, takeaways: [thesis!, `Separate ${label} facts from interpretation, authority, and closure evidence.`, 'State limitations beside the finding and route unresolved decisions to the named owner.'], sections: august18Sections(topic), table: { headers: ['Evidence layer', 'Record', 'Boundary'], rows: [['Observation', 'Source, date, actor, and exact fact', 'Not a cause'], ['Interpretation', 'Coding rule and uncertainty', 'Not approval'], ['Decision', 'Owner, action, and trigger', 'Not a promise'], ['Closure', 'Proof against the stated rule', 'Not a sent message']] }, sources: routeBinding.sources, faqs: [{q: `What should a reviewer test first in ${label}?`, a: 'Test the source, time window, current owner, and definition before interpreting a status.'}, {q: 'What remains outside the support role?', a: 'Contract, financial, legal, security, access-administration, and unapproved scope decisions remain with the accountable owner.'}], related: august18Topics.filter((_, i) => i !== index).slice(0, 2).map(x => x[0]), internalLinks: [{label: `See ${service} support`, href: `/services/${service}`}, {label: 'Read account reporting support', href: '/services/account-reporting'}] };
 });
 
-const researchPostList: ResearchPost[] = [...august18Posts, ...august17Posts, ...august14Posts, ...august13Posts, ...topics.map(([slug, title, cluster, excerpt, headlineStat, statSource, label, service, thesis, articleDate], i) => {
+const researchPostList: ResearchPost[] = [...research20260820, ...august18Posts, ...august17Posts, ...august14Posts, ...august13Posts, ...topics.map(([slug, title, cluster, excerpt, headlineStat, statSource, label, service, thesis, articleDate], i) => {
   const related = topics.filter(t => t[0] !== slug).slice(i % 7, i % 7 + 3).map(t => t[0]);
   return {
     slug, title, cluster, excerpt, headlineStat, statSource, published: articleDate || '2026-08-07', updated: articleDate || '2026-08-07',

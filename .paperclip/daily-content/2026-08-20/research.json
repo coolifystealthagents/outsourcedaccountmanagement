@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-20",
+  "family": "research",
+  "entries": [
+    {"route":"/research/outsourced-account-handoff-acceptance-evidence","sourcePaths":["app/research-2026-08-20.ts"]},
+    {"route":"/research/outsourced-account-review-sample-bias","sourcePaths":["app/research-2026-08-20.ts"]},
+    {"route":"/research/outsourced-account-renewal-evidence-timing","sourcePaths":["app/research-2026-08-20.ts"]},
+    {"route":"/research/outsourced-account-communication-authority-boundaries","sourcePaths":["app/research-2026-08-20.ts"]},
+    {"route":"/research/outsourced-account-record-freshness-decay","sourcePaths":["app/research-2026-08-20.ts"]}
+  ]
+}
