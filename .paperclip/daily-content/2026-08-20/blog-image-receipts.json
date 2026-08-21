@@ -1,0 +1,18 @@
+{
+  "campaignDate": "2026-08-20",
+  "generator": "built-in image_gen",
+  "receipts": [
+    {"route":"/blog/philippines-account-management-client-priority-queue","imagePath":"public/blog-heroes/2026-08-20-priority-queue.png","prompt":"Wide editorial hero showing a calm operations desk with colored cards arranged by urgency and client impact; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-account-management-renewal-readiness-interview","imagePath":"public/blog-heroes/2026-08-20-renewal-interview.png","prompt":"Wide editorial hero showing two professionals reviewing a client timeline and question cards at a bright meeting table; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-account-management-qbr-claim-map","imagePath":"public/blog-heroes/2026-08-20-qbr-claim-map.png","prompt":"Wide editorial hero showing connected evidence cards, outcome nodes, and source threads in an account review room; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-account-management-crm-record-reconciliation","imagePath":"public/blog-heroes/2026-08-20-crm-reconciliation.png","prompt":"Wide editorial hero showing hands comparing two account record views with one corrected line highlighted; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-account-management-client-request-scope-note","imagePath":"public/blog-heroes/2026-08-20-scope-note.png","prompt":"Wide editorial hero showing a client request translated into a boundary map with owner and dependency markers; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-account-management-expansion-discovery-boundary","imagePath":"public/blog-heroes/2026-08-20-expansion-boundary.png","prompt":"Wide editorial hero showing a client conversation with a small signal becoming a carefully bounded pathway; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-account-management-service-recovery-brief","imagePath":"public/blog-heroes/2026-08-20-service-recovery.png","prompt":"Wide editorial hero showing a team reconstructing an incident timeline and recovery steps around a client account; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-account-management-account-review-decision-narrative","imagePath":"public/blog-heroes/2026-08-20-account-review.png","prompt":"Wide editorial hero showing a portfolio dashboard and one client story shaped from evidence and next actions; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-account-management-delivery-proof-index","imagePath":"public/blog-heroes/2026-08-20-delivery-proof.png","prompt":"Wide editorial hero showing milestone artifacts, check marks, source links, and an acceptance record arranged on a desk; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-account-management-feedback-context-review","imagePath":"public/blog-heroes/2026-08-20-feedback-context.png","prompt":"Wide editorial hero showing a client message, account context, and response-owner cards connected thoughtfully; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-account-management-launch-to-support-acceptance","imagePath":"public/blog-heroes/2026-08-20-launch-acceptance.png","prompt":"Wide editorial hero showing a project handoff folder moving to an account support team with risks visible; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-account-management-access-request-control","imagePath":"public/blog-heroes/2026-08-20-access-control.png","prompt":"Wide editorial hero showing a secure account workspace with a narrow keycard pathway and approval checkpoint; no readable text, logos, or watermark."}
+  ]
+}

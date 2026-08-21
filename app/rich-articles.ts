@@ -6,6 +6,7 @@ export type RichArticle = {
   published: string;
   updated: string;
   readMinutes: number;
+  heroImage?: string;
   intro: string[];
   takeaways: string[];
   takeawaysTitle?: string;

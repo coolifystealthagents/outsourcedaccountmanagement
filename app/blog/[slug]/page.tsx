@@ -130,6 +130,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     <JsonLd data={articleSchema} /><JsonLd data={faqSchema} /><JsonLd data={breadcrumbSchema} />
     <article className="container rich-article" data-article-slug={slug}>
       <header className="article-hero">
+        {rich.heroImage && <img src={rich.heroImage} alt="" width={716} height={716} className="article-hero-image" />}
         <p className="eyebrow">Philippines account support</p>
         <h1>{rich.title}</h1>
         <p className="article-deck">{rich.description}</p>

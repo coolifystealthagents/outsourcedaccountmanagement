@@ -1,4 +1,7 @@
 import type { RichArticle } from './rich-articles';
+import { august20Topics, august20RichArticles } from './august20-blog';
+
+export const august20BlogPosts = august20Topics.map(([slug, title]) => ({ slug, title, published: '2026-08-20', excerpt: `A practical guide to ${title.toLowerCase()} with evidence, ownership, and a client-safe next step.`, minutes: 12 }));
 
 const topics = [
   ['philippines-account-management-client-onboarding-roles', 'Philippines account management client onboarding roles', 'client-onboarding-coordination'],
@@ -219,7 +222,7 @@ const august13BlogPosts = august13Topics.map(([slug, title, _service, published]
 const august14BlogPosts = august14Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 10 }));
 const august17BlogPosts = august17Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 10 }));
 const august18BlogPosts = august18Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 11 }));
-export const dailyBlogPosts = [...august18BlogPosts, ...august17BlogPosts, ...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...august10BlogPosts];
+export const dailyBlogPosts = [...august20BlogPosts, ...august18BlogPosts, ...august17BlogPosts, ...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...august10BlogPosts];
 const source = { name: 'NIST Cybersecurity Framework 2.0', date: 'February 26, 2024', url: 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', note: 'Provides a current governance vocabulary for identifying, protecting, detecting, responding, and recovering.' };
 
 function article(slug: string, title: string, service: string, published = dailyBlogPosts.find((post) => post.slug === slug)?.published || '2026-08-10'): RichArticle {
@@ -646,6 +649,7 @@ function august18Article(slug: string, title: string, service: string, published
 }
 
 export const dailyRichArticles: Array<[string, RichArticle]> = [
+  ...august20RichArticles,
   ...august18Topics.map(([slug, title, service, published]) => [slug, august18Article(slug, title, service, published)] as [string, RichArticle]),
   ...august17Topics.map(([slug, title, service, published]) => [slug, august17Article(slug, title, service, published)] as [string, RichArticle]),
   ...august14Topics.map(([slug, title, service, published]) => [slug, august14Article(slug, title, service, published)] as [string, RichArticle]),
