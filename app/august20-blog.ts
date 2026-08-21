@@ -15,6 +15,23 @@ export const august20Topics = [
   ['philippines-account-management-access-request-control-field-guide', 'Philippines account management access request control field guide', 'crm-account-maintenance'],
 ] as const;
 
+// Route-local bindings keep the campaign date directly inspectable for every
+// replacement identity; the renderer also exposes this date visibly.
+export const august20SourceDateBindings = {
+  'philippines-account-management-client-priority-queue-field-guide': '2026-08-20',
+  'philippines-account-management-renewal-readiness-interview-field-guide': '2026-08-20',
+  'philippines-account-management-qbr-claim-map-field-guide': '2026-08-20',
+  'philippines-account-management-crm-record-reconciliation-field-guide': '2026-08-20',
+  'philippines-account-management-client-request-scope-note-field-guide': '2026-08-20',
+  'philippines-account-management-expansion-discovery-boundary-field-guide': '2026-08-20',
+  'philippines-account-management-service-recovery-brief-field-guide': '2026-08-20',
+  'philippines-account-management-account-review-decision-narrative-field-guide': '2026-08-20',
+  'philippines-account-management-delivery-proof-index-field-guide': '2026-08-20',
+  'philippines-account-management-feedback-context-review-field-guide': '2026-08-20',
+  'philippines-account-management-launch-to-support-acceptance-field-guide': '2026-08-20',
+  'philippines-account-management-access-request-control-field-guide': '2026-08-20',
+} as const;
+
 type Entry = { slug: string; title: string; published: '2026-08-20'; service: string; question: string; thesis: string; sections: Array<[string, string, string]>; faq: string };
 
 const entries: Entry[] = [
