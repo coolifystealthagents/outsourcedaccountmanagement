@@ -2,17 +2,17 @@
   "campaignDate": "2026-08-20",
   "family": "blog",
   "entries": [
-    {"route":"/blog/philippines-account-management-client-priority-queue-field-guide","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-renewal-readiness-interview-field-guide","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-qbr-claim-map-field-guide","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-crm-record-reconciliation-field-guide","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-client-request-scope-note-field-guide","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-expansion-discovery-boundary-field-guide","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-service-recovery-brief-field-guide","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-account-review-decision-narrative-field-guide","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-delivery-proof-index-field-guide","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-feedback-context-review-field-guide","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-launch-to-support-acceptance-field-guide","sourcePaths":["app/august20-blog.ts"]},
-    {"route":"/blog/philippines-account-management-access-request-control-field-guide","sourcePaths":["app/august20-blog.ts"]}
+    {"route":"/blog/philippines-account-management-client-queue-truth-check","sourcePaths":["app/august20-client-queue-truth-check.ts"]},
+    {"route":"/blog/philippines-account-management-renewal-interview-evidence-ladder","sourcePaths":["app/august20-renewal-interview-evidence-ladder.ts"]},
+    {"route":"/blog/philippines-account-management-qbr-outcome-claim-atlas","sourcePaths":["app/august20-qbr-outcome-claim-atlas.ts"]},
+    {"route":"/blog/philippines-account-management-crm-fact-reconciliation-sheet","sourcePaths":["app/august20-crm-fact-reconciliation-sheet.ts"]},
+    {"route":"/blog/philippines-account-management-request-scope-decision-note","sourcePaths":["app/august20-request-scope-decision-note.ts"]},
+    {"route":"/blog/philippines-account-management-expansion-signal-qualification-brief","sourcePaths":["app/august20-expansion-signal-qualification-brief.ts"]},
+    {"route":"/blog/philippines-account-management-service-incident-client-recovery-record","sourcePaths":["app/august20-service-incident-client-recovery-record.ts"]},
+    {"route":"/blog/philippines-account-management-account-review-decision-story","sourcePaths":["app/august20-account-review-decision-story.ts"]},
+    {"route":"/blog/philippines-account-management-delivery-acceptance-proof-ledger","sourcePaths":["app/august20-delivery-acceptance-proof-ledger.ts"]},
+    {"route":"/blog/philippines-account-management-feedback-context-response-map","sourcePaths":["app/august20-feedback-context-response-map.ts"]},
+    {"route":"/blog/philippines-account-management-implementation-handoff-operating-acceptance","sourcePaths":["app/august20-implementation-handoff-operating-acceptance.ts"]},
+    {"route":"/blog/philippines-account-management-crm-access-request-expiry-check","sourcePaths":["app/august20-crm-access-request-expiry-check.ts"]}
   ]
 }

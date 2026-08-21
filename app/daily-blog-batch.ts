@@ -1,7 +1,7 @@
 import type { RichArticle } from './rich-articles';
-import { august20Topics, august20RichArticles } from './august20-blog';
+import { august20ReplacementPosts, august20ReplacementRichArticles } from './august20-replacement-index';
 
-export const august20BlogPosts = august20Topics.map(([slug, title]) => ({ slug, title, published: '2026-08-20', excerpt: `A practical guide to ${title.toLowerCase()} with evidence, ownership, and a client-safe next step.`, minutes: 12 }));
+export const august20BlogPosts = august20ReplacementPosts;
 
 const topics = [
   ['philippines-account-management-client-onboarding-roles', 'Philippines account management client onboarding roles', 'client-onboarding-coordination'],
@@ -649,7 +649,7 @@ function august18Article(slug: string, title: string, service: string, published
 }
 
 export const dailyRichArticles: Array<[string, RichArticle]> = [
-  ...august20RichArticles,
+  ...august20ReplacementRichArticles,
   ...august18Topics.map(([slug, title, service, published]) => [slug, august18Article(slug, title, service, published)] as [string, RichArticle]),
   ...august17Topics.map(([slug, title, service, published]) => [slug, august17Article(slug, title, service, published)] as [string, RichArticle]),
   ...august14Topics.map(([slug, title, service, published]) => [slug, august14Article(slug, title, service, published)] as [string, RichArticle]),
