@@ -1,5 +1,17 @@
 import type { RichArticle } from './rich-articles';
 import { august20ReplacementPosts, august20ReplacementRichArticles } from './august20-replacement-index';
+import { august21RouteBody as coverageBody } from './august21-client-coverage-heatmap';
+import { august21RouteBody as renewalBody } from './august21-renewal-decision-question-tree';
+import { august21RouteBody as qbrBody } from './august21-qbr-evidence-claim-register';
+import { august21RouteBody as crmBody } from './august21-crm-field-freshness-cadence';
+import { august21RouteBody as requestBody } from './august21-client-request-impact-ladder';
+import { august21RouteBody as expansionBody } from './august21-expansion-signal-conversation-map';
+import { august21RouteBody as portfolioBody } from './august21-portfolio-review-capacity-model';
+import { august21RouteBody as milestoneBody } from './august21-milestone-acceptance-proof-trail';
+import { august21RouteBody as feedbackBody } from './august21-feedback-situation-response-record';
+import { august21RouteBody as launchBody } from './august21-launch-retention-transition-plan';
+import { august21RouteBody as escalationBody } from './august21-escalation-first-response-boundary';
+import { august21RouteBody as updateBody } from './august21-client-update-source-trace';
 
 export const august20BlogPosts = august20ReplacementPosts;
 
@@ -681,10 +693,26 @@ const august21Angles: Record<string, string> = {
   'philippines-account-management-client-update-source-trace': 'make every material client update traceable to checked evidence, approval, limitation, and closure',
 };
 
+const august21RouteBodies: Record<string, readonly string[]> = {
+  'philippines-account-management-client-coverage-heatmap': coverageBody,
+  'philippines-account-management-renewal-decision-question-tree': renewalBody,
+  'philippines-account-management-qbr-evidence-claim-register': qbrBody,
+  'philippines-account-management-crm-field-freshness-cadence': crmBody,
+  'philippines-account-management-client-request-impact-ladder': requestBody,
+  'philippines-account-management-expansion-signal-conversation-map': expansionBody,
+  'philippines-account-management-portfolio-review-capacity-model': portfolioBody,
+  'philippines-account-management-milestone-acceptance-proof-trail': milestoneBody,
+  'philippines-account-management-feedback-situation-response-record': feedbackBody,
+  'philippines-account-management-launch-retention-transition-plan': launchBody,
+  'philippines-account-management-escalation-first-response-boundary': escalationBody,
+  'philippines-account-management-client-update-source-trace': updateBody,
+};
+
 function august21Article(slug: string, title: string, service: string, published: string): RichArticle {
   const base = article(slug, title, service, published);
   const angle = august21Angles[slug];
   const subject = title.toLowerCase();
+  const routeBody = august21RouteBodies[slug] || [];
   const extra = [
     `The useful question is not whether a Philippines-based account manager can keep ${subject} moving. It is whether another reviewer can see why the work was selected, which source supports it, and which decision still belongs to the accountable owner. ${angle}.`,
     'Start with the approved account record and define the time window. Note the client effect, the current state, and the smallest decision the record must support. This keeps routine follow-up separate from a conclusion that requires commercial, legal, security, or executive authority.',
@@ -700,10 +728,10 @@ function august21Article(slug: string, title: string, service: string, published
     published: '2026-08-21',
     updated: '2026-08-21',
     heroImage: `/blog-heroes/2026-08-21-${slug.replace('philippines-account-management-', '')}.png`,
-    intro: [extra[0], extra[1], extra[2], 'Use the control fields in this guide as a working routine, not as a substitute for the accountable owner’s judgment.'],
+    intro: [extra[0], extra[1], extra[2], ...routeBody.slice(0, 2), 'Use the control fields in this guide as a working routine, not as a substitute for the accountable owner’s judgment.'],
     sections: base.sections.map((section, index) => ({
       ...section,
-      paragraphs: [...section.paragraphs, extra[(index % 4) + 2], extra[(index % 3) + 3]],
+      paragraphs: [...section.paragraphs, extra[(index % 4) + 2], extra[(index % 3) + 3], ...routeBody.slice(2 + index, 3 + index)],
     })),
     script: [`We checked ${subject} against [source record] on [date]. The confirmed point is [fact], the limitation is [limitation], and [owner] is reviewing [open decision].`, `We will send the next approved update through [channel] by [date]. Closure requires [proof], and any remaining exception will stay visible in the account record.`],
   };
