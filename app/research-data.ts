@@ -3,6 +3,7 @@ export type ResearchPost = {
   slug: string; title: string; excerpt: string; cluster: string; published: string; datePublished?: string; updated: string; hero?: string;
   headlineStat: string; statSource: string; takeaways: string[]; sections: ResearchSection[];
   table: { headers: string[]; rows: string[][] }; sources: { name: string; date: string; url: string; note: string }[];
+  researchMethodology?: string; externalSources?: string[];
   faqs: { q: string; a: string }[]; related: string[]; internalLinks: { label: string; href: string }[];
   serviceHandoff?: { before: string; label: string; href: string; after: string };
 };
