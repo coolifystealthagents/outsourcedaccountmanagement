@@ -1,0 +1,7 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "status": "blocked",
+  "reason": "Gemini image generation is unavailable in this repository execution environment.",
+  "fallback": "Text and route work completed; no stock, template, or uncertain image substitution used; existing imagery preserved."
+}
