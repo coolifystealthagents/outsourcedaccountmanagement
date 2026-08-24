@@ -1,0 +1,1 @@
+Gemini hero generation was unavailable in the execution workspace: no Gemini provider or Gemini image tool is exposed. Per the August 23, 2026 v8 contract fallback, this family is text-complete; no stock, template, or retained-image substitution was used and all existing route imagery was preserved.
