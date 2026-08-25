@@ -3,13 +3,13 @@ import type { ResearchPost } from './research-data';
 const src = (name: string, date: string, url: string, note: string) => ({ name, date, url, note });
 const commonSources = [
   src('NIST Cybersecurity Framework 2.0', 'February 26, 2024', 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', 'A framework for governance, identification, protection, detection, response, and recovery.'),
-  src('ISO quality management principles', 'accessed August 23, 2026', 'https://www.iso.org/quality-management/principles', 'Quality principles covering customer focus, process approach, evidence, and improvement.'),
-  src('NIST accountability glossary', 'accessed August 23, 2026', 'https://csrc.nist.gov/glossary/term/accountability', 'Accountability vocabulary for tracing actions and decisions to an entity.'),
+  src('ISO quality management principles', 'accessed August 24, 2026', 'https://www.iso.org/quality-management/principles', 'Quality principles covering customer focus, process approach, evidence, and improvement.'),
+  src('NIST accountability glossary', 'accessed August 24, 2026', 'https://csrc.nist.gov/glossary/term/accountability', 'Accountability vocabulary for tracing actions and decisions to an entity.'),
   src('FTC Start with Security', 'June 2015', 'https://www.ftc.gov/business-guidance/resources/start-security-guide-business', 'Practical guidance on access, data minimization, and security process controls.'),
 ];
 
 const article = (x: Omit<ResearchPost, 'published'|'datePublished'|'updated'|'sources'|'related'|'internalLinks'> & { sources: ResearchPost['sources'] }): ResearchPost => ({
-  ...x, published: '2026-08-23', datePublished: '2026-08-23', updated: '2026-08-23',
+  ...x, published: '2026-08-24', datePublished: '2026-08-24', updated: '2026-08-24',
   related: [], internalLinks: [{label: 'See account reporting support', href: '/services/account-reporting'}, {label: 'Review client request routing support', href: '/services/client-request-routing'}],
 });
 
