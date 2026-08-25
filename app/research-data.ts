@@ -368,4 +368,15 @@ export const researchPosts: ResearchPost[] = researchPostList.map((post) => post
         after: ' to see which preparation work a Philippines-based account specialist can handle and which choices should stay with your team.',
       },
     }
-  : post);
+  : post.slug === 'account-journey-milestone-evidence'
+    ? {
+        ...post,
+        updated: '2026-08-25',
+        serviceHandoff: {
+          before: 'If the milestone record is ready for a practical tracking routine, ',
+          label: 'review contract milestone tracking support',
+          href: '/services/contract-milestone-tracking',
+          after: '. A Philippines-based specialist can prepare the record and flag gaps, while your team keeps approval, contract, and client-commitment decisions.',
+        },
+      }
+    : post);
