@@ -380,14 +380,25 @@ export const researchPosts: ResearchPost[] = researchPostList.map((post) => post
         },
       }
     : post.slug === 'client-request-completeness-audit'
+    ? {
+        ...post,
+        updated: '2026-08-27',
+        serviceHandoff: {
+          before: 'Once a request has the needed facts and a named owner, ',
+          label: 'review client request routing support',
+          href: '/services/client-request-routing',
+          after: '. A Philippines-based specialist can organize the request, track the next update, and flag gaps. Your team still decides scope, commitments, and any sensitive response.',
+        },
+      }
+    : post.slug === 'renewal-risk-signal-disagreement'
       ? {
           ...post,
-          updated: '2026-08-27',
+          updated: '2026-08-30',
           serviceHandoff: {
-            before: 'Once a request has the needed facts and a named owner, ',
-            label: 'review client request routing support',
-            href: '/services/client-request-routing',
-            after: '. A Philippines-based specialist can organize the request, track the next update, and flag gaps. Your team still decides scope, commitments, and any sensitive response.',
+            before: 'When the renewal record shows conflicting signals, ',
+            label: 'review renewal administration support',
+            href: '/services/renewal-administration',
+            after: '. A Philippines-based specialist can collect the evidence and prepare the review. Your team keeps contract terms, pricing, and the final renewal decision.',
           },
         }
       : post);
