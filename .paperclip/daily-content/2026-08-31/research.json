@@ -1,0 +1,52 @@
+{
+  "campaignDate": "2026-08-31",
+  "family": "research",
+  "count": 5,
+  "entries": [
+    {
+      "route": "/research/client-decision-expiry-bias-study",
+      "sourcePaths": [
+        "app/research-2026-08-31.ts"
+      ],
+      "imagePath": "public/research-heroes/2026-08-31-client-decision-expiry-bias-study.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for client-decision-expiry-bias-study; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/research/account-queue-invisible-work-analysis",
+      "sourcePaths": [
+        "app/research-2026-08-31.ts"
+      ],
+      "imagePath": "public/research-heroes/2026-08-31-account-queue-invisible-work-analysis.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for account-queue-invisible-work-analysis; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/research/client-silence-interpretation-research",
+      "sourcePaths": [
+        "app/research-2026-08-31.ts"
+      ],
+      "imagePath": "public/research-heroes/2026-08-31-client-silence-interpretation-research.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for client-silence-interpretation-research; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/research/account-metric-definition-drift-study",
+      "sourcePaths": [
+        "app/research-2026-08-31.ts"
+      ],
+      "imagePath": "public/research-heroes/2026-08-31-account-metric-definition-drift-study.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for account-metric-definition-drift-study; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/research/handoff-shadowing-error-detection",
+      "sourcePaths": [
+        "app/research-2026-08-31.ts"
+      ],
+      "imagePath": "public/research-heroes/2026-08-31-handoff-shadowing-error-detection.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for handoff-shadowing-error-detection; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    }
+  ]
+}

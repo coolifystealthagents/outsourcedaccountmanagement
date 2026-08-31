@@ -1,0 +1,115 @@
+{
+  "campaignDate": "2026-08-31",
+  "family": "blog",
+  "count": 12,
+  "entries": [
+    {
+      "route": "/blog/philippines-account-management-client-decision-expiry-register",
+      "sourcePaths": [
+        "app/august31-blog-batch.ts"
+      ],
+      "imagePath": "public/blog-heroes/2026-08-31-client-decision-expiry-register.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for client-decision-expiry-register; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/blog/philippines-account-management-renewal-evidence-freeze",
+      "sourcePaths": [
+        "app/august31-blog-batch.ts"
+      ],
+      "imagePath": "public/blog-heroes/2026-08-31-renewal-evidence-freeze.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for renewal-evidence-freeze; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/blog/philippines-account-management-qbr-question-backlog",
+      "sourcePaths": [
+        "app/august31-blog-batch.ts"
+      ],
+      "imagePath": "public/blog-heroes/2026-08-31-qbr-question-backlog.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for qbr-question-backlog; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/blog/philippines-account-management-crm-correction-provenance-log",
+      "sourcePaths": [
+        "app/august31-blog-batch.ts"
+      ],
+      "imagePath": "public/blog-heroes/2026-08-31-crm-correction-provenance-log.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for crm-correction-provenance-log; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/blog/philippines-account-management-stakeholder-absence-plan",
+      "sourcePaths": [
+        "app/august31-blog-batch.ts"
+      ],
+      "imagePath": "public/blog-heroes/2026-08-31-stakeholder-absence-plan.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for stakeholder-absence-plan; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/blog/philippines-account-management-client-silence-follow-up-rule",
+      "sourcePaths": [
+        "app/august31-blog-batch.ts"
+      ],
+      "imagePath": "public/blog-heroes/2026-08-31-client-silence-follow-up-rule.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for client-silence-follow-up-rule; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/blog/philippines-account-management-portfolio-exception-budget",
+      "sourcePaths": [
+        "app/august31-blog-batch.ts"
+      ],
+      "imagePath": "public/blog-heroes/2026-08-31-portfolio-exception-budget.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for portfolio-exception-budget; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/blog/philippines-account-management-service-credit-preparation-boundary",
+      "sourcePaths": [
+        "app/august31-blog-batch.ts"
+      ],
+      "imagePath": "public/blog-heroes/2026-08-31-service-credit-preparation-boundary.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for service-credit-preparation-boundary; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/blog/philippines-account-management-client-metric-definition-card",
+      "sourcePaths": [
+        "app/august31-blog-batch.ts"
+      ],
+      "imagePath": "public/blog-heroes/2026-08-31-client-metric-definition-card.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for client-metric-definition-card; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/blog/philippines-account-management-handoff-shadow-review",
+      "sourcePaths": [
+        "app/august31-blog-batch.ts"
+      ],
+      "imagePath": "public/blog-heroes/2026-08-31-handoff-shadow-review.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for handoff-shadow-review; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/blog/philippines-account-management-escalation-audience-map",
+      "sourcePaths": [
+        "app/august31-blog-batch.ts"
+      ],
+      "imagePath": "public/blog-heroes/2026-08-31-escalation-audience-map.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for escalation-audience-map; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    },
+    {
+      "route": "/blog/philippines-account-management-client-commitment-sunset-review",
+      "sourcePaths": [
+        "app/august31-blog-batch.ts"
+      ],
+      "imagePath": "public/blog-heroes/2026-08-31-client-commitment-sunset-review.png",
+      "imageProvider": "OpenAI built-in image generation",
+      "promptReceipt": "Route-specific productivity-visual prompt for client-commitment-sunset-review; generated 2026-08-31; no text, logos, watermarks, or pricing imagery."
+    }
+  ]
+}
