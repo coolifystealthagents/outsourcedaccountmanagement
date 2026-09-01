@@ -14,6 +14,7 @@ import { august21RouteBody as escalationBody } from './august21-escalation-first
 import { august21RouteBody as updateBody } from './august21-client-update-source-trace';
 import { august23BlogPosts, august23RichArticles } from './august23-blog-batch';
 import { august31BlogPosts, august31RichArticles } from './august31-blog-batch';
+import { september1BlogPosts, september1RichArticles } from './september1-blog-batch';
 
 export const august20BlogPosts = august20ReplacementPosts;
 
@@ -254,7 +255,7 @@ const august14BlogPosts = august14Topics.map(([slug, title, _service, published]
 const august17BlogPosts = august17Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 10 }));
 const august18BlogPosts = august18Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 11 }));
 const august21BlogPosts = august21Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 12 }));
-export const dailyBlogPosts = [...august31BlogPosts, ...august23BlogPosts, ...august21BlogPosts, ...august20BlogPosts, ...august18BlogPosts, ...august17BlogPosts, ...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...august10BlogPosts];
+export const dailyBlogPosts = [...september1BlogPosts, ...august31BlogPosts, ...august23BlogPosts, ...august21BlogPosts, ...august20BlogPosts, ...august18BlogPosts, ...august17BlogPosts, ...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...august10BlogPosts];
 const source = { name: 'NIST Cybersecurity Framework 2.0', date: 'February 26, 2024', url: 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', note: 'Provides a current governance vocabulary for identifying, protecting, detecting, responding, and recovering.' };
 
 function article(slug: string, title: string, service: string, published = dailyBlogPosts.find((post) => post.slug === slug)?.published || '2026-08-10'): RichArticle {
@@ -740,6 +741,7 @@ function august21Article(slug: string, title: string, service: string, published
 }
 
 export const dailyRichArticles: Array<[string, RichArticle]> = [
+  ...september1RichArticles,
   ...august31RichArticles,
   ...august23RichArticles,
   ...august21Topics.map(([slug, title, service, published]) => [slug, august21Article(slug, title, service, published)] as [string, RichArticle]),
