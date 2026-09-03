@@ -1,0 +1,18 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "blog",
+  "entries": [
+    { "route": "/blog/philippines-account-management-account-timezone-coverage-boundary", "sourcePaths": ["app/september3-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-client-decision-latency-register", "sourcePaths": ["app/september3-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-account-context-decay-check", "sourcePaths": ["app/september3-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-meeting-action-evidence-chain", "sourcePaths": ["app/september3-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-stakeholder-role-change-scan", "sourcePaths": ["app/september3-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-recurring-request-cause-brief", "sourcePaths": ["app/september3-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-overdue-commitment-recovery-plan", "sourcePaths": ["app/september3-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-service-scope-ambiguity-register", "sourcePaths": ["app/september3-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-client-channel-authority-map", "sourcePaths": ["app/september3-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-portfolio-attention-transfer-note", "sourcePaths": ["app/september3-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-renewal-assumption-challenge-sheet", "sourcePaths": ["app/september3-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-qbr-dissent-resolution-record", "sourcePaths": ["app/september3-blog-batch.ts"] }
+  ]
+}
