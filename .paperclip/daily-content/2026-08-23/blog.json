@@ -1,0 +1,20 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "entries": [
+    { "route": "/blog/philippines-account-management-client-expectation-ledger", "sourcePaths": ["app/august23-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-account-review-variance-note", "sourcePaths": ["app/august23-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-renewal-conversation-prep-sheet", "sourcePaths": ["app/august23-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-crm-field-dispute-resolution", "sourcePaths": ["app/august23-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-client-request-dependency-map", "sourcePaths": ["app/august23-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-client-update-approval-trail", "sourcePaths": ["app/august23-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-account-risk-reassessment", "sourcePaths": ["app/august23-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-implementation-exception-register", "sourcePaths": ["app/august23-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-feedback-theme-boundary", "sourcePaths": ["app/august23-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-escalation-response-clock", "sourcePaths": ["app/august23-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-qbr-question-prioritization", "sourcePaths": ["app/august23-blog-batch.ts"] },
+    { "route": "/blog/philippines-account-management-renewal-evidence-gap-log", "sourcePaths": ["app/august23-blog-batch.ts"] }
+  ],
+  "heroImages": "Gemini generation unavailable in this execution environment; no stock or substituted imagery was used.",
+  "imagePromptReceipts": "Not applicable under the explicit Gemini-unavailable fallback."
+}
