@@ -1,0 +1,13 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "research",
+  "count": 5,
+  "imageStatus": "text-complete-gemini-unavailable",
+  "entries": [
+    {"route":"/research/account-approval-chain-compression-bias","sourcePaths":["app/research-2026-09-03.ts"]},
+    {"route":"/research/client-meeting-to-crm-evidence-decay","sourcePaths":["app/research-2026-09-03.ts"]},
+    {"route":"/research/escalation-owner-transfer-integrity","sourcePaths":["app/research-2026-09-03.ts"]},
+    {"route":"/research/service-scope-exception-recurrence","sourcePaths":["app/research-2026-09-03.ts"]},
+    {"route":"/research/client-update-evidence-latency","sourcePaths":["app/research-2026-09-03.ts"]}
+  ]
+}
