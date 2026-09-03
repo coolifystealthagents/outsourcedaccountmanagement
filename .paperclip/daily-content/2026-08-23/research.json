@@ -1,0 +1,12 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "research",
+  "imageStatus": "text-complete-gemini-unavailable",
+  "entries": [
+    {"route":"/research/outsourced-account-manager-queue-aging-causality-study","sourcePaths":["app/research-2026-08-23.ts"]},
+    {"route":"/research/client-qbr-metric-definition-drift-research","sourcePaths":["app/research-2026-08-23.ts"]},
+    {"route":"/research/outsourced-account-handoff-context-loss-research","sourcePaths":["app/research-2026-08-23.ts"]},
+    {"route":"/research/client-feedback-channel-coverage-research","sourcePaths":["app/research-2026-08-23.ts"]},
+    {"route":"/research/account-renewal-signal-timing-research","sourcePaths":["app/research-2026-08-23.ts"]}
+  ]
+}
