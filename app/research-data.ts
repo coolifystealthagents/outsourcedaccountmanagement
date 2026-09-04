@@ -405,4 +405,15 @@ export const researchPosts: ResearchPost[] = researchPostList.map((post) => post
             after: '. A Philippines-based specialist can collect the evidence and prepare the review. Your team keeps contract terms, pricing, and the final renewal decision.',
           },
         }
-      : post);
+      : post.slug === 'account-record-reconciliation-study'
+        ? {
+            ...post,
+            updated: '2026-09-04',
+            serviceHandoff: {
+              before: 'When conflicting client facts need a controlled record, ',
+              label: 'review CRM account maintenance support',
+              href: '/services/crm-account-maintenance',
+              after: '. A Philippines-based specialist can prepare the source trail and flag a mismatch. Your team decides the controlling fact, any access change, and any client commitment.',
+            },
+          }
+        : post);
