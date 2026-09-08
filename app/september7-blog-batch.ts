@@ -1,6 +1,7 @@
 import type { RichArticle } from './rich-articles';
 
-type Topic = readonly [string,string,string,string,string,string,string];
+export type SeptemberBlogTopic = readonly [string,string,string,string,string,string,string];
+type Topic = SeptemberBlogTopic;
 const topics: Topic[] = [
   ['client-meeting-decision-receipt','Client meeting decision receipt','customer-qbr-preparation','turn a meeting decision into an acknowledged, owned action','decision wording, source note, accountable owner, recipient, acknowledgement, due date, and completion proof','A meeting can end with agreement while each attendee leaves with a different version of the decision.','2026-08-31-qbr-question-backlog.png'],
   ['renewal-assumption-expiry-board','Renewal assumption expiry board','renewal-administration','surface renewal assumptions before their evidence goes stale','assumption, supporting source, owner, expiry trigger, commercial consequence, and next review','Renewal work becomes fragile when last quarter’s assumption quietly survives into today’s forecast.','2026-08-31-renewal-evidence-freeze.png'],
@@ -20,10 +21,11 @@ const sources=[
   {name:'ISO quality management principles',date:'accessed September 7, 2026',url:'https://www.iso.org/quality-management/principles',note:'Process, evidence-based decision, and improvement principles.'},
   {name:'NIST accountability glossary',date:'accessed September 7, 2026',url:'https://csrc.nist.gov/glossary/term/accountability',note:'Traceable responsibility vocabulary.'},
 ];
-function make([short,name,service,purpose,fields,opening,image]:Topic):RichArticle{
+export function makeSeptemberBlogArticle([short,name,service,purpose,fields,opening,image]:Topic, published='2026-09-07'):RichArticle{
   const subject=name.toLowerCase();
-  return {title:`Philippines account management ${subject}`,description:`A September 7, 2026 field guide to ${purpose}.`,published:'2026-09-07',updated:'2026-09-07',readMinutes:11,heroImage:`/blog-heroes/${image}`,
-    intro:[`Published September 7, 2026. ${opening} A ${subject} gives a Philippines-based account team a controlled way to ${purpose}.`,`The working record contains ${fields}. It should let a second reviewer reconstruct the state without relying on a private retelling.`],
+  const readerDate = published === '2026-09-08' ? 'September 8, 2026' : 'September 7, 2026';
+  return {title:`Philippines account management ${subject}`,description:`A ${readerDate} field guide to ${purpose}.`,published,updated:published,readMinutes:11,heroImage:`/blog-heroes/${image}`,
+    intro:[`Published ${readerDate}. ${opening} A ${subject} gives a Philippines-based account team a controlled way to ${purpose}.`,`The working record contains ${fields}. It should let a second reviewer reconstruct the state without relying on a private retelling.`],
     takeaways:[`Record ${fields}.`,'Keep source facts separate from interpretations and decisions.','Name both the work owner and the authorized decision owner.','Close against observable proof and retain a specific reopen condition.'],
     sections:[
       {heading:`Define the job of the ${subject}`,paragraphs:[`Start with the account event and the decision or client update this record must support. Its purpose is to ${purpose}; unrelated work belongs in another record.`,`Write the entry condition and the consequence of delay. That makes priority review possible without turning urgency into authority.`]},
@@ -41,4 +43,4 @@ function make([short,name,service,purpose,fields,opening,image]:Topic):RichArtic
     faqs:[{q:`What belongs in a ${subject}?`,a:`Record ${fields}, the client consequence, and the closure rule.`},{q:'Who decides sensitive issues?',a:'The named authorized owner handles commercial, legal, security, privacy, access, and scope decisions.'},{q:'When should the record reopen?',a:'Reopen when evidence changes, approval expires, acceptance fails, or the client corrects a fact.'}],sources};
 }
 export const september7BlogPosts=topics.map(t=>({slug:`philippines-account-management-${t[0]}`,title:`Philippines account management ${t[1].toLowerCase()}`,published:'2026-09-07' as const,excerpt:`A September 7, 2026 guide to ${t[3]}.`,minutes:11}));
-export const september7RichArticles:Array<[string,RichArticle]>=topics.map(t=>[`philippines-account-management-${t[0]}`,make(t)]);
+export const september7RichArticles:Array<[string,RichArticle]>=topics.map(t=>[`philippines-account-management-${t[0]}`,makeSeptemberBlogArticle(t)]);
