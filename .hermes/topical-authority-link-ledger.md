@@ -20,7 +20,13 @@ Four remaining verified-absent pairs are now ordered in that map. The first is `
 
 ## Next bounded action
 
-Before proposing the next public link, use the first remaining pair in `TOPICAL-AUTHORITY-LINK-LEDGER.md`. Rebuild the candidate and verify that its route-local `<main>` still has zero exact links to `/services/escalation-coordination`.
+Before proposing the next public link, use the first remaining pair in `TOPICAL-AUTHORITY-LINK-LEDGER.md`. Rebuild the candidate and verify that its route-local `<main>` still has zero exact links to `/services/renewal-administration`.
+
+## Delivery status — 2026-09-09
+
+Rendered source: `08d83c33dcffe0cbc0811e229582a3448bfcc01d` added the one route-local handoff from `/research/account-risk-evidence-thresholds` to `/services/escalation-coordination`. The local production artifact has the expected H1, apex canonical URL, Article modified date `2026-09-09`, one exact service href, and a canonical sitemap record; this sitemap intentionally has no `lastmod`.
+
+Cache-busted apex and www pages both returned `200 text/html` with the expected H1 and apex canonical URL, but neither included the handoff marker and both served `article:modified_time` `2026-08-13T00:00:00.000Z`. The configured repository exposes no approved Coolify target identifier, so no deployment was triggered. Preserve rendered-source commit `08d83c33dcffe0cbc0811e229582a3448bfcc01d`; classify this as `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale`.
 
 ## Evidence reviewed
 
