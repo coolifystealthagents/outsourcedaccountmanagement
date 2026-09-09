@@ -1,6 +1,6 @@
 # Topical-authority link ledger
 
-Updated: 2026-09-07
+Updated: 2026-09-09
 Scope: OutsourcedAccountManagement.com. This is an internal editorial queue, not reader-facing copy or a claim of search performance.
 
 ## Service-led map
@@ -12,9 +12,15 @@ Scope: OutsourcedAccountManagement.com. This is an internal editorial queue, not
 | `/services/account-reporting` | Research on QBR denominator drift | A service link is already included through the route's structured internal-link data. Review visible placement before proposing additional reader-facing copy. |
 | `/services/crm-account-maintenance` | Research on CRM ownership ambiguity | A service link is already included through the route's structured internal-link data. Review visible placement before proposing additional reader-facing copy. |
 
+## Reconciled broader map
+
+`TOPICAL-AUTHORITY-LINK-LEDGER.md` had four rows that still looked queued. A fresh production build verified each route-local handoff exactly once: `/research/account-journey-milestone-evidence` to `/services/contract-milestone-tracking`, `/research/client-request-completeness-audit` to `/services/client-request-routing`, `/research/account-record-reconciliation-study` to `/services/crm-account-maintenance`, and `/research/client-closure-proof-analysis` to `/services/account-reporting`. Those pairs are delivered and non-duplicable.
+
+Four remaining verified-absent pairs are now ordered in that map. The first is `/research/account-risk-evidence-thresholds` to `/services/escalation-coordination`; its source and target artifacts exist, while the source route-local `<main>` has zero matching target links.
+
 ## Next bounded action
 
-No additional handoff is queued from this ledger. The four recorded source-to-service pairs are already delivered or already represented through their route data. Before proposing a new link, build the candidate source route and verify that its route-local `<main>` does not already contain the exact service destination.
+Before proposing the next public link, use the first remaining pair in `TOPICAL-AUTHORITY-LINK-LEDGER.md`. Rebuild the candidate and verify that its route-local `<main>` still has zero exact links to `/services/escalation-coordination`.
 
 ## Evidence reviewed
 
