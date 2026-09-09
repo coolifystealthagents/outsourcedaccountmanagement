@@ -23,7 +23,7 @@ const sources=[
 ];
 export function makeSeptemberBlogArticle([short,name,service,purpose,fields,opening,image]:Topic, published='2026-09-07'):RichArticle{
   const subject=name.toLowerCase();
-  const readerDate = published === '2026-09-08' ? 'September 8, 2026' : 'September 7, 2026';
+  const readerDate = new Intl.DateTimeFormat('en-US',{timeZone:'UTC',month:'long',day:'numeric',year:'numeric'}).format(new Date(`${published}T00:00:00Z`));
   return {title:`Philippines account management ${subject}`,description:`A ${readerDate} field guide to ${purpose}.`,published,updated:published,readMinutes:11,heroImage:`/blog-heroes/${image}`,
     intro:[`Published ${readerDate}. ${opening} A ${subject} gives a Philippines-based account team a controlled way to ${purpose}.`,`The working record contains ${fields}. It should let a second reviewer reconstruct the state without relying on a private retelling.`],
     takeaways:[`Record ${fields}.`,'Keep source facts separate from interpretations and decisions.','Name both the work owner and the authorized decision owner.','Close against observable proof and retain a specific reopen condition.'],
