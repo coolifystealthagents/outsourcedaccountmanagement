@@ -412,14 +412,25 @@ export const researchPosts: ResearchPost[] = researchPostList.map((post) => post
           },
         }
       : post.slug === 'account-record-reconciliation-study'
+      ? {
+          ...post,
+          updated: '2026-09-04',
+          serviceHandoff: {
+            before: 'When conflicting client facts need a controlled record, ',
+            label: 'review CRM account maintenance support',
+            href: '/services/crm-account-maintenance',
+            after: '. A Philippines-based specialist can prepare the source trail and flag a mismatch. Your team decides the controlling fact, any access change, and any client commitment.',
+          },
+        }
+      : post.slug === 'account-risk-evidence-thresholds'
         ? {
             ...post,
-            updated: '2026-09-04',
+            updated: '2026-09-09',
             serviceHandoff: {
-              before: 'When conflicting client facts need a controlled record, ',
-              label: 'review CRM account maintenance support',
-              href: '/services/crm-account-maintenance',
-              after: '. A Philippines-based specialist can prepare the source trail and flag a mismatch. Your team decides the controlling fact, any access change, and any client commitment.',
+              before: 'When a risk signal meets the written escalation rule, ',
+              label: 'review escalation coordination support',
+              href: '/services/escalation-coordination',
+              after: '. A Philippines-based specialist can prepare the evidence and route the issue. Your team decides any legal, security, financial, contractual, or client commitment.',
             },
           }
         : post);
