@@ -423,7 +423,18 @@ export const researchPosts: ResearchPost[] = researchPostList.map((post) => post
             after: '. A Philippines-based specialist can prepare the source trail and flag a mismatch. Your team decides the controlling fact, any access change, and any client commitment.',
           },
         }
-      : post.slug === 'account-risk-evidence-thresholds'
+      : post.slug === 'renewal-signal-calibration'
+        ? {
+            ...post,
+            updated: '2026-09-10',
+            serviceHandoff: {
+              before: 'When a renewal signal needs a careful review, ',
+              label: 'review renewal administration support',
+              href: '/services/renewal-administration',
+              after: '. A Philippines-based specialist can collect dated evidence and prepare the record. Your team keeps contract terms, pricing, and the final renewal decision.',
+            },
+          }
+        : post.slug === 'account-risk-evidence-thresholds'
         ? {
             ...post,
             updated: '2026-09-09',
