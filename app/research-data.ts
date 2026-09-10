@@ -19,6 +19,7 @@ import { research20260904 } from './research-2026-09-04';
 import { research20260907 } from './research-2026-09-07';
 import { research20260908 } from './research-2026-09-08';
 import { research20260909 } from './research-2026-09-09';
+import { research20260910 } from './research-2026-09-10';
 
 const sources = [
   { name: 'NIST Cybersecurity Framework 2.0', date: 'February 26, 2024', url: 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', note: 'Governance, identification, protection, detection, response, and recovery framework.' },
@@ -365,7 +366,7 @@ const priorResearchPostList: ResearchPost[] = [...research20260903, ...research2
   };
 }).sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug))];
 
-const researchPostList = [...research20260909, ...research20260908, ...research20260907, ...research20260904, ...priorResearchPostList];
+const researchPostList = [...research20260910, ...research20260909, ...research20260908, ...research20260907, ...research20260904, ...priorResearchPostList];
 
 export const researchPosts: ResearchPost[] = researchPostList.map((post) => post.slug === 'onboarding-handoff-latency-study'
   ? {

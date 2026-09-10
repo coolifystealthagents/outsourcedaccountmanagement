@@ -21,6 +21,7 @@ import { september4BlogPosts, september4RichArticles } from './september4-blog-b
 import { september7BlogPosts, september7RichArticles } from './september7-blog-batch';
 import { september8BlogPosts, september8RichArticles } from './september8-blog-batch';
 import { september9BlogPosts, september9RichArticles } from './september9-blog-batch';
+import { september10BlogPosts, september10RichArticles } from './september10-blog-batch';
 
 export const august20BlogPosts = august20ReplacementPosts;
 
@@ -261,7 +262,7 @@ const august14BlogPosts = august14Topics.map(([slug, title, _service, published]
 const august17BlogPosts = august17Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 10 }));
 const august18BlogPosts = august18Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 11 }));
 const august21BlogPosts = august21Topics.map(([slug, title, _service, published]) => ({ slug, title, published, excerpt: `${title}. A practical guide for Philippines-based account support with clear evidence, ownership, and client follow-through.`, minutes: 12 }));
-export const dailyBlogPosts = [...september9BlogPosts, ...september8BlogPosts, ...september7BlogPosts, ...september4BlogPosts, ...september3BlogPosts, ...september2BlogPosts, ...september1BlogPosts, ...august31BlogPosts, ...august23BlogPosts, ...august21BlogPosts, ...august20BlogPosts, ...august18BlogPosts, ...august17BlogPosts, ...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...august10BlogPosts];
+export const dailyBlogPosts = [...september10BlogPosts, ...september9BlogPosts, ...september8BlogPosts, ...september7BlogPosts, ...september4BlogPosts, ...september3BlogPosts, ...september2BlogPosts, ...september1BlogPosts, ...august31BlogPosts, ...august23BlogPosts, ...august21BlogPosts, ...august20BlogPosts, ...august18BlogPosts, ...august17BlogPosts, ...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...august10BlogPosts];
 const source = { name: 'NIST Cybersecurity Framework 2.0', date: 'February 26, 2024', url: 'https://www.nist.gov/publications/cybersecurity-framework-csf-20', note: 'Provides a current governance vocabulary for identifying, protecting, detecting, responding, and recovering.' };
 
 function article(slug: string, title: string, service: string, published = dailyBlogPosts.find((post) => post.slug === slug)?.published || '2026-08-10'): RichArticle {
@@ -747,6 +748,7 @@ function august21Article(slug: string, title: string, service: string, published
 }
 
 export const dailyRichArticles: Array<[string, RichArticle]> = [
+  ...september10RichArticles,
   ...september9RichArticles,
   ...september8RichArticles,
   ...september7RichArticles,
