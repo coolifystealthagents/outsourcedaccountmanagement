@@ -434,6 +434,17 @@ export const researchPosts: ResearchPost[] = researchPostList.map((post) => post
               after: '. A Philippines-based specialist can collect dated evidence and prepare the record. Your team keeps contract terms, pricing, and the final renewal decision.',
             },
           }
+        : post.slug === 'account-handoff-acceptance-check'
+        ? {
+            ...post,
+            updated: '2026-09-12',
+            serviceHandoff: {
+              before: 'When the receiving owner needs a clear handoff record, ',
+              label: 'review implementation handoff support',
+              href: '/services/implementation-handoff-support',
+              after: '. A Philippines-based specialist can organize approved context, open work, and the next review. Your team keeps access decisions, contract changes, and client commitments.',
+            },
+          }
         : post.slug === 'account-risk-evidence-thresholds'
         ? {
             ...post,
