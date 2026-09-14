@@ -1,6 +1,6 @@
 # Topical-authority link ledger
 
-Updated: 2026-09-10
+Updated: 2026-09-14
 Scope: OutsourcedAccountManagement.com. This is an internal editorial queue, not reader-facing copy or a claim of search performance.
 
 ## Service-led map
@@ -11,6 +11,7 @@ Scope: OutsourcedAccountManagement.com. This is an internal editorial queue, not
 | `/services/renewal-administration` | Research on renewal-risk signal disagreement | A contextual handoff is already rendered once in `/research/renewal-risk-signal-disagreement` from source commit `868a817fb52c36674d0542d0d32bf9b659fd0c14`. Do not add a second link. |
 | `/services/account-reporting` | Research on QBR denominator drift | A service link is already included through the route's structured internal-link data. Review visible placement before proposing additional reader-facing copy. |
 | `/services/crm-account-maintenance` | Research on CRM ownership ambiguity | A service link is already included through the route's structured internal-link data. Review visible placement before proposing additional reader-facing copy. |
+| `/services/account-health-monitoring` | Research on client health signal calibration | A contextual handoff was rendered once from `/research/client-health-signal-calibration` in source commit `f88e291f82398052f91d7ff40e95c9e05a17ed64`. Do not add a second link. |
 
 ## Reconciled broader map
 
@@ -35,6 +36,12 @@ Rendered source: `ab443dcf1f90a5969218c3fc211acd3c01244df6` added the one route-
 Cache-busted apex and www pages both returned `200 text/html` with the expected H1 and apex canonical URL, but neither included the handoff marker or service href and both served `article:modified_time` `2026-08-12T00:00:00.000Z`. The repository exposes no approved Coolify target identifier, so no deployment was triggered. Preserve rendered-source commit `ab443dcf1f90a5969218c3fc211acd3c01244df6`; classify this as `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale`.
 
 ## Evidence reviewed
+
+## Delivery status — 2026-09-14
+
+Rendered source: `f88e291f82398052f91d7ff40e95c9e05a17ed64` added the one route-local handoff from `/research/client-health-signal-calibration` to `/services/account-health-monitoring`. The local production artifact has the expected H1, apex canonical URL, Article published date `2026-08-14`, Article and Open Graph modified date `2026-09-14`, one exact service href, the visible preparation and owner-boundary text, and a canonical sitemap record; this sitemap intentionally has no `lastmod`.
+
+Cache-busted apex and www pages both returned `200 text/html` with the expected H1 and apex canonical URL, but neither included the handoff marker or service href and both served `article:modified_time` `2026-08-14T00:00:00.000Z`. The repository exposes no approved Coolify target identifier, so no deployment was triggered. Preserve rendered-source commit `f88e291f82398052f91d7ff40e95c9e05a17ed64`; classify this as `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale`.
 
 - `app/data.ts`: 12 Philippines-based account-management service routes, including renewal administration.
 - `app/research-data.ts`: `renewal-risk-signal-disagreement` has a stated methodology and source set; the generated research model maps related service routes through `internalLinks`.
