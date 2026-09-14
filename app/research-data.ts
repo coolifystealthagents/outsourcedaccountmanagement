@@ -445,6 +445,17 @@ export const researchPosts: ResearchPost[] = researchPostList.map((post) => post
               after: '. A Philippines-based specialist can organize approved context, open work, and the next review. Your team keeps access decisions, contract changes, and client commitments.',
             },
           }
+        : post.slug === 'client-health-signal-calibration'
+        ? {
+            ...post,
+            updated: '2026-09-14',
+            serviceHandoff: {
+              before: 'When a dated health signal needs a review routine, ',
+              label: 'review account health monitoring support',
+              href: '/services/account-health-monitoring',
+              after: '. A Philippines-based specialist can prepare the source trail, open commitments, and next check. Your team decides any client sentiment, retention, commercial, access, or client-commitment judgment.',
+            },
+          }
         : post.slug === 'account-risk-evidence-thresholds'
         ? {
             ...post,
