@@ -58,10 +58,22 @@
     }
   ],
   "verified": 5,
-  "commitSha": "88069349055be0c81715ad210aca6d030f3288af",
+  "commitSha": "f16985ee965ac2457d75cccf64eadee0761b4ab1",
   "deployment": {
     "applicationUuid": "gh6ak4cv6rxb0ejrlyxaw9qg",
-    "deploymentUuid": "gpm7ll9b9grauua2omyrqg5v"
+    "deploymentUuid": "wjadvxqhexsef0mvwkk58h5h"
   },
-  "verifiedAt": "2026-09-18T14:55:37Z"
+  "verifiedAt": "2026-09-18T21:52:57Z",
+  "mediaVerification": {
+    "asset": "/blog-heroes/2026-08-31-crm-correction-provenance-log.png",
+    "assetHttpStatus": 200,
+    "assetSha256": "f33428f8fa8c48216d0f18ea9b3ed20313c559febe53d73985b2c926eaf1e397",
+    "verified": 5,
+    "required": 5,
+    "checksPerArticle": 11,
+    "renderedHero": true,
+    "openGraphImage": true,
+    "twitterImage": true,
+    "articleJsonLdImage": true
+  }
 }
