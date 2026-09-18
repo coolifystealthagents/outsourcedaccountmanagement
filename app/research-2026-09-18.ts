@@ -135,6 +135,7 @@ const topics: Topic[] = [
 
 export const research20260918: ResearchPost[] = topics.map((t) => ({
   slug: t.slug, title: t.title, cluster: t.cluster, excerpt: t.excerpt,
+  hero: '/blog-heroes/2026-08-31-crm-correction-provenance-log.png',
   headlineStat: 'Five evidence layers separate an observed source from verified follow-through',
   statSource: 'Route-specific synthesis of NIST, GAO, FTC, and ISO control principles',
   published: '2026-09-18', datePublished: '2026-09-18', updated: '2026-09-18',
