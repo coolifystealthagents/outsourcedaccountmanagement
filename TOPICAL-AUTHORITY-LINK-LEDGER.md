@@ -23,6 +23,10 @@ Only add a public link after confirming the source page, target artifact, and re
 
 ## Public-link inventory and remaining queue
 
+### Research batch — 2026-09-18
+
+Five new decision-grade studies were added for stakeholder role-change detection, report correction propagation, onboarding permission readiness, approval-queue sequencing, and communication-channel continuity. Each route links to an existing confirmed service pillar and the Research library. Publication evidence, hashes, commit, deployment, and live verification are recorded in `.paperclip/sep18-2026/research.json`.
+
 | Priority | Existing source route | Specific reader question | Confirmed target route | Proposed contextual link purpose | Pre-release check |
 | --- | --- | --- | --- | --- | --- |
 | Delivered | `/research/account-journey-milestone-evidence` | How can a team keep approved milestones and exit evidence visible? | `/services/contract-milestone-tracking` | Send a reader from milestone evidence to practical tracking support. | Verified once in generated route-local `<main>` on 2026-09-09. Do not add a second link. |

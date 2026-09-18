@@ -1,0 +1,15 @@
+{
+  "routine": "Daily Research Publishing",
+  "required": 5,
+  "publicationDate": "2026-09-18",
+  "timezone": "UTC",
+  "status": "validated",
+  "validation": {"typecheck":"passed","productionBuild":"passed","staticRoutes":560,"validatedAt":"2026-09-18T07:04:00Z"},
+  "articles": [
+    {"family":"research","topic":"stakeholder role-change evidence","slug":"account-stakeholder-role-change-detection","contentHash":"74c9d3788f58d3e87452d345bbc73ea0397e1a481fb54cee8f82146a20d752d5","liveUrl":"https://outsourcedaccountmanagement.com/research/account-stakeholder-role-change-detection"},
+    {"family":"research","topic":"report correction propagation","slug":"account-report-correction-propagation-study","contentHash":"410372ff25ede2512f885f52bc7d165954109e4581e0b2e89f86f7d0a2d348f1","liveUrl":"https://outsourcedaccountmanagement.com/research/account-report-correction-propagation-study"},
+    {"family":"research","topic":"onboarding permission readiness","slug":"client-onboarding-permission-readiness-gap","contentHash":"148c576cd91d64e907cf8cd5f612953410156defea70c89765526a846bf63157","liveUrl":"https://outsourcedaccountmanagement.com/research/client-onboarding-permission-readiness-gap"},
+    {"family":"research","topic":"approval queue sequencing","slug":"account-approval-queue-sequencing-analysis","contentHash":"69c749b35332324c06f274d12792b7d1f4f5ea37979013de98cb3df6d7811cec","liveUrl":"https://outsourcedaccountmanagement.com/research/account-approval-queue-sequencing-analysis"},
+    {"family":"research","topic":"communication channel continuity","slug":"client-communication-channel-continuity","contentHash":"bf874c6dc567fccfd39d8c9d223342c706894cf7ae295ae4d68f856f741b8c03","liveUrl":"https://outsourcedaccountmanagement.com/research/client-communication-channel-continuity"}
+  ]
+}
