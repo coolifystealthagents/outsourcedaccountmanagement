@@ -1,0 +1,26 @@
+{
+  "family": "blog",
+  "requiredCount": 12,
+  "verifiedCount": 12,
+  "publicationDate": "2026-09-18",
+  "timezone": "Asia/Manila",
+  "contentCommit": "071080c569ab2adfc54d8f723f12736d6fd4012e",
+  "deployedCommit": "88069349055be0c81715ad210aca6d030f3288af",
+  "deploymentUuid": "gpm7ll9b9grauua2omyrqg5v",
+  "deploymentFinishedAt": "2026-09-18T07:38:33Z",
+  "checks": ["http200", "title", "uniqueContent", "canonical", "datePublished", "dateModified", "blogPosting", "heroAsset", "sitemap", "contactCta"],
+  "entries": [
+    {"slug":"philippines-account-management-client-response-approval-expiry","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-client-response-approval-expiry","verifiedAt":"2026-09-18T15:05:03Z"},
+    {"slug":"philippines-account-management-crm-next-step-dispute-record","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-crm-next-step-dispute-record","verifiedAt":"2026-09-18T15:05:03Z"},
+    {"slug":"philippines-account-management-renewal-stakeholder-readiness-gap","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-renewal-stakeholder-readiness-gap","verifiedAt":"2026-09-18T15:05:03Z"},
+    {"slug":"philippines-account-management-qbr-source-system-change-note","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-qbr-source-system-change-note","verifiedAt":"2026-09-18T15:05:03Z"},
+    {"slug":"philippines-account-management-account-risk-signal-suppression-review","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-account-risk-signal-suppression-review","verifiedAt":"2026-09-18T15:05:03Z"},
+    {"slug":"philippines-account-management-client-request-beneficiary-confirmation","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-client-request-beneficiary-confirmation","verifiedAt":"2026-09-18T15:05:03Z"},
+    {"slug":"philippines-account-management-handoff-access-readiness-proof","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-handoff-access-readiness-proof","verifiedAt":"2026-09-18T15:05:03Z"},
+    {"slug":"philippines-account-management-service-commitment-evidence-retention","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-service-commitment-evidence-retention","verifiedAt":"2026-09-18T15:05:03Z"},
+    {"slug":"philippines-account-management-feedback-response-owner-acceptance","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-feedback-response-owner-acceptance","verifiedAt":"2026-09-18T15:05:03Z"},
+    {"slug":"philippines-account-management-portfolio-review-sampling-plan","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-portfolio-review-sampling-plan","verifiedAt":"2026-09-18T15:05:03Z"},
+    {"slug":"philippines-account-management-escalation-client-impact-clock","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-escalation-client-impact-clock","verifiedAt":"2026-09-18T15:05:03Z"},
+    {"slug":"philippines-account-management-account-report-delivery-receipt","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-account-report-delivery-receipt","verifiedAt":"2026-09-18T15:05:03Z"}
+  ]
+}
