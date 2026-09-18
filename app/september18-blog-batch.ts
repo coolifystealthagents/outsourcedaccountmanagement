@@ -1,0 +1,30 @@
+import { makeSeptemberBlogArticle, type SeptemberBlogTopic } from './september7-blog-batch';
+import type { RichArticle } from './rich-articles';
+
+const topics: SeptemberBlogTopic[] = [
+  ['client-response-approval-expiry', 'Client response approval expiry', 'account-reporting', 'stop an approved client response from being sent after its facts or authority have expired', 'draft response, approval source, approved facts, approval time, expiry trigger, final checker, and replacement route', 'A response can be correct when approved and misleading by the time it is sent.', '2026-08-31-crm-correction-provenance-log.png'],
+  ['crm-next-step-dispute-record', 'CRM next step dispute record', 'crm-account-maintenance', 'resolve conflicting views of the next account action without overwriting either source', 'account, competing next steps, source records, client consequence, decision owner, resolution, and review date', 'A tidy CRM field can conceal a real disagreement about what should happen next.', '2026-08-31-client-metric-definition-card.png'],
+  ['renewal-stakeholder-readiness-gap', 'Renewal stakeholder readiness gap', 'renewal-administration', 'identify missing client and internal participation before a renewal decision window opens', 'renewal event, required stakeholder, expected contribution, readiness evidence, gap owner, due date, and fallback', 'A renewal pack can be complete while the people needed to use it are not ready.', '2026-08-31-renewal-evidence-freeze.png'],
+  ['qbr-source-system-change-note', 'QBR source system change note', 'customer-qbr-preparation', 'explain how a source-system change affects the comparability of QBR evidence', 'metric, old source, new source, change date, comparability limit, approved treatment, and client disclosure', 'A stable chart can hide a measurement process that changed between reporting periods.', '2026-08-31-qbr-question-backlog.png'],
+  ['account-risk-signal-suppression-review', 'Account risk signal suppression review', 'account-health-monitoring', 'govern temporary decisions to mute a noisy account risk signal', 'signal, suppression reason, supporting evidence, authorizer, start time, expiry, and reactivation test', 'Muting a noisy alert can improve focus, but an indefinite mute can also hide a changing account.', '2026-08-31-portfolio-exception-budget.png'],
+  ['client-request-beneficiary-confirmation', 'Client request beneficiary confirmation', 'client-request-routing', 'confirm who should receive the result of a client request before work begins', 'request, requester, intended beneficiary, authority source, delivery channel, privacy limit, and confirmation', 'The person who sends a request is not always the person who should receive its result.', '2026-08-31-client-silence-follow-up-rule.png'],
+  ['handoff-access-readiness-proof', 'Handoff access readiness proof', 'implementation-handoff-support', 'verify that a receiving account owner has the minimum approved access needed for the first live task', 'system, approved role, access owner, test task, test result, exception, and remediation check', 'A handoff date does not prove that the receiving owner can open the records needed to act.', '2026-08-31-handoff-shadow-review.png'],
+  ['service-commitment-evidence-retention', 'Service commitment evidence retention', 'contract-milestone-tracking', 'retain the proof needed to explain a service commitment after the operational task closes', 'commitment, controlling source, delivery evidence, acceptance record, retention owner, review date, and disposal rule', 'Clearing a completed task can accidentally remove the evidence needed for a later client question.', '2026-08-31-client-commitment-sunset-review.png'],
+  ['feedback-response-owner-acceptance', 'Feedback response owner acceptance', 'customer-feedback-administration', 'confirm that the person assigned to a client feedback response accepts the context, boundary, and due date', 'feedback source, response owner, required outcome, authority boundary, acceptance time, due date, and escalation rule', 'Assigning feedback in a system does not prove that the response owner understood or accepted it.', '2026-08-31-stakeholder-absence-plan.png'],
+  ['portfolio-review-sampling-plan', 'Portfolio review sampling plan', 'account-health-monitoring', 'choose a transparent account sample when the full portfolio cannot receive the same depth of review', 'portfolio, sampling purpose, inclusion rule, excluded accounts, risk override, reviewer, and next full review', 'A partial portfolio review can create false assurance when nobody can explain which accounts were left out.', '2026-08-31-portfolio-exception-budget.png'],
+  ['escalation-client-impact-clock', 'Escalation client impact clock', 'escalation-coordination', 'track elapsed client impact separately from internal escalation activity', 'impact start, affected service, evidence source, mitigation, client update time, decision owner, and stop condition', 'A busy internal response does not stop the time a client remains affected.', '2026-08-31-escalation-audience-map.png'],
+  ['account-report-delivery-receipt', 'Account report delivery receipt', 'account-reporting', 'verify that a recurring account report reached the approved recipient through the approved channel', 'report, approved version, recipient, channel, send time, receipt evidence, and failed-delivery route', 'A generated report has not served the account until its delivery is verified.', '2026-08-31-crm-correction-provenance-log.png'],
+];
+
+export const september18BlogPosts = topics.map((topic) => ({
+  slug: `philippines-account-management-${topic[0]}`,
+  title: `Philippines account management ${topic[1].toLowerCase()}`,
+  published: '2026-09-18' as const,
+  excerpt: `A September 18, 2026 guide to ${topic[3]}.`,
+  minutes: 11,
+}));
+
+export const september18RichArticles: Array<[string, RichArticle]> = topics.map((topic) => [
+  `philippines-account-management-${topic[0]}`,
+  makeSeptemberBlogArticle(topic, '2026-09-18'),
+]);
