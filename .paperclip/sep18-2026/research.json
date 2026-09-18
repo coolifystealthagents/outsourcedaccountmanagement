@@ -3,13 +3,65 @@
   "required": 5,
   "publicationDate": "2026-09-18",
   "timezone": "UTC",
-  "status": "validated",
-  "validation": {"typecheck":"passed","productionBuild":"passed","staticRoutes":560,"validatedAt":"2026-09-18T07:04:00Z"},
+  "status": "live-verified",
+  "validation": {
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "staticRoutes": 560,
+    "validatedAt": "2026-09-18T07:04:00Z"
+  },
   "articles": [
-    {"family":"research","topic":"stakeholder role-change evidence","slug":"account-stakeholder-role-change-detection","contentHash":"74c9d3788f58d3e87452d345bbc73ea0397e1a481fb54cee8f82146a20d752d5","liveUrl":"https://outsourcedaccountmanagement.com/research/account-stakeholder-role-change-detection"},
-    {"family":"research","topic":"report correction propagation","slug":"account-report-correction-propagation-study","contentHash":"410372ff25ede2512f885f52bc7d165954109e4581e0b2e89f86f7d0a2d348f1","liveUrl":"https://outsourcedaccountmanagement.com/research/account-report-correction-propagation-study"},
-    {"family":"research","topic":"onboarding permission readiness","slug":"client-onboarding-permission-readiness-gap","contentHash":"148c576cd91d64e907cf8cd5f612953410156defea70c89765526a846bf63157","liveUrl":"https://outsourcedaccountmanagement.com/research/client-onboarding-permission-readiness-gap"},
-    {"family":"research","topic":"approval queue sequencing","slug":"account-approval-queue-sequencing-analysis","contentHash":"69c749b35332324c06f274d12792b7d1f4f5ea37979013de98cb3df6d7811cec","liveUrl":"https://outsourcedaccountmanagement.com/research/account-approval-queue-sequencing-analysis"},
-    {"family":"research","topic":"communication channel continuity","slug":"client-communication-channel-continuity","contentHash":"bf874c6dc567fccfd39d8c9d223342c706894cf7ae295ae4d68f856f741b8c03","liveUrl":"https://outsourcedaccountmanagement.com/research/client-communication-channel-continuity"}
-  ]
+    {
+      "family": "research",
+      "topic": "stakeholder role-change evidence",
+      "slug": "account-stakeholder-role-change-detection",
+      "contentHash": "fa5cc0662b1dae137bba305997427dcf5fee55b866234c5a536fc70e96b2ea93",
+      "liveUrl": "https://outsourcedaccountmanagement.com/research/account-stakeholder-role-change-detection",
+      "publicationDate": "2026-09-18",
+      "verificationTime": "2026-09-18T14:55:37Z"
+    },
+    {
+      "family": "research",
+      "topic": "report correction propagation",
+      "slug": "account-report-correction-propagation-study",
+      "contentHash": "43d154c91caeb779a9db033338c6b040ed436b5cec4cc7d554e9893e588f095a",
+      "liveUrl": "https://outsourcedaccountmanagement.com/research/account-report-correction-propagation-study",
+      "publicationDate": "2026-09-18",
+      "verificationTime": "2026-09-18T14:55:37Z"
+    },
+    {
+      "family": "research",
+      "topic": "onboarding permission readiness",
+      "slug": "client-onboarding-permission-readiness-gap",
+      "contentHash": "94731d28162476b83f4a29dbb4c03d13d40f3baa0f6ad9fd48165e21ad3e2091",
+      "liveUrl": "https://outsourcedaccountmanagement.com/research/client-onboarding-permission-readiness-gap",
+      "publicationDate": "2026-09-18",
+      "verificationTime": "2026-09-18T14:55:37Z"
+    },
+    {
+      "family": "research",
+      "topic": "approval queue sequencing",
+      "slug": "account-approval-queue-sequencing-analysis",
+      "contentHash": "0d23b9d242ae0d818d8fbbc64a543039aef663cb69fb2960921e7c7a82c4570d",
+      "liveUrl": "https://outsourcedaccountmanagement.com/research/account-approval-queue-sequencing-analysis",
+      "publicationDate": "2026-09-18",
+      "verificationTime": "2026-09-18T14:55:37Z"
+    },
+    {
+      "family": "research",
+      "topic": "communication channel continuity",
+      "slug": "client-communication-channel-continuity",
+      "contentHash": "10dc2cbb67d9336c6fd5e32aa9095a8858af0c6449b0932491bdfec7c416871c",
+      "liveUrl": "https://outsourcedaccountmanagement.com/research/client-communication-channel-continuity",
+      "publicationDate": "2026-09-18",
+      "verificationTime": "2026-09-18T14:55:37Z"
+    }
+  ],
+  "verified": 5,
+  "commitSha": "88069349055be0c81715ad210aca6d030f3288af",
+  "deployment": {
+    "applicationUuid": "gh6ak4cv6rxb0ejrlyxaw9qg",
+    "deploymentUuid": "gpm7ll9b9grauua2omyrqg5v"
+  },
+  "verifiedAt": "2026-09-18T14:55:37Z"
 }
