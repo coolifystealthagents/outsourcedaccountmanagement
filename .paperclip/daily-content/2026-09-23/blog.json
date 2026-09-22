@@ -1,0 +1,26 @@
+{
+  "campaignDate": "2026-09-23",
+  "family": "blog",
+  "timezone": "Asia/Manila",
+  "requiredCount": 12,
+  "sourcePath": "app/september23-blog-batch.ts",
+  "sources": [
+    {"name":"NIST Cybersecurity Framework 2.0","url":"https://www.nist.gov/publications/cybersecurity-framework-csf-20"},
+    {"name":"ISO quality management principles","url":"https://www.iso.org/quality-management/principles"},
+    {"name":"NIST accountability glossary","url":"https://csrc.nist.gov/glossary/term/accountability"}
+  ],
+  "entries": [
+    {"family":"blog","topic":"Onboarding discovery completeness gate","slug":"philippines-account-management-onboarding-discovery-completeness-gate","serviceFamily":"client-onboarding-coordination","actualPublicationDate":"2026-09-23","contentHash":"862d6eb0b393b301472d450ecde58dac4e6e338b818068de372798f8c75ed78d"},
+    {"family":"blog","topic":"Account health telemetry ownership map","slug":"philippines-account-management-account-health-telemetry-ownership-map","serviceFamily":"account-health-monitoring","actualPublicationDate":"2026-09-23","contentHash":"5bf1e8a95c2c424fb2ce06b032cb60a537999cf2c66b6136b2841bf294e052b6"},
+    {"family":"blog","topic":"Renewal notice deadline control","slug":"philippines-account-management-renewal-notice-deadline-control","serviceFamily":"renewal-administration","actualPublicationDate":"2026-09-23","contentHash":"5206eb5b3cdfdfab9006470d2722e21f883c2d74e6ece51138c261cd3113515a"},
+    {"family":"blog","topic":"QBR audience decision map","slug":"philippines-account-management-qbr-audience-decision-map","serviceFamily":"customer-qbr-preparation","actualPublicationDate":"2026-09-23","contentHash":"157f2c9719fd846ea5ed6542c975756ac648501edc8e2394c54087e33bdc0ccf"},
+    {"family":"blog","topic":"CRM relationship role change audit","slug":"philippines-account-management-crm-relationship-role-change-audit","serviceFamily":"crm-account-maintenance","actualPublicationDate":"2026-09-23","contentHash":"5b9e7aac324b93a4f4576e99807aad9e6188220f2a1941404ae25708bfad6554"},
+    {"family":"blog","topic":"Client request dependency acknowledgement","slug":"philippines-account-management-client-request-dependency-acknowledgement","serviceFamily":"client-request-routing","actualPublicationDate":"2026-09-23","contentHash":"d75e2515d3e64e4983c7d8d896edad296465da6572198668345309dbaa1d55ed"},
+    {"family":"blog","topic":"Expansion signal consent boundary","slug":"philippines-account-management-expansion-signal-consent-boundary","serviceFamily":"upsell-opportunity-tracking","actualPublicationDate":"2026-09-23","contentHash":"6534c3ccd25a6bd01c191e2eae6c9664e44950bec0ff0119cddfb2921fff9e98"},
+    {"family":"blog","topic":"Account report exception narrative","slug":"philippines-account-management-account-report-exception-narrative","serviceFamily":"account-reporting","actualPublicationDate":"2026-09-23","contentHash":"8735c5c217e97ff4e72da4728c11f0a9d52db50c1cc3bc0ce4dee61862a89d9e"},
+    {"family":"blog","topic":"Milestone dependency acceptance check","slug":"philippines-account-management-milestone-dependency-acceptance-check","serviceFamily":"contract-milestone-tracking","actualPublicationDate":"2026-09-23","contentHash":"e53d4192852a423db9ae48d78b30b8064e1542dccdbf16c487bd6f5843ce1c7f"},
+    {"family":"blog","topic":"Feedback anonymity handling record","slug":"philippines-account-management-feedback-anonymity-handling-record","serviceFamily":"customer-feedback-administration","actualPublicationDate":"2026-09-23","contentHash":"b1d6e8bd32e8360e1358c0d9142d3cce5ad11961cd51e5038672ea389fd49b7e"},
+    {"family":"blog","topic":"Handoff stabilization window","slug":"philippines-account-management-handoff-stabilization-window","serviceFamily":"implementation-handoff-support","actualPublicationDate":"2026-09-23","contentHash":"aafeb30ca3e8ed373ebea1a37189bdd5eafea8bf250b74f71ff5c7532397f5cd"},
+    {"family":"blog","topic":"Escalation communication audience approval","slug":"philippines-account-management-escalation-communication-audience-approval","serviceFamily":"escalation-coordination","actualPublicationDate":"2026-09-23","contentHash":"a0564b0eb195c4f018f2ac516963667b484ad20e44649dd839c5d9ce588446ba"}
+  ]
+}

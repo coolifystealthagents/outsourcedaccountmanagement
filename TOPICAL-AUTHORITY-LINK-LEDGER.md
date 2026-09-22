@@ -49,3 +49,6 @@ Some existing research records refer to service concepts such as `account planni
 ## Next execution target
 
 Preserve rendered-source commit `f88e291f82398052f91d7ff40e95c9e05a17ed64` for `/research/client-health-signal-calibration` to `/services/account-health-monitoring`. Its local artifact passed with one route-local handoff and `2026-09-14` modified date, but cache-busted apex and www still serve the prior marker and `2026-08-14` modified date; deployment configuration is unavailable in this repository. Select another candidate only after a fresh ledger and route-local artifact review.
+# 2026-09-23 Blog run
+
+Exactly 12 new Philippines account-support guides were added from `app/september23-blog-batch.ts`. Each route links to its matching service family and the `/contact-us` conversion path. The durable identities, topics, service families, publication date, source set, and content hashes are recorded in `.paperclip/daily-content/2026-09-23/blog.json`.
