@@ -3,7 +3,7 @@
   "required": 5,
   "publicationDate": "2026-09-22",
   "timezone": "UTC",
-  "status": "deployment-pending",
+  "status": "blocked-deployment-queue-full",
   "validation": { "typecheck": "passed", "productionBuild": "passed", "staticRoutes": 578, "validatedAt": "2026-09-22T00:00:00Z" },
   "contentCommitSha": "3afbadfa0a274289e3a675a945bf635e881da87c",
   "articles": [
@@ -13,5 +13,8 @@
     {"family":"research","topic":"client escalation stage latency","slug":"client-escalation-stage-latency-study","contentHash":"e7ef70998693255ce2e5c91d13d01b106106bfa5f65dc89a5ab99b8fa47cdbf1","publicationDate":"2026-09-22","liveUrl":"https://outsourcedaccountmanagement.com/research/client-escalation-stage-latency-study"},
     {"family":"research","topic":"client feedback response coverage","slug":"client-feedback-response-coverage-study","contentHash":"11f659fe538d9f9c78859534a45a40b49c01d50f5caf7c46513931591a004bb4","publicationDate":"2026-09-22","liveUrl":"https://outsourcedaccountmanagement.com/research/client-feedback-response-coverage-study"}
   ],
-  "verified": 0
+  "verified": 0,
+  "remoteSha": "b03e405108283554a708cfc6f0e00d3e45240311",
+  "deployment": {"applicationUuid":"gh6ak4cv6rxb0ejrlyxaw9qg","platformStatus":"running:unknown","triggerHttpStatus":429,"blocker":"Coolify deployment queue is full"},
+  "recoveryAction": "Coolify3 owner clears or completes the existing global deployment queue; rerun deployment for application gh6ak4cv6rxb0ejrlyxaw9qg and live-verify all five URLs before marking complete."
 }
