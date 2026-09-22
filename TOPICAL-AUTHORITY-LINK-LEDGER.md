@@ -23,6 +23,10 @@ Only add a public link after confirming the source page, target artifact, and re
 
 ## Public-link inventory and remaining queue
 
+### Research batch — 2026-09-22
+
+Five new studies extend confirmed service pillars: meeting-decision traceability and QBR denominator integrity link to customer QBR preparation; CRM identity collisions link to CRM account maintenance; escalation-stage latency links to escalation coordination; and feedback-response coverage links to customer feedback administration. Every article also links to the Research library. Release and verification evidence is stored in `.paperclip/daily-content/2026-09-22/research.json`.
+
 ### Research batch — 2026-09-18
 
 Five new decision-grade studies were added for stakeholder role-change detection, report correction propagation, onboarding permission readiness, approval-queue sequencing, and communication-channel continuity. Each route links to an existing confirmed service pillar and the Research library. Publication evidence, hashes, commit, deployment, and live verification are recorded in `.paperclip/sep18-2026/research.json`.
