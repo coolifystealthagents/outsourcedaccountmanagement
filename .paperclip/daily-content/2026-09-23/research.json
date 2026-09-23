@@ -1,0 +1,24 @@
+{
+  "routine": "Daily Research Publishing",
+  "required": 5,
+  "verified": 5,
+  "publicationDate": "2026-09-23",
+  "timezone": "Asia/Manila",
+  "status": "live-verified",
+  "repository": "coolifystealthagents/outsourcedaccountmanagement",
+  "branch": "main",
+  "commitSha": "2138f5a5fbb989820675d47a5808b8f49d07a788",
+  "remoteShaAtDeployment": "2138f5a5fbb989820675d47a5808b8f49d07a788",
+  "validation": {"typecheck":"passed","productionBuild":"passed","staticRoutes":591,"validatedAt":"2026-09-23T07:08:00Z"},
+  "deployment": {"applicationUuid":"gh6ak4cv6rxb0ejrlyxaw9qg","deploymentUuid":"c2ht4ekkoqhclzaxomdlgsl0","status":"finished","deployedCommit":"2138f5a5fbb989820675d47a5808b8f49d07a788"},
+  "sources": ["https://www.nist.gov/cyberframework","https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final","https://www.gao.gov/products/gao-25-107721","https://www.ftc.gov/business-guidance/resources/start-security-guide-business","https://privacy.gov.ph/data-privacy-act/","https://www.iso.org/quality-management/principles"],
+  "articles": [
+    {"family":"research","topic":"client meeting decision traceability","slug":"client-meeting-decision-traceability-study","contentHash":"44880edd8e2dcb1c984dfafe0a8f4c6785466e7257614878528f5e2233b23c46","publicationDate":"2026-09-23","liveUrl":"https://outsourcedaccountmanagement.com/research/client-meeting-decision-traceability-study","verificationTime":"2026-09-23T07:38:22Z"},
+    {"family":"research","topic":"QBR metric denominator integrity","slug":"qbr-metric-denominator-integrity-analysis","contentHash":"73e257e3c1461104718c2f3d007efb711ccacdbfe1413c2b8e266a15a196576d","publicationDate":"2026-09-23","liveUrl":"https://outsourcedaccountmanagement.com/research/qbr-metric-denominator-integrity-analysis","verificationTime":"2026-09-23T07:38:22Z"},
+    {"family":"research","topic":"CRM contact identity collisions","slug":"crm-contact-identity-collision-research","contentHash":"d5207bc49833ca3f55b51b3970811659fca6d213382768cd1da33af2a639d0c5","publicationDate":"2026-09-23","liveUrl":"https://outsourcedaccountmanagement.com/research/crm-contact-identity-collision-research","verificationTime":"2026-09-23T07:38:22Z"},
+    {"family":"research","topic":"client escalation stage latency","slug":"client-escalation-stage-latency-study","contentHash":"b4eb45ab49631b1ee0c69691c58c01dd649826115036af504478cff6ec27c368","publicationDate":"2026-09-23","liveUrl":"https://outsourcedaccountmanagement.com/research/client-escalation-stage-latency-study","verificationTime":"2026-09-23T07:38:22Z"},
+    {"family":"research","topic":"client feedback response coverage","slug":"client-feedback-response-coverage-study","contentHash":"c46edae96fb8dc4b5690518b67323e25a4f2e092dc5e45b763363dc7f2ce21ae","publicationDate":"2026-09-23","liveUrl":"https://outsourcedaccountmanagement.com/research/client-feedback-response-coverage-study","verificationTime":"2026-09-23T07:38:22Z"}
+  ],
+  "checksPerArticle": {"http":200,"uniqueTitleAndContent":true,"selfCanonical":true,"visibleDate":"2026-09-23","datePublished":"2026-09-23","heroHttp":200,"researchIndex":true,"sitemapEntries":1},
+  "verifiedAt": "2026-09-23T07:38:22Z"
+}

@@ -3,7 +3,7 @@
   "required": 5,
   "publicationDate": "2026-09-22",
   "timezone": "UTC",
-  "status": "blocked-deployment-queue-full",
+  "status": "superseded-invalid-publication-date",
   "validation": { "typecheck": "passed", "productionBuild": "passed", "staticRoutes": 578, "validatedAt": "2026-09-22T00:00:00Z" },
   "contentCommitSha": "3afbadfa0a274289e3a675a945bf635e881da87c",
   "articles": [
@@ -16,5 +16,5 @@
   "verified": 0,
   "remoteSha": "b03e405108283554a708cfc6f0e00d3e45240311",
   "deployment": {"applicationUuid":"gh6ak4cv6rxb0ejrlyxaw9qg","platformStatus":"running:unknown","triggerHttpStatus":429,"blocker":"Coolify deployment queue is full"},
-  "recoveryAction": "Coolify3 owner clears or completes the existing global deployment queue; rerun deployment for application gh6ak4cv6rxb0ejrlyxaw9qg and live-verify all five URLs before marking complete."
+  "recoveryAction": "Superseded by .paperclip/daily-content/2026-09-23/research.json after the routes first became reachable on September 23 in the configured Asia/Manila timezone. No article was counted under this failed September 22 record."
 }
