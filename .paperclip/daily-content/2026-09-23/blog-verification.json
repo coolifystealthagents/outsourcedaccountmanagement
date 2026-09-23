@@ -1,0 +1,28 @@
+{
+  "family": "blog",
+  "requiredCount": 12,
+  "verifiedCount": 12,
+  "publicationDate": "2026-09-23",
+  "timezone": "Asia/Manila",
+  "contentCommit": "a89b6b3b54dbb6432dc28226edad078808cdebbc",
+  "deployedCommit": "bdf6458480f218ce7d8839ea1874c32de3e62326",
+  "remoteProductionSha": "bdf6458480f218ce7d8839ea1874c32de3e62326",
+  "deploymentUuid": "wpelw8scybzsbrnzvxwdvsvs",
+  "deploymentFinishedAt": "2026-09-23T00:04:14Z",
+  "verifiedAt": "2026-09-23T00:05:26Z",
+  "checks": ["http200", "title", "uniqueContent", "canonical", "datePublished", "blogPosting", "heroAsset", "sitemap", "contactCta"],
+  "entries": [
+    {"slug":"philippines-account-management-onboarding-discovery-completeness-gate","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-onboarding-discovery-completeness-gate","verifiedAt":"2026-09-23T00:05:26Z"},
+    {"slug":"philippines-account-management-account-health-telemetry-ownership-map","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-account-health-telemetry-ownership-map","verifiedAt":"2026-09-23T00:05:26Z"},
+    {"slug":"philippines-account-management-renewal-notice-deadline-control","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-renewal-notice-deadline-control","verifiedAt":"2026-09-23T00:05:26Z"},
+    {"slug":"philippines-account-management-qbr-audience-decision-map","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-qbr-audience-decision-map","verifiedAt":"2026-09-23T00:05:26Z"},
+    {"slug":"philippines-account-management-crm-relationship-role-change-audit","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-crm-relationship-role-change-audit","verifiedAt":"2026-09-23T00:05:26Z"},
+    {"slug":"philippines-account-management-client-request-dependency-acknowledgement","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-client-request-dependency-acknowledgement","verifiedAt":"2026-09-23T00:05:26Z"},
+    {"slug":"philippines-account-management-expansion-signal-consent-boundary","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-expansion-signal-consent-boundary","verifiedAt":"2026-09-23T00:05:26Z"},
+    {"slug":"philippines-account-management-account-report-exception-narrative","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-account-report-exception-narrative","verifiedAt":"2026-09-23T00:05:26Z"},
+    {"slug":"philippines-account-management-milestone-dependency-acceptance-check","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-milestone-dependency-acceptance-check","verifiedAt":"2026-09-23T00:05:26Z"},
+    {"slug":"philippines-account-management-feedback-anonymity-handling-record","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-feedback-anonymity-handling-record","verifiedAt":"2026-09-23T00:05:26Z"},
+    {"slug":"philippines-account-management-handoff-stabilization-window","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-handoff-stabilization-window","verifiedAt":"2026-09-23T00:05:26Z"},
+    {"slug":"philippines-account-management-escalation-communication-audience-approval","url":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-escalation-communication-audience-approval","verifiedAt":"2026-09-23T00:05:26Z"}
+  ]
+}
