@@ -31,7 +31,7 @@ const sections = (t:Topic) => [
 
 export const research20260922: ResearchPost[] = topics.map(t => ({
   slug:t.slug, title:t.title, cluster:t.cluster, excerpt:t.excerpt, hero:t.hero,
-  published:'2026-09-22', datePublished:'2026-09-22', updated:'2026-09-22',
+  published:'2026-09-23', datePublished:'2026-09-23', updated:'2026-09-23',
   headlineStat:'Seven evidence fields connect a source to a reviewable account decision', statSource:'Route-specific synthesis of NIST, GAO, FTC, NPC, and ISO control principles',
   takeaways:['Define the population, unit, state, authority, and comparison before inspecting outcomes.','Preserve missing, contradictory, corrected, and reopened records.','Keep evidence preparation with the support role and consequential judgment with the accountable owner.','Require a dated next check or acceptance condition before claiming closure.'],
   sections:sections(t), table:{headers:['Evidence state','Minimum record','Boundary'],rows:t.rows}, sources,

@@ -24,19 +24,19 @@ Only add a public link after confirming the source page, target artifact, and re
 
 ## Public-link inventory and remaining queue
 
-### Research batch — 2026-09-22
+### Research batch — 2026-09-23
 
-Five new studies extend confirmed service pillars: meeting-decision traceability and QBR denominator integrity link to customer QBR preparation; CRM identity collisions link to CRM account maintenance; escalation-stage latency links to escalation coordination; and feedback-response coverage links to customer feedback administration. Every article also links to the Research library. Release and verification evidence is stored in `.paperclip/daily-content/2026-09-22/research.json`.
+Five new studies extend confirmed service pillars: meeting-decision traceability and QBR denominator integrity link to customer QBR preparation; CRM identity collisions link to CRM account maintenance; escalation-stage latency links to escalation coordination; and feedback-response coverage links to customer feedback administration. Every article also links to the Research library. The September 22 deployment attempt is retained as failed evidence; the authoritative release and verification record is `.paperclip/daily-content/2026-09-23/research.json` because the routes first became reachable on September 23 in the configured `Asia/Manila` timezone.
 
-The following links were verified once in route-local `<main>` from the current production build. They came from rendered source `3afbadfa0a274289e3a675a945bf635e881da87c`; they are delivered and non-duplicable. The release record still marks public deployment verification pending, so this ledger does not claim these routes are live.
+The following links were verified once in route-local `<main>` from rendered source `3afbadfa0a274289e3a675a945bf635e881da87c`; they are delivered and non-duplicable. Public acceptance remains pending until the corrected September 23 publication metadata deploys and passes the complete live check.
 
 | Status | Existing source route | Specific reader question | Confirmed target route | Route-local proof |
 | --- | --- | --- | --- | --- |
-| Delivered locally / public verification pending | `/research/client-meeting-decision-traceability-study` | How can a team carry a reviewed meeting decision into the next QBR? | `/services/customer-qbr-preparation` | One exact service href in `<main>`; canonical source and target artifacts plus sitemap locations verified. |
-| Delivered locally / public verification pending | `/research/qbr-metric-denominator-integrity-analysis` | Where can a team prepare an honest QBR metric review? | `/services/customer-qbr-preparation` | One exact service href in `<main>`; canonical source and target artifacts plus sitemap locations verified. |
-| Delivered locally / public verification pending | `/research/crm-contact-identity-collision-research` | Who can prepare CRM identity evidence without approving a merge? | `/services/crm-account-maintenance` | One exact service href in `<main>`; canonical source and target artifacts plus sitemap locations verified. |
-| Delivered locally / public verification pending | `/research/client-escalation-stage-latency-study` | Where can a buyer prepare an escalation record while the owner decides the response? | `/services/escalation-coordination` | One exact service href in `<main>`; canonical source and target artifacts plus sitemap locations verified. |
-| Delivered locally / public verification pending | `/research/client-feedback-response-coverage-study` | Who can prepare feedback coverage for an owner review? | `/services/customer-feedback-administration` | One exact service href in `<main>`; canonical source and target artifacts plus sitemap locations verified. |
+| Public date correction pending | `/research/client-meeting-decision-traceability-study` | How can a team carry a reviewed meeting decision into the next QBR? | `/services/customer-qbr-preparation` | One exact service href in `<main>`; canonical source and target artifacts plus sitemap locations verified. |
+| Public date correction pending | `/research/qbr-metric-denominator-integrity-analysis` | Where can a team prepare an honest QBR metric review? | `/services/customer-qbr-preparation` | One exact service href in `<main>`; canonical source and target artifacts plus sitemap locations verified. |
+| Public date correction pending | `/research/crm-contact-identity-collision-research` | Who can prepare CRM identity evidence without approving a merge? | `/services/crm-account-maintenance` | One exact service href in `<main>`; canonical source and target artifacts plus sitemap locations verified. |
+| Public date correction pending | `/research/client-escalation-stage-latency-study` | Where can a buyer prepare an escalation record while the owner decides the response? | `/services/escalation-coordination` | One exact service href in `<main>`; canonical source and target artifacts plus sitemap locations verified. |
+| Public date correction pending | `/research/client-feedback-response-coverage-study` | Who can prepare feedback coverage for an owner review? | `/services/customer-feedback-administration` | One exact service href in `<main>`; canonical source and target artifacts plus sitemap locations verified. |
 
 ### Research batch — 2026-09-18
 
