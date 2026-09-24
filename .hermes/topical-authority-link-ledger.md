@@ -1,5 +1,9 @@
 # Topical-authority link ledger
 
+## Research inventory — 2026-09-24
+
+Five new decision-grade records were added: client commitment decomposition → `/services/client-request-routing`; cross-system evidence lineage → `/services/crm-account-maintenance`; portfolio exception sampling bias → `/services/account-health-monitoring`; relationship-owner continuity → `/services/client-onboarding-coordination`; and reporting-state consistency → `/services/account-reporting`. These slugs and decision questions are reserved against future keyword swaps or near-duplicates.
+
 Updated: 2026-09-14
 Scope: OutsourcedAccountManagement.com. This is an internal editorial queue, not reader-facing copy or a claim of search performance.
 
