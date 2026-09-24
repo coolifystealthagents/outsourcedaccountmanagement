@@ -1,0 +1,17 @@
+{
+  "family":"blog",
+  "requiredCount":12,
+  "verifiedCount":0,
+  "publicationDate":"2026-09-24",
+  "timezone":"Asia/Manila",
+  "contentCommit":"335ba583280b26b2995af4eb5aadf1536aee115a",
+  "remoteProductionSha":"335ba583280b26b2995af4eb5aadf1536aee115a",
+  "build":"passed",
+  "validation":"passed: 12 unique routes; 1695-1755 rendered words; date, schema, CTA, and route checks",
+  "deploymentEvidence":"Coolify API returned HTTP 401 for both configured credentials; two bounded public transition checks returned HTTP 404 for the probe route.",
+  "blocker":"The configured Coolify3 deployment resource has not exposed the pushed production commit, and its API credentials are unauthenticated.",
+  "unblockOwner":"Coolify3 deployment administrator",
+  "recoveryAction":"Restore the dedicated routine credential or deploy production commit 335ba583280b26b2995af4eb5aadf1536aee115a through application gh6ak4cv6rxb0ejrlyxaw9qg, then verify all 12 routes and replace this partial record with live evidence.",
+  "checkedAt":"2026-09-24T14:37:00Z",
+  "entries":[]
+}
