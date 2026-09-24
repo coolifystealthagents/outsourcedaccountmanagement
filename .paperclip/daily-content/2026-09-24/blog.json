@@ -1,0 +1,22 @@
+{
+  "campaignDate":"2026-09-24","family":"blog","timezone":"Asia/Manila","requiredCount":12,"sourcePath":"app/september24-blog-batch.ts",
+  "sources":[
+    {"name":"NIST Cybersecurity Framework 2.0","url":"https://www.nist.gov/publications/cybersecurity-framework-csf-20"},
+    {"name":"ISO quality management principles","url":"https://www.iso.org/quality-management/principles"},
+    {"name":"NIST accountability glossary","url":"https://csrc.nist.gov/glossary/term/accountability"}
+  ],
+  "entries":[
+    {"family":"blog","topic":"Onboarding communication channel validation","slug":"philippines-account-management-onboarding-communication-channel-validation","serviceFamily":"client-onboarding-coordination","actualPublicationDate":"2026-09-24","contentHash":"d9279cb2765f40677c5b52281315bf41b4e9beb0c53d1c0fd791d6dddacd9824"},
+    {"family":"blog","topic":"Account health signal suppression log","slug":"philippines-account-management-account-health-signal-suppression-log","serviceFamily":"account-health-monitoring","actualPublicationDate":"2026-09-24","contentHash":"8da5f10e3082ec4a1044d1f0e4f661b81ce311805d4ca492c0aeb501c8713e1a"},
+    {"family":"blog","topic":"Renewal stakeholder availability plan","slug":"philippines-account-management-renewal-stakeholder-availability-plan","serviceFamily":"renewal-administration","actualPublicationDate":"2026-09-24","contentHash":"9f29b367834350fd1f5cb496aab0fc64796549a93dd2f40bd75dce7d07a595b5"},
+    {"family":"blog","topic":"QBR follow-up dependency sequence","slug":"philippines-account-management-qbr-follow-up-dependency-sequence","serviceFamily":"customer-qbr-preparation","actualPublicationDate":"2026-09-24","contentHash":"4e62b371ae438bd27124b5ead69e3051fe60dba24092f36aa2c594deb2ec3c5d"},
+    {"family":"blog","topic":"CRM duplicate contact merge decision","slug":"philippines-account-management-crm-duplicate-contact-merge-decision","serviceFamily":"crm-account-maintenance","actualPublicationDate":"2026-09-24","contentHash":"669eec08c6fe4c25f3e5f9918435c40b08d5f30a1c3e0ef02321f7aeb15dcf26"},
+    {"family":"blog","topic":"Client request withdrawal confirmation","slug":"philippines-account-management-client-request-withdrawal-confirmation","serviceFamily":"client-request-routing","actualPublicationDate":"2026-09-24","contentHash":"55049cc6b7ee90b6de928ab9abd3de3f5a769e0218a348349019563dba277f7d"},
+    {"family":"blog","topic":"Expansion discovery question boundary","slug":"philippines-account-management-expansion-discovery-question-boundary","serviceFamily":"upsell-opportunity-tracking","actualPublicationDate":"2026-09-24","contentHash":"0e2386d0a42705cb78f1dd86e9f0b5c866876a99d646dce0535cf66fefc207f2"},
+    {"family":"blog","topic":"Portfolio review sample selection rule","slug":"philippines-account-management-portfolio-review-sample-selection-rule","serviceFamily":"account-reporting","actualPublicationDate":"2026-09-24","contentHash":"16ed9f5b7aa8c1d89e5726c651c4d34f5126aad9cdb4cbaf5e15a1e3931a34eb"},
+    {"family":"blog","topic":"Milestone evidence retention index","slug":"philippines-account-management-milestone-evidence-retention-index","serviceFamily":"contract-milestone-tracking","actualPublicationDate":"2026-09-24","contentHash":"6345d1ce290d64c6df6f4122f5193c4ca3db21f45bc23262762367ee0de6d11e"},
+    {"family":"blog","topic":"Feedback response expectation clock","slug":"philippines-account-management-feedback-response-expectation-clock","serviceFamily":"customer-feedback-administration","actualPublicationDate":"2026-09-24","contentHash":"428c1783b19844a36ffd5a851a6330dc24ab1767d566bdeeaab12e26d8c0aca5"},
+    {"family":"blog","topic":"Handoff backout criteria","slug":"philippines-account-management-handoff-backout-criteria","serviceFamily":"implementation-handoff-support","actualPublicationDate":"2026-09-24","contentHash":"183e215e88c7af6146db301009883287c81ed6cb334525bf9024e81cf854e2e2"},
+    {"family":"blog","topic":"Escalation de-escalation evidence check","slug":"philippines-account-management-escalation-de-escalation-evidence-check","serviceFamily":"escalation-coordination","actualPublicationDate":"2026-09-24","contentHash":"985372d9ca2aadc13d61cb08060cba3fa87a350c5f9b492997174e4d3990436b"}
+  ]
+}
