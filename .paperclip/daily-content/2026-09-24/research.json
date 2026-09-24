@@ -10,7 +10,7 @@
   "commitSha": "81d4251d1faab30e0d8c4413ac26940de7f97ced",
   "remoteShaAtPush": "81d4251d1faab30e0d8c4413ac26940de7f97ced",
   "validation": {"typecheck":"passed","productionBuild":"passed","staticRoutes":596},
-  "deployment": {"applicationUuid":"gh6ak4cv6rxb0ejrlyxaw9qg","platformStatus":"unavailable-401","publicChecks":3,"result":"five routes returned 404","lastCheckedAt":"2026-09-24T14:42:55Z","recoveryAction":"restore the configured Coolify API credential or trigger the existing main-branch deployment, then live-verify all five routes before changing verified to 5"},
+  "deployment": {"applicationUuid":"gh6ak4cv6rxb0ejrlyxaw9qg","platformStatus":"unavailable-401","publicChecks":4,"result":"five routes returned 404 while research index and sitemap returned 200","lastCheckedAt":"2026-09-24T14:49:49Z","recoveryAction":"platform/deployment owner must restore the configured Coolify API credential or trigger the existing main-branch deployment, then live-verify all five routes before changing verified to 5"},
   "articles": [
     {"family":"research","topic":"client commitment decomposition","slug":"client-commitment-decomposition-study","publicationDate":"2026-09-24","liveUrl":"https://outsourcedaccountmanagement.com/research/client-commitment-decomposition-study"},
     {"family":"research","topic":"cross-system account evidence lineage","slug":"account-evidence-lineage-across-systems-research","publicationDate":"2026-09-24","liveUrl":"https://outsourcedaccountmanagement.com/research/account-evidence-lineage-across-systems-research"},
