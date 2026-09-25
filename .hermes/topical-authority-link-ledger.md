@@ -1,5 +1,9 @@
 # Topical-authority link ledger
 
+## Research inventory — 2026-09-26 staged combined release
+
+Five new decision-grade records are reserved for the September 26 combined Blog + Research release: response-clock definition → `/services/account-reporting`; access deprovisioning lag → `/services/crm-account-maintenance`; request scope-change detection → `/services/client-request-routing`; backup coverage activation → `/services/account-health-monitoring`; and data-retention disposition → `/services/crm-account-maintenance`. These exact decision questions and slugs are reserved against keyword swaps and near-duplicates. Publication remains pending the single combined release; Blog is the release integrator.
+
 ## Research inventory — 2026-09-24
 
 Five new decision-grade records were added: client commitment decomposition → `/services/client-request-routing`; cross-system evidence lineage → `/services/crm-account-maintenance`; portfolio exception sampling bias → `/services/account-health-monitoring`; relationship-owner continuity → `/services/client-onboarding-coordination`; and reporting-state consistency → `/services/account-reporting`. These slugs and decision questions are reserved against future keyword swaps or near-duplicates.
