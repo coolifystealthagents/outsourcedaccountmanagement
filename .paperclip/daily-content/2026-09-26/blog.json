@@ -1,0 +1,31 @@
+{
+  "routine": "Daily Blog Publishing",
+  "required": 12,
+  "staged": 12,
+  "verified": 0,
+  "publicationDate": "2026-09-26",
+  "timezone": "Asia/Manila",
+  "status": "combined-release-pushed-awaiting-browser-deployment",
+  "repository": "coolifystealthagents/outsourcedaccountmanagement",
+  "branch": "main",
+  "baseRemoteSha": "2e6ffbc9551225a7cc5c37323025892b326d5de2",
+  "contentCommitSha": "a005fffb4f02dc2b4ee7eed05a754348cfd22364",
+  "researchContentCommitSha": "5d00d2458bcd71bde5894e14cec043665979f4af",
+  "releaseRule": "One non-force production push containing exactly 12 Blog and 5 Research articles. Browser operator owns the single deployment and public-route verification.",
+  "validation": {"typecheck":"passed","productionBuild":"passed","staticPages":625,"blogRoutesAdded":12,"researchRoutesAdded":5,"minimumBlogVisibleWords":1692,"canonicalDateAndSitemapChecks":"passed"},
+  "deployment": {"applicationUuid":"gh6ak4cv6rxb0ejrlyxaw9qg","attempted":false,"reason":"Explicit browser-operator deployment ownership."},
+  "articles": [
+    {"family":"blog","topic":"onboarding source system readiness check","slug":"philippines-account-management-onboarding-source-system-readiness-check","contentHash":"sha256:b7355a0315e4256f23e1f457251ccd9ea5af6a944ecb6d7066448c065e296b92","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-onboarding-source-system-readiness-check","verificationTime":null},
+    {"family":"blog","topic":"account health evidence age review","slug":"philippines-account-management-account-health-evidence-age-review","contentHash":"sha256:d6621ae016fe3c63b5451cf2c71591d932c0aa6d5b6074107efbe2524447eaa4","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-account-health-evidence-age-review","verificationTime":null},
+    {"family":"blog","topic":"renewal notice evidence reconciliation","slug":"philippines-account-management-renewal-notice-evidence-reconciliation","contentHash":"sha256:19bd641839477045d3891c9aca39d3e1625e45e6fc5dbe8a16d631f03a5a8ba5","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-renewal-notice-evidence-reconciliation","verificationTime":null},
+    {"family":"blog","topic":"QBR audience decision map","slug":"philippines-account-management-qbr-audience-decision-map","contentHash":"sha256:e636e667fe395d9036efcbd624987145121bc147e0860eab3073fd7f4dcbae53","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-qbr-audience-decision-map","verificationTime":null},
+    {"family":"blog","topic":"CRM relationship role change audit","slug":"philippines-account-management-crm-relationship-role-change-audit","contentHash":"sha256:918b3103f2115207b3569beeb644e652244abe8cc8c31273ac192fa94415ae90","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-crm-relationship-role-change-audit","verificationTime":null},
+    {"family":"blog","topic":"client request clarification window","slug":"philippines-account-management-client-request-clarification-window","contentHash":"sha256:661e197d3f05ef8cc5776d0d380d38523591b0f99f66a8f976f4bd628e34707d","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-client-request-clarification-window","verificationTime":null},
+    {"family":"blog","topic":"expansion signal evidence threshold","slug":"philippines-account-management-expansion-signal-evidence-threshold","contentHash":"sha256:cc20aa562fe5048fc14a0c88a1ee6ee6892bdae80043191d34298638f9f55833","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-expansion-signal-evidence-threshold","verificationTime":null},
+    {"family":"blog","topic":"portfolio review coverage gap log","slug":"philippines-account-management-portfolio-review-coverage-gap-log","contentHash":"sha256:a8747f0a7613a593facee4f3074f89f020f80ee48e42d4981cedb7ac2fe0ec6a","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-portfolio-review-coverage-gap-log","verificationTime":null},
+    {"family":"blog","topic":"milestone acceptance authority check","slug":"philippines-account-management-milestone-acceptance-authority-check","contentHash":"sha256:6bd8e99c59628dfef15b7d058bc38257f54fb12833744af819391e98ad534bda","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-milestone-acceptance-authority-check","verificationTime":null},
+    {"family":"blog","topic":"feedback follow-up audience check","slug":"philippines-account-management-feedback-follow-up-audience-check","contentHash":"sha256:5e26ba40bda5fe339ffb0b92931846974e70c09e37416546c206bb66be0c6186","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-feedback-follow-up-audience-check","verificationTime":null},
+    {"family":"blog","topic":"handoff first-week exception review","slug":"philippines-account-management-handoff-first-week-exception-review","contentHash":"sha256:b3540283da72c16aeb3271607f3e350bbad5727ec25c3f1204c581886d646c11","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-handoff-first-week-exception-review","verificationTime":null},
+    {"family":"blog","topic":"escalation client-update consistency check","slug":"philippines-account-management-escalation-client-update-consistency-check","contentHash":"sha256:26be3cb0ff6272590743f311f3b87a8624352bfb692fb23ceb01fdc1c901659b","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/blog/philippines-account-management-escalation-client-update-consistency-check","verificationTime":null}
+  ]
+}

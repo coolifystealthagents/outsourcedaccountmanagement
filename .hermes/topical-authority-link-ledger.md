@@ -56,3 +56,7 @@ Cache-busted apex and www pages both returned `200 text/html` with the expected 
 - `app/research/[slug]/page.tsx`: `serviceHandoff` is the existing reader-facing contextual-link mechanism.
 - `app/services/[slug]/page.tsx`: service copy keeps preparation separate from owner decisions.
 - `app/sitemap.xml/route.ts`: research and service routes are generated from the shared data arrays.
+
+## Combined content release — 2026-09-26 Asia/Manila
+
+Staged exactly 12 new Blog articles and 5 new Research articles from remote base `2e6ffbc9551225a7cc5c37323025892b326d5de2`. Blog content commit is `a005fffb4f02dc2b4ee7eed05a754348cfd22364`; Research content commit is `5d00d2458bcd71bde5894e14cec043665979f4af`. The production typecheck and build passed with 625 static pages. The Blog and Research manifests under `.paperclip/daily-content/2026-09-26/` record topics, slugs, hashes, publication dates, and intended live URLs. The browser operator owns the single deployment and public-route verification.
