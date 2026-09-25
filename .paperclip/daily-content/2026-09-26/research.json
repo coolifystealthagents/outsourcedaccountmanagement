@@ -1,0 +1,42 @@
+{
+  "routine": "Daily Research Publishing",
+  "required": 5,
+  "staged": 5,
+  "verified": 0,
+  "publicationDate": "2026-09-26",
+  "timezone": "Asia/Manila",
+  "status": "staged-for-combined-release",
+  "repository": "coolifystealthagents/outsourcedaccountmanagement",
+  "branch": "research/2026-09-26-handoff",
+  "baseRemoteSha": "2e6ffbc9551225a7cc5c37323025892b326d5de2",
+  "contentCommitSha": "5d00d2458bcd71bde5894e14cec043665979f4af",
+  "releaseOwner": "Blog routine",
+  "releaseRule": "Cherry-pick the Research handoff into the same-cycle Blog integration branch, validate exactly 12 Blog plus 5 Research, and perform one production push. Research must not push or deploy.",
+  "dateRule": "Deploy and first live-verify on 2026-09-26 Asia/Manila; if first publication occurs later, update every publication-date surface before the combined push.",
+  "sources": [
+    {"title":"NIST Cybersecurity Framework 2.0","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/cyberframework","checkedDate":"2026-09-26"},
+    {"title":"NIST SP 800-53 Rev. 5, Release 5.2.0","publisher":"National Institute of Standards and Technology","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final","checkedDate":"2026-09-26"},
+    {"title":"Standards for Internal Control in the Federal Government","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-25-107721","checkedDate":"2026-09-26"},
+    {"title":"Start with Security: A Guide for Business","publisher":"U.S. Federal Trade Commission","url":"https://www.ftc.gov/business-guidance/resources/start-security-guide-business","checkedDate":"2026-09-26"},
+    {"title":"Data Privacy Act of 2012","publisher":"Philippine National Privacy Commission","url":"https://privacy.gov.ph/data-privacy-act/","checkedDate":"2026-09-26"},
+    {"title":"Quality management principles","publisher":"International Organization for Standardization","url":"https://www.iso.org/quality-management/principles","checkedDate":"2026-09-26"}
+  ],
+  "validation": {
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "staticRoutes": 614,
+    "researchRoutesAdded": 5,
+    "minimumVisibleWords": 1902,
+    "canonicalAndDateChecks": "passed",
+    "sitemapChecks": "passed",
+    "assetChecks": "passed"
+  },
+  "deployment": {"applicationUuid":"gh6ak4cv6rxb0ejrlyxaw9qg","attempted":false,"reason":"Research is a staging-only participant in the combined release; Blog/browser owns the single deployment and public verification."},
+  "articles": [
+    {"family":"research","topic":"client response-time clock definition","slug":"client-response-time-clock-definition-study","contentHash":"sha256:b015479651a91f8c500c06e8821adae93c7f95d3860f7a0790b2fac4e9ce0268","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/research/client-response-time-clock-definition-study","verificationTime":null},
+    {"family":"research","topic":"account access deprovisioning lag","slug":"account-access-deprovisioning-lag-research","contentHash":"sha256:92076e81757f8fbb616432c7cd04351be491e5a840ed921ffa099410b0c0a87d","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/research/account-access-deprovisioning-lag-research","verificationTime":null},
+    {"family":"research","topic":"client request scope-change detection","slug":"client-request-scope-change-detection-study","contentHash":"sha256:2fd74f085543c1772cddaccf7c662103994b10cf8cc4844df0b6b014fef30335","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/research/client-request-scope-change-detection-study","verificationTime":null},
+    {"family":"research","topic":"account backup coverage activation","slug":"account-backup-coverage-activation-analysis","contentHash":"sha256:1c7d9c1cccbc227bec510777dab79a5b0ae4aa6155df154e5cf0bfc59b743c67","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/research/account-backup-coverage-activation-analysis","verificationTime":null},
+    {"family":"research","topic":"client data retention disposition","slug":"client-data-retention-disposition-research","contentHash":"sha256:61c896633c6f50c680d37f8b017d52b3e9bd09a4793a53d04beddfd897f7951e","publicationDate":"2026-09-26","liveUrl":"https://outsourcedaccountmanagement.com/research/client-data-retention-disposition-research","verificationTime":null}
+  ]
+}
