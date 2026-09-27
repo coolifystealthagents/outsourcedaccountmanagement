@@ -69,3 +69,10 @@ All 12 routes became publicly reachable on September 23, 2026 in the configured 
 # 2026-09-24 Blog run
 
 Exactly 12 new Philippines account-support guides were prepared in `app/september24-blog-batch.ts`. They extend the 12 service-led operating pillars with distinct decisions covering communication-channel validation, signal suppression, stakeholder availability, dependency sequencing, duplicate-contact merges, request withdrawal, discovery boundaries, review sampling, evidence retention, feedback response timing, handoff backout, and de-escalation. Every route links to its matching service family and the `/contact-us` conversion path. Durable topics, slugs, publication date, sources, and pre-deployment content hashes are recorded in `.paperclip/daily-content/2026-09-24/blog.json`.
+
+## Schema identity status — 2026-09-27
+
+- Rendered source: `379c27e82d4ae39eed6a28619faef059f27ecb2a` adds the established on-site Organization name and canonical URL as both `Article.author` and `Article.publisher` for research routes.
+- Local artifact: `/research/client-response-time-clock-definition-study` has the expected H1, self-canonical URL, one Article node with matching Organization author/publisher objects, and a sitemap location. This sitemap intentionally has no `lastmod` contract.
+- Served evidence: cache-busted apex and www routes return HTML 200 with the expected H1 and apex canonical, but each Article node still has no author or publisher. Their XML sitemaps contain the canonical route. The rendered change is `deployment_pending_public_verification / public_stale`.
+- Preserve rendered-source commit `379c27e82d4ae39eed6a28619faef059f27ecb2a`; this status record does not alter route source.
