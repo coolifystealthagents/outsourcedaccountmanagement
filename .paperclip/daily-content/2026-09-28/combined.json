@@ -1,0 +1,38 @@
+{
+  "cycleLabel": "2026-09-28",
+  "publicationDate": "2026-09-28",
+  "siteTimezone": "Asia/Manila",
+  "repository": "coolifystealthagents/outsourcedaccountmanagement",
+  "productionBranch": "main",
+  "baselineSha": "d080d86e0913b6130b0861f311ba9c476c80c779",
+  "required": { "blog": 12, "research": 5 },
+  "validated": { "blog": 12, "research": 5 },
+  "deploymentOwner": "Browser operator",
+  "liveVerified": { "blog": 0, "research": 0 },
+  "blog": [
+    ["philippines-account-management-client-onboarding-permission-expiry-review",978,"b9e31bb218476e1971c297cf9ed8d8f177dc89d0c813761f6041c9719ef24cf9"],
+    ["philippines-account-management-account-health-signal-conflict-triage",967,"d9afc1f6f9454760669ebd2a2c4bce8c1a65d1357382cc9d3c713fe12ee3a6ac"],
+    ["philippines-account-management-renewal-decision-dependency-map",975,"738c72ef4234dfabaa9c85a4d42d7065847cdd9a6d666c7243ff7fe6bafdea89"],
+    ["philippines-account-management-qbr-metric-restatement-protocol",959,"6ed50632ad742d92fe958981b8f2654207e4aa6eaa59e52e236ad2dc19075ac2"],
+    ["philippines-account-management-crm-contact-consent-source-check",991,"83655112168f4fc0e6b5a55c431b457a3a8e68fbd1b1a9d0c721d9a59188343e"],
+    ["philippines-account-management-client-request-acceptance-test-draft",1001,"2c17d1de6fd756142afd2b86ecc42ac796d1104450562f6bd776b85d0af75212"],
+    ["philippines-account-management-expansion-discovery-boundary-brief",965,"a9ec57ce45fe5147cc42ad102155c66680f57026aef77fca4300b6fdfa9dc9e2"],
+    ["philippines-account-management-portfolio-review-exclusion-register",968,"4345298fa6fa4490a9dd41c2804d5b1dfaeb978cc6211495db04868e7721f598"],
+    ["philippines-account-management-milestone-partial-acceptance-record",1458,"0a146f8e6884a81c797c5d66bf4eb10023062eae1461c29580b6d7f21d56713a"],
+    ["philippines-account-management-feedback-theme-evidence-threshold",963,"8a814fa9bef9aaf83f843638f0736f346a2ffd747553aaea057c961672936cd8"],
+    ["philippines-account-management-handoff-automation-owner-transfer",960,"f0270e93fbf5f9d8abde2086f356d6a5c462ab87533872e2c395f09b9a6a37ff"],
+    ["philippines-account-management-escalation-resolution-claim-check",972,"301da20728f0c1a0276934620a62042d287a9392dede8aeb10f6d5caabf93874"]
+  ],
+  "research": [
+    ["client-stakeholder-authority-drift-study",1290,"03bc0f6eaa71b6e0553f1ec7112c33467945757cb8c3dece32242039edab1a07"],
+    ["renewal-notice-evidence-chain-research",1251,"513f21c109e49c5881278a55cc2dfbd1f9d03ae744301a0d03545c4d72a5fbc3"],
+    ["client-escalation-audience-sequencing-analysis",1225,"db15c0d1f7ee7795a17f922cf6080b1bc4bcf32cbe7fdfb120c84f6e373e2853"],
+    ["account-priority-override-outcome-study",1239,"cf1602422db4ebfbaecb6646e1fcde4bb5561fdd63f57744ab020ac7b221bb0e"],
+    ["client-meeting-decision-ambiguity-research",1230,"8401977d051a8d0ef5845e5826c6f77e5cf9bffbd3f3895b67d30392b29619b4"]
+  ],
+  "fiveWordShingleJaccard": {
+    "blog": { "maximum": 0.391174, "pair": ["philippines-account-management-client-onboarding-permission-expiry-review","philippines-account-management-portfolio-review-exclusion-register"] },
+    "research": { "maximum": 0.353429, "pair": ["client-escalation-audience-sequencing-analysis","client-meeting-decision-ambiguity-research"] }
+  },
+  "validation": { "typecheck": "passed", "tests": "passed", "cleanProductionBuild": "passed: 642 static pages", "combinedValidator": "passed" }
+}
