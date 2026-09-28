@@ -1,5 +1,9 @@
 # Topical-authority link ledger
 
+## Research inventory — September 28, 2026 combined-release handoff
+
+Five new decision-grade Research records are reserved for this cycle: stakeholder-authority drift → `/services/crm-account-maintenance`; renewal-notice evidence chain → `/services/renewal-administration`; escalation audience sequencing → `/services/escalation-coordination`; priority-override outcomes → `/services/account-health-monitoring`; and meeting-decision ambiguity → `/services/account-reporting`. These exact decision questions and slugs are reserved against keyword swaps and near-duplicates. Publication is pending the single combined Blog + Research release; the Blog routine is the sole release integrator and the browser operator owns deployment.
+
 ## Research inventory — 2026-09-26 staged combined release
 
 Five new decision-grade records are reserved for the September 26 combined Blog + Research release: response-clock definition → `/services/account-reporting`; access deprovisioning lag → `/services/crm-account-maintenance`; request scope-change detection → `/services/client-request-routing`; backup coverage activation → `/services/account-health-monitoring`; and data-retention disposition → `/services/crm-account-maintenance`. These exact decision questions and slugs are reserved against keyword swaps and near-duplicates. Publication remains pending the single combined release; Blog is the release integrator.

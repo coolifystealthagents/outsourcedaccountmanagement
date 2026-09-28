@@ -1,0 +1,90 @@
+{
+  "cycleLabel": "2026-09-28",
+  "status": "local_handoff_pending_combined_release",
+  "required": 5,
+  "staged": 5,
+  "liveVerified": 0,
+  "repository": "coolifystealthagents/outsourcedaccountmanagement",
+  "productionBranch": "main",
+  "baselineSha": "d080d86e0913b6130b0861f311ba9c476c80c779",
+  "localBranch": "research/2026-09-28-outaaaaaa-70",
+  "paperclipTaskId": "a5b2b6e7-a3e1-4283-a326-f57c765f1686",
+  "paperclipRunId": "7928f89d-268e-433c-8747-12bb60c01d92",
+  "paperclipAgentId": "b3c9d0b6-c882-4ef0-a7b3-f20d3c9146a2",
+  "siteTimezone": "Asia/Manila",
+  "publicationDateCandidate": "2026-09-28",
+  "publicationDateRule": "Blog integrator must reconcile published, datePublished, updated, visible date, schema, sitemap/index metadata, manifest, and ledger to each article's actual first-public date in Asia/Manila immediately before the sole combined push; 2026-09-28 is not valid if release crosses local midnight.",
+  "releaseOwner": "September 28 Blog routine",
+  "deploymentOwner": "Browser operator",
+  "researchMayPushOrDeploy": false,
+  "sharedSources": [
+    { "title": "NIST Cybersecurity Framework 2.0", "publisher": "National Institute of Standards and Technology", "url": "https://www.nist.gov/cyberframework", "checked": "2026-09-28" },
+    { "title": "NIST SP 800-53 Rev. 5, Release 5.2.0", "publisher": "National Institute of Standards and Technology", "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final", "checked": "2026-09-28" },
+    { "title": "Standards for Internal Control in the Federal Government", "publisher": "U.S. Government Accountability Office", "url": "https://www.gao.gov/products/gao-25-107721", "checked": "2026-09-28" },
+    { "title": "Start with Security: A Guide for Business", "publisher": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/start-security-guide-business", "checked": "2026-09-28" },
+    { "title": "Data Privacy Act of 2012", "publisher": "Philippine National Privacy Commission", "url": "https://privacy.gov.ph/data-privacy-act/", "checked": "2026-09-28" },
+    { "title": "Quality management principles", "publisher": "International Organization for Standardization", "url": "https://www.iso.org/quality-management/principles", "checked": "2026-09-28" }
+  ],
+  "articles": [
+    {
+      "family": "Research",
+      "topic": "Client stakeholder authority drift",
+      "slug": "client-stakeholder-authority-drift-study",
+      "contentHash": "03bc0f6eaa71b6e0553f1ec7112c33467945757cb8c3dece32242039edab1a07",
+      "substantiveWords": 1290,
+      "publicationDateCandidate": "2026-09-28",
+      "liveUrl": "https://outsourcedaccountmanagement.com/research/client-stakeholder-authority-drift-study",
+      "verificationStatus": "not_live_research_handoff_only"
+    },
+    {
+      "family": "Research",
+      "topic": "Renewal notice evidence chain",
+      "slug": "renewal-notice-evidence-chain-research",
+      "contentHash": "513f21c109e49c5881278a55cc2dfbd1f9d03ae744301a0d03545c4d72a5fbc3",
+      "substantiveWords": 1251,
+      "publicationDateCandidate": "2026-09-28",
+      "liveUrl": "https://outsourcedaccountmanagement.com/research/renewal-notice-evidence-chain-research",
+      "verificationStatus": "not_live_research_handoff_only"
+    },
+    {
+      "family": "Research",
+      "topic": "Client escalation audience sequencing",
+      "slug": "client-escalation-audience-sequencing-analysis",
+      "contentHash": "db15c0d1f7ee7795a17f922cf6080b1bc4bcf32cbe7fdfb120c84f6e373e2853",
+      "substantiveWords": 1225,
+      "publicationDateCandidate": "2026-09-28",
+      "liveUrl": "https://outsourcedaccountmanagement.com/research/client-escalation-audience-sequencing-analysis",
+      "verificationStatus": "not_live_research_handoff_only"
+    },
+    {
+      "family": "Research",
+      "topic": "Account priority override outcomes",
+      "slug": "account-priority-override-outcome-study",
+      "contentHash": "cf1602422db4ebfbaecb6646e1fcde4bb5561fdd63f57744ab020ac7b221bb0e",
+      "substantiveWords": 1239,
+      "publicationDateCandidate": "2026-09-28",
+      "liveUrl": "https://outsourcedaccountmanagement.com/research/account-priority-override-outcome-study",
+      "verificationStatus": "not_live_research_handoff_only"
+    },
+    {
+      "family": "Research",
+      "topic": "Client meeting decision ambiguity",
+      "slug": "client-meeting-decision-ambiguity-research",
+      "contentHash": "8401977d051a8d0ef5845e5826c6f77e5cf9bffbd3f3895b67d30392b29619b4",
+      "substantiveWords": 1230,
+      "publicationDateCandidate": "2026-09-28",
+      "liveUrl": "https://outsourcedaccountmanagement.com/research/client-meeting-decision-ambiguity-research",
+      "verificationStatus": "not_live_research_handoff_only"
+    }
+  ],
+  "validation": {
+    "typecheck": "passed",
+    "tests": "passed: homepage contract",
+    "productionBuild": "passed: 630 static pages",
+    "bodyOnlyWordCounts": [1290, 1251, 1225, 1239, 1230],
+    "maximumPairwiseFiveWordShingleJaccard": 0.355263,
+    "maximumPair": ["client-escalation-audience-sequencing-analysis", "client-meeting-decision-ambiguity-research"],
+    "threshold": 0.5,
+    "canonicalAndCandidateDateChecks": "passed for all five rendered routes"
+  }
+}
