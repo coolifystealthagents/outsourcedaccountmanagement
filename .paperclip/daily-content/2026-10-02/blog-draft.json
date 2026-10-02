@@ -1,0 +1,40 @@
+{
+  "cycleLabel": "2026-10-02",
+  "siteTimezone": "Asia/Manila",
+  "publicationDatePendingLiveVerification": "2026-10-02",
+  "repository": "coolifystealthagents/outsourcedaccountmanagement",
+  "productionBranch": "main",
+  "baselineSha": "d4fdcb09021b0483730308f65c0bdd4ba28b73b7",
+  "branch": "blog/2026-10-02-outaaaaaa-73",
+  "status": "draft-originality-gate-failed",
+  "requiredBlog": 12,
+  "draftedBlog": 12,
+  "renderedWordCounts": [971, 979, 967, 957, 971, 968, 962, 975, 971, 963, 967, 968],
+  "minimumSubstantiveWords": 957,
+  "fiveWordShingleJaccard": {
+    "maximum": 0.607843,
+    "pair": [
+      "philippines-account-management-renewal-contact-authority-confirmation",
+      "philippines-account-management-qbr-action-decision-trace"
+    ],
+    "passed": false
+  },
+  "validation": {
+    "typecheck": "passed",
+    "targetedTest": "passed",
+    "cleanProductionBuild": "passed: 655 static pages",
+    "datesCanonicalsSchemaImages": "passed",
+    "repeatedParagraphAudit": "failed: shared generated stage paragraph repeats within each article because the seven-section renderer wraps a six-item stage list"
+  },
+  "researchHandoff": {
+    "task": "OUTAAAAAA-72",
+    "received": false,
+    "requiredCount": 5
+  },
+  "release": {
+    "pushed": false,
+    "deployed": false,
+    "liveVerified": 0
+  },
+  "recoveryAction": "Rewrite each Blog body with seven topic-specific sections and arguments, rerun body and originality audits, then incorporate the five-item local Research handoff before combined validation and the sole non-force push."
+}
