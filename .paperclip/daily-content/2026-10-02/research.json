@@ -1,0 +1,29 @@
+{
+  "cycleLabel": "2026-10-02",
+  "status": "local_handoff_ready_for_blog_integrator",
+  "required": 5,
+  "staged": 5,
+  "liveVerified": 0,
+  "repository": "coolifystealthagents/outsourcedaccountmanagement",
+  "productionBranch": "main",
+  "baselineSha": "d4fdcb09021b0483730308f65c0bdd4ba28b73b7",
+  "localBranch": "research/2026-10-02-outaaaaaa-72",
+  "paperclipTaskId": "5490bb3d-ecab-445e-af03-325e92988686",
+  "paperclipRunId": "65def7d6-96bc-4c7e-a062-82a03f75a66e",
+  "paperclipAgentId": "b3c9d0b6-c882-4ef0-a7b3-f20d3c9146a2",
+  "blogTask": "OUTAAAAAA-73",
+  "blogReadyCommit": "7f4d4a4196e95b6fe6e9c39092695a363e8920e6",
+  "siteTimezone": "Asia/Manila",
+  "publicationDateCandidate": "2026-10-02",
+  "publicationDateRule": "Blog integrator must reconcile all visible and structured dates to actual first-publication date in Asia/Manila immediately before the sole combined push.",
+  "researchMayPushOrDeploy": false,
+  "articles": [
+    {"family":"Research","topic":"Client delegation expiry","slug":"client-delegation-expiry-control-study","substantiveWords":1205,"contentHash":"1eb51824174b48b0b6073b1dd66a500e9045c7abcd6fa555e4734a1547ebf72e","liveUrl":"https://outsourcedaccountmanagement.com/research/client-delegation-expiry-control-study"},
+    {"family":"Research","topic":"Renewal assumption sensitivity","slug":"renewal-assumption-sensitivity-analysis","substantiveWords":1202,"contentHash":"ac0e0c4595a628718f419397bdbbfa17269e5e7fd74916f270c104f3d36e121f","liveUrl":"https://outsourcedaccountmanagement.com/research/renewal-assumption-sensitivity-analysis"},
+    {"family":"Research","topic":"Client commitment dependency topology","slug":"client-commitment-dependency-topology-study","substantiveWords":1203,"contentHash":"75f08df0bc7a5b1c84a1912b2db7948ddeaf08046499a71368af49ed15fb67b8","liveUrl":"https://outsourcedaccountmanagement.com/research/client-commitment-dependency-topology-study"},
+    {"family":"Research","topic":"Service exception update sequencing","slug":"service-exception-update-sequence-study","substantiveWords":1207,"contentHash":"258abeb961b9f93d2168e682c34885d49d204d1fd1ac648ab3302cb35bddb57d","liveUrl":"https://outsourcedaccountmanagement.com/research/service-exception-update-sequence-study"},
+    {"family":"Research","topic":"CRM correction propagation boundaries","slug":"crm-correction-propagation-boundary-study","substantiveWords":1222,"contentHash":"d70aa62c0d309c1d3942c06093b70c761dd65bd6323acfcd3f3f6f903d6ad132","liveUrl":"https://outsourcedaccountmanagement.com/research/crm-correction-propagation-boundary-study"}
+  ],
+  "validation": {"typecheck":"passed","tests":"homepage and research schema identity passed","productionBuild":"passed: 647 static pages","maximumPairwiseFiveWordShingleJaccard":0.001238,"repeatedParagraphsWithinArticles":0,"qualitativeOriginality":"passed: distinct questions, structures, examples, reasoning, and reader outcomes","canonicalsDatesImagesIndexesSitemap":"passed in rendered production output"},
+  "release": {"pushed":false,"deployed":false,"publiclyVerified":0,"owner":"Blog integrator then Browser operator/user verification"}
+}

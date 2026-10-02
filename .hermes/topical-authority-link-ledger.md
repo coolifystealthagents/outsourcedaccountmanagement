@@ -64,3 +64,7 @@ Cache-busted apex and www pages both returned `200 text/html` with the expected 
 ## Combined content release — 2026-09-26 Asia/Manila
 
 Staged exactly 12 new Blog articles and 5 new Research articles from remote base `2e6ffbc9551225a7cc5c37323025892b326d5de2`. Blog content commit is `a005fffb4f02dc2b4ee7eed05a754348cfd22364`; Research content commit is `5d00d2458bcd71bde5894e14cec043665979f4af`. The production typecheck and build passed with 625 static pages. The Blog and Research manifests under `.paperclip/daily-content/2026-09-26/` record topics, slugs, hashes, publication dates, and intended live URLs. The browser operator owns the single deployment and public-route verification.
+
+## October 2, 2026 Research local handoff
+
+Staged five new Research routes from baseline `d4fdcb09021b0483730308f65c0bdd4ba28b73b7`: client delegation expiry, renewal assumption sensitivity, client commitment dependency topology, service-exception update sequencing, and CRM correction propagation boundaries. The durable manifest and rendered hashes are in `.paperclip/daily-content/2026-10-02/research.json`. This Research branch is a local handoff only; Blog task OUTAAAAAA-73 owns combined integration and the sole production push.
