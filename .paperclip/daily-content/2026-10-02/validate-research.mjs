@@ -12,7 +12,7 @@ for(const slug of slugs){
   const words=body.match(/[\p{L}\p{N}][\p{L}\p{N}’'/-]*/gu)??[];
   if(words.length<1200)throw new Error(`${slug}: ${words.length} substantive words; minimum 1200`);
   if(!html.includes(`https://outsourcedaccountmanagement.com/research/${slug}`))throw new Error(`${slug}: canonical missing`);
-  if(!html.includes('2026-10-02'))throw new Error(`${slug}: candidate date missing`);
+  if(!html.includes('2026-10-03'))throw new Error(`${slug}: publication date missing`);
   const paragraphTexts=[...html.matchAll(/<p>(.*?)<\/p>/g)].map((m)=>decode(m[1].replace(/<[^>]+>/g,' ')).replace(/\s+/g,' ').trim()).filter((x)=>x.split(/\s+/).length>=20);
   if(new Set(paragraphTexts).size!==paragraphTexts.length)throw new Error(`${slug}: repeated substantive paragraph within article`);
   bodies.set(slug,{body:body.toLowerCase(),words:words.length,hash:crypto.createHash('sha256').update(body).digest('hex')});

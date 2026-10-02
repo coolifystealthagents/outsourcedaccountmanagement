@@ -1,8 +1,8 @@
 {
   "cycleLabel": "2026-10-02",
   "siteTimezone": "Asia/Manila",
-  "candidatePublicationDate": "2026-10-02",
-  "publicationDateMustBeReconciledImmediatelyBeforePush": true,
+  "candidatePublicationDate": "2026-10-03",
+  "publicationDateMustBeReconciledImmediatelyBeforePush": false,
   "repository": "coolifystealthagents/outsourcedaccountmanagement",
   "productionBranch": "main",
   "baselineSha": "d4fdcb09021b0483730308f65c0bdd4ba28b73b7",

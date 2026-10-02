@@ -1,8 +1,8 @@
 {
   "cycleLabel": "2026-10-02",
   "siteTimezone": "Asia/Manila",
-  "publicationDateCandidate": "2026-10-02",
-  "publicationDateStatus": "not final: reconcile to actual first-publication date in Asia/Manila immediately before any authorized corrective push",
+  "publicationDateCandidate": "2026-10-03",
+  "publicationDateStatus": "reconciled before authorized corrective push: all 17 routes were public 404s and therefore not previously published; use 2026-10-03 in Asia/Manila",
   "repository": "coolifystealthagents/outsourcedaccountmanagement",
   "productionBranch": "main",
   "baselineSha": "d4fdcb09021b0483730308f65c0bdd4ba28b73b7",
@@ -21,14 +21,14 @@
     "qualitativeReview": "passed: all 17 use independently structured substantive sections, topic-specific cases, reasoning, boundaries, and reader outcomes; no shared Blog argument factory"
   },
   "validation": {
-    "dependencyInstall": "existing lockfile-resolved dependencies used",
+    "dependencyInstall": "npm ci --ignore-scripts passed; npm audit --omit=dev reported 0 vulnerabilities",
     "typecheck": "passed",
     "homepageTest": "passed",
     "researchSchemaIdentityTest": "passed",
     "cleanProductionBuild": "passed: 660 static pages",
     "renderedRoutes": "17/17 local HTTP 200 with title/body/date/canonical/schema",
     "internalLinks": "46/46 local HTTP 200",
-    "renderedImages": "13/13 distinct local HTTP 200, image content-type, nonempty response",
+    "renderedImages": "13/13 distinct local HTTP 200, image content-type, nonempty response after 2026-10-03 date reconciliation",
     "indexes": "17/17 listed",
     "sitemap": "17/17 listed",
     "authoritativeSources": "reachable; ISO and Philippine privacy source returned bot/access-control 403, no source returned 404"
@@ -41,7 +41,7 @@
     "owner": "Browser operator",
     "coolifyApplication": "gh6ak4cv6rxb0ejrlyxaw9qg",
     "submittedByIntegrator": false,
-    "status": "not submitted"
+    "status": "authorized corrective push pending; integrator will not deploy"
   },
   "liveVerification": {"required":17,"verified":0,"status":"awaiting exact-SHA browser deployment"}
 }

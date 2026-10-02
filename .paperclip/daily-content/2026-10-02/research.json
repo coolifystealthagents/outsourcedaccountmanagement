@@ -14,8 +14,8 @@
   "blogTask": "OUTAAAAAA-73",
   "blogReadyCommit": "7f4d4a4196e95b6fe6e9c39092695a363e8920e6",
   "siteTimezone": "Asia/Manila",
-  "publicationDateCandidate": "2026-10-02",
-  "publicationDateRule": "Blog integrator must reconcile all visible and structured dates to actual first-publication date in Asia/Manila immediately before the sole combined push.",
+  "publicationDateCandidate": "2026-10-03",
+  "publicationDateRule": "Reconciled by Blog integrator before the authorized corrective push after all five routes returned public 404; use actual first-publication date 2026-10-03 in Asia/Manila.",
   "researchMayPushOrDeploy": false,
   "articles": [
     {"family":"Research","topic":"Client delegation expiry","slug":"client-delegation-expiry-control-study","substantiveWords":1205,"contentHash":"1eb51824174b48b0b6073b1dd66a500e9045c7abcd6fa555e4734a1547ebf72e","liveUrl":"https://outsourcedaccountmanagement.com/research/client-delegation-expiry-control-study"},

@@ -135,7 +135,7 @@ const additionalAnalysis: Record<string, ResearchSection> = {
 
 export const research20261002: ResearchPost[] = drafts.map((d) => ({
   slug:d.slug, title:d.title, cluster:d.cluster, excerpt:d.excerpt, hero:d.hero,
-  published:'2026-10-02', datePublished:'2026-10-02', updated:'2026-10-02', headlineStat:d.headline,
+  published:'2026-10-03', datePublished:'2026-10-03', updated:'2026-10-03', headlineStat:d.headline,
   statSource:'Topic-specific synthesis of NIST, GAO, FTC, Philippine NPC, and ISO principles',
   takeaways:['Define the decision and evidence boundary before sampling records.','Preserve missing, contrary, corrected, and unresolved cases in the result.','Keep evidence preparation separate from consequential owner judgment.','State limitations, the next review trigger, and what the analysis cannot prove.'],
   sections:[...d.headings.map((heading, i):ResearchSection => ({heading, paragraphs:d.paragraphs[i]})),additionalAnalysis[d.slug]],

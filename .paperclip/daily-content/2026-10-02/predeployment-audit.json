@@ -1,6 +1,6 @@
 {
   "auditedRemoteSha": "0c37a77751cd14c7d4b576ceb0c57f81d7cfa041",
-  "deploymentRecommendation": "hold pending user exception for a corrective push and final Asia/Manila date reconciliation",
+  "deploymentRecommendation": "user authorized one corrective non-force push; Asia/Manila publication date reconciled to 2026-10-03 after all 17 public routes returned 404",
   "lockedInstall": {
     "command": "npm ci --ignore-scripts",
     "result": "passed",
@@ -36,5 +36,5 @@
     "additionalPushMade": false,
     "coolifyCalled": false
   },
-  "requiredRecovery": "Rerun final all-17 HTTP gates on the clean build, preserve the exact local SHA, then obtain an explicit exception and reconcile the actual Asia/Manila first-publication date before any second production push."
+  "requiredRecovery": "Complete the authorized non-force push after final fetch/rebase verification, then hand the exact remote SHA to the browser operator; integrator must not deploy."
 }
