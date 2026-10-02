@@ -53,6 +53,18 @@ Five new decision-grade studies were added for stakeholder role-change detection
 | Delivered locally / public stale | `/research/account-handoff-acceptance-check` | What support helps a receiving owner check context and access boundaries? | `/services/implementation-handoff-support` | Connect handoff acceptance to the matching service page. | Rendered source: `d6c44eee01e5a549eb2caf267072bd041c1ae4c4`. Local artifact has one route-local link, but cache-busted apex and www still omit the marker and serve the prior modified date. Do not add a second link. |
 | Delivered locally / public stale | `/research/client-health-signal-calibration` | Where can a buyer turn an evidence-backed signal into a review routine? | `/services/account-health-monitoring` | Give the health-signal report a route to the health-review pillar. | Rendered source: `f88e291f82398052f91d7ff40e95c9e05a17ed64`. Local artifact has one route-local link; apex and www still omit the marker and serve the former modified date. Do not add a second link. |
 
+### Research batch — 2026-09-28
+
+A fresh production-artifact review confirms that the five September 28 studies already connect each reader's next question to one relevant, existing Philippines-based service pillar. These are delivered route-data links, not permission to add another CTA.
+
+| Status | Existing source route | Specific reader question | Confirmed target route | Route-local proof |
+| --- | --- | --- | --- | --- |
+| Delivered | `/research/client-stakeholder-authority-drift-study` | Where can a team prepare current stakeholder evidence without deciding authority? | `/services/crm-account-maintenance` | Fresh artifact has a self-canonical URL, H1, sitemap location, and exactly one target link in `<main>`. |
+| Delivered | `/research/renewal-notice-evidence-chain-research` | Where can a team prepare renewal notice evidence while owners retain contract decisions? | `/services/renewal-administration` | Fresh artifact has a self-canonical URL, H1, sitemap location, and exactly one target link in `<main>`. |
+| Delivered | `/research/client-escalation-audience-sequencing-analysis` | Where can a buyer coordinate escalation records without choosing the outcome? | `/services/escalation-coordination` | Fresh artifact has a self-canonical URL, H1, sitemap location, and exactly one target link in `<main>`. |
+| Delivered | `/research/account-priority-override-outcome-study` | Where can a team prepare an account-priority review without making commitment decisions? | `/services/account-health-monitoring` | Fresh artifact has a self-canonical URL, H1, sitemap location, and exactly one target link in `<main>`. |
+| Delivered | `/research/client-meeting-decision-ambiguity-research` | Where can a team keep meeting decisions report-ready without treating discussion as approval? | `/services/account-reporting` | Fresh artifact has a self-canonical URL, H1, sitemap location, and exactly one target link in `<main>`. |
+
 ## Known route-data gaps
 
 Some existing research records refer to service concepts such as `account planning support`, `client meeting coordination`, `client communication support`, `account transition support`, and `client approval coordination`. These are not entries in `app/data.ts` `services` as of this ledger's date. Do not publish links to those slugs. For a public handoff, select the confirmed target above only where it answers the same reader question, or leave the page unchanged.
