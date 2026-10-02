@@ -1,0 +1,46 @@
+{
+  "cycleLabel": "2026-10-02",
+  "siteTimezone": "Asia/Manila",
+  "publicationDate": "2026-10-02",
+  "repository": "coolifystealthagents/outsourcedaccountmanagement",
+  "productionBranch": "main",
+  "baselineSha": "d4fdcb09021b0483730308f65c0bdd4ba28b73b7",
+  "integrationBranch": "blog/2026-10-02-outaaaaaa-73",
+  "researchHandoffSha": "3372a51caa269aa263f4478a20bdfbbbf6d878dd",
+  "required": {"blog":12,"research":5},
+  "validated": {"blog":12,"research":5},
+  "bodyWords": {
+    "blog": [1155,1164,1145,1127,1142,1132,1133,1136,1131,1130,1127,1137],
+    "research": [1205,1202,1203,1207,1222]
+  },
+  "originality": {
+    "blogMaximumFiveWordShingleJaccard": 0.462492,
+    "researchMaximumFiveWordShingleJaccard": 0.001238,
+    "repeatedParagraphsWithinArticles": 0,
+    "qualitativeReview": "passed: all 17 use topic-specific questions, structures, operational cases, reasoning, boundaries, and reader outcomes"
+  },
+  "validation": {
+    "dependencyInstall": "existing lockfile-resolved dependencies used",
+    "typecheck": "passed",
+    "homepageTest": "passed",
+    "researchSchemaIdentityTest": "passed",
+    "cleanProductionBuild": "passed: 660 static pages",
+    "renderedRoutes": "17/17 local HTTP 200 with title/body/date/canonical/schema",
+    "internalLinks": "46/46 local HTTP 200",
+    "renderedImages": "13/13 distinct local HTTP 200, image content-type, nonempty response",
+    "indexes": "17/17 listed",
+    "sitemap": "17/17 listed",
+    "authoritativeSources": "reachable; ISO and Philippine privacy source returned bot/access-control 403, no source returned 404"
+  },
+  "repairs": [
+    "Mapped two nonexistent Research service links to the repository's client-request-routing and account-reporting routes.",
+    "Replaced the October Blog batch's obsolete NIST CSF URL with the current official NIST Cybersecurity Framework page."
+  ],
+  "deployment": {
+    "owner": "Browser operator",
+    "coolifyApplication": "gh6ak4cv6rxb0ejrlyxaw9qg",
+    "submittedByIntegrator": false,
+    "status": "not submitted"
+  },
+  "liveVerification": {"required":17,"verified":0,"status":"awaiting exact-SHA browser deployment"}
+}

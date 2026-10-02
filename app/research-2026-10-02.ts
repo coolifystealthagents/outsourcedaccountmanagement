@@ -14,7 +14,7 @@ type Draft = { slug:string; title:string; cluster:string; excerpt:string; hero:s
 
 const drafts: Draft[] = [
   {
-    slug:'client-delegation-expiry-control-study', title:'When does a client delegation stop being safe to use?', cluster:'Hiring Controls', hero:'/research-heroes/2026-09-24-owner-continuity.png', service:'client-approval-coordination', headline:'A delegation record needs a decision scope, effective window, issuer, delegate, and revocation route', related:['account-decision-rights-analysis','client-stakeholder-authority-drift-study'],
+    slug:'client-delegation-expiry-control-study', title:'When does a client delegation stop being safe to use?', cluster:'Hiring Controls', hero:'/research-heroes/2026-09-24-owner-continuity.png', service:'client-request-routing', headline:'A delegation record needs a decision scope, effective window, issuer, delegate, and revocation route', related:['account-decision-rights-analysis','client-stakeholder-authority-drift-study'],
     excerpt:'A bounded study of temporary client authority, expiry evidence, overlapping instructions, revocation, and the decisions an account specialist must route rather than infer.',
     headings:['Delegation is a timed claim, not a reusable contact preference','Construct the authority interval from dated evidence','Challenge the record with collision cases','Study expiry as an operational transition','Design the confirmation path around consequence','What an account team may conclude'],
     paragraphs:[
@@ -74,7 +74,7 @@ const drafts: Draft[] = [
     rows:[['Commitment','Approved wording and closure proof','Status label is insufficient'],['Node','Necessary evidence, authority, access, or work','Copied contact is not a dependency'],['Edge','Required transition and owner interface','Preserve parallel paths'],['Residual','Unfinished derivative obligation','Headline completion is not universal closure']]
   },
   {
-    slug:'service-exception-update-sequence-study', title:'What should an account team say while a service exception is still unresolved?', cluster:'Workflow Design', hero:'/research-heroes/2026-09-24-owner-continuity.png', service:'service-level-reporting', headline:'An unresolved exception needs a sequence of verified updates, not a premature resolution narrative', related:['service-recovery-evidence-analysis','client-escalation-response-quality'],
+    slug:'service-exception-update-sequence-study', title:'What should an account team say while a service exception is still unresolved?', cluster:'Workflow Design', hero:'/research-heroes/2026-09-24-owner-continuity.png', service:'account-reporting', headline:'An unresolved exception needs a sequence of verified updates, not a premature resolution narrative', related:['service-recovery-evidence-analysis','client-escalation-response-quality'],
     excerpt:'A communication-sequence study of acknowledgements, verified facts, uncertainty, owner decisions, correction behavior, and closure evidence.',
     headings:['One message cannot carry every stage of an exception','Reconstruct the communication sequence','Score factual change, not reassuring tone','Examine corrections and silence intervals','Protect decision authority under pressure','Define closure from evidence'],
     paragraphs:[
