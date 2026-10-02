@@ -1,0 +1,40 @@
+{
+  "auditedRemoteSha": "0c37a77751cd14c7d4b576ceb0c57f81d7cfa041",
+  "deploymentRecommendation": "hold",
+  "lockedInstall": {
+    "command": "npm ci --ignore-scripts",
+    "result": "passed",
+    "packagesAudited": 27
+  },
+  "dependencyAuditAtRemoteSha": {
+    "result": "failed",
+    "critical": 1,
+    "high": 3,
+    "affected": ["next 15.5.20", "postcss 8.4.31", "sharp 0.34.5", "nanoid 3.3.16"]
+  },
+  "localDependencyRemediation": {
+    "next": "15.5.27",
+    "postcssOverride": "8.5.28",
+    "sharp": "0.35.5",
+    "nanoid": "3.3.19",
+    "npmAudit": "0 vulnerabilities",
+    "lockedInstall": "passed",
+    "typecheck": "passed",
+    "homepageTest": "passed",
+    "researchSchemaIdentityTest": "passed",
+    "cleanProductionBuild": "passed: 660 static pages"
+  },
+  "editorialSourceAudit": {
+    "research": "passed: five individually authored draft structures; the shared map only assembles metadata",
+    "blog": "failed: app/october2-blog-batch.ts imports makeSeptemberBlogArticle and uses one shared stages array for substantive section arguments",
+    "keywordSwapCheck": "failed for Blog source structure even though rendered overlap remains below the numerical threshold",
+    "publicCopyLeakage": "passed: no prompts, agents, QA, manifests, deployment mechanics, secrets, task IDs, or production instructions are exposed",
+    "contextualTerms": "The words credentials and prompt appear only in reader-facing operational meanings (do not share credentials; a fact may prompt a question; prompt correction).",
+    "copyEdit": "locally corrected all twelve Blog descriptions from 'A October' to 'An October'"
+  },
+  "productionMutation": {
+    "additionalPushMade": false,
+    "coolifyCalled": false
+  },
+  "requiredRecovery": "Replace the shared Blog substantive-section builder with twelve independently structured article bodies, rerun all 17 editorial and technical gates, then obtain an explicit exception before any second production push."
+}
