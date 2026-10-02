@@ -1,6 +1,6 @@
 {
   "auditedRemoteSha": "0c37a77751cd14c7d4b576ceb0c57f81d7cfa041",
-  "deploymentRecommendation": "hold",
+  "deploymentRecommendation": "hold pending user exception for a corrective push and final Asia/Manila date reconciliation",
   "lockedInstall": {
     "command": "npm ci --ignore-scripts",
     "result": "passed",
@@ -26,8 +26,8 @@
   },
   "editorialSourceAudit": {
     "research": "passed: five individually authored draft structures; the shared map only assembles metadata",
-    "blog": "failed: app/october2-blog-batch.ts imports makeSeptemberBlogArticle and uses one shared stages array for substantive section arguments",
-    "keywordSwapCheck": "failed for Blog source structure even though rendered overlap remains below the numerical threshold",
+    "blog": "passed locally: no makeSeptemberBlogArticle import, no shared substantive stages; twelve explicit heading and argument structures",
+    "keywordSwapCheck": "passed locally; maximum rendered five-word-shingle overlap 0.170077",
     "publicCopyLeakage": "passed: no prompts, agents, QA, manifests, deployment mechanics, secrets, task IDs, or production instructions are exposed",
     "contextualTerms": "The words credentials and prompt appear only in reader-facing operational meanings (do not share credentials; a fact may prompt a question; prompt correction).",
     "copyEdit": "locally corrected all twelve Blog descriptions from 'A October' to 'An October'"
@@ -36,5 +36,5 @@
     "additionalPushMade": false,
     "coolifyCalled": false
   },
-  "requiredRecovery": "Replace the shared Blog substantive-section builder with twelve independently structured article bodies, rerun all 17 editorial and technical gates, then obtain an explicit exception before any second production push."
+  "requiredRecovery": "Rerun final all-17 HTTP gates on the clean build, preserve the exact local SHA, then obtain an explicit exception and reconcile the actual Asia/Manila first-publication date before any second production push."
 }

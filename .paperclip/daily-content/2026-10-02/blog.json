@@ -10,24 +10,24 @@
   "required": 12,
   "validated": 12,
   "articles": [
-    ["philippines-account-management-outsourced-account-management-pilot-scorecard",1155,"971f9f851a892d507faceee1921cd532031beb1993f849401f8f0fc878688e34"],
-    ["philippines-account-management-client-onboarding-stalled-dependency-recovery",1164,"3d34443b147cc190102e754101ec67ef7e0d9a40820ab5112f71733e605fbc1b"],
-    ["philippines-account-management-account-portfolio-segmentation-rules",1145,"12eb9fa66043efe84e562f1ace34f9bddfb320b0eaee00141daea90bb3f60dd9"],
-    ["philippines-account-management-renewal-contact-authority-confirmation",1127,"d4342fe30d5216420f5b2891f8617a358654cf661536002f22ebe3a607305f55"],
-    ["philippines-account-management-qbr-action-decision-trace",1142,"a0aafc663e4fb87883fa154609aa307ce86e0e78698c97a92dd1904395f91cd3"],
-    ["philippines-account-management-crm-duplicate-account-merge-control",1132,"cb2a0b232f1007450d0b68afd8f39e18de10dd26faa0fa40a692a4e4ddf7b498"],
-    ["philippines-account-management-client-response-coverage-schedule",1133,"0f34e1b4084ec8516283d7c5838c45a32c19589fc83cc8fef4cdda96c7f09969"],
-    ["philippines-account-management-account-manager-leave-coverage-plan",1136,"7b2627d0527505028d1b74f34716c330c2636576397189e1605cc76d3b0feaa1"],
-    ["philippines-account-management-client-complaint-acknowledgement-playbook",1131,"1302b1a42d54c8133f0159ba5d1b0065d09fe6fdc759d801acdfab242caf8008"],
-    ["philippines-account-management-service-credit-request-routing",1130,"5283d32adbc9a25a9299a349b3350b7138bfe67679e853f78383a2f0dc3570d2"],
-    ["philippines-account-management-client-account-offboarding-closure-checklist",1127,"477eda8b467da9f7734ff317eb137326aa3199116d3b5e510c5549361606f740"],
-    ["philippines-account-management-account-review-data-cutoff-reconciliation",1137,"123a964d9759b1b6790957313eabcff34ec4da3a2e079fedad5e756b9016edee"]
+    ["philippines-account-management-outsourced-account-management-pilot-scorecard",1009,"51687a6cd88742249d6007f9d8d239e46f557dfe094ee6e744141cb85f5d1476"],
+    ["philippines-account-management-client-onboarding-stalled-dependency-recovery",1008,"e485c4b52fba43145dd43f419ecfe24ca495ca49c4db9fc4e7dc3de5079309ce"],
+    ["philippines-account-management-account-portfolio-segmentation-rules",988,"e7eb218090fbec7fa1384a60e11f0ab37b35cc63ac59057171971e968f5e033e"],
+    ["philippines-account-management-renewal-contact-authority-confirmation",960,"41c4d619c72903bc8a757fa55a9e34ceeee41064984b345cbbf8fc24c592b2cf"],
+    ["philippines-account-management-qbr-action-decision-trace",973,"e38674243a9be77c39e81530889ab4483c42fbb98ed62c48eaef4ef2cb5470d8"],
+    ["philippines-account-management-crm-duplicate-account-merge-control",954,"71946f65b1413cebab0d9cd3230a0408b60ab785e91954db22f676a70a053de5"],
+    ["philippines-account-management-client-response-coverage-schedule",968,"c64898554ebd523c3dac738ec692e9aaee2fdd1044d26999db2d020497cb016d"],
+    ["philippines-account-management-account-manager-leave-coverage-plan",950,"1723aef52ab1d682a20c7ed23ae1e9f97d70f16a336589f139001c597505bc1a"],
+    ["philippines-account-management-client-complaint-acknowledgement-playbook",952,"2371bf66ee08e7b4f2dfb2b1512655fe171abbcb7cb44ea4275ad7e5017258ee"],
+    ["philippines-account-management-service-credit-request-routing",951,"687633020054d46d2629d856d8be62ddd88eeb2d318be28ca40d608f9a874819"],
+    ["philippines-account-management-client-account-offboarding-closure-checklist",948,"0251c302109d4f8f4621ac25de7c91525ccb04f44f55b3c1f7dd1bc56ce660e3"],
+    ["philippines-account-management-account-review-data-cutoff-reconciliation",976,"8ecf612304fc0c53722f8190dd0c3fb95da5f49c209c669b5067116ced199259"]
   ],
   "originality": {
-    "maximumFiveWordShingleJaccard": 0.462492,
-    "pair": ["philippines-account-management-client-complaint-acknowledgement-playbook","philippines-account-management-client-account-offboarding-closure-checklist"],
+    "maximumFiveWordShingleJaccard": 0.170077,
+    "pair": ["philippines-account-management-service-credit-request-routing","philippines-account-management-client-account-offboarding-closure-checklist"],
     "repeatedParagraphsWithinArticles": 0,
-    "qualitativeReview": "passed: each article includes a distinct operational scenario, decision method, implementation example, and reader outcome"
+    "qualitativeReview": "passed: twelve independently authored substantive section structures; no September factory or shared stage arguments"
   },
   "validation": {
     "typecheck": "passed",

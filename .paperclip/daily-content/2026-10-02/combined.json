@@ -1,7 +1,8 @@
 {
   "cycleLabel": "2026-10-02",
   "siteTimezone": "Asia/Manila",
-  "publicationDate": "2026-10-02",
+  "publicationDateCandidate": "2026-10-02",
+  "publicationDateStatus": "not final: reconcile to actual first-publication date in Asia/Manila immediately before any authorized corrective push",
   "repository": "coolifystealthagents/outsourcedaccountmanagement",
   "productionBranch": "main",
   "baselineSha": "d4fdcb09021b0483730308f65c0bdd4ba28b73b7",
@@ -10,14 +11,14 @@
   "required": {"blog":12,"research":5},
   "validated": {"blog":12,"research":5},
   "bodyWords": {
-    "blog": [1155,1164,1145,1127,1142,1132,1133,1136,1131,1130,1127,1137],
+    "blog": [1009,1008,988,960,973,954,968,950,952,951,948,976],
     "research": [1205,1202,1203,1207,1222]
   },
   "originality": {
-    "blogMaximumFiveWordShingleJaccard": 0.462492,
+    "blogMaximumFiveWordShingleJaccard": 0.170077,
     "researchMaximumFiveWordShingleJaccard": 0.001238,
     "repeatedParagraphsWithinArticles": 0,
-    "qualitativeReview": "passed: all 17 use topic-specific questions, structures, operational cases, reasoning, boundaries, and reader outcomes"
+    "qualitativeReview": "passed: all 17 use independently structured substantive sections, topic-specific cases, reasoning, boundaries, and reader outcomes; no shared Blog argument factory"
   },
   "validation": {
     "dependencyInstall": "existing lockfile-resolved dependencies used",
