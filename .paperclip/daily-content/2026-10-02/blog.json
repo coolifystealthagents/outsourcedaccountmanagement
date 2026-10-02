@@ -1,0 +1,45 @@
+{
+  "cycleLabel": "2026-10-02",
+  "siteTimezone": "Asia/Manila",
+  "candidatePublicationDate": "2026-10-02",
+  "publicationDateMustBeReconciledImmediatelyBeforePush": true,
+  "repository": "coolifystealthagents/outsourcedaccountmanagement",
+  "productionBranch": "main",
+  "baselineSha": "d4fdcb09021b0483730308f65c0bdd4ba28b73b7",
+  "branch": "blog/2026-10-02-outaaaaaa-73",
+  "required": 12,
+  "validated": 12,
+  "articles": [
+    ["philippines-account-management-outsourced-account-management-pilot-scorecard",1155,"971f9f851a892d507faceee1921cd532031beb1993f849401f8f0fc878688e34"],
+    ["philippines-account-management-client-onboarding-stalled-dependency-recovery",1164,"3d34443b147cc190102e754101ec67ef7e0d9a40820ab5112f71733e605fbc1b"],
+    ["philippines-account-management-account-portfolio-segmentation-rules",1145,"12eb9fa66043efe84e562f1ace34f9bddfb320b0eaee00141daea90bb3f60dd9"],
+    ["philippines-account-management-renewal-contact-authority-confirmation",1127,"d4342fe30d5216420f5b2891f8617a358654cf661536002f22ebe3a607305f55"],
+    ["philippines-account-management-qbr-action-decision-trace",1142,"a0aafc663e4fb87883fa154609aa307ce86e0e78698c97a92dd1904395f91cd3"],
+    ["philippines-account-management-crm-duplicate-account-merge-control",1132,"cb2a0b232f1007450d0b68afd8f39e18de10dd26faa0fa40a692a4e4ddf7b498"],
+    ["philippines-account-management-client-response-coverage-schedule",1133,"0f34e1b4084ec8516283d7c5838c45a32c19589fc83cc8fef4cdda96c7f09969"],
+    ["philippines-account-management-account-manager-leave-coverage-plan",1136,"7b2627d0527505028d1b74f34716c330c2636576397189e1605cc76d3b0feaa1"],
+    ["philippines-account-management-client-complaint-acknowledgement-playbook",1131,"1302b1a42d54c8133f0159ba5d1b0065d09fe6fdc759d801acdfab242caf8008"],
+    ["philippines-account-management-service-credit-request-routing",1130,"5283d32adbc9a25a9299a349b3350b7138bfe67679e853f78383a2f0dc3570d2"],
+    ["philippines-account-management-client-account-offboarding-closure-checklist",1127,"477eda8b467da9f7734ff317eb137326aa3199116d3b5e510c5549361606f740"],
+    ["philippines-account-management-account-review-data-cutoff-reconciliation",1137,"123a964d9759b1b6790957313eabcff34ec4da3a2e079fedad5e756b9016edee"]
+  ],
+  "originality": {
+    "maximumFiveWordShingleJaccard": 0.462492,
+    "pair": ["philippines-account-management-client-complaint-acknowledgement-playbook","philippines-account-management-client-account-offboarding-closure-checklist"],
+    "repeatedParagraphsWithinArticles": 0,
+    "qualitativeReview": "passed: each article includes a distinct operational scenario, decision method, implementation example, and reader outcome"
+  },
+  "validation": {
+    "typecheck": "passed",
+    "targetedTest": "passed",
+    "cleanProductionBuild": "passed: 655 static pages",
+    "datesCanonicalsSchemaRenderedImages": "passed"
+  },
+  "researchHandoff": {
+    "task": "OUTAAAAAA-72",
+    "receivedValidOctober2Batch": false,
+    "rejectedHandoffCommit": "704b2169b29fd4371e3dd488aff5dd9c6ee7640b",
+    "reason": "handoff contains the already-used September 28 batch and counts as zero under the current override"
+  },
+  "release": {"pushed":false,"deployed":false,"liveVerified":0}
+}
