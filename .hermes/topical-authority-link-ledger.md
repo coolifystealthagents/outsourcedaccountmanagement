@@ -68,3 +68,17 @@ Staged exactly 12 new Blog articles and 5 new Research articles from remote base
 ## October 2, 2026 Research local handoff
 
 Staged five new Research routes from baseline `d4fdcb09021b0483730308f65c0bdd4ba28b73b7`: client delegation expiry, renewal assumption sensitivity, client commitment dependency topology, service-exception update sequencing, and CRM correction propagation boundaries. The durable manifest and rendered hashes are in `.paperclip/daily-content/2026-10-02/research.json`. This Research branch is a local handoff only; Blog task OUTAAAAAA-73 owns combined integration and the sole production push.
+
+## October 3, 2026 — October 2 research link reconciliation
+
+A fresh production build confirms that each of the five integrated October 2 Research routes already has one relevant service link in its route-local `<main>`. This is a duplicate-prevention record, not a second CTA queue.
+
+| Source route | Reader's next practical question | Existing target route | Current artifact result |
+| --- | --- | --- | --- |
+| `/research/client-delegation-expiry-control-study` | How should a team route a request when temporary authority has expired or is unclear? | `/services/client-request-routing` | One route-local target link; source and target have self-canonicals and sitemap locations. |
+| `/research/renewal-assumption-sensitivity-analysis` | Where can a team prepare renewal evidence when assumptions change the next review? | `/services/renewal-administration` | One route-local target link; source and target have self-canonicals and sitemap locations. |
+| `/research/client-commitment-dependency-topology-study` | Where can a team prepare a review of dependencies that block account work? | `/services/account-health-monitoring` | One route-local target link; source and target have self-canonicals and sitemap locations. |
+| `/research/service-exception-update-sequence-study` | Where can a team prepare a factual exception update without treating it as closure? | `/services/account-reporting` | One route-local target link; source and target have self-canonicals and sitemap locations. |
+| `/research/crm-correction-propagation-boundary-study` | Where can a team prepare a controlled correction trail for client records? | `/services/crm-account-maintenance` | One route-local target link; source and target have self-canonicals and sitemap locations. |
+
+The sitemap intentionally emits no `lastmod` values. Do not add another contextual service link to these five source routes. Deployment and live verification remain owned by the combined-release workflow.
