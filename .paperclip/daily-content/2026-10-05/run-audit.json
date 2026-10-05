@@ -24,6 +24,11 @@
   },
   "preservedCycles": ["2026-09-28", "2026-10-02"],
   "productionPushes": 0,
+  "draftingFallback": {
+    "checkedAtUtc": "2026-10-05T18:45:00Z",
+    "geminiCredentialStatus": "invalid API key returned by the configured Google Generative Language endpoint",
+    "action": "continue direct authoring; do not claim credential recovery and do not treat the credential as a release blocker"
+  },
   "deploymentOwner": "connected browser operator",
   "deploymentApplication": "gh6ak4cv6rxb0ejrlyxaw9qg",
   "draftProgress": {
