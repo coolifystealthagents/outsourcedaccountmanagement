@@ -82,3 +82,9 @@ A fresh production build confirms that each of the five integrated October 2 Res
 | `/research/crm-correction-propagation-boundary-study` | Where can a team prepare a controlled correction trail for client records? | `/services/crm-account-maintenance` | One route-local target link; source and target have self-canonicals and sitemap locations. |
 
 The sitemap intentionally emits no `lastmod` values. Do not add another contextual service link to these five source routes. Deployment and live verification remain owned by the combined-release workflow.
+
+## Delivery status — 2026-10-05
+
+Rendered source: `b6e0e56db8b904d65311c673465bae3dfbe0e792` adds one route-local, Philippines-based preparation handoff from `/research/upsell-qualification-boundary-study` to `/services/upsell-opportunity-tracking`. The fresh production artifact has the expected H1, apex canonical URL, Article and Open Graph modified date `2026-10-05`, exactly one route-local upsell-service href, explicit commercial-owner boundaries, and canonical source and target sitemap records; this sitemap intentionally has no `lastmod`.
+
+Cache-busted apex and www pages both returned `200 text/html` with the expected H1 and apex canonical URL, but neither contained the new handoff marker. Both served `article:modified_time` `2026-08-17T00:00:00.000Z`; the old upsell href was already present and is not proof of this release. The repository exposes no approved Coolify target identifier, so no deployment was triggered. Preserve rendered-source commit `b6e0e56db8b904d65311c673465bae3dfbe0e792`; classify this as `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale`.
