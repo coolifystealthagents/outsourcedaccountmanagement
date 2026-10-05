@@ -2,8 +2,9 @@
   "name": "outsourcedaccountmanagement",
   "private": true,
   "scripts": {
-    "test": "node tests/homepage-image-labels.test.mjs",
+    "test": "node tests/homepage-image-labels.test.mjs && node tests/upsell-qualification-handoff.test.mjs",
     "test:research-schema-identity": "node tests/research-schema-identity.test.mjs",
+    "test:upsell-qualification-handoff": "node tests/upsell-qualification-handoff.test.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start -H 0.0.0.0 -p 3000",
