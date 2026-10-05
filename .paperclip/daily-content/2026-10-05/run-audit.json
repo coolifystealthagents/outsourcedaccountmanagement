@@ -1,0 +1,27 @@
+{
+  "cycleLabel": "2026-10-05",
+  "auditedAtUtc": "2026-10-05T17:38:00Z",
+  "siteTimezone": "Asia/Manila",
+  "publicationDateRule": "Set each route to its first successful public verification date in Asia/Manila immediately before the sole production push; the cycle label is not a publication date.",
+  "repository": "coolifystealthagents/outsourcedaccountmanagement",
+  "productionBranch": "main",
+  "auditedRemoteSha": "623b8303dcd91791658eb0eb7a7cf093a7b96495",
+  "integrationBranch": "blog/2026-10-05-outaaaaaa-75",
+  "integrationWorktree": "repo/.worktrees/blog-2026-10-05-outaaaaaa-75",
+  "researchTask": "OUTAAAAAA-74",
+  "researchBranch": "research/2026-10-05-outaaaaaa-74",
+  "researchHandoff": {
+    "received": false,
+    "requiredCount": 5,
+    "integrationGate": "A validated local Research commit and full inventory must be received before combined integration, final validation, or push."
+  },
+  "required": {
+    "blog": 12,
+    "research": 5
+  },
+  "preservedCycles": ["2026-09-28", "2026-10-02"],
+  "productionPushes": 0,
+  "deploymentOwner": "connected browser operator",
+  "deploymentApplication": "gh6ak4cv6rxb0ejrlyxaw9qg",
+  "status": "isolated Blog worktree created from the audited remote production SHA; topic and prior-corpus audit is next while Research authors independently"
+}
