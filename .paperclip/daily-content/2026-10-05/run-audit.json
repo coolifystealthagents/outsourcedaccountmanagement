@@ -32,10 +32,15 @@
   "deploymentOwner": "connected browser operator",
   "deploymentApplication": "gh6ak4cv6rxb0ejrlyxaw9qg",
   "draftProgress": {
-    "blog": 8,
+    "blog": 12,
     "research": 5,
-    "latestBlogSlug": "philippines-account-management-implementation-handoff-exception-review",
-    "latestSubstantiveSectionWords": 929
+    "latestBlogSlugs": [
+      "philippines-account-management-client-feedback-closure-proof",
+      "philippines-account-management-service-milestone-acceptance-gap",
+      "philippines-account-management-account-health-signal-conflict-review",
+      "philippines-account-management-expansion-evidence-boundary"
+    ],
+    "latestRenderedBodyWords": [1038, 931, 965, 986]
   },
-  "status": "Research handoff integrated and locally revalidated; eight of twelve Blog articles are drafted, four remain before combined validation"
+  "status": "All twelve Blog articles drafted and five Research articles integrated; route wiring and combined validation remain before the sole push"
 }
