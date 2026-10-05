@@ -6,15 +6,15 @@ export const october5BlogPostsPart2 = [{
   description: 'A practical guide to mapping client change requests across scope, systems, approvals, timing, and communication before work begins.',
   category: 'client-request-routing',
   readTime: '10 min read',
-  date: 'PUBLICATION_DATE_PENDING',
+  date: '2026-10-06',
   image: '/blog-images/2026-08-31-client-request-triage-board.png',
 }] as const;
 
 const article: RichArticle = {
   title: october5BlogPostsPart2[0].title,
   description: october5BlogPostsPart2[0].description,
-  published: 'PUBLICATION_DATE_PENDING',
-  updated: 'PUBLICATION_DATE_PENDING',
+  published: '2026-10-06',
+  updated: '2026-10-06',
   readMinutes: 10,
   heroImage: october5BlogPostsPart2[0].image,
   intro: [

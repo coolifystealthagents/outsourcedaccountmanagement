@@ -9,17 +9,17 @@
 - Worktree: `/paperclip/instances/default/projects/37cf5ce4-0f1d-4469-a063-4c6404a23c02/16712892-b111-4348-92b6-979f8f2d8062/_default/repo/repo/.worktrees/research-2026-10-05-outaaaaaa-74`
 - Site date-rendering timezone: `UTC` (explicit in `app/research/[slug]/page.tsx`)
 - Publication state: local handoff only; not pushed or deployed by Research
-- Publication-date requirement: the integrator must reconcile `published`, `datePublished`, and `updated` to each route's actual first successful public verification date in the configured site timezone before the sole production push. The current candidate is `2026-10-05`; it must not be retained if first publication occurs on another date.
+- Publication-date reconciliation: Blog integrator set `published`, `datePublished`, and `updated` to `2026-10-06`, the first-publication date for the combined release in the configured `Asia/Manila` site timezone.
 
 ## Inventory
 
 | Slug | Family | Rendered article words | Rendered-text SHA-256 | Candidate date | Image |
 |---|---|---:|---|---|---|
-| `client-evidence-expiry-trigger-study` | Research | 1,831 | `b24ab22b0bda8b0d4c8f13107dd740f142d69e4844205eade691800d524d53f8` | 2026-10-05 | `/research-heroes/2026-09-24-evidence-lineage.png` |
-| `client-meeting-action-survivorship-study` | Research | 1,628 | `596365d5d81afa7532653fd2b28610f4c9a97a604cb6662bd7cc17a97ab496b5` | 2026-10-05 | `/research-heroes/2026-09-22-meeting-decision-traceability.png` |
-| `escalation-severity-reviewer-agreement-study` | Research | 1,601 | `7bba5d5dbf9b60b3828cc8f86797e88555310dc71c636f98aa54e82dd4aa3835` | 2026-10-05 | `/research-heroes/2026-09-24-owner-continuity.png` |
-| `account-portfolio-interruption-load-study` | Research | 1,624 | `6145fcd470c164be7bdcba5c9e788dabbd5ea1e010f46c8021bf94bd267749d5` | 2026-10-05 | `/research-heroes/2026-09-24-sampling-bias.png` |
-| `client-offboarding-residual-obligation-study` | Research | 1,611 | `15c8384f75e5c9371d527829b06e93114d595167c3e301894cac4d10e7181e69` | 2026-10-05 | `/research-heroes/2026-09-24-evidence-lineage.png` |
+| `client-evidence-expiry-trigger-study` | Research | 1,831 | `b24ab22b0bda8b0d4c8f13107dd740f142d69e4844205eade691800d524d53f8` | 2026-10-06 | `/research-heroes/2026-09-24-evidence-lineage.png` |
+| `client-meeting-action-survivorship-study` | Research | 1,628 | `596365d5d81afa7532653fd2b28610f4c9a97a604cb6662bd7cc17a97ab496b5` | 2026-10-06 | `/research-heroes/2026-09-22-meeting-decision-traceability.png` |
+| `escalation-severity-reviewer-agreement-study` | Research | 1,601 | `7bba5d5dbf9b60b3828cc8f86797e88555310dc71c636f98aa54e82dd4aa3835` | 2026-10-06 | `/research-heroes/2026-09-24-owner-continuity.png` |
+| `account-portfolio-interruption-load-study` | Research | 1,624 | `6145fcd470c164be7bdcba5c9e788dabbd5ea1e010f46c8021bf94bd267749d5` | 2026-10-06 | `/research-heroes/2026-09-24-sampling-bias.png` |
+| `client-offboarding-residual-obligation-study` | Research | 1,611 | `15c8384f75e5c9371d527829b06e93114d595167c3e301894cac4d10e7181e69` | 2026-10-06 | `/research-heroes/2026-09-24-evidence-lineage.png` |
 
 Hashes are calculated from normalized text inside the rendered `<article>` element after the clean production build. Word counts use the same rendered article boundary.
 

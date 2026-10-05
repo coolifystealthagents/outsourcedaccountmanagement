@@ -7,7 +7,7 @@ export const october5BlogPosts = [
     description: 'A practical method for finding stalled client approvals, clarifying authority, and restoring account work without inventing consent or deadlines.',
     category: 'client-request-routing',
     readTime: '10 min read',
-    date: 'PUBLICATION_DATE_PENDING',
+    date: '2026-10-06',
     image: '/blog-images/2026-08-31-approval-authority-map.png',
   },
 ] as const;
@@ -15,8 +15,8 @@ export const october5BlogPosts = [
 const approvalBottleneckReview: RichArticle = {
   title: october5BlogPosts[0].title,
   description: october5BlogPosts[0].description,
-  published: 'PUBLICATION_DATE_PENDING',
-  updated: 'PUBLICATION_DATE_PENDING',
+  published: '2026-10-06',
+  updated: '2026-10-06',
   readMinutes: 10,
   heroImage: october5BlogPosts[0].image,
   intro: [

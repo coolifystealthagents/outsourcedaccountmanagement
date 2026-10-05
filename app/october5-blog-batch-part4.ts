@@ -6,15 +6,15 @@ export const october5BlogPostsPart4 = [{
   description: 'A practical readiness check that turns a quarterly business review from a presentation into a source-backed client decision meeting.',
   category: 'customer-qbr-preparation',
   readTime: '10 min read',
-  date: 'PUBLICATION_DATE_PENDING',
+  date: '2026-10-06',
   image: '/blog-images/2026-08-31-client-metric-definition-card.png',
 }] as const;
 
 const article: RichArticle = {
   title: october5BlogPostsPart4[0].title,
   description: october5BlogPostsPart4[0].description,
-  published: 'PUBLICATION_DATE_PENDING',
-  updated: 'PUBLICATION_DATE_PENDING',
+  published: '2026-10-06',
+  updated: '2026-10-06',
   readMinutes: 10,
   heroImage: october5BlogPostsPart4[0].image,
   intro: [

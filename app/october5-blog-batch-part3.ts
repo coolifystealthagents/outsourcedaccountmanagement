@@ -6,15 +6,15 @@ export const october5BlogPostsPart3 = [{
   description: 'A practical renewal evidence freeze that keeps client facts, reporting periods, owner decisions, and late corrections aligned before a renewal review.',
   category: 'renewal-administration',
   readTime: '10 min read',
-  date: 'PUBLICATION_DATE_PENDING',
+  date: '2026-10-06',
   image: '/blog-images/2026-08-31-renewal-evidence-freeze.png',
 }] as const;
 
 const article: RichArticle = {
   title: october5BlogPostsPart3[0].title,
   description: october5BlogPostsPart3[0].description,
-  published: 'PUBLICATION_DATE_PENDING',
-  updated: 'PUBLICATION_DATE_PENDING',
+  published: '2026-10-06',
+  updated: '2026-10-06',
   readMinutes: 10,
   heroImage: october5BlogPostsPart3[0].image,
   intro: [

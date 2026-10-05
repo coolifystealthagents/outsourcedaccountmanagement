@@ -2,6 +2,7 @@
   "cycleLabel": "2026-10-05",
   "auditedAtUtc": "2026-10-05T17:38:00Z",
   "siteTimezone": "Asia/Manila",
+  "reconciledPublicationDate": "2026-10-06",
   "publicationDateRule": "Set each route to its first successful public verification date in Asia/Manila immediately before the sole production push; the cycle label is not a publication date.",
   "repository": "coolifystealthagents/outsourcedaccountmanagement",
   "productionBranch": "main",

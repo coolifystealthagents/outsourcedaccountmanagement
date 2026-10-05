@@ -1,7 +1,7 @@
 import type { RichArticle } from './rich-articles';
 
 type Seed={slug:string;title:string;description:string;category:string;image:string;intro:string[];takeaways:string[];sections:RichArticle['sections'];table:RichArticle['table'];quote:string;sources:RichArticle['sources']};
-const P='PUBLICATION_DATE_PENDING';
+const P='2026-10-06';
 const seeds:Seed[]=[
 {
  slug:'philippines-account-management-client-feedback-closure-proof',title:'Philippines account management client feedback closure proof',description:'A practical method for showing that client feedback was understood, decided, acted on, and confirmed without closing the record too early.',category:'customer-feedback-administration',image:'/blog-images/2026-08-31-feedback-closure-proof.png',

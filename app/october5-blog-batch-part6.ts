@@ -1,9 +1,9 @@
 import type { RichArticle } from './rich-articles';
 
-export const october5BlogPostsPart6=[{slug:'philippines-account-management-client-escalation-audience-plan',title:'Philippines account management client escalation audience plan',description:'A practical way to select the right recipients, evidence, channel, and update boundary for a client escalation.',category:'escalation-coordination',readTime:'10 min read',date:'PUBLICATION_DATE_PENDING',image:'/blog-images/2026-08-31-escalation-audience-map.png'}] as const;
+export const october5BlogPostsPart6=[{slug:'philippines-account-management-client-escalation-audience-plan',title:'Philippines account management client escalation audience plan',description:'A practical way to select the right recipients, evidence, channel, and update boundary for a client escalation.',category:'escalation-coordination',readTime:'10 min read',date:'2026-10-06',image:'/blog-images/2026-08-31-escalation-audience-map.png'}] as const;
 
 const article:RichArticle={
- title:october5BlogPostsPart6[0].title,description:october5BlogPostsPart6[0].description,published:'PUBLICATION_DATE_PENDING',updated:'PUBLICATION_DATE_PENDING',readMinutes:10,heroImage:october5BlogPostsPart6[0].image,
+ title:october5BlogPostsPart6[0].title,description:october5BlogPostsPart6[0].description,published:'2026-10-06',updated:'2026-10-06',readMinutes:10,heroImage:october5BlogPostsPart6[0].image,
  intro:[
   'An escalation can become harder to resolve when the message reaches everyone. A broad recipient list exposes details without improving authority, produces parallel questions, and makes the client wonder who actually owns the response. A narrow list can fail too when the only person able to protect continuity or make a decision is missing.',
   'An audience plan treats recipients as part of the response design. A Philippines-based account management specialist can map who needs facts, who needs an action, who can decide, and who should receive the client update. This keeps coordination moving without turning the specialist into the incident, legal, security, or commercial decision maker.'

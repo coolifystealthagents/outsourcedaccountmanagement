@@ -6,14 +6,14 @@ export const october5BlogPostsPart5 = [{
   description: 'A practical process for finding, verifying, correcting, and governing stale client contacts without losing history or expanding access.',
   category: 'crm-account-maintenance',
   readTime: '10 min read',
-  date: 'PUBLICATION_DATE_PENDING',
+  date: '2026-10-06',
   image: '/blog-images/2026-08-31-crm-correction-provenance-log.png',
 }] as const;
 
 const article: RichArticle = {
   title: october5BlogPostsPart5[0].title,
   description: october5BlogPostsPart5[0].description,
-  published: 'PUBLICATION_DATE_PENDING', updated: 'PUBLICATION_DATE_PENDING', readMinutes: 10,
+  published: '2026-10-06', updated: '2026-10-06', readMinutes: 10,
   heroImage: october5BlogPostsPart5[0].image,
   intro: [
     'A stale CRM contact is more than an untidy field. An old decision maker can receive sensitive renewal material, a departed champion can remain attached to automated reports, and a new stakeholder can miss an escalation because nobody verified their role. Bulk deletion is not the answer: historical records still need to explain who participated in earlier decisions.',

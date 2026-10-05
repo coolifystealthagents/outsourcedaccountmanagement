@@ -193,7 +193,7 @@ const workedAnalysis:Record<string,{heading:string;paragraphs:string[]}>= {
 };
 
 export const research20261005:ResearchPost[]=drafts.map(d=>({
-  slug:d.slug,title:d.title,cluster:d.cluster,excerpt:d.excerpt,hero:d.hero,published:'2026-10-05',datePublished:'2026-10-05',updated:'2026-10-05',headlineStat:d.headline,
+  slug:d.slug,title:d.title,cluster:d.cluster,excerpt:d.excerpt,hero:d.hero,published:'2026-10-06',datePublished:'2026-10-06',updated:'2026-10-06',headlineStat:d.headline,
   statSource:'Topic-specific synthesis of NIST, GAO, FTC, Philippine NPC, and ISO principles',
   takeaways:['Define the decision, population, source hierarchy, and cutoff before reviewing records.','Preserve missing, conflicting, corrected, and inaccessible evidence in the result.','Keep operational preparation separate from consequential owner judgment.','Report bounded findings, limitations, and the next authorized review trigger.'],
   sections:[...d.sections,workedAnalysis[d.slug]],table:{headers:['Control point','Minimum evidence','Boundary'],rows:d.rows},sources,
