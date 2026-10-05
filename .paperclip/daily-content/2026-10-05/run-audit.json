@@ -26,5 +26,11 @@
   "productionPushes": 0,
   "deploymentOwner": "connected browser operator",
   "deploymentApplication": "gh6ak4cv6rxb0ejrlyxaw9qg",
-  "status": "Research handoff integrated and locally revalidated; one of twelve Blog articles is drafted, eleven remain before combined validation"
+  "draftProgress": {
+    "blog": 2,
+    "research": 5,
+    "latestBlogSlug": "philippines-account-management-client-change-request-dependency-map",
+    "latestSubstantiveSectionWords": 1100
+  },
+  "status": "Research handoff integrated and locally revalidated; two of twelve Blog articles are drafted, ten remain before combined validation"
 }
