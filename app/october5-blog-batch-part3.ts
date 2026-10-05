@@ -7,7 +7,7 @@ export const october5BlogPostsPart3 = [{
   category: 'renewal-administration',
   readTime: '10 min read',
   date: '2026-10-06',
-  image: '/blog-images/2026-08-31-renewal-evidence-freeze.png',
+  image: '/blog-heroes/2026-08-31-renewal-evidence-freeze.png',
 }] as const;
 
 const article: RichArticle = {

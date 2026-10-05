@@ -1,6 +1,6 @@
 import type { RichArticle } from './rich-articles';
 
-export const october5BlogPostsPart8=[{slug:'philippines-account-management-implementation-handoff-exception-review',title:'Philippines account management implementation handoff exception review',description:'A practical review for accepting, assigning, and retiring launch exceptions before account management takes steady-state ownership.',category:'implementation-handoff-support',readTime:'10 min read',date:'2026-10-06',image:'/blog-images/2026-08-31-handoff-shadow-review.png'}] as const;
+export const october5BlogPostsPart8=[{slug:'philippines-account-management-implementation-handoff-exception-review',title:'Philippines account management implementation handoff exception review',description:'A practical review for accepting, assigning, and retiring launch exceptions before account management takes steady-state ownership.',category:'implementation-handoff-support',readTime:'10 min read',date:'2026-10-06',image:'/blog-heroes/2026-08-31-handoff-shadow-review.png'}] as const;
 
 const article:RichArticle={
  title:october5BlogPostsPart8[0].title,description:october5BlogPostsPart8[0].description,published:'2026-10-06',updated:'2026-10-06',readMinutes:10,heroImage:october5BlogPostsPart8[0].image,

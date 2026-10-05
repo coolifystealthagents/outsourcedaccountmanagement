@@ -1,6 +1,6 @@
 import type { RichArticle } from './rich-articles';
 
-export const october5BlogPostsPart6=[{slug:'philippines-account-management-client-escalation-audience-plan',title:'Philippines account management client escalation audience plan',description:'A practical way to select the right recipients, evidence, channel, and update boundary for a client escalation.',category:'escalation-coordination',readTime:'10 min read',date:'2026-10-06',image:'/blog-images/2026-08-31-escalation-audience-map.png'}] as const;
+export const october5BlogPostsPart6=[{slug:'philippines-account-management-client-escalation-audience-plan',title:'Philippines account management client escalation audience plan',description:'A practical way to select the right recipients, evidence, channel, and update boundary for a client escalation.',category:'escalation-coordination',readTime:'10 min read',date:'2026-10-06',image:'/blog-heroes/2026-08-31-escalation-audience-map.png'}] as const;
 
 const article:RichArticle={
  title:october5BlogPostsPart6[0].title,description:october5BlogPostsPart6[0].description,published:'2026-10-06',updated:'2026-10-06',readMinutes:10,heroImage:october5BlogPostsPart6[0].image,

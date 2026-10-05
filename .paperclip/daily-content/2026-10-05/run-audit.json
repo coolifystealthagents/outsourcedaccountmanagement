@@ -25,6 +25,17 @@
   },
   "preservedCycles": ["2026-09-28", "2026-10-02"],
   "productionPushes": 0,
+  "prepublicationValidation": {
+    "validatedAtUtc": "2026-10-05T21:00:35Z",
+    "productionBuild": "passed; 678 of 678 static pages generated",
+    "renderedRoutes": 17,
+    "blogRoutes": 12,
+    "researchRoutes": 5,
+    "internalLinksChecked": 19,
+    "originalityMaximumFiveWordShingleJaccard": 0.006976,
+    "dependencyAuditVulnerabilities": 0,
+    "liveProbeBeforePush": 404
+  },
   "draftingFallback": {
     "checkedAtUtc": "2026-10-05T18:45:00Z",
     "geminiCredentialStatus": "invalid API key returned by the configured Google Generative Language endpoint",
@@ -43,5 +54,5 @@
     ],
     "latestRenderedBodyWords": [1038, 931, 965, 986]
   },
-  "status": "All twelve Blog articles drafted and five Research articles integrated; route wiring and combined validation remain before the sole push"
+  "status": "All twelve Blog articles and five Research articles passed clean build, rendered HTTP, internal-link, asset, schema, index, sitemap, and originality gates; awaiting the sole production push and live verification"
 }

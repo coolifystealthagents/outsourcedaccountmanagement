@@ -7,7 +7,7 @@ export const october5BlogPostsPart4 = [{
   category: 'customer-qbr-preparation',
   readTime: '10 min read',
   date: '2026-10-06',
-  image: '/blog-images/2026-08-31-client-metric-definition-card.png',
+  image: '/blog-heroes/2026-08-31-client-metric-definition-card.png',
 }] as const;
 
 const article: RichArticle = {

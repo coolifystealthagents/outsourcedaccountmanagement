@@ -1,6 +1,6 @@
 import type { RichArticle } from './rich-articles';
 
-export const october5BlogPostsPart7=[{slug:'philippines-account-management-portfolio-capacity-rebalance',title:'Philippines account management portfolio capacity rebalance',description:'A practical way to rebalance an account portfolio when urgent work displaces reviews, renewals, and client follow-through.',category:'account-reporting',readTime:'10 min read',date:'2026-10-06',image:'/blog-images/2026-08-31-portfolio-exception-budget.png'}] as const;
+export const october5BlogPostsPart7=[{slug:'philippines-account-management-portfolio-capacity-rebalance',title:'Philippines account management portfolio capacity rebalance',description:'A practical way to rebalance an account portfolio when urgent work displaces reviews, renewals, and client follow-through.',category:'account-reporting',readTime:'10 min read',date:'2026-10-06',image:'/blog-heroes/2026-08-31-portfolio-exception-budget.png'}] as const;
 
 const article:RichArticle={
  title:october5BlogPostsPart7[0].title,description:october5BlogPostsPart7[0].description,published:'2026-10-06',updated:'2026-10-06',readMinutes:10,heroImage:october5BlogPostsPart7[0].image,

@@ -8,7 +8,7 @@ export const october5BlogPosts = [
     category: 'client-request-routing',
     readTime: '10 min read',
     date: '2026-10-06',
-    image: '/blog-images/2026-08-31-approval-authority-map.png',
+    image: '/blog-heroes/2026-08-21-escalation-authority-card.png',
   },
 ] as const;
 

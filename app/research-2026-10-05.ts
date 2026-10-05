@@ -43,7 +43,7 @@ const drafts:Draft[]=[
     ],rows:[['Decision','Named action and consequence tier','Freshness is use-specific'],['Trigger','Interval plus intervening events','A recent timestamp is not enough'],['Confirmation','Exact fact, source, owner, intended use','Preparation is not approval'],['Propagation','Active destinations and residual limits','Preserve historical lineage']]
   },
   {
-    slug:'client-meeting-action-survivorship-study',title:'Which client meeting commitments disappear before the action register?',cluster:'Workflow Design',hero:'/research-heroes/2026-09-22-meeting-decision-traceability.png',service:'meeting-follow-up',related:['meeting-action-item-closure-study','meeting-decision-traceability-analysis'],
+    slug:'client-meeting-action-survivorship-study',title:'Which client meeting commitments disappear before the action register?',cluster:'Workflow Design',hero:'/research-heroes/2026-09-22-meeting-decision-traceability.png',service:'account-reporting',related:['meeting-action-item-closure-study','meeting-decision-traceability-analysis'],
     excerpt:'A survivorship-bias study comparing meeting evidence with the smaller set of actions that reach trackers, updates, and closure reports.',headline:'A clean action register can conceal commitments that were omitted, merged, softened, or lost before registration',
     sections:[
       {heading:'The tracker shows survivors, not the full meeting population',paragraphs:[
@@ -73,7 +73,7 @@ const drafts:Draft[]=[
     ],rows:[['Population','Approved meeting evidence','Do not begin with tracker survivors'],['Candidate','Source anchor and consequential statement','Ambiguity remains visible'],['Disposition','Registered, changed, merged, excluded, unresolved','Every candidate gets a state'],['Closure','Proof tied to preserved meaning','Sent recap is not acceptance']]
   },
   {
-    slug:'escalation-severity-reviewer-agreement-study',title:'Would two account managers escalate the same client issue the same way?',cluster:'Scope Benchmarks',hero:'/research-heroes/2026-09-24-owner-continuity.png',service:'client-escalation-management',related:['client-escalation-threshold-study','escalation-response-evidence-lag-study'],
+    slug:'escalation-severity-reviewer-agreement-study',title:'Would two account managers escalate the same client issue the same way?',cluster:'Scope Benchmarks',hero:'/research-heroes/2026-09-24-owner-continuity.png',service:'escalation-coordination',related:['client-escalation-threshold-study','escalation-response-evidence-lag-study'],
     excerpt:'An inter-reviewer agreement study for escalation severity, evidence thresholds, consequence tiers, and safe routing under uncertainty.',headline:'A severity rubric is operational only when independent reviewers can apply it consistently and explain material disagreement',
     sections:[
       {heading:'A rubric can look precise while reviewers use different rules',paragraphs:[

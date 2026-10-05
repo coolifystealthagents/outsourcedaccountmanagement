@@ -7,7 +7,7 @@ export const october5BlogPostsPart5 = [{
   category: 'crm-account-maintenance',
   readTime: '10 min read',
   date: '2026-10-06',
-  image: '/blog-images/2026-08-31-crm-correction-provenance-log.png',
+  image: '/blog-heroes/2026-08-31-crm-correction-provenance-log.png',
 }] as const;
 
 const article: RichArticle = {

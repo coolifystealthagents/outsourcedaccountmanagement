@@ -7,7 +7,7 @@ export const october5BlogPostsPart2 = [{
   category: 'client-request-routing',
   readTime: '10 min read',
   date: '2026-10-06',
-  image: '/blog-images/2026-08-31-client-request-triage-board.png',
+  image: '/blog-heroes/2026-08-21-client-request-impact-ladder.png',
 }] as const;
 
 const article: RichArticle = {
