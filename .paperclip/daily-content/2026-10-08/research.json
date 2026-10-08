@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-08",
+  "requiredCount": 5,
+  "entries": [
+    {
+      "slug": "account-owner-acknowledgement-latency-study",
+      "title": "How Quickly Do Account Owners Acknowledge Decision Packets?",
+      "route": "/research/account-owner-acknowledgement-latency-study",
+      "words": 1156,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/greenbook",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    },
+    {
+      "slug": "client-update-source-reproducibility-study",
+      "title": "Can a Reviewer Rebuild a Client Update from Its Sources?",
+      "route": "/research/client-update-source-reproducibility-study",
+      "words": 1174,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/greenbook",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    },
+    {
+      "slug": "account-health-reviewer-agreement-study",
+      "title": "Do Reviewers Agree on Account-Health Exceptions?",
+      "route": "/research/account-health-reviewer-agreement-study",
+      "words": 1138,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/greenbook",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    },
+    {
+      "slug": "open-client-commitment-recurrence-study",
+      "title": "Why Do Closed Client Commitments Reopen?",
+      "route": "/research/open-client-commitment-recurrence-study",
+      "words": 1138,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/greenbook",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    },
+    {
+      "slug": "account-offboarding-access-evidence-study",
+      "title": "Does Account Offboarding Evidence Prove Access Was Removed?",
+      "route": "/research/account-offboarding-access-evidence-study",
+      "words": 1156,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/greenbook",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    }
+  ]
+}

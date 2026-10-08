@@ -1,4 +1,5 @@
 import { dailyRichArticles } from './daily-blog-batch';
+import { october8RichArticles } from './oct8-content';
 
 export type RichArticle = {
   title: string;
@@ -1726,3 +1727,4 @@ const augustEntries: Array<[string, RichArticle]> = augustBlogTopics.map(([slug,
 }]);
 Object.assign(richArticles, Object.fromEntries(augustEntries));
 Object.assign(richArticles, Object.fromEntries(dailyRichArticles));
+Object.assign(richArticles, october8RichArticles);

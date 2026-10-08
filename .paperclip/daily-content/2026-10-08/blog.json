@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-08",
+  "requiredCount": 12,
+  "entries": [
+    {
+      "slug": "account-management-client-contact-role-change",
+      "title": "Verify a Client Contact Role Change Before Updating the Account",
+      "route": "/blog/account-management-client-contact-role-change",
+      "words": 1209
+    },
+    {
+      "slug": "account-management-qbr-metric-definition-freeze",
+      "title": "Freeze QBR Metric Definitions Before the Reporting Cutoff",
+      "route": "/blog/account-management-qbr-metric-definition-freeze",
+      "words": 1197
+    },
+    {
+      "slug": "account-management-renewal-concession-request-packet",
+      "title": "Prepare a Renewal Concession Request Without Negotiating by Assumption",
+      "route": "/blog/account-management-renewal-concession-request-packet",
+      "words": 1203
+    },
+    {
+      "slug": "account-management-client-escalation-duplicate-thread",
+      "title": "Reconcile Duplicate Threads During a Client Escalation",
+      "route": "/blog/account-management-client-escalation-duplicate-thread",
+      "words": 1191
+    },
+    {
+      "slug": "account-management-implementation-milestone-rejection",
+      "title": "Record a Rejected Implementation Milestone Without Hiding the Gap",
+      "route": "/blog/account-management-implementation-milestone-rejection",
+      "words": 1203
+    },
+    {
+      "slug": "account-management-client-report-late-source",
+      "title": "Hold a Late Source Outside the Released Client Report",
+      "route": "/blog/account-management-client-report-late-source",
+      "words": 1203
+    },
+    {
+      "slug": "account-management-upsell-signal-permission-boundary",
+      "title": "Separate an Upsell Signal from Permission to Contact the Client",
+      "route": "/blog/account-management-upsell-signal-permission-boundary",
+      "words": 1209
+    },
+    {
+      "slug": "account-management-feedback-anonymous-comment-handling",
+      "title": "Handle Anonymous Client Feedback Without Inventing Identity",
+      "route": "/blog/account-management-feedback-anonymous-comment-handling",
+      "words": 1191
+    },
+    {
+      "slug": "account-management-contract-notice-date-register",
+      "title": "Maintain Contract Notice Dates Without Interpreting the Contract",
+      "route": "/blog/account-management-contract-notice-date-register",
+      "words": 1197
+    },
+    {
+      "slug": "account-management-open-commitment-owner-change",
+      "title": "Transfer Open Client Commitments When the Owner Changes",
+      "route": "/blog/account-management-open-commitment-owner-change",
+      "words": 1197
+    },
+    {
+      "slug": "account-management-account-health-source-conflict",
+      "title": "Preserve Conflicting Account-Health Signals",
+      "route": "/blog/account-management-account-health-source-conflict",
+      "words": 1173
+    },
+    {
+      "slug": "account-management-offboarding-final-client-update",
+      "title": "Prepare the Final Client Update During Account Offboarding",
+      "route": "/blog/account-management-offboarding-final-client-update",
+      "words": 1197
+    }
+  ]
+}
