@@ -29,11 +29,11 @@ Scope: OutsourcedAccountManagement.com. This is an internal editorial queue, not
 
 `TOPICAL-AUTHORITY-LINK-LEDGER.md` had four rows that still looked queued. A fresh production build verified each route-local handoff exactly once: `/research/account-journey-milestone-evidence` to `/services/contract-milestone-tracking`, `/research/client-request-completeness-audit` to `/services/client-request-routing`, `/research/account-record-reconciliation-study` to `/services/crm-account-maintenance`, and `/research/client-closure-proof-analysis` to `/services/account-reporting`. Those pairs are delivered and non-duplicable.
 
-Four remaining verified-absent pairs are now ordered in that map. The first is `/research/account-risk-evidence-thresholds` to `/services/escalation-coordination`; its source and target artifacts exist, while the source route-local `<main>` has zero matching target links.
+The same fresh build also confirms that the four historical handoffs below are delivered locally, so none remains a candidate for another CTA: `/research/account-risk-evidence-thresholds` to `/services/escalation-coordination`, `/research/renewal-signal-calibration` to `/services/renewal-administration`, `/research/account-handoff-acceptance-check` to `/services/implementation-handoff-support`, and `/research/client-health-signal-calibration` to `/services/account-health-monitoring`. Each source and target has a self-canonical URL and sitemap location, and each source `<main>` contains exactly one matching service link.
 
 ## Next bounded action
 
-Before proposing the next public link, use the first remaining pair in `TOPICAL-AUTHORITY-LINK-LEDGER.md`. Rebuild the candidate and verify that its route-local `<main>` still has zero exact links to its confirmed service target.
+Before proposing a new public link, inventory a newly added typed research or guide record against the confirmed service pillars. Do not reuse any delivered pair above; rebuild and verify that a proposed source `<main>` has zero exact links to the matching existing service before changing reader-facing content.
 
 ## Delivery status — 2026-09-09
 
