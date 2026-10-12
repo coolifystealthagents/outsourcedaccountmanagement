@@ -1,0 +1,206 @@
+{
+  "site": "OutsourcedAccountManagement.com",
+  "repository": "coolifystealthagents/outsourcedaccountmanagement",
+  "branch": "main",
+  "publicationDate": "2026-10-12",
+  "blogCount": 12,
+  "researchCount": 5,
+  "entries": [
+    {
+      "type": "Blog",
+      "slug": "client-promise-register-after-scope-conversations",
+      "title": "Build a Client Promise Register After Scope Conversations",
+      "route": "/blog/client-promise-register-after-scope-conversations",
+      "thumbnail": "/october-12-2026/client-promise-register-after-scope-conversations.svg",
+      "words": 2209
+    },
+    {
+      "type": "Blog",
+      "slug": "invoice-dispute-evidence-handoff",
+      "title": "Prepare an Invoice Dispute Evidence Handoff",
+      "route": "/blog/invoice-dispute-evidence-handoff",
+      "thumbnail": "/october-12-2026/invoice-dispute-evidence-handoff.svg",
+      "words": 2146
+    },
+    {
+      "type": "Blog",
+      "slug": "stakeholder-map-after-client-merger",
+      "title": "Rebuild the Stakeholder Map After a Client Merger",
+      "route": "/blog/stakeholder-map-after-client-merger",
+      "thumbnail": "/october-12-2026/stakeholder-map-after-client-merger.svg",
+      "words": 2194
+    },
+    {
+      "type": "Blog",
+      "slug": "product-adoption-drop-context-packet",
+      "title": "Investigate a Product Adoption Drop Without Guessing at Cause",
+      "route": "/blog/product-adoption-drop-context-packet",
+      "thumbnail": "/october-12-2026/product-adoption-drop-context-packet.svg",
+      "words": 2235
+    },
+    {
+      "type": "Blog",
+      "slug": "executive-sponsor-absence-coverage-plan",
+      "title": "Create an Executive Sponsor Absence Coverage Plan",
+      "route": "/blog/executive-sponsor-absence-coverage-plan",
+      "thumbnail": "/october-12-2026/executive-sponsor-absence-coverage-plan.svg",
+      "words": 2160
+    },
+    {
+      "type": "Blog",
+      "slug": "customer-success-account-management-boundary",
+      "title": "Define the Boundary Between Customer Success and Account Management",
+      "route": "/blog/customer-success-account-management-boundary",
+      "thumbnail": "/october-12-2026/customer-success-account-management-boundary.svg",
+      "words": 2232
+    },
+    {
+      "type": "Blog",
+      "slug": "multi-region-client-time-zone-handoff",
+      "title": "Run a Multi-Region Client Time-Zone Handoff",
+      "route": "/blog/multi-region-client-time-zone-handoff",
+      "thumbnail": "/october-12-2026/multi-region-client-time-zone-handoff.svg",
+      "words": 2145
+    },
+    {
+      "type": "Blog",
+      "slug": "credit-request-authority-gate",
+      "title": "Route a Client Credit Request Through an Authority Gate",
+      "route": "/blog/credit-request-authority-gate",
+      "thumbnail": "/october-12-2026/credit-request-authority-gate.svg",
+      "words": 2227
+    },
+    {
+      "type": "Blog",
+      "slug": "at-risk-account-recovery-decision-log",
+      "title": "Maintain an At-Risk Account Recovery Decision Log",
+      "route": "/blog/at-risk-account-recovery-decision-log",
+      "thumbnail": "/october-12-2026/at-risk-account-recovery-decision-log.svg",
+      "words": 2173
+    },
+    {
+      "type": "Blog",
+      "slug": "client-portal-permission-expiry-review",
+      "title": "Review Client Portal Permissions Before They Expire",
+      "route": "/blog/client-portal-permission-expiry-review",
+      "thumbnail": "/october-12-2026/client-portal-permission-expiry-review.svg",
+      "words": 2167
+    },
+    {
+      "type": "Blog",
+      "slug": "qbr-action-owner-reconciliation",
+      "title": "Reconcile QBR Actions Before the Next Client Review",
+      "route": "/blog/qbr-action-owner-reconciliation",
+      "thumbnail": "/october-12-2026/qbr-action-owner-reconciliation.svg",
+      "words": 2217
+    },
+    {
+      "type": "Blog",
+      "slug": "renewal-forecast-confidence-labels",
+      "title": "Add Confidence Labels to a Renewal Forecast",
+      "route": "/blog/renewal-forecast-confidence-labels",
+      "thumbnail": "/october-12-2026/renewal-forecast-confidence-labels.svg",
+      "words": 2170
+    },
+    {
+      "type": "Research",
+      "slug": "account-portfolio-workload-denominator-study",
+      "title": "Account Portfolio Workload Denominators: A Measurement Protocol",
+      "route": "/research/account-portfolio-workload-denominator-study",
+      "thumbnail": "/october-12-2026/account-portfolio-workload-denominator-study.svg",
+      "words": 1844,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.gao.gov/greenbook",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0",
+        "https://www.cisa.gov/topics/cybersecurity-best-practices/identity-and-access-management",
+        "https://www.sba.gov/business-guide/manage-your-business",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.iso.org/quality-management/principles",
+        "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0479",
+        "https://csrc.nist.gov/glossary/term/accountability"
+      ]
+    },
+    {
+      "type": "Research",
+      "slug": "client-commitment-aging-closure-reliability",
+      "title": "Client Commitment Aging and Closure Reliability",
+      "route": "/research/client-commitment-aging-closure-reliability",
+      "thumbnail": "/october-12-2026/client-commitment-aging-closure-reliability.svg",
+      "words": 1831,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.gao.gov/greenbook",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0",
+        "https://www.cisa.gov/topics/cybersecurity-best-practices/identity-and-access-management",
+        "https://www.sba.gov/business-guide/manage-your-business",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.iso.org/quality-management/principles",
+        "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0479",
+        "https://csrc.nist.gov/glossary/term/accountability"
+      ]
+    },
+    {
+      "type": "Research",
+      "slug": "account-ownership-change-record-continuity",
+      "title": "Account Ownership Changes and Record Continuity",
+      "route": "/research/account-ownership-change-record-continuity",
+      "thumbnail": "/october-12-2026/account-ownership-change-record-continuity.svg",
+      "words": 1816,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.gao.gov/greenbook",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0",
+        "https://www.cisa.gov/topics/cybersecurity-best-practices/identity-and-access-management",
+        "https://www.sba.gov/business-guide/manage-your-business",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.iso.org/quality-management/principles",
+        "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0479",
+        "https://csrc.nist.gov/glossary/term/accountability"
+      ]
+    },
+    {
+      "type": "Research",
+      "slug": "escalation-response-time-measurement-bias",
+      "title": "Escalation Response-Time Measurement Bias",
+      "route": "/research/escalation-response-time-measurement-bias",
+      "thumbnail": "/october-12-2026/escalation-response-time-measurement-bias.svg",
+      "words": 1766,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.gao.gov/greenbook",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0",
+        "https://www.cisa.gov/topics/cybersecurity-best-practices/identity-and-access-management",
+        "https://www.sba.gov/business-guide/manage-your-business",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.iso.org/quality-management/principles",
+        "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0479",
+        "https://csrc.nist.gov/glossary/term/accountability"
+      ]
+    },
+    {
+      "type": "Research",
+      "slug": "account-health-missing-data-sensitivity",
+      "title": "Account Health Scoring Under Missing Data",
+      "route": "/research/account-health-missing-data-sensitivity",
+      "thumbnail": "/october-12-2026/account-health-missing-data-sensitivity.svg",
+      "words": 1827,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.gao.gov/greenbook",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0",
+        "https://www.cisa.gov/topics/cybersecurity-best-practices/identity-and-access-management",
+        "https://www.sba.gov/business-guide/manage-your-business",
+        "https://privacy.gov.ph/data-privacy-act/",
+        "https://www.iso.org/quality-management/principles",
+        "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0479",
+        "https://csrc.nist.gov/glossary/term/accountability"
+      ]
+    }
+  ]
+}

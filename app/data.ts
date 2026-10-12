@@ -1,5 +1,6 @@
 import { dailyBlogPosts } from './daily-blog-batch';
 import { october8BlogPosts } from './oct8-content';
+import { october12BlogPosts } from './october12-content';
 
 export const site = {
   domain: 'OutsourcedAccountManagement.com',
@@ -140,7 +141,7 @@ const baseBlogPosts = [
 ] as const;
 
 // Newest publication batches lead the family index; older evergreen posts remain routed.
-export const blogPosts = [...october8BlogPosts, ...dailyBlogPosts, ...baseBlogPosts] as const;
+export const blogPosts = [...october12BlogPosts, ...october8BlogPosts, ...dailyBlogPosts, ...baseBlogPosts] as const;
 export const allDailyBlogPosts = blogPosts;
 
 export const blogDetails = {

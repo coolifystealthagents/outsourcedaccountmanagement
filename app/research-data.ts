@@ -1,4 +1,5 @@
 import { october8ResearchPosts } from './oct8-content';
+import { october12ResearchPosts } from './october12-content';
 
 export type ResearchSection = { heading: string; paragraphs: string[] };
 export type ResearchPost = {
@@ -375,7 +376,7 @@ const priorResearchPostList: ResearchPost[] = [...research20260903, ...research2
   };
 }).sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug))];
 
-const researchPostList = [...october8ResearchPosts, ...research20261005, ...research20261002, ...research20260928, ...research20260926, ...research20260924, ...research20260922, ...research20260918, ...research20260910, ...research20260909, ...research20260908, ...research20260907, ...research20260904, ...priorResearchPostList];
+const researchPostList = [...october12ResearchPosts, ...october8ResearchPosts, ...research20261005, ...research20261002, ...research20260928, ...research20260926, ...research20260924, ...research20260922, ...research20260918, ...research20260910, ...research20260909, ...research20260908, ...research20260907, ...research20260904, ...priorResearchPostList];
 
 export const researchPosts: ResearchPost[] = researchPostList.map((post) => post.slug === 'onboarding-handoff-latency-study'
   ? {
