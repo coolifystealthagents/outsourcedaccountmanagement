@@ -173,6 +173,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           <h2>Sources</h2>
           <ol>{rich.sources.map((source) => <li key={source.url}><a href={source.url} rel="noreferrer">{source.name}</a> ({source.date}). {source.note}</li>)}</ol>
         </section>
+        {rich.related?.length ? <aside className="card" aria-label="Related Blog guides"><h2>Related Blog guides</h2><ul>{rich.related.map((relatedSlug) => { const relatedPost = blogPosts.find((item) => item.slug === relatedSlug); return relatedPost ? <li key={relatedSlug}><a href={`/blog/${relatedSlug}`}>{relatedPost.title}</a></li> : null; })}</ul></aside> : null}
       </div>
     </article>
     <div className="container"><CTA /></div>
