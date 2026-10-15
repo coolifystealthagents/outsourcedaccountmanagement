@@ -83,6 +83,20 @@ A fresh production build confirms that each of the five integrated October 2 Res
 
 The sitemap intentionally emits no `lastmod` values. Do not add another contextual service link to these five source routes. Deployment and live verification remain owned by the combined-release workflow.
 
+## October 5 research handoff reconciliation — 2026-10-15
+
+A fresh production build confirms that the five October 5 Research records already render one route-local service link that answers their stated next question. Each source has one emitted canonical artifact and sitemap entry; these pairs are delivered locally and must not receive a duplicate CTA.
+
+| Source route | Existing target route | Route-local artifact result |
+| --- | --- | --- |
+| `/research/client-evidence-expiry-trigger-study` | `/services/account-health-monitoring` | One exact service link in `<main>`; self-canonical and sitemap entry present. |
+| `/research/client-meeting-action-survivorship-study` | `/services/account-reporting` | One exact service link in `<main>`; self-canonical and sitemap entry present. |
+| `/research/escalation-severity-reviewer-agreement-study` | `/services/escalation-coordination` | One exact service link in `<main>`; self-canonical and sitemap entry present. |
+| `/research/account-portfolio-interruption-load-study` | `/services/account-health-monitoring` | One exact service link in `<main>`; self-canonical and sitemap entry present. |
+| `/research/client-offboarding-residual-obligation-study` | `/services/client-onboarding-coordination` | One exact service link in `<main>`; self-canonical and sitemap entry present. |
+
+This source-only reconciliation records delivery state. It does not establish public rollout, ranking performance, or a substitute for external editorial signals.
+
 ## Delivery status — 2026-10-05
 
 Rendered source: `b6e0e56db8b904d65311c673465bae3dfbe0e792` adds one route-local, Philippines-based preparation handoff from `/research/upsell-qualification-boundary-study` to `/services/upsell-opportunity-tracking`. The fresh production artifact has the expected H1, apex canonical URL, Article and Open Graph modified date `2026-10-05`, exactly one route-local upsell-service href, explicit commercial-owner boundaries, and canonical source and target sitemap records; this sitemap intentionally has no `lastmod`.
