@@ -69,6 +69,15 @@ A fresh production-artifact review confirms that the five September 28 studies a
 
 Some existing research records refer to service concepts such as `account planning support`, `client meeting coordination`, `client communication support`, `account transition support`, and `client approval coordination`. These are not entries in `app/data.ts` `services` as of this ledger's date. Do not publish links to those slugs. For a public handoff, select the confirmed target above only where it answers the same reader question, or leave the page unchanged.
 
+### Research batches — 2026-10-12 and 2026-10-13
+
+A fresh production-artifact review on 2026-10-17 confirmed that all ten October research records already have one route-local link to the generated Account Health Monitoring service pillar. These are delivered, non-duplicable handoffs; this source-only ledger update does not add public copy or claim a live deployment.
+
+| Status | Existing source routes | Confirmed target route | Route-local proof |
+| --- | --- | --- | --- |
+| Delivered / non-duplicable | `/research/account-portfolio-workload-denominator-study`, `/research/client-commitment-aging-closure-reliability`, `/research/account-ownership-change-record-continuity`, `/research/escalation-response-time-measurement-bias`, `/research/account-health-missing-data-sensitivity` | `/services/account-health-monitoring` | Each fresh artifact has its self-canonical URL, sitemap location, and exactly one target anchor inside `<main>`; the target artifact and sitemap entry are present. |
+| Delivered / non-duplicable | `/research/account-escalation-severity-coding-reliability`, `/research/client-commitment-source-traceability-study`, `/research/renewal-pipeline-stage-drift-study`, `/research/account-handoff-information-loss-study`, `/research/client-health-signal-freshness-study` | `/services/account-health-monitoring` | Each fresh artifact has its self-canonical URL, sitemap location, and exactly one target anchor inside `<main>`; the target artifact and sitemap entry are present. |
+
 ## Next execution target
 
 Preserve rendered-source commit `f88e291f82398052f91d7ff40e95c9e05a17ed64` for `/research/client-health-signal-calibration` to `/services/account-health-monitoring`. Its local artifact passed with one route-local handoff and `2026-09-14` modified date, but cache-busted apex and www still serve the prior marker and `2026-08-14` modified date; deployment configuration is unavailable in this repository. Select another candidate only after a fresh ledger and route-local artifact review.
