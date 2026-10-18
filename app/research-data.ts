@@ -478,4 +478,15 @@ export const researchPosts: ResearchPost[] = researchPostList.map((post) => post
               after: '. A Philippines-based specialist can prepare the evidence and route the issue. Your team decides any legal, security, financial, contractual, or client commitment.',
             },
           }
+        : post.slug === 'service-exception-recovery-evidence'
+        ? {
+            ...post,
+            updated: '2026-10-18',
+            serviceHandoff: {
+              before: 'When an exception needs a clear record before the next owner check, ',
+              label: 'review escalation coordination support',
+              href: '/services/escalation-coordination',
+              after: '. A Philippines-based specialist can gather the facts, prepare an approved update, and route the issue. Your team decides remediation, client commitments, and when recovery is verified.',
+            },
+          }
         : post);
