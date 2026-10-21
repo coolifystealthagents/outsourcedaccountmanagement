@@ -51,34 +51,18 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="portfolio-visual" aria-label="Sample account portfolio view">
-            <div className="photo-frame">
-              <img src="/illustrations/getillustrations/communication-illustrations-pack-svg/client-account-support.webp" alt="Illustration of a client account specialist managing support conversations" />
-              <span className="photo-caption">A steady desk behind the client book</span>
+          <figure className="homepage-hero-figure">
+            <div className="homepage-hero-image">
+              <img
+                src="/brand/stealth-agents-filipina-virtual-assistant.webp"
+                width="640"
+                height="720"
+                fetchPriority="high"
+                alt="Filipina virtual assistant from Stealth Agents working in a professional office"
+              />
             </div>
-            <div className="portfolio-board">
-              <div className="board-top">
-                <div><span className="board-kicker">Sample weekly view</span><strong>Account portfolio</strong></div>
-                <span className="live-dot">Review ready</span>
-              </div>
-              <div className="account-row">
-                <span className="account-icon coral"><img src="/icons/getillustrations/blueprint-communication-icons-svg/follow-up.svg" alt="Client follow-up task"/></span>
-                <div><strong>Reply follow-up</strong><small>Owner note is ready</small></div>
-                <span className="status">Today</span>
-              </div>
-              <div className="account-row">
-                <span className="account-icon mint"><img src="/icons/getillustrations/blueprint-communication-icons-svg/client-email.svg" alt="Client renewal email"/></span>
-                <div><strong>Renewal brief</strong><small>Open items collected</small></div>
-                <span className="status">Review</span>
-              </div>
-              <div className="account-row">
-                <span className="account-icon sand"><img src="/icons/getillustrations/blueprint-communication-icons-svg/owner-call.svg" alt="Account owner decision"/></span>
-                <div><strong>Owner decision</strong><small>Escalation is documented</small></div>
-                <span className="status">Handoff</span>
-              </div>
-              <div className="board-foot"><span>Next account review</span><strong>Agenda prepared</strong></div>
-            </div>
-          </div>
+            <figcaption>Official Stealth Agents virtual assistant in a professional office.</figcaption>
+          </figure>
         </div>
       </section>
 

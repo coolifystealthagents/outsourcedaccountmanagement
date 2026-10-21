@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 const page = readFileSync(new URL('../app/page.tsx', import.meta.url), 'utf8');
 const components = readFileSync(new URL('../app/components.tsx', import.meta.url), 'utf8');
 const layout = readFileSync(new URL('../app/layout.tsx', import.meta.url), 'utf8');
+const heroAsset = readFileSync(new URL('../public/brand/stealth-agents-filipina-virtual-assistant.webp', import.meta.url));
 const imageTags = (source) => [...source.matchAll(/<img\b[^>]*>/gs)].map(([tag]) => tag);
 const pageImages = imageTags(page);
 const sharedImages = imageTags(components);
@@ -14,7 +15,14 @@ const missingLabels = renderedImages.filter((tag) => {
 });
 const hiddenLabels = renderedImages.filter((tag) => /\baria-hidden\s*=\s*["']true["']/.test(tag));
 
-assert.equal(renderedImages.length, 12, 'homepage image inventory changed');
+assert.equal(renderedImages.length, 9, 'homepage image inventory changed');
+assert.match(page, /stealth-agents-filipina-virtual-assistant\.webp[\s\S]*width="640"[\s\S]*height="720"[\s\S]*fetchPriority="high"/, 'homepage hero must use the approved high-priority first-party photograph with intrinsic dimensions');
+assert.doesNotMatch(page, /portfolio-board|client-account-support\.webp/, 'homepage hero must not retain the fabricated portfolio overlay or unrelated illustration');
+assert.equal(heroAsset.subarray(0, 4).toString(), 'RIFF', 'homepage hero must remain a valid WebP asset');
+const vp8Start = heroAsset.indexOf(Buffer.from([0x9d, 0x01, 0x2a]));
+assert.ok(vp8Start > 0, 'homepage hero dimensions could not be read');
+assert.equal(heroAsset.readUInt16LE(vp8Start + 3) & 0x3fff, 640, 'homepage hero intrinsic width changed');
+assert.equal(heroAsset.readUInt16LE(vp8Start + 5) & 0x3fff, 720, 'homepage hero intrinsic height changed');
 assert.equal(missingLabels.length, 0, `found ${missingLabels.length} rendered homepage images without labels`);
 assert.equal(hiddenLabels.length, 0, `found ${hiddenLabels.length} rendered homepage image labels hidden from assistive technology`);
 assert.equal((page.match(/<h1\b/g) || []).length, 1, 'homepage must render exactly one H1');
