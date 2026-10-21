@@ -1,4 +1,56 @@
-import type {Metadata} from 'next'; import {notFound} from 'next/navigation'; import {Header,Footer,CTA,JsonLd} from '../../components'; import {services,site} from '../../data';
-const base=`https://${String(site.domain).toLowerCase()}`; export function generateStaticParams(){return services.map(s=>({slug:s.slug}))}
-export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{const {slug}=await params;const s=services.find(x=>x.slug===slug);if(!s)return {title:'Service not found'};return {title:s.title,description:s.desc,alternates:{canonical:`/services/${s.slug}`}}}
-export default async function Service({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const s=services.find(x=>x.slug===slug);if(!s)notFound();const url=`${base}/services/${s.slug}`;return <><Header/><main><JsonLd data={{'@context':'https://schema.org','@type':'Service',name:s.title,description:s.desc,url,areaServed:'Philippines'}}/><section className="service-hero"><div className="container two"><div><p className="eyebrow">Philippines-based service</p><h1>{s.title}</h1><p className="lead">{s.desc}</p><a className="btn primary" href="/contact-us">Discuss this role</a></div><div className="support-strip"><h2>Built for a clear handoff</h2><p>Filipino specialists work from your examples, system permissions, and approval rules. Your team keeps ownership of exceptions and final decisions.</p><ul><li>Documented recurring tasks</li><li>Named quality reviewer</li><li>Defined escalation path</li><li>Weekly workload review</li></ul></div></div></section><section className="section"><div className="container cards"><article className="card"><h2>Role scope</h2><p>The Filipino specialist receives a written task list, schedule, and expected outputs.</p></article><article className="card"><h2>Access plan</h2><p>Permissions begin with the systems needed for approved Philippines-based work.</p></article><article className="card"><h2>Review rhythm</h2><p>Samples, open questions, and exceptions stay visible to the role owner.</p></article></div></section><CTA/></main><Footer/></>}
+import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import { Header, Footer, CTA, JsonLd } from '../../components';
+import { services, site } from '../../data';
+import { getServiceDetail, serviceDetails } from '../../service-content';
+import { seoTitle } from '../../lib/content-contracts';
+
+const base = `https://${String(site.domain).toLowerCase()}`;
+
+export function generateStaticParams() {
+  return serviceDetails.map((service) => ({ slug: service.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const service = getServiceDetail(slug);
+  if (!service) return { title: 'Service not found' };
+  return {
+    title: seoTitle(`${service.title} | Account support`),
+    description: service.summary,
+    alternates: { canonical: `/services/${service.slug}` },
+    openGraph: { title: service.title, description: service.summary, url: `${base}/services/${service.slug}`, images: [{ url: `${base}${service.heroImage}`, alt: `${service.title} workflow illustration` }] },
+  };
+}
+
+export default async function ServicePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const service = getServiceDetail(slug);
+  if (!service) notFound();
+  const url = `${base}/services/${service.slug}`;
+  const related = service.related.map((item) => services.find((candidate) => candidate.slug === item)).filter(Boolean);
+  const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: service.faqs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })) };
+
+  return <>
+    <Header />
+    <main id="main-content" tabIndex={-1}>
+      <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Service', name: service.title, description: service.summary, url, areaServed: 'Philippines', provider: { '@type': 'Organization', name: site.brand, url: base } }} />
+      <JsonLd data={faqSchema} />
+      <section className="service-hero"><div className="container service-detail-hero">
+        <div><p className="eyebrow">Philippines-based account support</p><h1>{service.title}</h1><p className="lead">{service.summary}</p><a className="btn primary" href="/contact-us">Discuss this service</a></div>
+        <img src={service.heroImage} width="900" height="700" alt={`${service.title} team workflow illustration`} />
+      </div></section>
+      <section className="section"><div className="container service-detail-layout">
+        <div><p className="eyebrow">Practical outcomes</p><h2>What this support is designed to improve</h2><p>Start with a documented source of truth, limited permissions, and a named reviewer. The specialist handles recurring coordination while accountable owners retain judgment and authority.</p></div>
+        <ul className="service-outcomes">{service.outcomes.map((item) => <li key={item}>{item}</li>)}</ul>
+      </div></section>
+      <section className="service-detail-band"><div className="container"><p className="eyebrow">Working deliverables</p><h2>Artifacts your team can inspect and use</h2><div className="service-deliverables">{service.deliverables.map((item) => <article key={item}><h3>{item}</h3><p>Created from approved systems and templates, then maintained on the agreed review cadence.</p></article>)}</div></div></section>
+      <section className="section"><div className="container"><p className="eyebrow">Operating workflow</p><h2>A controlled path from intake to review</h2><div className="service-workflow">{service.workflow.map((step) => <article key={step.title}><h3>{step.title}</h3><p>{step.body}</p></article>)}</div></div></section>
+      <section className="relationship"><div className="container"><p className="eyebrow">Authority boundaries</p><h2>Useful support with decisions kept in the right hands</h2><div className="service-boundaries"><article><h3>The specialist can support</h3><ul>{service.boundaries.supports.map((item) => <li key={item}>{item}</li>)}</ul></article><article><h3>Your accountable owner keeps</h3><ul>{service.boundaries.ownerKeeps.map((item) => <li key={item}>{item}</li>)}</ul></article></div></div></section>
+      <section className="section"><div className="container service-faq"><p className="eyebrow">Frequently asked questions</p><h2>Planning this service</h2>{service.faqs.map((faq) => <details key={faq.question}><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div></section>
+      <section className="container related-services" aria-labelledby="related-services-title"><h2 id="related-services-title">Related account support services</h2><div className="cards">{related.map((item) => item ? <a className="card" href={`/services/${item.slug}`} key={item.slug}><h3>{item.title}</h3><p>{item.desc}</p><strong>Explore service</strong></a> : null)}</div></section>
+      <div className="container"><CTA /></div>
+    </main>
+    <Footer />
+  </>;
+}

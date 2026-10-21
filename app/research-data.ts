@@ -146,7 +146,7 @@ const august13Sections = (label: string, service: string, thesis: string, topic:
   ] },
   { heading: 'Analyze failure modes, not just missing fields', paragraphs: [
     `Missing evidence can arise from different causes: the source was never created, the source exists in an unapproved location, the owner was unclear, the record was not updated after a change, or the evidence was intentionally withheld because authority was unresolved. Each cause needs a different response. A field-completion score alone cannot tell those cases apart and may reward copying information into a system without improving accountability.`,
-    `For ${label}, test at least one negative case and one ambiguous case. A negative case has a clear missing or overdue condition. An ambiguous case has conflicting sources or a client statement that requires owner confirmation. Recording how the reviewer resolved—or deliberately did not resolve—the ambiguity gives the analysis more value than a binary pass label.`
+    `For ${label}, test at least one negative case and one ambiguous case. A negative case has a clear missing or overdue condition. An ambiguous case has conflicting sources or a client statement that requires owner confirmation. Recording how the reviewer resolved, or deliberately did not resolve, the ambiguity gives the analysis more value than a binary pass label.`
   ] },
   { heading: 'Translate findings into a decision-ready record', paragraphs: [
     `A decision-ready record contains the finding, evidence, impact, uncertainty, recommended next question, accountable owner, and next review date. The recommendation should be framed as an option or request for decision when authority is not delegated. It should never imply that preparation access grants permission to commit the company or speak for the client.`,
@@ -335,7 +335,7 @@ function august18Sections(topic: typeof august18Topics[number]): ResearchSection
     ] },
     { heading: 'Limitations and decision use', paragraphs: [
       `The sample may be incomplete because quiet work, undocumented conversations, and inaccessible client systems are absent. Account size, contract language, geography, tool configuration, and stakeholder availability can change the meaning of the same signal. Small samples support a local review question; they do not support a universal rate or promise of retention, revenue, satisfaction, or service quality.`,
-      `Use the result as a bounded decision aid. State which record should be corrected, which owner should decide, what approved client wording is needed, and when the evidence will be checked again. If the evidence threshold is not met, the responsible conclusion is uncertainty with a route—not a confident status invented to make the report look complete.`,
+      `Use the result as a bounded decision aid. State which record should be corrected, which owner should decide, what approved client wording is needed, and when the evidence will be checked again. If the evidence threshold is not met, the responsible conclusion is uncertainty with a route, not a confident status invented to make the report look complete.`,
     ] },
     { heading: 'Evidence-led conclusion', paragraphs: [
       `The conclusion for ${label} is therefore operational and modest: ${thesis} The conclusion is credible only when another reviewer can follow the source trail, distinguish fact from analysis, see the authority boundary, and understand what would change the finding.`,

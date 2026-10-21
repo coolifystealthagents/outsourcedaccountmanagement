@@ -1,5 +1,8 @@
 import * as data from './data';
 import { Header, Footer, JsonLd } from './components';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = { alternates: { canonical: '/' } };
 
 const d = data as any;
 const site = d.site || {};
@@ -27,7 +30,7 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className="account-desk" data-design="account-desk-2026" data-gi-rollout="two-illustration-packs-one-icon-pack">
+    <main className="account-desk" data-design="account-desk-2026" data-gi-rollout="two-illustration-packs-one-icon-pack" id="main-content" tabIndex={-1}>
       <JsonLd data={schema} />
 
       <section className="desk-hero">
@@ -93,8 +96,7 @@ export default function Home() {
           <p>Client relationships rarely break because of one dramatic mistake. More often, small follow-ups slip, CRM notes age, and nobody can see the next step. The account desk keeps that routine visible.</p>
         </div>
         <div className="workflow-grid">
-          {workflow.map((item, index) => <article className="workflow-card" key={item.label}>
-            <span className="card-number">0{index + 1}</span>
+          {workflow.map((item) => <article className="workflow-card" key={item.label}>
             <h3>{item.label}</h3>
             <p>{item.copy}</p>
           </article>)}
@@ -110,8 +112,7 @@ export default function Home() {
             <a className="text-link light" href="/contact-us">Talk through the first scope <span aria-hidden="true">↗</span></a>
           </div>
           <div className="service-list">
-            {services.map((service: any, index: number) => <a href={`/services/${slug(service)}`} key={slug(service)}>
-              <span className="service-index">0{index + 1}</span>
+            {services.map((service: any) => <a href={`/services/${slug(service)}`} key={slug(service)}>
               <div><h3>{title(service)}</h3><p>{text(service)}</p></div>
               <span className="service-arrow" aria-hidden="true">↗</span>
             </a>)}
@@ -154,9 +155,9 @@ export default function Home() {
             <h2>Test the desk on a short account list.</h2>
           </div>
           <div className="launch-steps">
-            <article><span>1</span><h3>Map the book</h3><p>Choose the accounts, recurring tasks, systems, and decisions that still need an internal owner.</p></article>
-            <article><span>2</span><h3>Show good work</h3><p>Share a finished account note, a useful follow-up, and the weekly view your team already trusts.</p></article>
-            <article><span>3</span><h3>Review before expanding</h3><p>Check the first work closely. Add more accounts only when the handoffs feel boring and dependable.</p></article>
+            <article><h3>Map the book</h3><p>Choose the accounts, recurring tasks, systems, and decisions that still need an internal owner.</p></article>
+            <article><h3>Show good work</h3><p>Share a finished account note, a useful follow-up, and the weekly view your team already trusts.</p></article>
+            <article><h3>Review before expanding</h3><p>Check the first work closely. Add more accounts only when the handoffs feel boring and dependable.</p></article>
           </div>
         </div>
       </section>
@@ -173,8 +174,8 @@ export default function Home() {
           <a href="/blog">View all guides <span aria-hidden="true">↗</span></a>
         </div>
         <div className="guide-grid">
-          {posts.map((post: any, index: number) => <a href={`/blog/${post.slug}`} key={post.slug}>
-            <span className="guide-meta">Guide 0{index + 1} · {post.minutes || 7} min</span>
+          {posts.map((post: any) => <a href={`/blog/${post.slug}`} key={post.slug}>
+            <span className="guide-meta">Practical guide · {post.minutes || 7} min read</span>
             <h3>{title(post)}</h3>
             <p>{text(post)}</p>
             <strong>Read the guide <span aria-hidden="true">→</span></strong>

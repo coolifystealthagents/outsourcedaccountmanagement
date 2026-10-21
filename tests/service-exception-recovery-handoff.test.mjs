@@ -14,6 +14,6 @@ assert.match(record, /label: 'review escalation coordination support'/, 'handoff
 assert.match(record, /href: '\/services\/escalation-coordination'/, 'handoff must use the approved escalation destination');
 assert.match(record, /A Philippines-based specialist can gather the facts, prepare an approved update, and route the issue\. Your team decides remediation, client commitments, and when recovery is verified\./, 'handoff must preserve preparation and owner-decision boundaries');
 assert.doesNotMatch(record, /client communication support/, 'handoff must not reuse an unrelated generic service label');
-assert.match(renderer, /const nextLinks=p\.internalLinks\.filter\(link=>link\.href!==p\.serviceHandoff\?\.href\)/, 'shared research renderer must suppress a duplicate next-step link when the inline handoff owns the destination');
+assert.match(renderer, /const nextLinks = post\.internalLinks\.filter\(\(link\) => link\.href !== post\.serviceHandoff\?\.href\);/, 'shared research renderer must suppress a duplicate next-step link when the inline handoff owns the destination');
 
 console.log('service exception recovery handoff contract passed');

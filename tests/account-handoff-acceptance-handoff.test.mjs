@@ -12,7 +12,7 @@ assert.match(branch, /updated: '2026-09-12'/, 'handoff must refresh its actual m
 assert.match(branch, /href: '\/services\/implementation-handoff-support'/, 'handoff must use the existing implementation handoff service');
 assert.match(branch, /organize approved context, open work, and the next review/, 'handoff must retain the permitted preparation task');
 assert.match(branch, /access decisions, contract changes, and client commitments/, 'handoff must retain the owner decision boundary');
-assert.match(renderer, /p\.serviceHandoff&&<p>/, 'research renderer must render the data-owned handoff inside the article');
-assert.match(renderer, /modifiedTime:`\$\{p\.updated\}T00:00:00\.000Z`/, 'research metadata must use the record modified date');
+assert.match(renderer, /post\.serviceHandoff && <p/, 'research renderer must render the data-owned handoff inside the article');
+assert.match(renderer, /modifiedTime: `\$\{post\.updated\}T00:00:00\.000Z`/, 'research metadata must use the record modified date');
 
 console.log('account handoff acceptance source contract passed');

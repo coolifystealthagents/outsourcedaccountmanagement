@@ -58,7 +58,7 @@ const serviceCollectionSchema = {
 export default function Services() {
   return <>
     <Header />
-    <main>
+    <main id="main-content" tabIndex={-1}>
       <JsonLd data={serviceCollectionSchema} />
       <section className="architecture-hero">
         <div className="container">

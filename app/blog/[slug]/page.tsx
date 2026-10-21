@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { allDailyBlogPosts as blogPosts, site } from '../../data';
 import { richArticles } from '../../rich-articles';
+import { EditorialLayout } from '../../editorial-layout';
+import { normalizeInternalHref, seoTitle } from '../../lib/content-contracts';
 
 const base = `https://${String(site.domain).toLowerCase()}`;
 
@@ -16,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!post) return { title: 'Article not found' };
   const rich = richArticles[slug];
   return {
-    title: rich?.title || post.title,
+    title: seoTitle(rich?.title || post.title),
     description: rich?.description || post.excerpt,
     alternates: { canonical: `/blog/${slug}` },
     openGraph: {
@@ -63,9 +65,9 @@ function HandoffGraphic({ graphic }: { graphic?: { title: string; desc: string; 
     desc: 'A process graphic moves an account from the outgoing manager to a written account record, then to the incoming Filipino account manager with owner review.',
     heading: 'A clean handoff path',
     steps: [
-      { title: '1  Capture', line1: 'History, promises,', line2: 'risks, next action', color: '#e8c98e' },
-      { title: '2  Check', line1: 'Owner, access,', line2: 'approval limits', color: '#b9dfce' },
-      { title: '3  Review', line1: 'First notes, client', line2: 'message, risk view', color: '#ffd9ce' },
+      { title: 'Capture', line1: 'History, promises,', line2: 'risks, next action', color: '#e8c98e' },
+      { title: 'Check', line1: 'Owner, access,', line2: 'approval limits', color: '#b9dfce' },
+      { title: 'Review', line1: 'First notes, client', line2: 'message, risk view', color: '#ffd9ce' },
     ],
     caption: 'The handoff record sits between the old owner and the new manager. The internal account owner checks the record and the first live work before the account list grows.',
   };
@@ -96,7 +98,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const url = `${base}/blog/${post.slug}`;
 
   if (!rich) {
-    return <><Header hideScope /><main className="section"><JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: post.title, description: post.excerpt, url }} /><article className="container guide-article"><p className="eyebrow">Philippines staffing blog</p><h1>{post.title}</h1><p className="lead">{post.excerpt}</p><div className="card"><h2>Start with a defined role</h2><p>Write the recurring tasks, examples, tools, and approval boundaries before a Filipino specialist begins. This gives the role owner a practical basis for review.</p><h2>Build a controlled handoff</h2><p>Begin with low-risk samples and only the permissions required for the approved Philippines-based workload. Record questions and exceptions for the owner.</p><h2>Review the workload</h2><p>Use a weekly check of completed work, open decisions, and changing priorities. Update the role notes when the process changes.</p></div><p className='article-source-note'><a href="https://www.ilo.org/global/topics/non-standard-employment/WCMS_534825/lang--en/index.htm" target="_blank" rel="noopener noreferrer">International Labour Organization guidance on remote work arrangements</a> reinforces why remote role briefs should document expectations, communication rhythms, and accountable handoffs.</p></article><CTA /></main><Footer hideScope /></>;
+    const fallbackToc = [{ id: 'defined-role', label: 'Start with a defined role' }, { id: 'controlled-handoff', label: 'Build a controlled handoff' }, { id: 'review-workload', label: 'Review the workload' }];
+    return <><Header hideScope /><main className="section" id="main-content" tabIndex={-1}><JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: post.title, description: post.excerpt, url }} /><article className="container guide-article"><p className="eyebrow">Philippines staffing blog</p><h1>{post.title}</h1><p className="lead">{post.excerpt}</p><EditorialLayout items={fallbackToc}><div className="card"><h2 id="defined-role">Start with a defined role</h2><p>Write the recurring tasks, examples, tools, and approval boundaries before a Filipino specialist begins. This gives the role owner a practical basis for review.</p><h2 id="controlled-handoff">Build a controlled handoff</h2><p>Begin with low-risk samples and only the permissions required for the approved Philippines-based workload. Record questions and exceptions for the owner.</p><h2 id="review-workload">Review the workload</h2><p>Use a weekly check of completed work, open decisions, and changing priorities. Update the role notes when the process changes.</p></div><p className='article-source-note'><a href="https://www.ilo.org/global/topics/non-standard-employment/WCMS_534825/lang--en/index.htm" target="_blank" rel="noopener noreferrer">International Labour Organization guidance on remote work arrangements</a> reinforces why remote role briefs should document expectations, communication rhythms, and accountable handoffs.</p></EditorialLayout></article><CTA /></main><Footer hideScope /></>;
   }
 
   const articleSchema = {
@@ -127,20 +130,28 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     ],
   };
 
+  const toc = [
+    { id: 'key-takeaways', label: rich.takeawaysTitle || 'Key takeaways' },
+    ...rich.sections.map((section, index) => ({ id: `section-${index + 1}`, label: section.heading })),
+    { id: 'client-script', label: rich.scriptTitle || 'Client handoff note' },
+    { id: 'frequently-asked-questions', label: rich.faqTitle || 'Frequently asked questions' },
+    { id: 'sources', label: 'Sources' },
+  ];
+
   return <><Header hideScope /><main className="article-page">
     <JsonLd data={articleSchema} /><JsonLd data={faqSchema} /><JsonLd data={breadcrumbSchema} />
     <article className="container rich-article" data-article-slug={slug}>
       <header className="article-hero">
-        {rich.heroImage && <img src={rich.heroImage} alt="" width={716} height={716} className="article-hero-image" />}
+        {rich.heroImage && <img src={rich.heroImage} alt={`${rich.title} editorial illustration`} width={716} height={716} className="article-hero-image" />}
         <p className="eyebrow">Philippines account support</p>
         <h1>{rich.title}</h1>
         <p className="article-deck">{rich.description}</p>
         <p className="article-meta">Published <time dateTime={rich.published}>{new Date(`${rich.published}T00:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time> · {rich.readMinutes} minute read</p>
       </header>
 
-      <div className="article-body">
+      <EditorialLayout items={toc} related={(rich.related || []).map((relatedSlug) => { const item = blogPosts.find((candidate) => candidate.slug === relatedSlug); return { href: `/blog/${relatedSlug}`, label: item?.title || relatedSlug }; })}><div className="article-body">
         {rich.intro.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-        <aside className="takeaway-box"><h2>{rich.takeawaysTitle || 'What to carry into the handoff'}</h2><ul>{rich.takeaways.map((item) => <li key={item}>{item}</li>)}</ul></aside>
+        <aside className="takeaway-box"><h2 id="key-takeaways">{rich.takeawaysTitle || 'What to carry into the handoff'}</h2><ul>{rich.takeaways.map((item) => <li key={item}>{item}</li>)}</ul></aside>
 
         {rich.sections.map((section, index) => <section key={section.heading} id={`section-${index + 1}`}>
           <h2>{section.heading}</h2>
@@ -150,31 +161,31 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <div className="table-wrap" role="region" aria-label={`Scrollable table: ${rich.table.caption}`} tabIndex={0}><table><caption>{rich.table.caption}</caption><thead><tr>{rich.table.headers.map((header) => <th key={header} scope="col">{header}</th>)}</tr></thead><tbody>{rich.table.rows.map((row) => <tr key={row[0]}>{row.map((cell, cellIndex) => cellIndex === 0 ? <th key={cell} scope="row">{cell}</th> : <td key={cell}>{cell}</td>)}</tr>)}</tbody></table></div>
             <CommunicationChart points={rich.chart} meta={rich.chartMeta} />
           </>}
-          {index === 3 && <blockquote className="expert-quote"><p>“{rich.quote.text}”</p><cite><a href={rich.quote.url} rel="noreferrer">{rich.quote.source}</a></cite></blockquote>}
+          {index === 3 && <blockquote className="expert-quote"><p>“{rich.quote.text}”</p><cite><a href={normalizeInternalHref(rich.quote.url)} rel="noreferrer">{rich.quote.source}</a></cite></blockquote>}
           {index === 4 && <HandoffGraphic graphic={rich.graphic} />}
           {(index === 0 || index === 2 || index === 4) && (() => {
             const banner = rich.banners[index === 0 ? 0 : index === 2 ? 1 : 2] ?? rich.banners[0];
-            return <aside className="article-banner" data-banner={banner.label}><p>{banner.label}</p><h3>{banner.title}</h3><p>{banner.body}</p><a href={banner.href}>{banner.link}</a></aside>;
+            return <aside className="article-banner" data-banner={banner.label}><p>{banner.label}</p><h3>{banner.title}</h3><p>{banner.body}</p><a href={normalizeInternalHref(banner.href)}>{banner.link}</a></aside>;
           })()}
         </section>)}
 
-        <section className="client-script">
+        <section className="client-script" id="client-script">
           <h2>{rich.scriptTitle || 'A short client handoff note'}</h2>
           <p>{rich.scriptIntro || 'Use this as a starting point, then replace the bracketed date and match the wording to the client relationship. Send it only after the account owner checks the handoff map.'}</p>
           <div className="script-copy">{rich.script.map((line) => <p key={line}>{line}</p>)}</div>
         </section>
 
-        <section className="article-faq">
+        <section className="article-faq" id="frequently-asked-questions">
           <h2>{rich.faqTitle || 'Questions about the handoff'}</h2>
           {rich.faqs.map((faq) => <div key={faq.q}><h3>{faq.q}</h3><p>{faq.a}</p></div>)}
         </section>
 
-        <section className="article-sources">
+        <section className="article-sources" id="sources">
           <h2>Sources</h2>
           <ol>{rich.sources.map((source) => <li key={source.url}><a href={source.url} rel="noreferrer">{source.name}</a> ({source.date}). {source.note}</li>)}</ol>
         </section>
         {rich.related?.length ? <aside className="card" aria-label="Related Blog guides"><h2>Related Blog guides</h2><ul>{rich.related.map((relatedSlug) => { const relatedPost = blogPosts.find((item) => item.slug === relatedSlug); return relatedPost ? <li key={relatedSlug}><a href={`/blog/${relatedSlug}`}>{relatedPost.title}</a></li> : null; })}</ul></aside> : null}
-      </div>
+      </div></EditorialLayout>
     </article>
     <div className="container"><CTA /></div>
   </main><Footer hideScope /></>;

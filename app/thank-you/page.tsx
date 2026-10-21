@@ -5,6 +5,7 @@ import { TestimonialsRail } from '../booking-components';
 export const metadata: Metadata = {
   title: 'Thank You - Book A Meeting',
   description: 'Choose a convenient time to speak with the Stealth Agents team.',
+  alternates: { canonical: '/thank-you' },
   robots: { index: false, follow: false },
 };
 
@@ -12,7 +13,7 @@ export default function ThankYouPage() {
   return (
     <>
       <Header />
-      <main className="sa-booking-page">
+      <main className="sa-booking-page" id="main-content" tabIndex={-1}>
         <div className="container sa-booking-grid">
           <div className="sa-booking-left">
             <p className="sa-booking-kicker">You’re one step away.</p>
