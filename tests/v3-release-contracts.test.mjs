@@ -68,6 +68,7 @@ assert.match(read('app/thank-you/page.tsx'), /go\.oncehub\.com\/StealthAgentsTea
 for (const header of ['Content-Security-Policy', 'Strict-Transport-Security', 'X-Content-Type-Options', 'X-Frame-Options', 'Referrer-Policy', 'Permissions-Policy']) assert.match(config, new RegExp(header), `missing ${header}`);
 assert.match(config, /source: '\/contact'.*destination: '\/contact-us'.*permanent: true/s, 'legacy contact redirect is missing');
 assert.match(config, /source: '\/cancellation'.*destination: '\/cancellation-policy'.*permanent: true/s, 'duplicate cancellation redirect is missing');
+assert.match(config, /x-forwarded-proto'.*value: 'http'.*https:\/\/outsourcedaccountmanagement\.com\/:path\*/s, 'HTTP requests must redirect to the canonical HTTPS origin behind the proxy');
 assert.match(middleware, /try \{ requestedSlug = decodeURIComponent/, 'malformed service URLs must be handled safely');
 assert.doesNotMatch(layout, /alternates:\s*\{\s*canonical:\s*'\/'/, 'root layout must not force the homepage canonical onto every route');
 
