@@ -78,6 +78,12 @@ A fresh production-artifact review on 2026-10-17 confirmed that all ten October 
 | Delivered / non-duplicable | `/research/account-portfolio-workload-denominator-study`, `/research/client-commitment-aging-closure-reliability`, `/research/account-ownership-change-record-continuity`, `/research/escalation-response-time-measurement-bias`, `/research/account-health-missing-data-sensitivity` | `/services/account-health-monitoring` | Each fresh artifact has its self-canonical URL, sitemap location, and exactly one target anchor inside `<main>`; the target artifact and sitemap entry are present. |
 | Delivered / non-duplicable | `/research/account-escalation-severity-coding-reliability`, `/research/client-commitment-source-traceability-study`, `/research/renewal-pipeline-stage-drift-study`, `/research/account-handoff-information-loss-study`, `/research/client-health-signal-freshness-study` | `/services/account-health-monitoring` | Each fresh artifact has its self-canonical URL, sitemap location, and exactly one target anchor inside `<main>`; the target artifact and sitemap entry are present. |
 
+## Reconciliation — 2026-10-21
+
+`/research/service-exception-recovery-evidence` already has one route-local handoff to `/services/escalation-coordination`; it is delivered and must not receive another CTA. The rendered-source commit is `144f15a32dc96e55928f417446ec4ec4281fa56a`.
+
+A fresh production build selected the source artifact by its self-canonical URL. Its `<main>` contains the expected H1, one exact escalation-service anchor, and the stated boundary: a Philippines-based specialist may gather facts, prepare an approved update, and route the issue; the client team decides remediation, commitments, and when recovery is verified. The source and target are both listed in the generated sitemap, and the Article `dateModified` is `2026-10-18`; this repository's sitemap has no `lastmod` contract.
+
 ## Next execution target
 
 Preserve rendered-source commit `f88e291f82398052f91d7ff40e95c9e05a17ed64` for `/research/client-health-signal-calibration` to `/services/account-health-monitoring`. Its local artifact passed with one route-local handoff and `2026-09-14` modified date, but cache-busted apex and www still serve the prior marker and `2026-08-14` modified date; deployment configuration is unavailable in this repository. Select another candidate only after a fresh ledger and route-local artifact review.
