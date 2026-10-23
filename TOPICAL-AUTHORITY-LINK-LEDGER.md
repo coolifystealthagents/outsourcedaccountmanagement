@@ -21,6 +21,7 @@ Only add a public link after confirming the source page, target artifact, and re
 | `/services/escalation-coordination` | Route difficult client issues without implying an unapproved resolution | severity models, escalation acknowledgment, recovery evidence |
 | `/services/implementation-handoff-support` | Move account context between owners in a controlled record | handoff acceptance, transition knowledge, dependency maps |
 | `/services/contract-milestone-tracking` | Track approved commitments and milestone evidence | journey milestones, commitment aging, deliverable acceptance |
+| `/services/upsell-opportunity-tracking` | Preserve client-raised expansion signals for commercial-owner review | qualification boundaries, source context, owner follow-up |
 
 ## Public-link inventory and remaining queue
 
@@ -83,6 +84,12 @@ A fresh production-artifact review on 2026-10-17 confirmed that all ten October 
 `/research/service-exception-recovery-evidence` already has one route-local handoff to `/services/escalation-coordination`; it is delivered and must not receive another CTA. The rendered-source commit is `144f15a32dc96e55928f417446ec4ec4281fa56a`.
 
 A fresh production build selected the source artifact by its self-canonical URL. Its `<main>` contains the expected H1, one exact escalation-service anchor, and the stated boundary: a Philippines-based specialist may gather facts, prepare an approved update, and route the issue; the client team decides remediation, commitments, and when recovery is verified. The source and target are both listed in the generated sitemap, and the Article `dateModified` is `2026-10-18`; this repository's sitemap has no `lastmod` contract.
+
+## Reconciliation — 2026-10-23
+
+`/research/upsell-qualification-boundary-study` already has one route-local handoff to `/services/upsell-opportunity-tracking`; it is delivered and must not receive another CTA. The rendered-source commit is `b6e0e56db8b904d65311c673465bae3dfbe0e792`.
+
+A fresh production build selected the source and target artifacts by their self-canonical URLs. The source `<main>` has the expected H1, exactly one upsell-service anchor, and a boundary that limits the Philippines-based specialist to preparing the source trail and qualification context while the commercial owner retains qualification, pricing, proposal, and commitment decisions. The target has its expected H1; both routes are present in the generated sitemap, which intentionally has no `lastmod` contract.
 
 ## Next execution target
 
