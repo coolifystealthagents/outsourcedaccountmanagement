@@ -314,3 +314,11 @@ label { display: grid; gap: 8px; margin-bottom: 15px; font-size: 13px; font-weig
 .rich-article .article-meta,.research-detail .article-meta{margin-bottom:26px}
 .rich-article h2{margin-top:34px}
 .rich-article .article-meta{margin-bottom:42px!important}
+/* October 22 compact mobile contents: keep the disclosure reachable while reading. */
+@media(max-width:980px){
+  .editorial-toc-mobile{position:fixed!important;top:86px;left:12px;right:12px;z-index:70;margin:0;padding:0;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 24px rgba(20,40,61,.16)}
+  .editorial-toc-mobile:not([open]){height:52px;overflow:hidden}
+  .editorial-toc-mobile>summary{display:flex;align-items:center;justify-content:space-between;min-height:52px;padding:0 16px;list-style:none;cursor:pointer;font-weight:800}
+  .editorial-toc-mobile>summary::-webkit-details-marker{display:none}
+  .editorial-toc-mobile[open] ol{max-height:42vh;overflow:auto;padding:0 16px 14px}
+}
