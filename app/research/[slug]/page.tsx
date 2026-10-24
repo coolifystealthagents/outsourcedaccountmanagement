@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Oct22Toc from '../../oct22-toc';
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { EditorialLayout } from '../../editorial-layout';
@@ -34,6 +35,7 @@ export default async function ResearchPost({ params }: { params: Promise<{ slug:
   const related = nextLinks.map((link) => ({ href: link.href, label: link.label }));
 
   return <><Header/><main className="article-page" id="main-content" tabIndex={-1}><article className="container rich-article research-detail">
+      <Oct22Toc />
     <JsonLd data={schema}/>
     <header className="article-hero">{post.hero && <img src={post.hero} alt={`${post.title} editorial illustration`} width="716" height="716" className="article-hero-image"/>}<p className="eyebrow">{post.cluster} research report</p><h1>{post.title}</h1><p className="article-deck">{post.excerpt}</p><p className="article-meta">Published <time dateTime={published}>{formatReaderDate(published)}</time> · Updated <time dateTime={post.updated}>{formatReaderDate(post.updated)}</time> · {post.sources.length} sources</p></header>
     <EditorialLayout items={toc} related={related}><div className="article-body">

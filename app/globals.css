@@ -307,3 +307,10 @@ label { display: grid; gap: 8px; margin-bottom: 15px; font-size: 13px; font-weig
 /* V3 parent-brand treatment and label-free process cards */
 .parent-brand-mark{display:inline-flex;align-items:center;gap:7px}.parent-brand-mark>span{font-size:10px;font-weight:700}.parent-brand-mark img{width:92px;height:31px;object-fit:contain}.powered-by .parent-brand-mark img{width:84px;height:28px}.footer-powered .parent-brand-mark img{padding:3px;background:#fff}.service-workflow h3{margin-top:0}.workflow-card h3{margin-top:64px}.service-list>a{grid-template-columns:1fr 36px}.launch-steps h3{margin-top:52px}
 @media(max-width:720px){.parent-brand-mark{gap:4px}.powered-by .parent-brand-mark img{width:68px;height:23px}.powered-by .parent-brand-mark>span{font-size:8px}.workflow-card h3,.launch-steps h3{margin-top:24px}}
+@media(max-width:900px){
+  .o22-sticky-toc{position:fixed!important;top:86px;left:12px;right:12px;width:auto!important;max-width:none!important;z-index:60}
+  .o22-sticky-toc>nav{max-height:42vh}
+}
+.rich-article .article-meta,.research-detail .article-meta{margin-bottom:26px}
+.rich-article h2{margin-top:34px}
+.rich-article .article-meta{margin-bottom:42px!important}

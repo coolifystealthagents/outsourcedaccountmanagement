@@ -2,6 +2,7 @@ import { dailyRichArticles } from './daily-blog-batch';
 import { october8RichArticles } from './oct8-content';
 import { october12RichArticles } from './october12-content';
 import { october13RichArticles } from './october13-content';
+import { october22RichArticles } from './october22-content';
 
 export type RichArticle = {
   title: string;
@@ -1732,4 +1733,4 @@ Object.assign(richArticles, Object.fromEntries(augustEntries));
 Object.assign(richArticles, Object.fromEntries(dailyRichArticles));
 Object.assign(richArticles, october8RichArticles);
 Object.assign(richArticles, october12RichArticles);
-Object.assign(richArticles, october13RichArticles);
+Object.assign(richArticles, october22RichArticles, october13RichArticles);
