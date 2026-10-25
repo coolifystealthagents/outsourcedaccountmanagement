@@ -165,8 +165,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           {index === 3 && <blockquote className="expert-quote"><p>“{rich.quote.text}”</p><cite><a href={normalizeInternalHref(rich.quote.url)} rel="noreferrer">{rich.quote.source}</a></cite></blockquote>}
           {index === 4 && <HandoffGraphic graphic={rich.graphic} />}
           {(index === 0 || index === 2 || index === 4) && rich.banners.length > 0 && (() => {
-            const banner = rich.banners[index === 0 ? 0 : index === 2 ? 1 : 2] ?? rich.banners[0];
-            return <aside className="article-banner" data-banner={banner.label}><p>{banner.label}</p><h3>{banner.title}</h3><p>{banner.body}</p><a href={normalizeInternalHref(banner.href)}>{banner.link}</a></aside>;
+            const banner = rich.banners[index === 0 ? 0 : index === 2 ? 1 : 2];
+            return banner ? <aside className="article-banner" data-banner={banner.label}><p>{banner.label}</p><h3>{banner.title}</h3><p>{banner.body}</p><a href={normalizeInternalHref(banner.href)}>{banner.link}</a></aside> : null;
           })()}
         </section>)}
 

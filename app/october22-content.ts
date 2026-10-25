@@ -81,7 +81,7 @@ export const october22RichArticles: Record<string, RichArticle> = {
     "title": "Reconcile the QBR Data Pack Before the Client Sees It",
     "description": "A source reconciliation for QBR metrics, narrative, and the client-facing claims that depend on them.",
     "published": "2026-10-22",
-    "updated": "2026-10-22",
+    "updated": "2026-10-25",
     "readMinutes": 14,
     "heroImage": "/october-22-2026/qbr-data-pack-reconciliation.svg",
     "intro": [
@@ -162,7 +162,15 @@ export const october22RichArticles: Record<string, RichArticle> = {
         ]
       }
     ],
-    "banners": [],
+    "banners": [
+      {
+        "label": "Next step for the report",
+        "title": "Put the QBR back on a checked source trail",
+        "body": "A Philippines-based specialist can gather source links and open items for the client report. The account owner approves the narrative and any promise to the client.",
+        "href": "/services/account-reporting",
+        "link": "Prepare the account reporting handoff"
+      }
+    ],
     "table": {
       "caption": "Evidence and ownership for this workflow",
       "headers": [
