@@ -8,7 +8,7 @@ export const october26ResearchPosts: ResearchPost[] = [
     "cluster": "Account operations",
     "published": "2026-10-26",
     "datePublished": "2026-10-26",
-    "updated": "2026-10-26",
+    "updated": "2026-10-27",
     "hero": "/october-26-2026/triage-accuracy.svg",
     "headlineStat": "A structured review of the record, not a performance score.",
     "statSource": "Protocol specified in this report; no client outcome dataset was analyzed",
@@ -280,15 +280,15 @@ export const october26ResearchPosts: ResearchPost[] = [
     "related": [],
     "internalLinks": [
       {
-        "label": "Account management support",
-        "href": "/services"
+        "label": "Client request routing support",
+        "href": "/services/client-request-routing"
       }
     ],
     "serviceHandoff": {
-      "before": "Use this protocol to",
-      "label": "plan a bounded review",
-      "href": "/services",
-      "after": "while the account owner keeps commercial decisions."
+      "before": "Use this protocol to ",
+      "label": "prepare a controlled client request route",
+      "href": "/services/client-request-routing",
+      "after": ". The Philippines-based support specialist can prepare the request record, apply approved routing rules, and flag missing facts. The account owner decides priority, exceptions, and client-facing commitments."
     }
   },
   {
