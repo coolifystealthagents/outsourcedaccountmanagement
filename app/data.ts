@@ -5,6 +5,7 @@ import { october13BlogPosts } from './october13-content';
 import { october22BlogPosts } from './october22-content';
 import { october25BlogPosts } from './october25-content';
 import { october26BlogPosts } from './october26-content';
+import { october27BlogPosts } from './october27-content';
 
 export const site = {
   domain: 'OutsourcedAccountManagement.com',
@@ -145,7 +146,7 @@ const baseBlogPosts = [
 ] as const;
 
 // Newest publication batches lead the family index; older evergreen posts remain routed.
-export const blogPosts = [...october26BlogPosts,...october25BlogPosts,...october22BlogPosts, ...october13BlogPosts, ...october12BlogPosts, ...october8BlogPosts, ...dailyBlogPosts, ...baseBlogPosts] as const;
+export const blogPosts = [...october27BlogPosts,...october26BlogPosts,...october25BlogPosts,...october22BlogPosts, ...october13BlogPosts, ...october12BlogPosts, ...october8BlogPosts, ...dailyBlogPosts, ...baseBlogPosts] as const;
 export const allDailyBlogPosts = blogPosts;
 
 export const blogDetails = {
