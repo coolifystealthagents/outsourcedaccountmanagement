@@ -8,7 +8,7 @@ export const october26ResearchPosts: ResearchPost[] = [
     "cluster": "Account operations",
     "published": "2026-10-26",
     "datePublished": "2026-10-26",
-    "updated": "2026-10-27",
+    "updated": "2026-10-26",
     "hero": "/october-26-2026/triage-accuracy.svg",
     "headlineStat": "A structured review of the record, not a performance score.",
     "statSource": "Protocol specified in this report; no client outcome dataset was analyzed",
