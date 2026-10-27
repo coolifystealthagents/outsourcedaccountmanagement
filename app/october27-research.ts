@@ -21,7 +21,7 @@ export const october27ResearchPosts: ResearchPost[] = [
       {
         "heading": "Research question and scope",
         "paragraphs": [
-          "Do two reviewers put the same item in the same priority band using the written scoring rule? The scope is the operational record for client account management support, not the legal, financial, or clinical conclusion that may follow.",
+          "A protocol testing whether independent reviewers assign the same priority band to the same client account management support item. The outsourcedaccountmanagement review should show the source, owner, next action, and exception reason for this do reviewers agree on work priority in client account management support? workflow before the item moves.",
           "For client account management support: The study is deliberately narrow. It reports what the record can show in a defined population and window. It does not claim an industry rate or a causal staffing effect."
         ]
       },
@@ -601,7 +601,7 @@ export const october27ResearchPosts: ResearchPost[] = [
       {
         "heading": "Research question and scope",
         "paragraphs": [
-          "How much delay comes from an upstream input, an internal owner, or a rework loop? The scope is the operational record for client account management support, not the legal, financial, or clinical conclusion that may follow.",
+          "A protocol separating upstream wait, owner wait, and rework in client account management support dependency chains. The outsourcedaccountmanagement review should show the source, owner, next action, and exception reason for this where do dependencies add delay in client account management support? workflow before the item moves.",
           "For client account management support: The study is deliberately narrow. It reports what the record can show in a defined population and window. It does not claim an industry rate or a causal staffing effect."
         ]
       },
