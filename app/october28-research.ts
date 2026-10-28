@@ -46,22 +46,10 @@ export const october28ResearchPosts = [
       ]
     },
     "sources": [
-      {
-        "label": "DOL",
-        "url": "https://www.dol.gov/"
-      },
-      {
-        "label": "BLS",
-        "url": "https://www.bls.gov/"
-      },
-      {
-        "label": "NIST",
-        "url": "https://www.nist.gov/cyberframework"
-      },
-      {
-        "label": "GAO",
-        "url": "https://www.gao.gov/"
-      }
+      {"name": "DOL", "date": "2026-10-28", "url": "https://www.dol.gov/", "note": "Public source"},
+      {"name": "BLS", "date": "2026-10-28", "url": "https://www.bls.gov/", "note": "Public source"},
+      {"name": "NIST", "date": "2026-10-28", "url": "https://www.nist.gov/cyberframework", "note": "Public source"},
+      {"name": "GAO", "date": "2026-10-28", "url": "https://www.gao.gov/", "note": "Public source"}
     ],
     "faqs": [
       {
@@ -128,22 +116,10 @@ export const october28ResearchPosts = [
       ]
     },
     "sources": [
-      {
-        "label": "DOL",
-        "url": "https://www.dol.gov/"
-      },
-      {
-        "label": "BLS",
-        "url": "https://www.bls.gov/"
-      },
-      {
-        "label": "NIST",
-        "url": "https://www.nist.gov/cyberframework"
-      },
-      {
-        "label": "GAO",
-        "url": "https://www.gao.gov/"
-      }
+      {"name": "DOL", "date": "2026-10-28", "url": "https://www.dol.gov/", "note": "Public source"},
+      {"name": "BLS", "date": "2026-10-28", "url": "https://www.bls.gov/", "note": "Public source"},
+      {"name": "NIST", "date": "2026-10-28", "url": "https://www.nist.gov/cyberframework", "note": "Public source"},
+      {"name": "GAO", "date": "2026-10-28", "url": "https://www.gao.gov/", "note": "Public source"}
     ],
     "faqs": [
       {
@@ -210,22 +186,10 @@ export const october28ResearchPosts = [
       ]
     },
     "sources": [
-      {
-        "label": "DOL",
-        "url": "https://www.dol.gov/"
-      },
-      {
-        "label": "BLS",
-        "url": "https://www.bls.gov/"
-      },
-      {
-        "label": "NIST",
-        "url": "https://www.nist.gov/cyberframework"
-      },
-      {
-        "label": "GAO",
-        "url": "https://www.gao.gov/"
-      }
+      {"name": "DOL", "date": "2026-10-28", "url": "https://www.dol.gov/", "note": "Public source"},
+      {"name": "BLS", "date": "2026-10-28", "url": "https://www.bls.gov/", "note": "Public source"},
+      {"name": "NIST", "date": "2026-10-28", "url": "https://www.nist.gov/cyberframework", "note": "Public source"},
+      {"name": "GAO", "date": "2026-10-28", "url": "https://www.gao.gov/", "note": "Public source"}
     ],
     "faqs": [
       {
@@ -292,22 +256,10 @@ export const october28ResearchPosts = [
       ]
     },
     "sources": [
-      {
-        "label": "DOL",
-        "url": "https://www.dol.gov/"
-      },
-      {
-        "label": "BLS",
-        "url": "https://www.bls.gov/"
-      },
-      {
-        "label": "NIST",
-        "url": "https://www.nist.gov/cyberframework"
-      },
-      {
-        "label": "GAO",
-        "url": "https://www.gao.gov/"
-      }
+      {"name": "DOL", "date": "2026-10-28", "url": "https://www.dol.gov/", "note": "Public source"},
+      {"name": "BLS", "date": "2026-10-28", "url": "https://www.bls.gov/", "note": "Public source"},
+      {"name": "NIST", "date": "2026-10-28", "url": "https://www.nist.gov/cyberframework", "note": "Public source"},
+      {"name": "GAO", "date": "2026-10-28", "url": "https://www.gao.gov/", "note": "Public source"}
     ],
     "faqs": [
       {
@@ -374,22 +326,10 @@ export const october28ResearchPosts = [
       ]
     },
     "sources": [
-      {
-        "label": "DOL",
-        "url": "https://www.dol.gov/"
-      },
-      {
-        "label": "BLS",
-        "url": "https://www.bls.gov/"
-      },
-      {
-        "label": "NIST",
-        "url": "https://www.nist.gov/cyberframework"
-      },
-      {
-        "label": "GAO",
-        "url": "https://www.gao.gov/"
-      }
+      {"name": "DOL", "date": "2026-10-28", "url": "https://www.dol.gov/", "note": "Public source"},
+      {"name": "BLS", "date": "2026-10-28", "url": "https://www.bls.gov/", "note": "Public source"},
+      {"name": "NIST", "date": "2026-10-28", "url": "https://www.nist.gov/cyberframework", "note": "Public source"},
+      {"name": "GAO", "date": "2026-10-28", "url": "https://www.gao.gov/", "note": "Public source"}
     ],
     "faqs": [
       {
