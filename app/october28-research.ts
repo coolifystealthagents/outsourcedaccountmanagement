@@ -67,7 +67,7 @@ export const october28ResearchPosts = [
     ],
     "related": [],
     "internalLinks": [],
-    "serviceHandoff": "The operations owner keeps the decision."
+    "serviceHandoff": {"before": "The operations owner", "label": "keeps the decision", "href": "/services", "after": "after the record is checked."}
   },
   {
     "slug": "sla-response-study-oct28",
@@ -137,7 +137,7 @@ export const october28ResearchPosts = [
     ],
     "related": [],
     "internalLinks": [],
-    "serviceHandoff": "The operations owner keeps the decision."
+    "serviceHandoff": {"before": "The operations owner", "label": "keeps the decision", "href": "/services", "after": "after the record is checked."}
   },
   {
     "slug": "account-queue-latency-study-oct28",
@@ -207,7 +207,7 @@ export const october28ResearchPosts = [
     ],
     "related": [],
     "internalLinks": [],
-    "serviceHandoff": "The operations owner keeps the decision."
+    "serviceHandoff": {"before": "The operations owner", "label": "keeps the decision", "href": "/services", "after": "after the record is checked."}
   },
   {
     "slug": "invoice-variance-study-oct28",
@@ -277,7 +277,7 @@ export const october28ResearchPosts = [
     ],
     "related": [],
     "internalLinks": [],
-    "serviceHandoff": "The operations owner keeps the decision."
+    "serviceHandoff": {"before": "The operations owner", "label": "keeps the decision", "href": "/services", "after": "after the record is checked."}
   },
   {
     "slug": "access-removal-study-oct28",
@@ -347,6 +347,6 @@ export const october28ResearchPosts = [
     ],
     "related": [],
     "internalLinks": [],
-    "serviceHandoff": "The operations owner keeps the decision."
+    "serviceHandoff": {"before": "The operations owner", "label": "keeps the decision", "href": "/services", "after": "after the record is checked."}
   }
 ];
