@@ -18,15 +18,15 @@ export const october28ResearchPosts = [
     "sections": [
       {
         "heading": "Research question and scope",
-        "body": "Time from trigger to owner response."
+        "paragraphs": ["Time from trigger to owner response."]
       },
       {
         "heading": "Population and unit of analysis",
-        "body": "One event at first observation, with the denominator and window recorded."
+        "paragraphs": ["One event at first observation, with the denominator and window recorded."]
       },
       {
         "heading": "Limitations and next action",
-        "body": "State the limits and set one review action for a later sample."
+        "paragraphs": ["State the limits and set one review action for a later sample."]
       }
     ],
     "table": {
@@ -100,15 +100,15 @@ export const october28ResearchPosts = [
     "sections": [
       {
         "heading": "Research question and scope",
-        "body": "Response evidence against written commitments."
+        "paragraphs": ["Response evidence against written commitments."]
       },
       {
         "heading": "Population and unit of analysis",
-        "body": "One event at first observation, with the denominator and window recorded."
+        "paragraphs": ["One event at first observation, with the denominator and window recorded."]
       },
       {
         "heading": "Limitations and next action",
-        "body": "State the limits and set one review action for a later sample."
+        "paragraphs": ["State the limits and set one review action for a later sample."]
       }
     ],
     "table": {
@@ -182,15 +182,15 @@ export const october28ResearchPosts = [
     "sections": [
       {
         "heading": "Research question and scope",
-        "body": "Time from request to owner response."
+        "paragraphs": ["Time from request to owner response."]
       },
       {
         "heading": "Population and unit of analysis",
-        "body": "One event at first observation, with the denominator and window recorded."
+        "paragraphs": ["One event at first observation, with the denominator and window recorded."]
       },
       {
         "heading": "Limitations and next action",
-        "body": "State the limits and set one review action for a later sample."
+        "paragraphs": ["State the limits and set one review action for a later sample."]
       }
     ],
     "table": {
@@ -264,15 +264,15 @@ export const october28ResearchPosts = [
     "sections": [
       {
         "heading": "Research question and scope",
-        "body": "Variance by scope and change type."
+        "paragraphs": ["Variance by scope and change type."]
       },
       {
         "heading": "Population and unit of analysis",
-        "body": "One event at first observation, with the denominator and window recorded."
+        "paragraphs": ["One event at first observation, with the denominator and window recorded."]
       },
       {
         "heading": "Limitations and next action",
-        "body": "State the limits and set one review action for a later sample."
+        "paragraphs": ["State the limits and set one review action for a later sample."]
       }
     ],
     "table": {
@@ -346,15 +346,15 @@ export const october28ResearchPosts = [
     "sections": [
       {
         "heading": "Research question and scope",
-        "body": "Time from assignment end to removal."
+        "paragraphs": ["Time from assignment end to removal."]
       },
       {
         "heading": "Population and unit of analysis",
-        "body": "One event at first observation, with the denominator and window recorded."
+        "paragraphs": ["One event at first observation, with the denominator and window recorded."]
       },
       {
         "heading": "Limitations and next action",
-        "body": "State the limits and set one review action for a later sample."
+        "paragraphs": ["State the limits and set one review action for a later sample."]
       }
     ],
     "table": {
