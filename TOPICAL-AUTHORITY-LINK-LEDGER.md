@@ -110,3 +110,11 @@ Exactly 12 new Philippines account-support guides were prepared in `app/septembe
 - Local artifact: `/research/client-response-time-clock-definition-study` has the expected H1, self-canonical URL, one Article node with matching Organization author/publisher objects, and a sitemap location. This sitemap intentionally has no `lastmod` contract.
 - Served evidence: cache-busted apex and www routes return HTML 200 with the expected H1 and apex canonical, but each Article node still has no author or publisher. Their XML sitemaps contain the canonical route. The rendered change is `deployment_pending_public_verification / public_stale`.
 - Preserve rendered-source commit `379c27e82d4ae39eed6a28619faef059f27ecb2a`; this status record does not alter route source.
+
+## Delivery status — 2026-10-29
+
+Rendered source: `818da81d1da547db87ca6fed2c1d20b949f89580` restores the real `2026-10-27` modified date for `/research/triage-accuracy` without changing its October 26 publication date. The fresh route artifact has the self-canonical URL, the existing client-request-routing handoff and owner boundary inside `<main>`, Article and Open Graph modified date `2026-10-27`, and an exact sitemap location; this sitemap intentionally has no `lastmod` contract.
+
+Served evidence remains stale. Cache-busted apex and final `www` HTML each have the expected H1, canonical, existing handoff, and owner boundary, but `article:modified_time` remains `2026-10-26T00:00:00.000Z`. The alternate first hop was `308`; the public sitemap includes the exact canonical route and no `lastmod`. No repository-approved deployment target or workflow is recorded, so no deployment was inferred or triggered.
+
+Preserve rendered-source commit `818da81d1da547db87ca6fed2c1d20b949f89580`; this status record classifies the route as `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale`.
