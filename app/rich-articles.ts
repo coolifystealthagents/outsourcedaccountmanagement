@@ -3,6 +3,7 @@ import { october8RichArticles } from './oct8-content';
 import { october12RichArticles } from './october12-content';
 import { october13RichArticles } from './october13-content';
 import { october22RichArticles } from './october22-content';
+import { november02RichArticles } from './november02-content';
 
 export type RichArticle = {
   title: string;
@@ -37,6 +38,7 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  ...november02RichArticles,
   'philippines-account-management-client-meeting-notes-checklist': {
     title: 'Philippines account management client meeting notes checklist',
     description: 'A practical meeting notes checklist for US teams that use a Philippines-based account manager to record client facts, decisions, owners, and follow-up.',
