@@ -106,6 +106,35 @@ export const november03ResearchPosts: ResearchPost[] = [
     "url": "https://www.dol.gov/",
     "note": "Public guidance used as bounded control context."
    }
+  ],
+  "table": {
+   "headers": [
+    "Field",
+    "Definition"
+   ],
+   "rows": [
+    [
+     "Unit",
+     "One account case"
+    ],
+    [
+     "Window",
+     "Declared observation window"
+    ]
+   ]
+  },
+  "faqs": [
+   {
+    "q": "What does the protocol establish?",
+    "a": "A reproducible count within the stated account window, with explicit exclusions."
+   }
+  ],
+  "related": [],
+  "internalLinks": [
+   {
+    "label": "Services",
+    "href": "/services"
+   }
   ]
  },
  {
@@ -212,6 +241,35 @@ export const november03ResearchPosts: ResearchPost[] = [
     "date": "2026-11-03",
     "url": "https://www.dol.gov/",
     "note": "Public guidance used as bounded control context."
+   }
+  ],
+  "table": {
+   "headers": [
+    "Field",
+    "Definition"
+   ],
+   "rows": [
+    [
+     "Unit",
+     "One account case"
+    ],
+    [
+     "Window",
+     "Declared observation window"
+    ]
+   ]
+  },
+  "faqs": [
+   {
+    "q": "What does the protocol establish?",
+    "a": "A reproducible count within the stated account window, with explicit exclusions."
+   }
+  ],
+  "related": [],
+  "internalLinks": [
+   {
+    "label": "Services",
+    "href": "/services"
    }
   ]
  },
@@ -320,6 +378,35 @@ export const november03ResearchPosts: ResearchPost[] = [
     "url": "https://www.dol.gov/",
     "note": "Public guidance used as bounded control context."
    }
+  ],
+  "table": {
+   "headers": [
+    "Field",
+    "Definition"
+   ],
+   "rows": [
+    [
+     "Unit",
+     "One account case"
+    ],
+    [
+     "Window",
+     "Declared observation window"
+    ]
+   ]
+  },
+  "faqs": [
+   {
+    "q": "What does the protocol establish?",
+    "a": "A reproducible count within the stated account window, with explicit exclusions."
+   }
+  ],
+  "related": [],
+  "internalLinks": [
+   {
+    "label": "Services",
+    "href": "/services"
+   }
   ]
  },
  {
@@ -426,6 +513,35 @@ export const november03ResearchPosts: ResearchPost[] = [
     "date": "2026-11-03",
     "url": "https://www.dol.gov/",
     "note": "Public guidance used as bounded control context."
+   }
+  ],
+  "table": {
+   "headers": [
+    "Field",
+    "Definition"
+   ],
+   "rows": [
+    [
+     "Unit",
+     "One account case"
+    ],
+    [
+     "Window",
+     "Declared observation window"
+    ]
+   ]
+  },
+  "faqs": [
+   {
+    "q": "What does the protocol establish?",
+    "a": "A reproducible count within the stated account window, with explicit exclusions."
+   }
+  ],
+  "related": [],
+  "internalLinks": [
+   {
+    "label": "Services",
+    "href": "/services"
    }
   ]
  },
@@ -534,6 +650,35 @@ export const november03ResearchPosts: ResearchPost[] = [
     "url": "https://www.dol.gov/",
     "note": "Public guidance used as bounded control context."
    }
+  ],
+  "table": {
+   "headers": [
+    "Field",
+    "Definition"
+   ],
+   "rows": [
+    [
+     "Unit",
+     "One account case"
+    ],
+    [
+     "Window",
+     "Declared observation window"
+    ]
+   ]
+  },
+  "faqs": [
+   {
+    "q": "What does the protocol establish?",
+    "a": "A reproducible count within the stated account window, with explicit exclusions."
+   }
+  ],
+  "related": [],
+  "internalLinks": [
+   {
+    "label": "Services",
+    "href": "/services"
+   }
   ]
  },
  {
@@ -641,6 +786,35 @@ export const november03ResearchPosts: ResearchPost[] = [
     "url": "https://www.dol.gov/",
     "note": "Public guidance used as bounded control context."
    }
+  ],
+  "table": {
+   "headers": [
+    "Field",
+    "Definition"
+   ],
+   "rows": [
+    [
+     "Unit",
+     "One account case"
+    ],
+    [
+     "Window",
+     "Declared observation window"
+    ]
+   ]
+  },
+  "faqs": [
+   {
+    "q": "What does the protocol establish?",
+    "a": "A reproducible count within the stated account window, with explicit exclusions."
+   }
+  ],
+  "related": [],
+  "internalLinks": [
+   {
+    "label": "Services",
+    "href": "/services"
+   }
   ]
  },
  {
@@ -747,6 +921,35 @@ export const november03ResearchPosts: ResearchPost[] = [
     "date": "2026-11-03",
     "url": "https://www.dol.gov/",
     "note": "Public guidance used as bounded control context."
+   }
+  ],
+  "table": {
+   "headers": [
+    "Field",
+    "Definition"
+   ],
+   "rows": [
+    [
+     "Unit",
+     "One account case"
+    ],
+    [
+     "Window",
+     "Declared observation window"
+    ]
+   ]
+  },
+  "faqs": [
+   {
+    "q": "What does the protocol establish?",
+    "a": "A reproducible count within the stated account window, with explicit exclusions."
+   }
+  ],
+  "related": [],
+  "internalLinks": [
+   {
+    "label": "Services",
+    "href": "/services"
    }
   ]
  }
