@@ -4,6 +4,7 @@ import { october12RichArticles } from './october12-content';
 import { october13RichArticles } from './october13-content';
 import { october22RichArticles } from './october22-content';
 import { november02RichArticles } from './november02-content';
+import { november03RichArticles } from './november03-content';
 
 export type RichArticle = {
   title: string;
@@ -38,6 +39,7 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  ...november03RichArticles,
   ...november02RichArticles,
   'philippines-account-management-client-meeting-notes-checklist': {
     title: 'Philippines account management client meeting notes checklist',
