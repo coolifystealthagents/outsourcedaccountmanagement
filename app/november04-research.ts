@@ -78,23 +78,33 @@ export const november04ResearchPosts: ResearchPost[] = [
   "sources": [
    {
     "name": "NIST Cybersecurity Framework",
-    "url": "https://www.nist.gov/cyberframework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/cyberframework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "NIST Privacy Framework",
-    "url": "https://www.nist.gov/privacy-framework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/privacy-framework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Government Accountability Office",
-    "url": "https://www.gao.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.gao.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Small Business Administration",
-    "url": "https://www.sba.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.sba.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Department of Labor",
-    "url": "https://www.dol.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.dol.gov/",
+    "note": "Public guidance used as bounded control context."
    }
   ]
  },
@@ -175,23 +185,33 @@ export const november04ResearchPosts: ResearchPost[] = [
   "sources": [
    {
     "name": "NIST Cybersecurity Framework",
-    "url": "https://www.nist.gov/cyberframework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/cyberframework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "NIST Privacy Framework",
-    "url": "https://www.nist.gov/privacy-framework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/privacy-framework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Government Accountability Office",
-    "url": "https://www.gao.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.gao.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Small Business Administration",
-    "url": "https://www.sba.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.sba.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Department of Labor",
-    "url": "https://www.dol.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.dol.gov/",
+    "note": "Public guidance used as bounded control context."
    }
   ]
  },
@@ -272,23 +292,33 @@ export const november04ResearchPosts: ResearchPost[] = [
   "sources": [
    {
     "name": "NIST Cybersecurity Framework",
-    "url": "https://www.nist.gov/cyberframework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/cyberframework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "NIST Privacy Framework",
-    "url": "https://www.nist.gov/privacy-framework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/privacy-framework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Government Accountability Office",
-    "url": "https://www.gao.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.gao.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Small Business Administration",
-    "url": "https://www.sba.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.sba.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Department of Labor",
-    "url": "https://www.dol.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.dol.gov/",
+    "note": "Public guidance used as bounded control context."
    }
   ]
  },
@@ -369,23 +399,33 @@ export const november04ResearchPosts: ResearchPost[] = [
   "sources": [
    {
     "name": "NIST Cybersecurity Framework",
-    "url": "https://www.nist.gov/cyberframework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/cyberframework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "NIST Privacy Framework",
-    "url": "https://www.nist.gov/privacy-framework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/privacy-framework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Government Accountability Office",
-    "url": "https://www.gao.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.gao.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Small Business Administration",
-    "url": "https://www.sba.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.sba.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Department of Labor",
-    "url": "https://www.dol.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.dol.gov/",
+    "note": "Public guidance used as bounded control context."
    }
   ]
  },
@@ -466,23 +506,33 @@ export const november04ResearchPosts: ResearchPost[] = [
   "sources": [
    {
     "name": "NIST Cybersecurity Framework",
-    "url": "https://www.nist.gov/cyberframework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/cyberframework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "NIST Privacy Framework",
-    "url": "https://www.nist.gov/privacy-framework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/privacy-framework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Government Accountability Office",
-    "url": "https://www.gao.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.gao.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Small Business Administration",
-    "url": "https://www.sba.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.sba.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Department of Labor",
-    "url": "https://www.dol.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.dol.gov/",
+    "note": "Public guidance used as bounded control context."
    }
   ]
  },
@@ -563,23 +613,33 @@ export const november04ResearchPosts: ResearchPost[] = [
   "sources": [
    {
     "name": "NIST Cybersecurity Framework",
-    "url": "https://www.nist.gov/cyberframework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/cyberframework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "NIST Privacy Framework",
-    "url": "https://www.nist.gov/privacy-framework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/privacy-framework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Government Accountability Office",
-    "url": "https://www.gao.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.gao.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Small Business Administration",
-    "url": "https://www.sba.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.sba.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Department of Labor",
-    "url": "https://www.dol.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.dol.gov/",
+    "note": "Public guidance used as bounded control context."
    }
   ]
  },
@@ -660,23 +720,33 @@ export const november04ResearchPosts: ResearchPost[] = [
   "sources": [
    {
     "name": "NIST Cybersecurity Framework",
-    "url": "https://www.nist.gov/cyberframework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/cyberframework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "NIST Privacy Framework",
-    "url": "https://www.nist.gov/privacy-framework"
+    "date": "2026-11-04",
+    "url": "https://www.nist.gov/privacy-framework",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Government Accountability Office",
-    "url": "https://www.gao.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.gao.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Small Business Administration",
-    "url": "https://www.sba.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.sba.gov/",
+    "note": "Public guidance used as bounded control context."
    },
    {
     "name": "U.S. Department of Labor",
-    "url": "https://www.dol.gov/"
+    "date": "2026-11-04",
+    "url": "https://www.dol.gov/",
+    "note": "Public guidance used as bounded control context."
    }
   ]
  }
