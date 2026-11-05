@@ -8,6 +8,7 @@ import { october26BlogPosts } from './october26-content';
 import { october27BlogPosts } from './october27-content';
 import { november02BlogPosts } from './november02-content';
 import { november03BlogPosts } from './november03-content';
+import { november05BlogPosts } from './november05-content';
 import { november04BlogPosts } from './november04-content';
 import { october28BlogPosts } from './october28-content';
 
@@ -150,7 +151,7 @@ const baseBlogPosts = [
 ] as const;
 
 // Newest publication batches lead the family index; older evergreen posts remain routed.
-export const blogPosts = [...november04BlogPosts, ...november03BlogPosts, ...november02BlogPosts, ...october28BlogPosts, ...october27BlogPosts,...october26BlogPosts,...october25BlogPosts,...october22BlogPosts, ...october13BlogPosts, ...october12BlogPosts, ...october8BlogPosts, ...dailyBlogPosts, ...baseBlogPosts] as const;
+export const blogPosts = [...november05BlogPosts, ...november04BlogPosts, ...november03BlogPosts, ...november02BlogPosts, ...october28BlogPosts, ...october27BlogPosts,...october26BlogPosts,...october25BlogPosts,...october22BlogPosts, ...october13BlogPosts, ...october12BlogPosts, ...october8BlogPosts, ...dailyBlogPosts, ...baseBlogPosts] as const;
 export const allDailyBlogPosts = blogPosts;
 
 export const blogDetails = {

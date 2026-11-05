@@ -322,3 +322,14 @@ label { display: grid; gap: 8px; margin-bottom: 15px; font-size: 13px; font-weig
   .editorial-toc-mobile>summary::-webkit-details-marker{display:none}
   .editorial-toc-mobile[open] ol{max-height:42vh;overflow:auto;padding:0 16px 14px}
 }
+
+/* 2026-11-05 batch: compact two-column article and continuous prose */
+.editorial-layout{grid-template-columns:280px minmax(0,1fr);gap:32px;align-items:start}
+.article-body h2{margin:1.8em 0 .65em}
+.article-body p{margin:0 0 1.15em;line-height:1.7}
+.article-body section{margin:0 0 1.8rem;border:0;box-shadow:none;background:transparent;padding:0}
+@media(max-width:980px){.editorial-layout{gap:24px}}
+@media(max-width:980px){
+  .editorial-toc-mobile{position:static!important;top:auto;left:auto;right:auto;z-index:auto;box-shadow:none;margin:20px 0}
+  .editorial-toc-mobile:not([open]){height:auto;overflow:visible}
+}
