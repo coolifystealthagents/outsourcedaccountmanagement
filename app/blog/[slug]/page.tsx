@@ -60,7 +60,7 @@ function CommunicationChart({ points, meta }: { points: ReadonlyArray<{ label: s
   </figure>;
 }
 
-function HandoffGraphic({ graphic }: { graphic?: { title: string; desc: string; heading: string; steps: Array<{ title: string; line1: string; line2: string; color: string }>; caption: string } }) {
+function HandoffGraphic({ graphic }: { graphic?: { title: string; desc: string; heading: string; steps: ReadonlyArray<{ title: string; line1: string; line2: string; color: string }>; caption: string } }) {
   const visual = graphic || {
     title: 'Three-part account handoff path',
     desc: 'A process graphic moves an account from the outgoing manager to a written account record, then to the incoming Filipino account manager with owner review.',
