@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
-function CommunicationChart({ points, meta }: { points: Array<{ label: string; value: number; color: string }>; meta?: { title: string; desc: string; heading: string; method: string } }) {
+function CommunicationChart({ points, meta }: { points: ReadonlyArray<{ label: string; value: number; color: string }>; meta?: { title: string; desc: string; heading: string; method: string } }) {
   const chart = meta || {
     title: 'Where Microsoft 365 work time went',
     desc: 'Horizontal bars show 23 percent in Teams meetings, 19 percent in Teams chat, 15 percent in email, and 43 percent creating files.',
