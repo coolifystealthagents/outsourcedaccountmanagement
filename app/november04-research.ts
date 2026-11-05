@@ -8,7 +8,7 @@ export const november04ResearchPosts: ResearchPost[] = [
   "cluster": "Account operations research",
   "published": "2026-11-04",
   "datePublished": "2026-11-04",
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "hero": "/thumbnails/november-04/how-long-do-account-escalations-wait-for-an-owner.png",
   "headlineStat": "The defensible result is a reproducible count for escalation time, reported with its window and exclusions.",
   "statSource": "Outsourced Account Management editorial method",
@@ -132,10 +132,16 @@ export const november04ResearchPosts: ResearchPost[] = [
   "related": [],
   "internalLinks": [
    {
-    "label": "Services",
-    "href": "/services"
+    "label": "Browse account operations research",
+    "href": "/research"
    }
-  ]
+  ],
+  "serviceHandoff": {
+   "before": "If the escalation record needs a prepared route, ",
+   "label": "review escalation coordination support",
+   "href": "/services/escalation-coordination",
+   "after": ". A Philippines-based specialist can assemble the facts and route the issue; the account owner decides the response, commitments, and closure."
+  }
  },
  {
   "slug": "how-complete-is-the-renewal-evidence-packet",
