@@ -14,29 +14,29 @@ export type RichArticle = {
   updated: string;
   readMinutes: number;
   heroImage?: string;
-  intro: string[];
-  takeaways: string[];
+  intro: readonly string[];
+  takeaways: readonly string[];
   takeawaysTitle?: string;
-  sections: Array<{ heading: string; paragraphs: string[] }>;
-  banners: Array<{ label: string; title: string; body: string; href: string; link: string }>;
-  table: { caption: string; headers: string[]; rows: string[][] };
-  chart: Array<{ label: string; value: number; color: string }>;
+  sections: ReadonlyArray<{ heading: string; paragraphs: readonly string[] }>;
+  banners: ReadonlyArray<{ label: string; title: string; body: string; href: string; link: string }>;
+  table: { caption: string; headers: readonly string[]; rows: readonly (readonly string[])[] };
+  chart: ReadonlyArray<{ label: string; value: number; color: string }>;
   chartMeta?: { title: string; desc: string; heading: string; method: string };
   graphic?: {
     title: string;
     desc: string;
     heading: string;
-    steps: Array<{ title: string; line1: string; line2: string; color: string }>;
+    steps: ReadonlyArray<{ title: string; line1: string; line2: string; color: string }>;
     caption: string;
   };
   quote: { text: string; source: string; url: string };
-  script: string[];
+  script: readonly string[];
   scriptTitle?: string;
   scriptIntro?: string;
-  faqs: Array<{ q: string; a: string }>;
+  faqs: ReadonlyArray<{ q: string; a: string }>;
   faqTitle?: string;
-  sources: Array<{ name: string; date: string; url: string; note: string }>;
-  related?: string[];
+  sources: ReadonlyArray<{ name: string; date: string; url: string; note: string }>;
+  related?: readonly string[];
 };
 
 export const richArticles: Record<string, RichArticle> = {
