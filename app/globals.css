@@ -301,7 +301,7 @@ label { display: grid; gap: 8px; margin-bottom: 15px; font-size: 13px; font-weig
 .editorial-layout{display:grid;grid-template-columns:230px minmax(0,820px);gap:48px;align-items:flex-start;margin-top:42px}.editorial-sidebar{position:sticky;top:112px;display:grid;gap:28px;max-height:calc(100vh - 130px);overflow:auto;padding:18px;border:1px solid var(--line);background:var(--white)}.editorial-sidebar h2{margin:0 0 10px;font-family:var(--font);font-size:13px;text-transform:uppercase;letter-spacing:.08em}.editorial-sidebar ol,.editorial-sidebar ul{display:grid;gap:8px;margin:0;padding-left:20px}.editorial-sidebar a{color:#40585b;font-size:13px;line-height:1.35;text-decoration:underline;text-underline-offset:3px}.editorial-content .article-body{margin:0}.editorial-toc-mobile{display:none}.editorial-content [id]{scroll-margin-top:110px}
 .sa-testimonial-disclosure{max-width:850px;color:#526173;line-height:1.55}.sa-testimonial-viewport,.sa-testimonials-contact .sa-testimonial-viewport{height:auto;overflow:hidden;padding:8px 0}.sa-testimonial-track{display:flex;width:max-content;gap:16px;animation:v3-review-marquee 70s linear infinite}.sa-testimonial-card{width:360px;height:230px;flex:none;justify-content:flex-start}.sa-testimonial-card blockquote{margin:.5rem 0;flex:1}.sa-testimonial-card small{color:#64748b}.sa-testimonials.is-paused .sa-testimonial-track,.sa-testimonial-viewport:hover .sa-testimonial-track,.sa-testimonial-viewport:focus-within .sa-testimonial-track{animation-play-state:paused}@keyframes v3-review-marquee{from{transform:translateX(0)}to{transform:translateX(calc(-50% - 8px))}}
 @media(max-width:980px){.powered-by{margin-left:auto}.service-deliverables{grid-template-columns:repeat(2,1fr)}.editorial-layout{display:block}.editorial-sidebar{display:none}.editorial-toc-mobile{display:block;margin:28px 0;padding:16px;border:1px solid var(--line);background:var(--white)}.editorial-toc-mobile summary{cursor:pointer;font-weight:800}.editorial-toc-mobile ol{display:grid;gap:8px}.editorial-toc-mobile a{text-decoration:underline}}
-@media(max-width:720px){.powered-by{order:2;margin-left:auto}.nav-inner{gap:12px}.powered-by{font-size:10px}.powered-by strong{font-size:11px}.service-detail-hero,.service-detail-layout,.service-boundaries,.service-workflow,.thanks-next .cards{grid-template-columns:1fr}.service-deliverables{grid-template-columns:1fr}.sa-testimonial-card{width:min(82vw,340px)}.nav{position:sticky}.links.fleet-links{order:3}.footer-powered{font-size:13px}}
+@media(max-width:720px){.editorial-toc-mobile{top:155px!important}.powered-by{order:2;margin-left:auto}.nav-inner{gap:12px}.powered-by{font-size:10px}.powered-by strong{font-size:11px}.service-detail-hero,.service-detail-layout,.service-boundaries,.service-workflow,.thanks-next .cards{grid-template-columns:1fr}.service-deliverables{grid-template-columns:1fr}.sa-testimonial-card{width:min(82vw,340px)}.nav{position:sticky}.links.fleet-links{order:3}.footer-powered{font-size:13px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.sa-testimonial-track{animation:none;display:grid;width:auto}.sa-testimonial-track>.sa-testimonial-card{width:100%;height:auto;min-height:200px}.sa-testimonial-track>.sa-testimonial-card[aria-hidden="true"]{display:none}}
 
 /* V3 parent-brand treatment and label-free process cards */
@@ -316,7 +316,7 @@ label { display: grid; gap: 8px; margin-bottom: 15px; font-size: 13px; font-weig
 .rich-article .article-meta{margin-bottom:42px!important}
 /* October 22 compact mobile contents: keep the disclosure reachable while reading. */
 @media(max-width:980px){
-  .editorial-toc-mobile{position:fixed!important;top:86px;left:12px;right:12px;z-index:70;margin:0;padding:0;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 24px rgba(20,40,61,.16)}
+  .editorial-toc-mobile{position:sticky!important;top:119px;left:auto;right:auto;z-index:70;margin:0 0 18px;padding:0;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 24px rgba(20,40,61,.16)}
   .editorial-toc-mobile:not([open]){height:52px;overflow:hidden}
   .editorial-toc-mobile>summary{display:flex;align-items:center;justify-content:space-between;min-height:52px;padding:0 16px;list-style:none;cursor:pointer;font-weight:800}
   .editorial-toc-mobile>summary::-webkit-details-marker{display:none}
@@ -329,7 +329,3 @@ label { display: grid; gap: 8px; margin-bottom: 15px; font-size: 13px; font-weig
 .article-body p{margin:0 0 1.15em;line-height:1.7}
 .article-body section{margin:0 0 1.8rem;border:0;box-shadow:none;background:transparent;padding:0}
 @media(max-width:980px){.editorial-layout{gap:24px}}
-@media(max-width:980px){
-  .editorial-toc-mobile{position:static!important;top:auto;left:auto;right:auto;z-index:auto;box-shadow:none;margin:20px 0}
-  .editorial-toc-mobile:not([open]){height:auto;overflow:visible}
-}

@@ -1,4 +1,3 @@
-import Oct22Toc from '../../oct22-toc';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
@@ -141,7 +140,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
   return <><Header hideScope /><main className="article-page">
     <JsonLd data={articleSchema} /><JsonLd data={faqSchema} /><JsonLd data={breadcrumbSchema} />
-    <article className="container rich-article" data-article-slug={slug} id="main-content"><Oct22Toc />
+    <article className="container rich-article" data-article-slug={slug} id="main-content">
       <header className="article-hero">
         {rich.heroImage && <img src={rich.heroImage} alt={`${rich.title} editorial illustration`} width={716} height={716} className="article-hero-image" />}
         <p className="eyebrow">Philippines account support</p>
