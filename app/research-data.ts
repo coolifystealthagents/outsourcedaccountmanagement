@@ -10,6 +10,7 @@ import { november02ResearchPosts } from './november02-research';
 import { november03ResearchPosts } from './november03-research';
 import { november06ResearchPosts } from './november06-research';
 import { november08ResearchPosts } from './november08-research';
+import { november09ResearchPosts } from './november09-research';
 import { november07ResearchPosts } from './november07-research';
 import { november05ResearchPosts } from './november05-research';
 import { november04ResearchPosts } from './november04-research';

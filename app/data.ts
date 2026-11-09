@@ -10,6 +10,7 @@ import { november02BlogPosts } from './november02-content';
 import { november03BlogPosts } from './november03-content';
 import { november06BlogPosts } from './november06-content';
 import { november08BlogPosts } from './november08-content';
+import { november09BlogPosts } from './november09-content';
 import { november07BlogPosts } from './november07-content';
 import { november05BlogPosts } from './november05-content';
 import { november04BlogPosts } from './november04-content';
