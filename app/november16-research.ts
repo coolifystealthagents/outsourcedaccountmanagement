@@ -79,6 +79,102 @@ export const november16ResearchPosts = [
           "Avoid a private second version in a personal document. Write the note so a reviewer can reconstruct the decision without a meeting. A case that moves between owners should keep both owner periods visible. Do not let a deadline expand a role beyond its written limit. The account plan QBR reconciliation record should let a second reviewer rebuild the decision from QBR notes and owner list. For the account review, the account plan QBR reconciliation sample keeps the client and the observation window visible."
         ]
       }
+    ],
+    "sources": [
+      {
+        "name": "Public source 1",
+        "url": "https://www.gao.gov/greenbook",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 2",
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 3",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 4",
+        "url": "https://www.nist.gov/cyberframework",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 5",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 6",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 7",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 8",
+        "url": "https://www.archives.gov/records-mgmt",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 9",
+        "url": "https://www.bls.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 10",
+        "url": "https://www.consumerfinance.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      }
+    ],
+    "table": {
+      "headers": [
+        "Control",
+        "Evidence",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "Population",
+          "Frozen list",
+          "Operations lead"
+        ],
+        [
+          "Sample",
+          "Stored records",
+          "Reviewer"
+        ],
+        [
+          "Limitation",
+          "Published note",
+          "Account director"
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How is account plan QBR reconciliation measured?",
+        "a": "With a frozen population, a stored sample, and a dated review."
+      },
+      {
+        "q": "What is excluded?",
+        "a": "Performance claims, forecasts, and client judgments are outside the measurement."
+      }
     ]
   },
   {
@@ -160,6 +256,102 @@ export const november16ResearchPosts = [
           "Use the approved repository for sensitive content. If the team cannot reproduce the result from the record, the control is not finished. Archive the extract with the study so it can be repeated. Write the note so a reviewer can reconstruct the decision without a meeting. Apply the same renewal risk closure evidence test to owner and to the value that survives in the account record. For the account review, the renewal risk closure evidence sample keeps the client and the observation window visible.",
           "Keep the note short enough to read with the case. Use the approved repository for sensitive content. Name the owner and the date beside each decision. Do not let a deadline expand a role beyond its written limit. A renewal risk closure evidence exception keeps mitigation date attached and routes the question to the operations lead. For the account review, the renewal risk closure evidence sample keeps the client and the observation window visible."
         ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Public source 1",
+        "url": "https://www.gao.gov/greenbook",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 2",
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 3",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 4",
+        "url": "https://www.nist.gov/cyberframework",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 5",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 6",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 7",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 8",
+        "url": "https://www.archives.gov/records-mgmt",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 9",
+        "url": "https://www.bls.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 10",
+        "url": "https://www.consumerfinance.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      }
+    ],
+    "table": {
+      "headers": [
+        "Control",
+        "Evidence",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "Population",
+          "Frozen list",
+          "Operations lead"
+        ],
+        [
+          "Sample",
+          "Stored records",
+          "Reviewer"
+        ],
+        [
+          "Limitation",
+          "Published note",
+          "Account director"
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How is renewal risk closure evidence measured?",
+        "a": "With a frozen population, a stored sample, and a dated review."
+      },
+      {
+        "q": "What is excluded?",
+        "a": "Performance claims, forecasts, and client judgments are outside the measurement."
       }
     ]
   },
@@ -243,6 +435,102 @@ export const november16ResearchPosts = [
           "The next reviewer should not have to ask which document is authoritative. Use the approved repository for sensitive content. Do not let a deadline expand a role beyond its written limit. A short written rule is easier to test than an unwritten habit. In the escalation handoff completeness queue, an item without a next action is treated as an exception. For the account review, the escalation handoff completeness sample keeps the client and the observation window visible."
         ]
       }
+    ],
+    "sources": [
+      {
+        "name": "Public source 1",
+        "url": "https://www.gao.gov/greenbook",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 2",
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 3",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 4",
+        "url": "https://www.nist.gov/cyberframework",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 5",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 6",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 7",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 8",
+        "url": "https://www.archives.gov/records-mgmt",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 9",
+        "url": "https://www.bls.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 10",
+        "url": "https://www.consumerfinance.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      }
+    ],
+    "table": {
+      "headers": [
+        "Control",
+        "Evidence",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "Population",
+          "Frozen list",
+          "Operations lead"
+        ],
+        [
+          "Sample",
+          "Stored records",
+          "Reviewer"
+        ],
+        [
+          "Limitation",
+          "Published note",
+          "Account director"
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How is escalation handoff completeness measured?",
+        "a": "With a frozen population, a stored sample, and a dated review."
+      },
+      {
+        "q": "What is excluded?",
+        "a": "Performance claims, forecasts, and client judgments are outside the measurement."
+      }
     ]
   },
   {
@@ -324,6 +612,102 @@ export const november16ResearchPosts = [
           "Record event time separately from entry time. Do not let a deadline expand a role beyond its written limit. Use the approved repository for sensitive content. A clean-looking status is not evidence that the underlying work is correct. Every meeting note decision concordance handoff names the operations lead and the field in the account record that will confirm the change. For the account review, the meeting note decision concordance sample keeps the client and the observation window visible.",
           "A case that moves between owners should keep both owner periods visible. Do not store credentials or unnecessary personal data in the case. A short written rule is easier to test than an unwritten habit. The next reviewer should not have to ask which document is authoritative. The meeting note decision concordance close note cites the account record, the approver, and the time of the final check. For the account review, the meeting note decision concordance sample keeps the client and the observation window visible."
         ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Public source 1",
+        "url": "https://www.gao.gov/greenbook",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 2",
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 3",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 4",
+        "url": "https://www.nist.gov/cyberframework",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 5",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 6",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 7",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 8",
+        "url": "https://www.archives.gov/records-mgmt",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 9",
+        "url": "https://www.bls.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 10",
+        "url": "https://www.consumerfinance.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      }
+    ],
+    "table": {
+      "headers": [
+        "Control",
+        "Evidence",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "Population",
+          "Frozen list",
+          "Operations lead"
+        ],
+        [
+          "Sample",
+          "Stored records",
+          "Reviewer"
+        ],
+        [
+          "Limitation",
+          "Published note",
+          "Account director"
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How is meeting note decision concordance measured?",
+        "a": "With a frozen population, a stored sample, and a dated review."
+      },
+      {
+        "q": "What is excluded?",
+        "a": "Performance claims, forecasts, and client judgments are outside the measurement."
       }
     ]
   },
@@ -407,6 +791,102 @@ export const november16ResearchPosts = [
           "Do not let a deadline expand a role beyond its written limit. Link the evidence to the exact field it supports. Write the note so a reviewer can reconstruct the decision without a meeting. Archive the extract with the study so it can be repeated. A sample invoice query time record coverage review checks invoice line, time record, and the surviving value in the account record. For the account review, the invoice query time record coverage sample keeps the client and the observation window visible."
         ]
       }
+    ],
+    "sources": [
+      {
+        "name": "Public source 1",
+        "url": "https://www.gao.gov/greenbook",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 2",
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 3",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 4",
+        "url": "https://www.nist.gov/cyberframework",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 5",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 6",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 7",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 8",
+        "url": "https://www.archives.gov/records-mgmt",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 9",
+        "url": "https://www.bls.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 10",
+        "url": "https://www.consumerfinance.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      }
+    ],
+    "table": {
+      "headers": [
+        "Control",
+        "Evidence",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "Population",
+          "Frozen list",
+          "Operations lead"
+        ],
+        [
+          "Sample",
+          "Stored records",
+          "Reviewer"
+        ],
+        [
+          "Limitation",
+          "Published note",
+          "Account director"
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How is invoice query time record coverage measured?",
+        "a": "With a frozen population, a stored sample, and a dated review."
+      },
+      {
+        "q": "What is excluded?",
+        "a": "Performance claims, forecasts, and client judgments are outside the measurement."
+      }
     ]
   },
   {
@@ -489,6 +969,102 @@ export const november16ResearchPosts = [
           "The next reviewer should not have to ask which document is authoritative. Keep the source reference and the coded value in the same row. The record should show the source, the decision, and the surviving value in one place. Name the owner for every open item, including items waiting on someone else. In this stakeholder map currency case, the record points to the account record and names the operations lead as the decision owner. For the account review, the stakeholder map currency sample keeps the client and the observation window visible."
         ]
       }
+    ],
+    "sources": [
+      {
+        "name": "Public source 1",
+        "url": "https://www.gao.gov/greenbook",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 2",
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 3",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 4",
+        "url": "https://www.nist.gov/cyberframework",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 5",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 6",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 7",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 8",
+        "url": "https://www.archives.gov/records-mgmt",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 9",
+        "url": "https://www.bls.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 10",
+        "url": "https://www.consumerfinance.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      }
+    ],
+    "table": {
+      "headers": [
+        "Control",
+        "Evidence",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "Population",
+          "Frozen list",
+          "Operations lead"
+        ],
+        [
+          "Sample",
+          "Stored records",
+          "Reviewer"
+        ],
+        [
+          "Limitation",
+          "Published note",
+          "Account director"
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How is stakeholder map currency measured?",
+        "a": "With a frozen population, a stored sample, and a dated review."
+      },
+      {
+        "q": "What is excluded?",
+        "a": "Performance claims, forecasts, and client judgments are outside the measurement."
+      }
     ]
   },
   {
@@ -570,6 +1146,102 @@ export const november16ResearchPosts = [
           "Label the version of every file that can change. A case that moves between owners should keep both owner periods visible. Use the same definition across the queue and the review so the counts agree. Make the handoff readable by the next shift and the next auditor. A QBR claim source coverage exception keeps review date attached and routes the question to the operations lead. For the account review, the QBR claim source coverage sample keeps the client and the observation window visible.",
           "Label the version of every file that can change. Do not let a deadline expand a role beyond its written limit. The next reviewer should not have to ask which document is authoritative. Use the approved repository for sensitive content. For QBR claim source coverage, the working file keeps claim list and source link beside the decision note. For the account review, the QBR claim source coverage sample keeps the client and the observation window visible."
         ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Public source 1",
+        "url": "https://www.gao.gov/greenbook",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 2",
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 3",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 4",
+        "url": "https://www.nist.gov/cyberframework",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 5",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 6",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 7",
+        "url": "https://www.cisa.gov/audiences/small-and-medium-businesses",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 8",
+        "url": "https://www.archives.gov/records-mgmt",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 9",
+        "url": "https://www.bls.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      },
+      {
+        "name": "Public source 10",
+        "url": "https://www.consumerfinance.gov/",
+        "date": "2026",
+        "note": "Public reference used to frame the measurement question."
+      }
+    ],
+    "table": {
+      "headers": [
+        "Control",
+        "Evidence",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "Population",
+          "Frozen list",
+          "Operations lead"
+        ],
+        [
+          "Sample",
+          "Stored records",
+          "Reviewer"
+        ],
+        [
+          "Limitation",
+          "Published note",
+          "Account director"
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How is QBR claim source coverage measured?",
+        "a": "With a frozen population, a stored sample, and a dated review."
+      },
+      {
+        "q": "What is excluded?",
+        "a": "Performance claims, forecasts, and client judgments are outside the measurement."
       }
     ]
   }
