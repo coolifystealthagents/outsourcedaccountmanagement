@@ -166,6 +166,7 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "related": [],
     "internalLinks": [
       {
         "href": "/services",
@@ -361,6 +362,7 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "related": [],
     "internalLinks": [
       {
         "href": "/services",
@@ -556,6 +558,7 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "related": [],
     "internalLinks": [
       {
         "href": "/services",
@@ -751,6 +754,7 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "related": [],
     "internalLinks": [
       {
         "href": "/services",
@@ -946,6 +950,7 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "related": [],
     "internalLinks": [
       {
         "href": "/services",
@@ -1141,6 +1146,7 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "related": [],
     "internalLinks": [
       {
         "href": "/services",
@@ -1336,6 +1342,7 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "related": [],
     "internalLinks": [
       {
         "href": "/services",
