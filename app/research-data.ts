@@ -13,6 +13,7 @@ import { november08ResearchPosts } from './november08-research';
 import { november09ResearchPosts } from './november09-research';
 import { november10ResearchPosts } from './november10-research';
 import { november16ResearchPosts } from './november16-research';
+import { november17ResearchPosts } from './november17-research';
 import { november11ResearchPosts } from './november11-research';
 import { november07ResearchPosts } from './november07-research';
 import { november05ResearchPosts } from './november05-research';

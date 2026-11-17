@@ -13,6 +13,7 @@ import { november08BlogPosts } from './november08-content';
 import { november09BlogPosts } from './november09-content';
 import { november10BlogPosts } from './november10-content';
 import { november16BlogPosts } from './november16-content';
+import { november17BlogPosts } from './november17-content';
 import { november11BlogPosts } from './november11-content';
 import { november07BlogPosts } from './november07-content';
 import { november05BlogPosts } from './november05-content';
