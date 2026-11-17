@@ -166,6 +166,23 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "internalLinks": [
+      {
+        "href": "/services",
+        "label": "Account support services"
+      },
+      {
+        "href": "/contact-us",
+        "label": "Plan a consultation"
+      }
+    ],
+    "serviceHandoff": {
+      "before": "Related service scope: ",
+      "href": "/services",
+      "label": "account support services",
+      "after": "."
+    },
+    "researchMethodology": "This report applies public control guidance to the bounded question of account plan QBR reconciliation, with an explicit sample and stated limits.",
     "faqs": [
       {
         "q": "How is account plan QBR reconciliation measured?",
@@ -344,6 +361,23 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "internalLinks": [
+      {
+        "href": "/services",
+        "label": "Account support services"
+      },
+      {
+        "href": "/contact-us",
+        "label": "Plan a consultation"
+      }
+    ],
+    "serviceHandoff": {
+      "before": "Related service scope: ",
+      "href": "/services",
+      "label": "account support services",
+      "after": "."
+    },
+    "researchMethodology": "This report applies public control guidance to the bounded question of renewal risk closure evidence, with an explicit sample and stated limits.",
     "faqs": [
       {
         "q": "How is renewal risk closure evidence measured?",
@@ -522,6 +556,23 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "internalLinks": [
+      {
+        "href": "/services",
+        "label": "Account support services"
+      },
+      {
+        "href": "/contact-us",
+        "label": "Plan a consultation"
+      }
+    ],
+    "serviceHandoff": {
+      "before": "Related service scope: ",
+      "href": "/services",
+      "label": "account support services",
+      "after": "."
+    },
+    "researchMethodology": "This report applies public control guidance to the bounded question of escalation handoff completeness, with an explicit sample and stated limits.",
     "faqs": [
       {
         "q": "How is escalation handoff completeness measured?",
@@ -700,6 +751,23 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "internalLinks": [
+      {
+        "href": "/services",
+        "label": "Account support services"
+      },
+      {
+        "href": "/contact-us",
+        "label": "Plan a consultation"
+      }
+    ],
+    "serviceHandoff": {
+      "before": "Related service scope: ",
+      "href": "/services",
+      "label": "account support services",
+      "after": "."
+    },
+    "researchMethodology": "This report applies public control guidance to the bounded question of meeting note decision concordance, with an explicit sample and stated limits.",
     "faqs": [
       {
         "q": "How is meeting note decision concordance measured?",
@@ -878,6 +946,23 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "internalLinks": [
+      {
+        "href": "/services",
+        "label": "Account support services"
+      },
+      {
+        "href": "/contact-us",
+        "label": "Plan a consultation"
+      }
+    ],
+    "serviceHandoff": {
+      "before": "Related service scope: ",
+      "href": "/services",
+      "label": "account support services",
+      "after": "."
+    },
+    "researchMethodology": "This report applies public control guidance to the bounded question of invoice query time record coverage, with an explicit sample and stated limits.",
     "faqs": [
       {
         "q": "How is invoice query time record coverage measured?",
@@ -1056,6 +1141,23 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "internalLinks": [
+      {
+        "href": "/services",
+        "label": "Account support services"
+      },
+      {
+        "href": "/contact-us",
+        "label": "Plan a consultation"
+      }
+    ],
+    "serviceHandoff": {
+      "before": "Related service scope: ",
+      "href": "/services",
+      "label": "account support services",
+      "after": "."
+    },
+    "researchMethodology": "This report applies public control guidance to the bounded question of stakeholder map currency, with an explicit sample and stated limits.",
     "faqs": [
       {
         "q": "How is stakeholder map currency measured?",
@@ -1234,6 +1336,23 @@ export const november16ResearchPosts = [
         ]
       ]
     },
+    "internalLinks": [
+      {
+        "href": "/services",
+        "label": "Account support services"
+      },
+      {
+        "href": "/contact-us",
+        "label": "Plan a consultation"
+      }
+    ],
+    "serviceHandoff": {
+      "before": "Related service scope: ",
+      "href": "/services",
+      "label": "account support services",
+      "after": "."
+    },
+    "researchMethodology": "This report applies public control guidance to the bounded question of QBR claim source coverage, with an explicit sample and stated limits.",
     "faqs": [
       {
         "q": "How is QBR claim source coverage measured?",
