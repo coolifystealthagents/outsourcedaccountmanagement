@@ -14,6 +14,7 @@ import { november09ResearchPosts } from './november09-research';
 import { november10ResearchPosts } from './november10-research';
 import { november16ResearchPosts } from './november16-research';
 import { november17ResearchPosts } from './november17-research';
+import { november18ResearchPosts } from './november18-research';
 import { november11ResearchPosts } from './november11-research';
 import { november07ResearchPosts } from './november07-research';
 import { november05ResearchPosts } from './november05-research';
@@ -394,7 +395,7 @@ const priorResearchPostList: ResearchPost[] = [...research20260903, ...research2
   };
 }).sort((a, b) => b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug))];
 
-const researchPostList = [...november17ResearchPosts, ...november16ResearchPosts, ...november11ResearchPosts, ...november10ResearchPosts, ...november09ResearchPosts, ...november08ResearchPosts, ...november07ResearchPosts, ...november06ResearchPosts, ...november05ResearchPosts, ...november04ResearchPosts, ...november03ResearchPosts, ...november02ResearchPosts, ...october28ResearchPosts, ...october27ResearchPosts,...october26ResearchPosts,...october25ResearchPosts,...october22ResearchPosts, ...october13ResearchPosts, ...october12ResearchPosts, ...october8ResearchPosts, ...research20261005, ...research20261002, ...research20260928, ...research20260926, ...research20260924, ...research20260922, ...research20260918, ...research20260910, ...research20260909, ...research20260908, ...research20260907, ...research20260904, ...priorResearchPostList];
+const researchPostList = [...november18ResearchPosts, ...november17ResearchPosts, ...november16ResearchPosts, ...november11ResearchPosts, ...november10ResearchPosts, ...november09ResearchPosts, ...november08ResearchPosts, ...november07ResearchPosts, ...november06ResearchPosts, ...november05ResearchPosts, ...november04ResearchPosts, ...november03ResearchPosts, ...november02ResearchPosts, ...october28ResearchPosts, ...october27ResearchPosts,...october26ResearchPosts,...october25ResearchPosts,...october22ResearchPosts, ...october13ResearchPosts, ...october12ResearchPosts, ...october8ResearchPosts, ...research20261005, ...research20261002, ...research20260928, ...research20260926, ...research20260924, ...research20260922, ...research20260918, ...research20260910, ...research20260909, ...research20260908, ...research20260907, ...research20260904, ...priorResearchPostList];
 
 export const researchPosts: ResearchPost[] = researchPostList.map((post) => post.slug === 'onboarding-handoff-latency-study'
   ? {
