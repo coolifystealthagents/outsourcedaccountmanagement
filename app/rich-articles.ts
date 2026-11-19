@@ -10,6 +10,7 @@ import { november08RichArticles } from './november08-content';
 import { november09RichArticles } from './november09-content';
 import { november10RichArticles } from './november10-content';
 import { november16RichArticles } from './november16-content';
+import { november19RichArticles } from './november19-content';
 import { november17RichArticles } from './november17-content';
 import { november18RichArticles } from './november18-content';
 import { november11RichArticles } from './november11-content';
@@ -50,6 +51,7 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  ...november19RichArticles,
   ...november18RichArticles,
   ...november08RichArticles, ...november09RichArticles, ...november10RichArticles, ...november11RichArticles, ...november07RichArticles, ...november06RichArticles, ...november05RichArticles,
   ...november04RichArticles,
