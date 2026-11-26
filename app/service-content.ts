@@ -11,6 +11,7 @@ export type ServiceDetail = {
   related: string[];
 };
 
+import { serviceImages } from './editorial-images';
 const image = '/illustrations/getillustrations/communication-illustrations-pack-svg/client-account-support.webp';
 
 export const serviceDetails: ServiceDetail[] = [
@@ -125,5 +126,6 @@ export const serviceDetails: ServiceDetail[] = [
 ];
 
 export function getServiceDetail(slug: string) {
-  return serviceDetails.find((service) => service.slug === slug);
+  const service = serviceDetails.find((item) => item.slug === slug);
+  return service ? { ...service, heroImage: serviceImages[slug] || service.heroImage } : undefined;
 }
