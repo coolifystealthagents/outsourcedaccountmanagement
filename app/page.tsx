@@ -54,14 +54,14 @@ export default function Home() {
           <figure className="homepage-hero-figure">
             <div className="homepage-hero-image">
               <img
-                src="/account-team.jpg"
+                src="/brand/stealth-agents-filipina-virtual-assistant.webp"
                 width="640"
                 height="720"
                 fetchPriority="high"
-                alt="Account team reviewing client records and next steps together"
+                alt="Filipina virtual assistant from Stealth Agents working in a professional office"
               />
             </div>
-            <figcaption>Account coverage starts with shared records, clear owners, and a review rhythm.</figcaption>
+            <figcaption>Official Stealth Agents virtual assistant in a professional office.</figcaption>
           </figure>
         </div>
       </section>
@@ -71,11 +71,6 @@ export default function Home() {
           <p>Built for agencies and B2B teams with a client book that has outgrown sticky notes and good intentions.</p>
           <a href="/contact-us">Map the account desk <span aria-hidden="true">↗</span></a>
         </div>
-      </section>
-
-      <section className="container desk-feature" aria-labelledby="desk-feature-title">
-        <div className="desk-feature-visual"><img src="/blog-heroes/2026-08-21-portfolio-attention-budget.png" width="1200" height="675" alt="Account planning board with dates, records, and review notes" loading="lazy" /></div>
-        <div><p className="eyebrow">A clearer view of the week</p><h2 id="desk-feature-title">See the next client action before it slips.</h2><p>A useful account desk makes the work visible: what changed, who owns the follow-up, what needs approval, and when the next review happens.</p><a className="text-link" href="/services/account-health-monitoring">Explore account health monitoring <span aria-hidden="true">↗</span></a></div>
       </section>
 
       <section className="container section work-section" id="account-work">
