@@ -3,6 +3,8 @@ import { SkipLink } from './skip-link';
 import Script from 'next/script';
 import './globals.css';
 import type { Metadata } from 'next';
+import "./site-chrome-fixes.css";
+
 export const metadata: Metadata = { metadataBase: new URL('https://outsourcedaccountmanagement.com'), title: { default: 'Outsourced Account Management | Filipino account support', template: '%s' }, description: 'Plan client follow-up, CRM upkeep, renewal prep, and reporting support with Filipino talent based in the Philippines.', openGraph: { title: 'Outsourced Account Management', description: 'A practical account desk staffed by Filipino talent in the Philippines.', url: 'https://outsourcedaccountmanagement.com', siteName: 'Outsourced Account Management', type:'website' }, twitter:{card:'summary_large_image',title:'Outsourced Account Management',description:'A practical account desk staffed by Filipino talent in the Philippines.'} };
 export default function RootLayout({children}:{children:React.ReactNode}){return <html lang='en'><body><SkipLink/><div id="site-content">{children}</div><AcrClient/><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'outsourced-account-management',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'},{path:'/thank-you',step:2,label:'Form Submitted',event:'funnel_form_submitted'},{path:'/thanks-whats-next',step:3,label:'Booking Confirmed',event:'funnel_booking_confirmed'}]};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive"/>
         <Script
