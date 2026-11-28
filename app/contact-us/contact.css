@@ -30,3 +30,16 @@
 .tc-copy .sa-testimonial-card{width:auto;min-width:0;height:190px}
 .tc-copy .sa-testimonial-card:nth-child(n+3){display:none}
 @media(max-width:620px){.tc-copy .sa-testimonial-track{grid-template-columns:1fr}.tc-copy .sa-testimonial-card:nth-child(n+2){display:none}}
+
+/* Keep two desktop cards (one on mobile) while the existing reviews loop. */
+@media (prefers-reduced-motion: no-preference) {
+  .tc-copy .sa-testimonial-viewport { container-type: inline-size; }
+  .tc-copy .sa-testimonial-track { display: flex; width: max-content; max-width: none; gap: 16px; animation: v3-review-marquee 70s linear infinite; }
+  .tc-copy .sa-testimonial-card { display: flex; flex: none; width: calc((100cqw - 16px) / 2); }
+  .tc-copy .sa-testimonial-card:nth-child(n+3) { display: flex; }
+  .tc-copy .sa-testimonial-viewport:focus-within .sa-testimonial-track { animation-play-state: paused; }
+}
+@media (max-width:620px) and (prefers-reduced-motion: no-preference) {
+  .tc-copy .sa-testimonial-card { width: 100cqw; }
+  .tc-copy .sa-testimonial-card:nth-child(n+2) { display: flex; }
+}
